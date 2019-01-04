@@ -1,47 +1,66 @@
-ui <- fillPage(
-  
-  tags$head(
-    tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
-    #tags$script(src = "script.js")
+header <- dashboardHeader(title = "IATA Capacity Study")
+
+sidebar <- dashboardSidebar(
+  collapsed = T,
+  div(
+    style = "position:absolute; left:0; top:50px; height:auto; width:100%; z-index:1000;",
+    uiOutput("option_kpi"),
+    uiOutput("option_metric"),
+    uiOutput("option_type"),
+    uiOutput("option_entity1"),
+    uiOutput("option_entity2"),
+    uiOutput("option_year"),
+    uiOutput("option_month"),
+    uiOutput("option_ranking"),
+    uiOutput("option_grouping")
   ),
-  
-  div(class="plot",plotlyOutput("plot", height="100%")),
-  
-  div(class="overlay"),
-  
-  absolutePanel(
-    div(
-      class="controlpanel",
-      pickerInput("dat", "Select KPI", choices = KPIs, width="200px"),
-      uiOutput("options1"),
-      uiOutput("options2"),
-      uiOutput("options3"),
-      uiOutput("options4"),
-      uiOutput("options5")
-    ),
-    draggable=T,
-    top=15,
-    left=15
-  ),
-  
-  absolutePanel(
-    div(
-      class="controlpanel",
-      numericInput("fontsize", "Plot Font Size", value=12, min=1, max=20, step=1, width="100%"),
-      div(style="font-weight: bold; text-align: center;", "Download Options"),
-      fluidRow(
-        column(width=6,  style="left:5px; padding:3%;", numericInput("exportx", "Width (px)", value=1600, min=100, max=10000, step=100, width="100%")),
-        column(width=6,  style="right:5px; padding:3%;", numericInput("exporty", "Height (px)", value=1000, min=100, max=10000, step=100, width="100%"))
-      ),
-      div(
-        title="Save entire plot as png file (Daily Limit 100)",
-        style="display: table; margin: 0 auto;",
-        downloadButton("download", "Download")
-      )
-    ),
-    draggable=T,
-    bottom=15,
-    right=15
-  )
-  
+  div(style = "position:absolute; left:0; bottom:0; height:80px; width:100%; z-index:999;
+    background-image: url('Think_FullLogoStrapline_Pink.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 113.4px 56.6px;")
 )
+
+body <- dashboardBody(
+  tags$head(tags$style(HTML("
+    html {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .shiny-output-error {
+      	visibility:hidden;
+    }
+    .shiny-output-error:before {
+      	visibility:hidden;
+    }
+    .main-header {
+        border: 1px solid black;
+    }
+    .content-wrapper {
+        background-color: #FFFFFF;
+    }
+  "))),
+  div(
+    style = "position:absolute; height:auto; width:auto; left:15px; right:15px; top:70px; bottom:15px;",
+    plotlyOutput("plot", height="100%")
+  ),
+  div(
+    style = "position:absolute; left:275px; right:0; top:0; height:50px; z-index:100000;",
+    div(style = "float:right; padding:10px 5px;", downloadButton("download", "Download")),
+    div(style = "float:right; padding:10px 5px;", numericInput("exporty", NULL, value=1000, min=100, max=10000, step=100, width="100%")),
+    div(style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;", "Height (px)"),
+    div(style = "float:right; padding:10px 5px;", numericInput("exportx", NULL, value=1600, min=100, max=10000, step=100, width="100%")),
+    div(style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;", "Width (px)"),
+    div(style = "float:right; padding:10px 5px;", numericInput("fontsize", NULL, value=12, min=1, max=20, step=1, width="100%")),
+    div(style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;", "Font size")
+  ),
+  div(
+    style = "position:absolute; left:230px; top:0px; height:52px; width:45px; z-index:100000; border:1px solid black; pointer-events:none; background:none;"
+  )
+)
+
+ui <- dashboardPage(skin = "black", header, sidebar, body)
