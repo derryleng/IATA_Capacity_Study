@@ -1,0 +1,377 @@
+"YEAR","ICAO","NAME","STATE","ASMA_RADIUS","LABEL","FLIGHTS_UNIMPEDED","TIME_REF","TIME_ADD"
+2014,"EBBR","Brussels","Belgium",40,"Brussels (EBBR)",107610,1341821,94862
+2014,"EDDF","Frankfurt","Germany",40,"Frankfurt (EDDF)",228400,3173484,595427
+2014,"EDDH","Hamburg","Germany",40,"Hamburg (EDDH)",70018,894015,88703
+2014,"EDDK","Cologne-Bonn","Germany",40,"Cologne-Bonn (EDDK)",56316,687839,35485
+2014,"EDDL","Dusseldorf","Germany",40,"Dusseldorf (EDDL)",102036,1269712,186172
+2014,"EDDM","Munich","Germany",40,"Munich (EDDM)",182916,2397756,320430
+2014,"EDDS","Stuttgart","Germany",40,"Stuttgart (EDDS)",49694,614002,35907
+2014,"EDDT","Berlin/ Tegel","Germany",40,"Berlin/ Tegel (EDDT)",87776,1101663,136062
+2014,"EFHK","Helsinki/ Vantaa","Finland",40,"Helsinki/ Vantaa (EFHK)",77796,948641,73739
+2014,"EGBB","Birmingham","United Kingdom",40,"Birmingham (EGBB)",43476,581759,26161
+2014,"EGCC","Manchester","United Kingdom",40,"Manchester (EGCC)",82741,1118999,128730
+2014,"EGKK","London/ Gatwick","United Kingdom",40,"London/ Gatwick (EGKK)",114623,1613538,339617
+2014,"EGLL","London/ Heathrow","United Kingdom",40,"London/ Heathrow (EGLL)",225555,3050147,1945729
+2014,"EGPH","Edinburgh","United Kingdom",40,"Edinburgh (EGPH)",52787,687155,37849
+2014,"EGSS","London/ Stansted","United Kingdom",40,"London/ Stansted (EGSS)",76009,1071216,63396
+2014,"EHAM","Amsterdam/ Schiphol","Netherlands",40,"Amsterdam/ Schiphol (EHAM)",218519,2895843,315522
+2014,"EIDW","Dublin","Ireland",40,"Dublin (EIDW)",87529,1129762,130979
+2014,"EKCH","Copenhagen/ Kastrup","Denmark",40,"Copenhagen/ Kastrup (EKCH)",119080,1341936,160617
+2014,"ENGM","Oslo/ Gardermoen","Norway",40,"Oslo/ Gardermoen (ENGM)",0,0,0
+2014,"EPWA","Warszawa/ Chopina","Poland",40,"Warszawa/ Chopina (EPWA)",0,0,0
+2014,"ESSA","Stockholm/ Arlanda","Sweden",40,"Stockholm/ Arlanda (ESSA)",110194,1349575,119251
+2014,"GCLP","Gran Canaria","Spain",40,"Gran Canaria (GCLP)",40249,565648,49015
+2014,"LEBL","Barcelona","Spain",40,"Barcelona (LEBL)",129051,1654162,243890
+2014,"LEMD","Madrid/ Barajas","Spain",40,"Madrid/ Barajas (LEMD)",168033,2287359,152546
+2014,"LEMG","Málaga","Spain",40,"Málaga (LEMG)",50677,681076,44441
+2014,"LEPA","Palma de Mallorca","Spain",40,"Palma de Mallorca (LEPA)",78855,985484,105350
+2014,"LFLL","Lyon-Saint-Exupéry","France",40,"Lyon-Saint-Exupéry (LFLL)",47159,610923,32667
+2014,"LFMN","Nice-Côte d’Azur","France",40,"Nice-Côte d'Azur (LFMN)",0,0,0
+2014,"LFPG","Paris-Charles-de-Gaulle","France",40,"Paris-Charles-de-Gaulle (LFPG)",220213,3196216,169087
+2014,"LFPO","Paris-Orly","France",40,"Paris-Orly (LFPO)",110725,1520490,111741
+2014,"LGAV","Athens","Greece",40,"Athens (LGAV)",67645,891594,35986
+2014,"LHBP","Budapest/ Ferihegy","Hungary",40,"Budapest/ Ferihegy (LHBP)",42033,541403,26478
+2014,"LIMC","Milan/ Malpensa","Italy",40,"Milan/ Malpensa (LIMC)",78427,953056,45839
+2014,"LIML","Milan/ Linate","Italy",40,"Milan/ Linate (LIML)",44417,491567,20723
+2014,"LIRF","Rome/Fiumicino","Italy",40,"Rome/Fiumicino (LIRF)",153309,1896227,263967
+2014,"LKPR","Prague","Czech Republic",40,"Prague (LKPR)",58116,733940,71413
+2014,"LOWW","Vienna","Austria",40,"Vienna (LOWW)",120953,1488263,239220
+2014,"LPPT","Lisbon","Portugal",40,"Lisbon (LPPT)",75484,970582,99195
+2014,"LSGG","Geneva","Switzerland",40,"Geneva (LSGG)",87969,1146007,179508
+2014,"LSZH","Zürich","Switzerland",40,"Zürich (LSZH)",120489,1587320,380147
+2015,"EBBR","Brussels","Belgium",40,"Brussels (EBBR)",111588,1394865,149357
+2015,"EBCI","Charleroi","Belgium",40,"Charleroi (EBCI)",22447,277622,7380
+2015,"EDDB","Berlin/ Schoenefeld","Germany",40,"Berlin/ Schoenefeld (EDDB)",34831,458525,22314
+2015,"EDDF","Frankfurt","Germany",40,"Frankfurt (EDDF)",227452,3128314,510561
+2015,"EDDH","Hamburg","Germany",40,"Hamburg (EDDH)",71634,922645,112156
+2015,"EDDK","Cologne-Bonn","Germany",40,"Cologne-Bonn (EDDK)",58834,733792,69306
+2015,"EDDL","Dusseldorf","Germany",40,"Dusseldorf (EDDL)",102374,1304411,180509
+2015,"EDDM","Munich","Germany",40,"Munich (EDDM)",184473,2422755,322098
+2015,"EDDN","Nuremberg","Germany",40,"Nuremberg (EDDN)",20138,252618,14432
+2015,"EDDP","Leipzig-Halle","Germany",40,"Leipzig-Halle (EDDP)",27994,361727,41548
+2015,"EDDS","Stuttgart","Germany",40,"Stuttgart (EDDS)",53711,666176,47621
+2015,"EDDT","Berlin/ Tegel","Germany",40,"Berlin/ Tegel (EDDT)",89215,1137843,162566
+2015,"EDDV","Hanover","Germany",40,"Hanover (EDDV)",28895,366317,7782
+2015,"EFHK","Helsinki/ Vantaa","Finland",40,"Helsinki/ Vantaa (EFHK)",78330,960329,82973
+2015,"EGBB","Birmingham","United Kingdom",40,"Birmingham (EGBB)",47291,603690,14590
+2015,"EGCC","Manchester","United Kingdom",40,"Manchester (EGCC)",83524,1129193,154610
+2015,"EGGD","Bristol","United Kingdom",40,"Bristol (EGGD)",6383,84429,4113
+2015,"EGGW","London/ Luton","United Kingdom",40,"London/ Luton (EGGW)",54582,796973,54323
+2015,"EGKK","London/ Gatwick","United Kingdom",40,"London/ Gatwick (EGKK)",129167,1814913,521760
+2015,"EGLC","London/ City","United Kingdom",40,"London/ City (EGLC)",41219,586437,93709
+2015,"EGLL","London/ Heathrow","United Kingdom",40,"London/ Heathrow (EGLL)",229917,3107494,2047357
+2015,"EGNT","Newcastle","United Kingdom",40,"Newcastle (EGNT)",21745,290881,6780
+2015,"EGPD","Aberdeen","United Kingdom",40,"Aberdeen (EGPD)",31413,408131,47995
+2015,"EGPF","Glasgow","United Kingdom",40,"Glasgow (EGPF)",39326,523632,21971
+2015,"EGPH","Edinburgh","United Kingdom",40,"Edinburgh (EGPH)",55468,730466,48864
+2015,"EGSS","London/ Stansted","United Kingdom",40,"London/ Stansted (EGSS)",81835,1145327,97108
+2015,"EHAM","Amsterdam/ Schiphol","Netherlands",40,"Amsterdam/ Schiphol (EHAM)",226108,3002893,344710
+2015,"EIDW","Dublin","Ireland",40,"Dublin (EIDW)",96036,1227743,245814
+2015,"EKCH","Copenhagen/ Kastrup","Denmark",40,"Copenhagen/ Kastrup (EKCH)",118446,1386975,175001
+2015,"ELLX","Luxembourg","Luxembourg",40,"Luxembourg (ELLX)",27517,355139,13862
+2015,"ENBR","Bergen","Norway",40,"Bergen (ENBR)",33994,412346,48122
+2015,"ENGM","Oslo/ Gardermoen","Norway",40,"Oslo/ Gardermoen (ENGM)",117592,1408794,276991
+2015,"ENVA","Trondheim","Norway",40,"Trondheim (ENVA)",26156,296603,30439
+2015,"ENZV","Stavanger","Norway",40,"Stavanger (ENZV)",27907,324106,18745
+2015,"EPWA","Warszawa/ Chopina","Poland",40,"Warszawa/ Chopina (EPWA)",0,0,0
+2015,"ESGG","Göteborg","Sweden",40,"Göteborg (ESGG)",33077,429210,15241
+2015,"ESSA","Stockholm/ Arlanda","Sweden",40,"Stockholm/ Arlanda (ESSA)",108587,1308661,148470
+2015,"EVRA","Riga","Latvia",40,"Riga (EVRA)",33066,413382,20845
+2015,"GCFV","Fuerteventura","Spain",40,"Fuerteventura (GCFV)",17982,253624,7025
+2015,"GCLP","Gran Canaria","Spain",40,"Gran Canaria (GCLP)",39092,547464,53325
+2015,"GCRR","Lanzarote","Spain",40,"Lanzarote (GCRR)",20127,275413,9419
+2015,"GCTS","Tenerife Sur/Reina Sofia","Spain",40,"Tenerife Sur/Reina Sofia (GCTS)",26326,338552,16470
+2015,"GCXO","Tenerife North","Spain",40,"Tenerife North (GCXO)",12034,141530,5773
+2015,"LBSF","Sofia","Bulgaria",40,"Sofia (LBSF)",20583,259778,7430
+2015,"LEAL","Alicante","Spain",40,"Alicante (LEAL)",36139,511389,23388
+2015,"LEBB","Bilbao","Spain",40,"Bilbao (LEBB)",20033,251420,13410
+2015,"LEBL","Barcelona","Spain",40,"Barcelona (LEBL)",136906,1748524,272497
+2015,"LEIB","Ibiza","Spain",40,"Ibiza (LEIB)",25282,330559,17859
+2015,"LEMD","Madrid/ Barajas","Spain",40,"Madrid/ Barajas (LEMD)",179817,2423981,186245
+2015,"LEMG","Málaga","Spain",40,"Málaga (LEMG)",51667,684828,46006
+2015,"LEPA","Palma de Mallorca","Spain",40,"Palma de Mallorca (LEPA)",78801,1001558,114613
+2015,"LEVC","Valencia","Spain",40,"Valencia (LEVC)",24300,319903,9322
+2015,"LEZL","Sevilla","Spain",40,"Sevilla (LEZL)",17214,208196,6228
+2015,"LFLL","Lyon-Saint-Exupéry","France",40,"Lyon-Saint-Exupéry (LFLL)",51943,670288,44587
+2015,"LFMN","Nice-Côte d’Azur","France",40,"Nice-Côte d'Azur (LFMN)",65777,914971,118557
+2015,"LFPG","Paris-Charles-de-Gaulle","France",40,"Paris-Charles-de-Gaulle (LFPG)",232311,3373290,172557
+2015,"LFPO","Paris-Orly","France",40,"Paris-Orly (LFPO)",115201,1592743,126810
+2015,"LFSB","Bâle-Mulhouse","France",40,"Bâle-Mulhouse (LFSB)",35033,472108,23813
+2015,"LGAV","Athens","Greece",40,"Athens (LGAV)",77235,1020415,63029
+2015,"LHBP","Budapest/ Ferihegy","Hungary",40,"Budapest/ Ferihegy (LHBP)",44649,578077,26277
+2015,"LICC","Catania","Italy",40,"Catania (LICC)",26884,332283,29377
+2015,"LIMC","Milan/ Malpensa","Italy",40,"Milan/ Malpensa (LIMC)",50148,605640,25076
+2015,"LIME","Bergamo","Italy",40,"Bergamo (LIME)",36791,514727,13591
+2015,"LIML","Milan/ Linate","Italy",40,"Milan/ Linate (LIML)",7541,85105,5151
+2015,"LIPE","Bologna","Italy",40,"Bologna (LIPE)",28794,372353,17772
+2015,"LIPZ","Venice","Italy",40,"Venice (LIPZ)",39876,451627,41249
+2015,"LIRF","Rome/Fiumicino","Italy",40,"Rome/Fiumicino (LIRF)",153769,1925000,255320
+2015,"LIRN","Naples","Italy",40,"Naples (LIRN)",26112,352829,14978
+2015,"LJLJ","Ljubljana","Slovenia",40,"Ljubljana (LJLJ)",12033,153457,1977
+2015,"LKPR","Prague","Czech Republic",40,"Prague (LKPR)",59718,757228,65426
+2015,"LMML","Malta","Malta",40,"Malta (LMML)",19624,234998,8941
+2015,"LOWW","Vienna","Austria",40,"Vienna (LOWW)",116462,1428960,230349
+2015,"LPPR","Porto","Portugal",40,"Porto (LPPR)",33629,420172,14474
+2015,"LPPT","Lisbon","Portugal",40,"Lisbon (LPPT)",79604,1034267,117053
+2015,"LROP","Bucharest/ Otopeni","Romania",40,"Bucharest/ Otopeni (LROP)",46362,555083,60879
+2015,"LSGG","Geneva","Switzerland",40,"Geneva (LSGG)",88335,1158929,203129
+2015,"LSZH","Zürich","Switzerland",40,"Zürich (LSZH)",120310,1593670,375287
+2015,"LZIB","Bratislava","Slovakia",40,"Bratislava (LZIB)",8499,111457,5409
+2016,"EBBR","Brussels","Belgium",40,"Brussels (EBBR)",104339,1304663,100896
+2016,"EBCI","Charleroi","Belgium",40,"Charleroi (EBCI)",23133,286636,7938
+2016,"EDDB","Berlin/ Schoenefeld","Germany",40,"Berlin/ Schoenefeld (EDDB)",45548,592372,41324
+2016,"EDDE","Erfurt","Germany",40,"Erfurt (EDDE)",1329,16570,830
+2016,"EDDF","Frankfurt","Germany",40,"Frankfurt (EDDF)",222699,3067240,384408
+2016,"EDDH","Hamburg","Germany",40,"Hamburg (EDDH)",72361,926000,100642
+2016,"EDDK","Cologne-Bonn","Germany",40,"Cologne-Bonn (EDDK)",62495,808170,57069
+2016,"EDDL","Dusseldorf","Germany",40,"Dusseldorf (EDDL)",102431,1311569,185055
+2016,"EDDM","Munich","Germany",40,"Munich (EDDM)",190581,2503955,380780
+2016,"EDDN","Nuremberg","Germany",40,"Nuremberg (EDDN)",20784,267385,10548
+2016,"EDDP","Leipzig-Halle","Germany",40,"Leipzig-Halle (EDDP)",27804,357666,53962
+2016,"EDDR","Saarbruecken","Germany",40,"Saarbruecken (EDDR)",2854,35904,1078
+2016,"EDDS","Stuttgart","Germany",40,"Stuttgart (EDDS)",52947,657680,13795
+2016,"EDDT","Berlin/ Tegel","Germany",40,"Berlin/ Tegel (EDDT)",90166,1142116,173539
+2016,"EDDV","Hanover","Germany",40,"Hanover (EDDV)",28451,358456,8027
+2016,"EDDW","Bremen","Germany",40,"Bremen (EDDW)",13726,176938,6892
+2016,"EETN","Tallinn","Estonia",40,"Tallinn (EETN)",14747,189856,4933
+2016,"EFHK","Helsinki/ Vantaa","Finland",40,"Helsinki/ Vantaa (EFHK)",78268,958619,76521
+2016,"EGBB","Birmingham","United Kingdom",40,"Birmingham (EGBB)",53719,686600,56844
+2016,"EGCC","Manchester","United Kingdom",40,"Manchester (EGCC)",93125,1260006,181966
+2016,"EGGD","Bristol","United Kingdom",40,"Bristol (EGGD)",31671,419941,13406
+2016,"EGGW","London/ Luton","United Kingdom",40,"London/ Luton (EGGW)",62028,907313,69134
+2016,"EGKK","London/ Gatwick","United Kingdom",40,"London/ Gatwick (EGKK)",135836,1910126,569927
+2016,"EGLC","London/ City","United Kingdom",40,"London/ City (EGLC)",40539,542313,32893
+2016,"EGLL","London/ Heathrow","United Kingdom",40,"London/ Heathrow (EGLL)",230539,3116014,1942417
+2016,"EGNT","Newcastle","United Kingdom",40,"Newcastle (EGNT)",22055,289031,3342
+2016,"EGPD","Aberdeen","United Kingdom",40,"Aberdeen (EGPD)",29344,382735,34605
+2016,"EGPF","Glasgow","United Kingdom",40,"Glasgow (EGPF)",0,0,0
+2016,"EGPH","Edinburgh","United Kingdom",40,"Edinburgh (EGPH)",59070,769877,68868
+2016,"EGSS","London/ Stansted","United Kingdom",40,"London/ Stansted (EGSS)",87373,1232714,128792
+2016,"EHAM","Amsterdam/ Schiphol","Netherlands",40,"Amsterdam/ Schiphol (EHAM)",240899,3190635,372353
+2016,"EICK","Cork","Ireland",40,"Cork (EICK)",10265,125211,2924
+2016,"EIDW","Dublin","Ireland",40,"Dublin (EIDW)",104797,1336624,279526
+2016,"EKCH","Copenhagen/ Kastrup","Denmark",40,"Copenhagen/ Kastrup (EKCH)",125667,1463383,196546
+2016,"ELLX","Luxembourg","Luxembourg",40,"Luxembourg (ELLX)",29248,379116,17758
+2016,"ENBR","Bergen","Norway",40,"Bergen (ENBR)",33230,405558,35329
+2016,"ENGM","Oslo/ Gardermoen","Norway",40,"Oslo/ Gardermoen (ENGM)",118491,1456616,225546
+2016,"ENVA","Trondheim","Norway",40,"Trondheim (ENVA)",17290,194632,10064
+2016,"ENZV","Stavanger","Norway",40,"Stavanger (ENZV)",25044,288436,15431
+2016,"EPWA","Warszawa/ Chopina","Poland",40,"Warszawa/ Chopina (EPWA)",74612,981450,115396
+2016,"ESGG","Göteborg","Sweden",40,"Göteborg (ESGG)",32753,432018,9680
+2016,"ESSA","Stockholm/ Arlanda","Sweden",40,"Stockholm/ Arlanda (ESSA)",114028,1467222,135056
+2016,"EVRA","Riga","Latvia",40,"Riga (EVRA)",32977,413582,34057
+2016,"GCFV","Fuerteventura","Spain",40,"Fuerteventura (GCFV)",20691,291075,11331
+2016,"GCLP","Gran Canaria","Spain",40,"Gran Canaria (GCLP)",43704,623517,94964
+2016,"GCRR","Lanzarote","Spain",40,"Lanzarote (GCRR)",25725,352896,20516
+2016,"GCTS","Tenerife Sur/Reina Sofia","Spain",40,"Tenerife Sur/Reina Sofia (GCTS)",29942,384087,22870
+2016,"GCXO","Tenerife North","Spain",40,"Tenerife North (GCXO)",12730,148812,9254
+2016,"LBSF","Sofia","Bulgaria",40,"Sofia (LBSF)",23980,302863,10722
+2016,"LEAL","Alicante","Spain",40,"Alicante (LEAL)",42501,599579,44053
+2016,"LEBB","Bilbao","Spain",40,"Bilbao (LEBB)",20198,265597,8164
+2016,"LEBL","Barcelona","Spain",40,"Barcelona (LEBL)",144893,1856764,326313
+2016,"LEIB","Ibiza","Spain",40,"Ibiza (LEIB)",28643,375605,22420
+2016,"LEMD","Madrid/ Barajas","Spain",40,"Madrid/ Barajas (LEMD)",184107,2487505,215754
+2016,"LEMG","Málaga","Spain",40,"Málaga (LEMG)",58045,768375,74944
+2016,"LEPA","Palma de Mallorca","Spain",40,"Palma de Mallorca (LEPA)",88034,1103999,156589
+2016,"LEVC","Valencia","Spain",40,"Valencia (LEVC)",26467,348756,15983
+2016,"LEZL","Sevilla","Spain",40,"Sevilla (LEZL)",17452,211051,9429
+2016,"LFLL","Lyon-Saint-Exupéry","France",40,"Lyon-Saint-Exupéry (LFLL)",53063,682652,44474
+2016,"LFMN","Nice-Côte d’Azur","France",40,"Nice-Côte d'Azur (LFMN)",67233,937797,137854
+2016,"LFPG","Paris-Charles-de-Gaulle","France",40,"Paris-Charles-de-Gaulle (LFPG)",234519,3414051,157413
+2016,"LFPO","Paris-Orly","France",40,"Paris-Orly (LFPO)",115531,1603059,135874
+2016,"LFSB","Bâle-Mulhouse","France",40,"Bâle-Mulhouse (LFSB)",33718,447992,27342
+2016,"LGAV","Athens","Greece",40,"Athens (LGAV)",83787,1102720,92449
+2016,"LHBP","Budapest/ Ferihegy","Hungary",40,"Budapest/ Ferihegy (LHBP)",46587,603711,44021
+2016,"LICC","Catania","Italy",40,"Catania (LICC)",29889,370333,29852
+2016,"LIMC","Milan/ Malpensa","Italy",40,"Milan/ Malpensa (LIMC)",80110,968697,61192
+2016,"LIME","Bergamo","Italy",40,"Bergamo (LIME)",38800,544109,32374
+2016,"LIML","Milan/ Linate","Italy",40,"Milan/ Linate (LIML)",53450,608212,45451
+2016,"LIPE","Bologna","Italy",40,"Bologna (LIPE)",30718,401201,19184
+2016,"LIPZ","Venice","Italy",40,"Venice (LIPZ)",44041,502419,42837
+2016,"LIRF","Rome/Fiumicino","Italy",40,"Rome/Fiumicino (LIRF)",154930,1921052,228346
+2016,"LIRN","Naples","Italy",40,"Naples (LIRN)",27868,382187,16008
+2016,"LJLJ","Ljubljana","Slovenia",40,"Ljubljana (LJLJ)",11989,152140,3564
+2016,"LKPR","Prague","Czech Republic",40,"Prague (LKPR)",63746,808037,79438
+2016,"LMML","Malta","Malta",40,"Malta (LMML)",20380,243770,13631
+2016,"LOWW","Vienna","Austria",40,"Vienna (LOWW)",116399,1428772,217997
+2016,"LPPR","Porto","Portugal",40,"Porto (LPPR)",36858,462593,23997
+2016,"LPPT","Lisbon","Portugal",40,"Lisbon (LPPT)",88755,1175682,194963
+2016,"LROP","Bucharest/ Otopeni","Romania",40,"Bucharest/ Otopeni (LROP)",51749,616681,63536
+2016,"LSGG","Geneva","Switzerland",40,"Geneva (LSGG)",89210,1169745,202319
+2016,"LSZH","Zürich","Switzerland",40,"Zürich (LSZH)",123078,1625479,345384
+2016,"LZIB","Bratislava","Slovakia",40,"Bratislava (LZIB)",8933,116564,2784
+2017,"EBBR","Brussels","Belgium",40,"Brussels (EBBR)",112024,1391830,117539
+2017,"EBCI","Charleroi","Belgium",40,"Charleroi (EBCI)",23834,294473,6331
+2017,"EDDB","Berlin/ Schoenefeld","Germany",40,"Berlin/ Schoenefeld (EDDB)",47506,627387,42996
+2017,"EDDE","Erfurt","Germany",40,"Erfurt (EDDE)",1747,22331,633
+2017,"EDDF","Frankfurt","Germany",40,"Frankfurt (EDDF)",229236,3120501,399018
+2017,"EDDG","Muenster-Osnabrueck","Germany",40,"Muenster-Osnabrueck (EDDG)",5778,77963,727
+2017,"EDDH","Hamburg","Germany",40,"Hamburg (EDDH)",73295,943546,134346
+2017,"EDDK","Cologne-Bonn","Germany",40,"Cologne-Bonn (EDDK)",65883,867077,83576
+2017,"EDDL","Dusseldorf","Germany",40,"Dusseldorf (EDDL)",105561,1344505,187272
+2017,"EDDM","Munich","Germany",40,"Munich (EDDM)",193991,2561128,375420
+2017,"EDDN","Nuremberg","Germany",40,"Nuremberg (EDDN)",23167,306110,9109
+2017,"EDDP","Leipzig-Halle","Germany",40,"Leipzig-Halle (EDDP)",29938,390051,56590
+2017,"EDDR","Saarbruecken","Germany",40,"Saarbruecken (EDDR)",2804,35062,1116
+2017,"EDDS","Stuttgart","Germany",40,"Stuttgart (EDDS)",53589,669211,42957
+2017,"EDDT","Berlin/ Tegel","Germany",40,"Berlin/ Tegel (EDDT)",83969,1082791,138045
+2017,"EDDV","Hanover","Germany",40,"Hanover (EDDV)",28885,362300,9002
+2017,"EDDW","Bremen","Germany",40,"Bremen (EDDW)",12771,164307,5450
+2017,"EETN","Tallinn","Estonia",40,"Tallinn (EETN)",16642,219180,1993
+2017,"EFHK","Helsinki/ Vantaa","Finland",40,"Helsinki/ Vantaa (EFHK)",82356,1008552,88815
+2017,"EGBB","Birmingham","United Kingdom",40,"Birmingham (EGBB)",57575,734383,105636
+2017,"EGCC","Manchester","United Kingdom",40,"Manchester (EGCC)",98394,1335473,210938
+2017,"EGGD","Bristol","United Kingdom",40,"Bristol (EGGD)",32877,435485,15564
+2017,"EGGW","London/ Luton","United Kingdom",40,"London/ Luton (EGGW)",64674,946644,77707
+2017,"EGKK","London/ Gatwick","United Kingdom",40,"London/ Gatwick (EGKK)",137658,1946727,545849
+2017,"EGLC","London/ City","United Kingdom",40,"London/ City (EGLC)",35225,463783,28923
+2017,"EGLL","London/ Heathrow","United Kingdom",40,"London/ Heathrow (EGLL)",228195,3061834,1947092
+2017,"EGNT","Newcastle","United Kingdom",40,"Newcastle (EGNT)",22725,295357,8616
+2017,"EGPD","Aberdeen","United Kingdom",40,"Aberdeen (EGPD)",28664,373819,34557
+2017,"EGPF","Glasgow","United Kingdom",40,"Glasgow (EGPF)",0,0,0
+2017,"EGPH","Edinburgh","United Kingdom",40,"Edinburgh (EGPH)",62377,823617,77612
+2017,"EGSS","London/ Stansted","United Kingdom",40,"London/ Stansted (EGSS)",91604,1269999,158845
+2017,"EHAM","Amsterdam/ Schiphol","Netherlands",40,"Amsterdam/ Schiphol (EHAM)",246180,3271691,424989
+2017,"EICK","Cork","Ireland",40,"Cork (EICK)",10054,122778,4839
+2017,"EIDW","Dublin","Ireland",40,"Dublin (EIDW)",107581,1357682,298572
+2017,"EKCH","Copenhagen/ Kastrup","Denmark",40,"Copenhagen/ Kastrup (EKCH)",122911,1437651,259218
+2017,"ELLX","Luxembourg","Luxembourg",40,"Luxembourg (ELLX)",31938,415056,26339
+2017,"ENBR","Bergen","Norway",40,"Bergen (ENBR)",32817,403141,38588
+2017,"ENGM","Oslo/ Gardermoen","Norway",40,"Oslo/ Gardermoen (ENGM)",120137,1518948,171997
+2017,"ENVA","Trondheim","Norway",40,"Trondheim (ENVA)",0,0,0
+2017,"ENZV","Stavanger","Norway",40,"Stavanger (ENZV)",23930,275176,25678
+2017,"EPWA","Warszawa/ Chopina","Poland",40,"Warszawa/ Chopina (EPWA)",82752,1096555,140566
+2017,"ESGG","Göteborg","Sweden",40,"Göteborg (ESGG)",33132,438046,10434
+2017,"ESSA","Stockholm/ Arlanda","Sweden",40,"Stockholm/ Arlanda (ESSA)",121404,1576392,145531
+2017,"EVRA","Riga","Latvia",40,"Riga (EVRA)",36265,456380,43173
+2017,"EYVI","Vilnius","Lithuania",40,"Vilnius (EYVI)",0,0,0
+2017,"GCFV","Fuerteventura","Spain",40,"Fuerteventura (GCFV)",22182,310758,12355
+2017,"GCLP","Gran Canaria","Spain",40,"Gran Canaria (GCLP)",46980,679575,77632
+2017,"GCRR","Lanzarote","Spain",40,"Lanzarote (GCRR)",28189,385580,25852
+2017,"GCTS","Tenerife Sur/Reina Sofia","Spain",40,"Tenerife Sur/Reina Sofia (GCTS)",32347,415930,30263
+2017,"GCXO","Tenerife North","Spain",40,"Tenerife North (GCXO)",14809,174541,9280
+2017,"LBSF","Sofia","Bulgaria",40,"Sofia (LBSF)",26986,342584,10377
+2017,"LCLK","Larnaca","Cyprus",40,"Larnaca (LCLK)",0,0,0
+2017,"LEAL","Alicante","Spain",40,"Alicante (LEAL)",46681,658830,49045
+2017,"LEBB","Bilbao","Spain",40,"Bilbao (LEBB)",21604,285958,4379
+2017,"LEBL","Barcelona","Spain",40,"Barcelona (LEBL)",159300,2015713,425783
+2017,"LEIB","Ibiza","Spain",40,"Ibiza (LEIB)",30932,416234,34579
+2017,"LEMD","Madrid/ Barajas","Spain",40,"Madrid/ Barajas (LEMD)",190280,2559044,202819
+2017,"LEMG","Málaga","Spain",40,"Málaga (LEMG)",63500,839876,78810
+2017,"LEPA","Palma de Mallorca","Spain",40,"Palma de Mallorca (LEPA)",94028,1192930,175071
+2017,"LEVC","Valencia","Spain",40,"Valencia (LEVC)",29580,388654,16719
+2017,"LEZL","Sevilla","Spain",40,"Sevilla (LEZL)",18829,229393,7302
+2017,"LFLL","Lyon-Saint-Exupéry","France",40,"Lyon-Saint-Exupéry (LFLL)",53415,686590,39447
+2017,"LFMN","Nice-Côte d’Azur","France",40,"Nice-Côte d’Azur (LFMN)",66783,931265,126523
+2017,"LFPG","Paris-Charles-de-Gaulle","France",40,"Paris-Charles-de-Gaulle (LFPG)",236088,3423962,162649
+2017,"LFPO","Paris-Orly","France",40,"Paris-Orly (LFPO)",114261,1602107,124622
+2017,"LFSB","Bâle-Mulhouse","France",40,"Bâle-Mulhouse (LFSB)",34812,471221,20782
+2017,"LGAV","Athens","Greece",40,"Athens (LGAV)",85586,1121693,75415
+2017,"LHBP","Budapest/ Ferihegy","Hungary",40,"Budapest/ Ferihegy (LHBP)",49468,644906,70980
+2017,"LICC","Catania","Italy",40,"Catania (LICC)",33300,413026,36198
+2017,"LIMC","Milan/ Malpensa","Italy",40,"Milan/ Malpensa (LIMC)",86094,1049570,57145
+2017,"LIME","Bergamo","Italy",40,"Bergamo (LIME)",41758,591945,39869
+2017,"LIMF","Torino Caselle","Italy",40,"Torino Caselle (LIMF)",19598,257193,6624
+2017,"LIML","Milan/ Linate","Italy",40,"Milan/ Linate (LIML)",53149,604210,32626
+2017,"LIPE","Bologna","Italy",40,"Bologna (LIPE)",32320,418961,30351
+2017,"LIPZ","Venice","Italy",40,"Venice (LIPZ)",44938,514752,38433
+2017,"LIRF","Rome/Fiumicino","Italy",40,"Rome/Fiumicino (LIRF)",146690,1815707,248399
+2017,"LIRN","Naples","Italy",40,"Naples (LIRN)",34671,473986,29188
+2017,"LJLJ","Ljubljana","Slovenia",40,"Ljubljana (LJLJ)",13478,171317,5393
+2017,"LKPR","Prague","Czech Republic",40,"Prague (LKPR)",69747,882973,103231
+2017,"LMML","Malta","Malta",40,"Malta (LMML)",23466,279585,18517
+2017,"LOWW","Vienna","Austria",40,"Vienna (LOWW)",115379,1422487,219757
+2017,"LPPR","Porto","Portugal",40,"Porto (LPPR)",42246,530909,37467
+2017,"LPPT","Lisbon","Portugal",40,"Lisbon (LPPT)",100076,1338179,292085
+2017,"LROP","Bucharest/ Otopeni","Romania",40,"Bucharest/ Otopeni (LROP)",56288,673109,77949
+2017,"LSGG","Geneva","Switzerland",40,"Geneva (LSGG)",89449,1167104,195248
+2017,"LSZH","Zürich","Switzerland",40,"Zürich (LSZH)",123701,1635901,303007
+2017,"LZIB","Bratislava","Slovakia",40,"Bratislava (LZIB)",9383,118752,3013
+2018,"EBBR","Brussels","Belgium",40,"Brussels (EBBR)",83228,1043112,71411
+2018,"EBCI","Charleroi","Belgium",40,"Charleroi (EBCI)",17449,216640,4075
+2018,"EDDB","Berlin/ Schoenefeld","Germany",40,"Berlin/ Schoenefeld (EDDB)",36483,486577,10513
+2018,"EDDE","Erfurt","Germany",40,"Erfurt (EDDE)",1378,18051,255
+2018,"EDDF","Frankfurt","Germany",40,"Frankfurt (EDDF)",179868,2519736,321881
+2018,"EDDG","Muenster-Osnabrueck","Germany",40,"Muenster-Osnabrueck (EDDG)",4630,61683,228
+2018,"EDDH","Hamburg","Germany",40,"Hamburg (EDDH)",53095,710461,75577
+2018,"EDDK","Cologne-Bonn","Germany",40,"Cologne-Bonn (EDDK)",49029,639692,53239
+2018,"EDDL","Dusseldorf","Germany",40,"Dusseldorf (EDDL)",77316,1009173,116726
+2018,"EDDM","Munich","Germany",40,"Munich (EDDM)",78501,1058501,123415
+2018,"EDDN","Nuremberg","Germany",40,"Nuremberg (EDDN)",17805,232151,6608
+2018,"EDDP","Leipzig-Halle","Germany",40,"Leipzig-Halle (EDDP)",25322,322467,48342
+2018,"EDDR","Saarbruecken","Germany",40,"Saarbruecken (EDDR)",2317,29604,1575
+2018,"EDDS","Stuttgart","Germany",40,"Stuttgart (EDDS)",44340,560694,32258
+2018,"EDDT","Berlin/ Tegel","Germany",40,"Berlin/ Tegel (EDDT)",65816,850350,65900
+2018,"EDDV","Hanover","Germany",40,"Hanover (EDDV)",22819,287522,6946
+2018,"EDDW","Bremen","Germany",40,"Bremen (EDDW)",9968,127776,4387
+2018,"EETN","Tallinn","Estonia",40,"Tallinn (EETN)",3651,44360,626
+2018,"EFHK","Helsinki/ Vantaa","Finland",40,"Helsinki/ Vantaa (EFHK)",66788,807209,67707
+2018,"EGBB","Birmingham","United Kingdom",40,"Birmingham (EGBB)",40567,548736,56232
+2018,"EGCC","Manchester","United Kingdom",40,"Manchester (EGCC)",74129,1002758,119979
+2018,"EGGD","Bristol","United Kingdom",40,"Bristol (EGGD)",22667,292008,21686
+2018,"EGGW","London/ Luton","United Kingdom",40,"London/ Luton (EGGW)",49302,728491,68869
+2018,"EGKK","London/ Gatwick","United Kingdom",40,"London/ Gatwick (EGKK)",105287,1464159,419196
+2018,"EGLC","London/ City","United Kingdom",40,"London/ City (EGLC)",22979,312299,21898
+2018,"EGLL","London/ Heathrow","United Kingdom",40,"London/ Heathrow (EGLL)",172227,2339185,1269979
+2018,"EGNT","Newcastle","United Kingdom",40,"Newcastle (EGNT)",16809,215523,5028
+2018,"EGPD","Aberdeen","United Kingdom",40,"Aberdeen (EGPD)",19861,260624,19923
+2018,"EGPF","Glasgow","United Kingdom",40,"Glasgow (EGPF)",31737,435120,28659
+2018,"EGPH","Edinburgh","United Kingdom",40,"Edinburgh (EGPH)",48040,640976,53474
+2018,"EGSS","London/ Stansted","United Kingdom",40,"London/ Stansted (EGSS)",73833,1057235,137511
+2018,"EHAM","Amsterdam/ Schiphol","Netherlands",40,"Amsterdam/ Schiphol (EHAM)",187319,2463926,272127
+2018,"EICK","Cork","Ireland",40,"Cork (EICK)",5883,72045,2168
+2018,"EIDW","Dublin","Ireland",40,"Dublin (EIDW)",86114,1097312,277061
+2018,"EKCH","Copenhagen/ Kastrup","Denmark",40,"Copenhagen/ Kastrup (EKCH)",94580,1197837,90692
+2018,"ELLX","Luxembourg","Luxembourg",40,"Luxembourg (ELLX)",26157,352402,12675
+2018,"ENBR","Bergen","Norway",40,"Bergen (ENBR)",24494,301958,23947
+2018,"ENGM","Oslo/ Gardermoen","Norway",40,"Oslo/ Gardermoen (ENGM)",92260,1190827,120982
+2018,"ENVA","Trondheim","Norway",40,"Trondheim (ENVA)",0,0,0
+2018,"ENZV","Stavanger","Norway",40,"Stavanger (ENZV)",5328,64448,2370
+2018,"EPWA","Warszawa/ Chopina","Poland",40,"Warszawa/ Chopina (EPWA)",51268,671905,83635
+2018,"ESGG","Göteborg","Sweden",40,"Göteborg (ESGG)",25018,330644,6371
+2018,"ESSA","Stockholm/ Arlanda","Sweden",40,"Stockholm/ Arlanda (ESSA)",88814,1152187,102932
+2018,"EVRA","Riga","Latvia",40,"Riga (EVRA)",30662,390724,33353
+2018,"EYVI","Vilnius","Lithuania",40,"Vilnius (EYVI)",0,0,0
+2018,"GCFV","Fuerteventura","Spain",40,"Fuerteventura (GCFV)",17722,247680,14716
+2018,"GCLP","Gran Canaria","Spain",40,"Gran Canaria (GCLP)",36289,525814,66619
+2018,"GCRR","Lanzarote","Spain",40,"Lanzarote (GCRR)",21350,297685,12090
+2018,"GCTS","Tenerife Sur/Reina Sofia","Spain",40,"Tenerife Sur/Reina Sofia (GCTS)",22297,285713,21649
+2018,"GCXO","Tenerife North","Spain",40,"Tenerife North (GCXO)",12335,143510,11402
+2018,"LBSF","Sofia","Bulgaria",40,"Sofia (LBSF)",21611,271590,6395
+2018,"LCLK","Larnaca","Cyprus",40,"Larnaca (LCLK)",0,0,0
+2018,"LEAL","Alicante","Spain",40,"Alicante (LEAL)",36324,511245,35287
+2018,"LEBB","Bilbao","Spain",40,"Bilbao (LEBB)",16972,223940,4584
+2018,"LEBL","Barcelona","Spain",40,"Barcelona (LEBL)",123840,1625792,297710
+2018,"LEIB","Ibiza","Spain",40,"Ibiza (LEIB)",26829,350165,34345
+2018,"LEMD","Madrid/ Barajas","Spain",40,"Madrid/ Barajas (LEMD)",148657,2007192,160786
+2018,"LEMG","Málaga","Spain",40,"Málaga (LEMG)",49896,668164,65805
+2018,"LEPA","Palma de Mallorca","Spain",40,"Palma de Mallorca (LEPA)",80040,1025728,127465
+2018,"LEVC","Valencia","Spain",40,"Valencia (LEVC)",24766,325764,17232
+2018,"LEZL","Sevilla","Spain",40,"Sevilla (LEZL)",16823,202434,9220
+2018,"LFLL","Lyon-Saint-Exupéry","France",40,"Lyon-Saint-Exupéry (LFLL)",40721,522287,18555
+2018,"LFMN","Nice-Côte d’Azur","France",40,"Nice-Côte d’Azur (LFMN)",54741,766526,116170
+2018,"LFPG","Paris-Charles-de-Gaulle","France",40,"Paris-Charles-de-Gaulle (LFPG)",176640,2588529,128604
+2018,"LFPO","Paris-Orly","France",40,"Paris-Orly (LFPO)",86241,1182393,76829
+2018,"LFSB","Bâle-Mulhouse","France",40,"Bâle-Mulhouse (LFSB)",27346,375636,14316
+2018,"LGAV","Athens","Greece",40,"Athens (LGAV)",72849,945118,82720
+2018,"LHBP","Budapest/ Ferihegy","Hungary",40,"Budapest/ Ferihegy (LHBP)",41803,570607,28892
+2018,"LICC","Catania","Italy",40,"Catania (LICC)",27623,343076,35236
+2018,"LIMC","Milan/ Malpensa","Italy",40,"Milan/ Malpensa (LIMC)",69587,811354,87714
+2018,"LIME","Bergamo","Italy",40,"Bergamo (LIME)",33323,471696,33822
+2018,"LIMF","Torino Caselle","Italy",40,"Torino Caselle (LIMF)",4716,64399,3178
+2018,"LIML","Milan/ Linate","Italy",40,"Milan/ Linate (LIML)",39350,446882,26384
+2018,"LIPE","Bologna","Italy",40,"Bologna (LIPE)",24597,323651,22787
+2018,"LIPZ","Venice","Italy",40,"Venice (LIPZ)",35772,407210,37338
+2018,"LIRA","Rome/Ciampino","Italy",40,"Rome/Ciampino (LIRA)",0,0,0
+2018,"LIRF","Rome/Fiumicino","Italy",40,"Rome/Fiumicino (LIRF)",100735,1254247,238180
+2018,"LIRN","Naples","Italy",40,"Naples (LIRN)",28877,391372,29664
+2018,"LJLJ","Ljubljana","Slovenia",40,"Ljubljana (LJLJ)",11098,142150,11649
+2018,"LKPR","Prague","Czech Republic",40,"Prague (LKPR)",55635,698570,74678
+2018,"LMML","Malta","Malta",40,"Malta (LMML)",20156,242219,18246
+2018,"LOWW","Vienna","Austria",40,"Vienna (LOWW)",92603,1156593,145173
+2018,"LPPR","Porto","Portugal",40,"Porto (LPPR)",0,0,0
+2018,"LPPT","Lisbon","Portugal",40,"Lisbon (LPPT)",80935,1130292,231636
+2018,"LROP","Bucharest/ Otopeni","Romania",40,"Bucharest/ Otopeni (LROP)",45029,552782,44195
+2018,"LSGG","Geneva","Switzerland",40,"Geneva (LSGG)",59364,812763,109382
+2018,"LSZH","Zürich","Switzerland",40,"Zürich (LSZH)",96812,1277626,271421
+2018,"LZIB","Bratislava","Slovakia",40,"Bratislava (LZIB)",8165,101286,1716

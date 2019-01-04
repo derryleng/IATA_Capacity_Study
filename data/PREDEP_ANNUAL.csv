@@ -1,0 +1,1471 @@
+"YEAR","ICAO","NAME","STATE","LABEL","FLIGHTS_NM","FLIGHTS_APT","DELAY_APT","FLIGHTS_AL","DELAY_AL"
+2014,"EBAW","Antwerp","Belgium","Antwerp (EBAW) ",6780,0,0,315,64
+2014,"EBBR","Brussels","Belgium","Brussels (EBBR) ",112668,115388,50215,87724,49816
+2014,"EBCI","Charleroi","Belgium","Charleroi (EBCI) ",23577,0,0,20396,579
+2014,"EBLG","Liège","Belgium","Liège (EBLG) ",15264,0,0,9844,3917
+2014,"EBOS","Ostend-Bruges","Belgium","Ostend-Bruges (EBOS) ",2605,0,0,735,112
+2014,"EDDB","Berlin/ Schoenefeld","Germany","Berlin/ Schoenefeld (EDDB) ",33461,0,0,21184,4692
+2014,"EDDC","Dresden","Germany","Dresden (EDDC) ",11718,0,0,8403,221
+2014,"EDDE","Erfurt","Germany","Erfurt (EDDE) ",2525,0,0,1002,44
+2014,"EDDF","Frankfurt","Germany","Frankfurt (EDDF) ",234490,0,0,183041,219736
+2014,"EDDG","Muenster-Osnabrueck","Germany","Muenster-Osnabrueck (EDDG) ",8889,0,0,4093,214
+2014,"EDDH","Hamburg","Germany","Hamburg (EDDH) ",73251,0,0,60510,13734
+2014,"EDDK","Cologne-Bonn","Germany","Cologne-Bonn (EDDK) ",60091,0,0,37411,12516
+2014,"EDDL","Dusseldorf","Germany","Dusseldorf (EDDL) ",105033,0,0,86478,44987
+2014,"EDDM","Munich","Germany","Munich (EDDM) ",187125,0,0,153113,58691
+2014,"EDDN","Nuremberg","Germany","Nuremberg (EDDN) ",24884,25747,3061,18361,2717
+2014,"EDDP","Leipzig-Halle","Germany","Leipzig-Halle (EDDP) ",30260,0,0,16332,2754
+2014,"EDDR","Saarbruecken","Germany","Saarbruecken (EDDR) ",4348,0,0,2929,59
+2014,"EDDS","Stuttgart","Germany","Stuttgart (EDDS) ",57015,0,0,40389,5735
+2014,"EDDT","Berlin/ Tegel","Germany","Berlin/ Tegel (EDDT) ",90144,0,0,81836,45753
+2014,"EDDV","Hanover","Germany","Hanover (EDDV) ",31461,0,0,22625,2759
+2014,"EDDW","Bremen","Germany","Bremen (EDDW) ",18183,0,0,12697,906
+2014,"EETN","Tallinn","Estonia","Tallinn (EETN) ",17223,0,0,7444,250
+2014,"EETU","Tartu","Estonia","Tartu (EETU) ",476,0,0,121,0
+2014,"EFHK","Helsinki/ Vantaa","Finland","Helsinki/ Vantaa (EFHK) ",83970,85244,12937,71894,12856
+2014,"EGAA","Belfast/Aldergrove","United Kingdom","Belfast/Aldergrove (EGAA) ",19218,0,0,14757,2762
+2014,"EGAC","Belfast/City Airport","United Kingdom","Belfast/City Airport (EGAC) ",18553,0,0,16717,1518
+2014,"EGAE","Londonderry/Eglinton","United Kingdom","Londonderry/Eglinton (EGAE) ",1382,0,0,1274,56
+2014,"EGBB","Birmingham","United Kingdom","Birmingham (EGBB) ",47680,40590,7859,39126,6680
+2014,"EGCC","Manchester","United Kingdom","Manchester (EGCC) ",85201,79465,44742,63834,35795
+2014,"EGGW","London/ Luton","United Kingdom","London/ Luton (EGGW) ",51738,0,0,31505,21908
+2014,"EGHI","Southampton","United Kingdom","Southampton (EGHI) ",19708,0,0,14157,3662
+2014,"EGKB","Biggin Hill","United Kingdom","Biggin Hill (EGKB) ",6027,0,0,0,0
+2014,"EGKK","London/ Gatwick","United Kingdom","London/ Gatwick (EGKK) ",129960,0,0,116200,85340
+2014,"EGLC","London/ City","United Kingdom","London/ City (EGLC) ",37864,0,0,25761,15967
+2014,"EGLF","Farnborough","United Kingdom","Farnborough (EGLF) ",11791,0,0,20,25
+2014,"EGLL","London/ Heathrow","United Kingdom","London/ Heathrow (EGLL) ",236369,0,0,185890,123162
+2014,"EGNX","East Midlands","United Kingdom","East Midlands (EGNX) ",32899,0,0,17169,2766
+2014,"EGPD","Aberdeen","United Kingdom","Aberdeen (EGPD) ",36531,0,0,16702,1093
+2014,"EGPF","Glasgow","United Kingdom","Glasgow (EGPF) ",39797,0,0,25861,4357
+2014,"EGPH","Edinburgh","United Kingdom","Edinburgh (EGPH) ",53909,0,0,41261,8069
+2014,"EGSS","London/ Stansted","United Kingdom","London/ Stansted (EGSS) ",77965,77985,26108,65190,37991
+2014,"EHAM","Amsterdam/ Schiphol","Netherlands","Amsterdam/ Schiphol (EHAM) ",224437,0,0,175678,253295
+2014,"EHBK","Maastricht-Aachen","Netherlands","Maastricht-Aachen (EHBK) ",4460,0,0,849,24
+2014,"EHGG","Groningen","Netherlands","Groningen (EHGG) ",6720,0,0,602,9
+2014,"EHRD","Rotterdam","Netherlands","Rotterdam (EHRD) ",12637,0,0,5431,3427
+2014,"EICK","Cork","Ireland","Cork (EICK) ",11646,0,0,8031,425
+2014,"EICM","Galway Carnmore","Ireland","Galway Carnmore (EICM) ",8,0,0,0,0
+2014,"EIDL","Donegal","Ireland","Donegal (EIDL) ",1121,0,0,0,0
+2014,"EIDW","Dublin","Ireland","Dublin (EIDW) ",89575,0,0,73229,39650
+2014,"EIKN","Connaught","Ireland","Connaught (EIKN) ",3240,0,0,3062,318
+2014,"EIKY","Kerry/Farranfore","Ireland","Kerry/Farranfore (EIKY) ",2009,0,0,1240,14
+2014,"EINN","Shannon","Ireland","Shannon (EINN) ",11673,0,0,6171,326
+2014,"EISG","Sligo","Ireland","Sligo (EISG) ",31,0,0,0,0
+2014,"EIWF","Waterford","Ireland","Waterford (EIWF) ",550,0,0,289,60
+2014,"EIWT","Weston","Ireland","Weston (EIWT) ",497,0,0,0,0
+2014,"EKCH","Copenhagen/ Kastrup","Denmark","Copenhagen/ Kastrup (EKCH) ",125866,125982,3566,102652,5074
+2014,"ELLX","Luxembourg","Luxembourg","Luxembourg (ELLX) ",29513,29461,1350,19850,3125
+2014,"ENBR","Bergen","Norway","Bergen (ENBR) ",48778,48949,142,38903,192
+2014,"ENGM","Oslo/ Gardermoen","Norway","Oslo/ Gardermoen (ENGM) ",123839,123307,7944,118898,8168
+2014,"ENHD","Haugesund","Norway","Haugesund (ENHD) ",4086,4110,0,3816,10
+2014,"ENVA","Trondheim","Norway","Trondheim (ENVA) ",28606,28558,222,26805,269
+2014,"ENZV","Stavanger","Norway","Stavanger (ENZV) ",40993,41249,194,29325,189
+2014,"EPBY","Bydgoszcz","Poland","Bydgoszcz (EPBY) ",1892,0,0,749,10
+2014,"EPGD","Gdansk","Poland","Gdansk (EPGD) ",17989,0,0,11462,508
+2014,"EPKK","Krakow - Balice","Poland","Krakow - Balice (EPKK) ",19755,0,0,13137,3208
+2014,"EPKT","Katowice - Pyrzowice","Poland","Katowice - Pyrzowice (EPKT) ",12601,0,0,6676,1530
+2014,"EPLB","Lublin","Poland","Lublin (EPLB) ",1149,0,0,208,0
+2014,"EPLL","Lodz - Lublinek","Poland","Lodz - Lublinek (EPLL) ",2013,0,0,628,28
+2014,"EPMO","Warszawa/ Modlin","Poland","Warszawa/ Modlin (EPMO) ",6033,0,0,5564,140
+2014,"EPPO","Poznan - Lawica","Poland","Poznan - Lawica (EPPO) ",9102,0,0,5065,159
+2014,"EPRA","Radom","Poland","Radom (EPRA) ",320,0,0,0,0
+2014,"EPRZ","Rzeszow - Jasionka","Poland","Rzeszow - Jasionka (EPRZ) ",4354,0,0,2096,15
+2014,"EPSC","Szczecin - Goleniów","Poland","Szczecin - Goleniów (EPSC) ",1977,0,0,907,40
+2014,"EPWA","Warszawa/ Chopina","Poland","Warszawa/ Chopina (EPWA) ",69353,0,0,47396,10863
+2014,"EPWR","Wroclaw/ Strachowice","Poland","Wroclaw/ Strachowice (EPWR) ",11826,0,0,6967,185
+2014,"EPZG","Zielona Gora - Babimost","Poland","Zielona Gora - Babimost (EPZG) ",428,0,0,1,0
+2014,"ESSA","Stockholm/ Arlanda","Sweden","Stockholm/ Arlanda (ESSA) ",114131,113369,6520,87542,5961
+2014,"ESSB","Stockholm/ Bromma","Sweden","Stockholm/ Bromma (ESSB) ",25291,0,0,11227,420
+2014,"EVRA","Riga","Latvia","Riga (EVRA) ",32689,32924,30,27462,748
+2014,"EYKA","Kaunas","Lithuania","Kaunas (EYKA) ",3319,0,0,2257,26
+2014,"EYPA","Palanga","Lithuania","Palanga (EYPA) ",1225,0,0,976,0
+2014,"EYSA","Šiauliai","Lithuania","Šiauliai (EYSA) ",1241,0,0,1,0
+2014,"EYVI","Vilnius","Lithuania","Vilnius (EYVI) ",18221,0,0,10638,335
+2014,"GCFV","Fuerteventura","Spain","Fuerteventura (GCFV) ",19567,0,0,13885,1059
+2014,"GCGM","La Gomera","Spain","La Gomera (GCGM) ",714,0,0,692,0
+2014,"GCHI","Hierro","Spain","Hierro (GCHI) ",1680,0,0,1596,53
+2014,"GCLA","La Palma","Spain","La Palma (GCLA) ",7171,0,0,5267,36
+2014,"GCLP","Gran Canaria","Spain","Gran Canaria (GCLP) ",49996,49351,16984,36392,15030
+2014,"GCRR","Lanzarote","Spain","Lanzarote (GCRR) ",24202,0,0,18405,2637
+2014,"GCTS","Tenerife Sur/Reina Sofia","Spain","Tenerife Sur/Reina Sofia (GCTS) ",29303,29368,3894,21434,3723
+2014,"GCXO","Tenerife North","Spain","Tenerife North (GCXO) ",24591,23903,2061,19845,2121
+2014,"GEML","Melilla","Spain","Melilla (GEML) ",4264,0,0,3370,0
+2014,"LATI","Tirana","Albania","Tirana (LATI) ",9029,0,0,5089,676
+2014,"LBSF","Sofia","Bulgaria","Sofia (LBSF) ",20586,0,0,10768,2161
+2014,"LCLK","Larnaca","Cyprus","Larnaca (LCLK) ",21755,0,0,11128,3728
+2014,"LCPH","Paphos","Cyprus","Paphos (LCPH) ",6823,0,0,4881,1186
+2014,"LDZA","Zagreb","Croatia","Zagreb (LDZA) ",18037,0,0,5069,693
+2014,"LDZL","Lucko","Croatia","Lucko (LDZL) ",209,0,0,0,0
+2014,"LEAB","Albacete","Spain","Albacete (LEAB) ",461,0,0,0,0
+2014,"LEAL","Alicante","Spain","Alicante (LEAL) ",35610,35638,7526,28541,9161
+2014,"LEAM","Almeria","Spain","Almeria (LEAM) ",4315,0,0,3624,1067
+2014,"LEAS","Asturias","Spain","Asturias (LEAS) ",5527,0,0,4981,521
+2014,"LEBA","Cordoba","Spain","Cordoba (LEBA) ",112,0,0,0,0
+2014,"LEBB","Bilbao","Spain","Bilbao (LEBB) ",19591,19572,2497,17876,3390
+2014,"LEBG","Burgos","Spain","Burgos (LEBG) ",487,0,0,216,0
+2014,"LEBL","Barcelona","Spain","Barcelona (LEBL) ",141892,141635,45414,116010,50825
+2014,"LEBZ","Badajoz","Spain","Badajoz (LEBZ) ",865,0,0,644,10
+2014,"LECO","La Coruna","Spain","La Coruna (LECO) ",5410,0,0,4626,682
+2014,"LECU","Madrid/Cuatro Viento","Spain","Madrid/Cuatro Viento (LECU) ",1047,0,0,0,0
+2014,"LEDA","Lleida/Alguaire","Spain","Lleida/Alguaire (LEDA) ",267,0,0,211,9
+2014,"LEGE","Gerona","Spain","Gerona (LEGE) ",8665,0,0,7048,165
+2014,"LEGR","Granada","Spain","Granada (LEGR) ",3954,0,0,3213,211
+2014,"LEGT","Madrid/Getafe","Spain","Madrid/Getafe (LEGT) ",1527,0,0,0,0
+2014,"LEIB","Ibiza","Spain","Ibiza (LEIB) ",28709,28393,1041,19826,3118
+2014,"LEIZ","Abad","Spain","Abad (LEIZ) ",142,0,0,0,0
+2014,"LEJR","Jerez De La Frontera","Spain","Jerez De La Frontera (LEJR) ",6052,0,0,2629,262
+2014,"LELC","Murcia San Javier","Spain","Murcia San Javier (LELC) ",4229,0,0,2955,437
+2014,"LELL","Sabadell","Spain","Sabadell (LELL) ",1071,0,0,0,0
+2014,"LELN","Leon","Spain","Leon (LELN) ",432,0,0,273,0
+2014,"LEMD","Madrid/ Barajas","Spain","Madrid/ Barajas (LEMD) ",171310,170297,115319,133395,107840
+2014,"LEMG","Málaga","Spain","Málaga (LEMG) ",52827,52605,15556,41187,16515
+2014,"LEMH","Mahon","Spain","Mahon (LEMH) ",12166,0,0,9076,517
+2014,"LEMO","Seville/Moron","Spain","Seville/Moron (LEMO) ",2536,0,0,2,0
+2014,"LEPA","Palma de Mallorca","Spain","Palma de Mallorca (LEPA) ",86220,85846,31268,68745,30929
+2014,"LEPP","Noain Pamplona","Spain","Noain Pamplona (LEPP) ",1708,0,0,1307,21
+2014,"LERJ","Logrono","Spain","Logrono (LERJ) ",339,0,0,282,0
+2014,"LERS","Reus","Spain","Reus (LERS) ",4048,0,0,2341,312
+2014,"LERT","Rota","Spain","Rota (LERT) ",2547,0,0,0,0
+2014,"LESA","Salamanca Matalan","Spain","Salamanca Matalan (LESA) ",2184,0,0,206,28
+2014,"LESB","Son Bonet","Spain","Son Bonet (LESB) ",248,0,0,0,0
+2014,"LESJ","Palma/Son San Juan","Spain","Palma/Son San Juan (LESJ) ",175,0,0,0,0
+2014,"LESO","San Sebastian","Spain","San Sebastian (LESO) ",2357,0,0,1958,147
+2014,"LEST","Santiago","Spain","Santiago (LEST) ",8955,0,0,6954,840
+2014,"LETO","Madrid/Torrejon","Spain","Madrid/Torrejon (LETO) ",858,0,0,0,0
+2014,"LEVC","Valencia","Spain","Valencia (LEVC) ",24059,24010,693,19494,1898
+2014,"LEVD","Valladolid","Spain","Valladolid (LEVD) ",1644,0,0,920,60
+2014,"LEVT","Vitoria","Spain","Vitoria (LEVT) ",2883,0,0,2550,210
+2014,"LEVX","Vigo","Spain","Vigo (LEVX) ",3887,0,0,2375,172
+2014,"LEXJ","Santander","Spain","Santander (LEXJ) ",4125,0,0,3606,135
+2014,"LEZG","Zaragoza","Spain","Zaragoza (LEZG) ",3588,0,0,1943,94
+2014,"LEZL","Sevilla","Spain","Sevilla (LEZL) ",17496,17380,702,13696,1839
+2014,"LFAQ","Albert-Bray","France","Albert-Bray (LFAQ) ",629,0,0,0,0
+2014,"LFBA","Agen-La Garenne","France","Agen-La Garenne (LFBA) ",2355,0,0,476,0
+2014,"LFBD","Bordeaux-Mérignac","France","Bordeaux-Mérignac (LFBD) ",28841,0,0,21286,1923
+2014,"LFBE","Bergerac-Roumanière","France","Bergerac-Roumanière (LFBE) ",2470,0,0,1061,34
+2014,"LFBH","La Rochelle-Ile de Ré","France","La Rochelle-Ile de Ré (LFBH) ",2917,0,0,1318,11
+2014,"LFBI","Poitiers-Biard","France","Poitiers-Biard (LFBI) ",2788,0,0,978,37
+2014,"LFBL","Limoges-Bellegarde","France","Limoges-Bellegarde (LFBL) ",3501,0,0,957,141
+2014,"LFBO","Toulouse-Blagnac","France","Toulouse-Blagnac (LFBO) ",44481,0,0,33793,7696
+2014,"LFBP","Pau-Pyrénées","France","Pau-Pyrénées (LFBP) ",5477,0,0,3546,22
+2014,"LFBT","Tarbes-Lourdes Pyrénées","France","Tarbes-Lourdes Pyrénées (LFBT) ",3648,0,0,1517,28
+2014,"LFBZ","Biarritz-Bayonne-Anglet","France","Biarritz-Bayonne-Anglet (LFBZ) ",6309,0,0,4472,936
+2014,"LFCR","Rodez-Marcillac","France","Rodez-Marcillac (LFCR) ",1954,0,0,808,13
+2014,"LFGJ","Dôle-Tavaux","France","Dôle-Tavaux (LFGJ) ",1712,0,0,347,33
+2014,"LFJL","Metz-Nancy-Lorraine","France","Metz-Nancy-Lorraine (LFJL) ",2968,0,0,1110,25
+2014,"LFJR","Angers-Marcé","France","Angers-Marcé (LFJR) ",841,0,0,38,3
+2014,"LFKB","Bastia-Poretta","France","Bastia-Poretta (LFKB) ",7460,0,0,2879,293
+2014,"LFKC","Calvi-Sainte-Catherine","France","Calvi-Sainte-Catherine (LFKC) ",3243,0,0,904,1528
+2014,"LFKF","Figari-Sud Corse","France","Figari-Sud Corse (LFKF) ",4813,0,0,773,367
+2014,"LFKJ","Ajaccio-Napoléon-Bonaparte","France","Ajaccio-Napoléon-Bonaparte (LFKJ) ",8332,0,0,3022,164
+2014,"LFLB","Chambéry-Aix-les-Bains","France","Chambéry-Aix-les-Bains (LFLB) ",3319,0,0,492,1465
+2014,"LFLC","Clermont-Ferrand-Auvergne","France","Clermont-Ferrand-Auvergne (LFLC) ",6641,0,0,3371,100
+2014,"LFLI","Annemasse","France","Annemasse (LFLI) ",1011,0,0,0,0
+2014,"LFLL","Lyon-Saint-Exupéry","France","Lyon-Saint-Exupéry (LFLL) ",54044,54127,5132,42816,6596
+2014,"LFLP","Annecy-Meythet","France","Annecy-Meythet (LFLP) ",1432,0,0,1,0
+2014,"LFLS","Grenoble-Isère","France","Grenoble-Isère (LFLS) ",3115,0,0,880,101
+2014,"LFLX","Châteauroux-Déols","France","Châteauroux-Déols (LFLX) ",1362,0,0,27,45
+2014,"LFLY","Lyon-Bron","France","Lyon-Bron (LFLY) ",4481,0,0,2,0
+2014,"LFMD","Cannes-Mandelieu","France","Cannes-Mandelieu (LFMD) ",6543,0,0,8,5
+2014,"LFMH","Saint-Etienne-Bouthéon","France","Saint-Etienne-Bouthéon (LFMH) ",1390,0,0,277,89
+2014,"LFMI","Istres-Le Tubé","France","Istres-Le Tubé (LFMI) ",1503,0,0,0,0
+2014,"LFMK","Carcassonne-Salvaza","France","Carcassonne-Salvaza (LFMK) ",2567,0,0,1366,178
+2014,"LFML","Marseille-Provence","France","Marseille-Provence (LFML) ",48673,0,0,29898,5088
+2014,"LFMN","Nice-Côte d’Azur","France","Nice-Côte d’Azur (LFMN) ",68320,0,0,43548,21684
+2014,"LFMP","Perpignan-Rivesaltes","France","Perpignan-Rivesaltes (LFMP) ",3859,0,0,1919,75
+2014,"LFMT","Montpellier-Méditerranée","France","Montpellier-Méditerranée (LFMT) ",13006,0,0,6801,932
+2014,"LFMU","Béziers-Vias","France","Béziers-Vias (LFMU) ",2536,0,0,842,53
+2014,"LFMV","Avignon-Caumont","France","Avignon-Caumont (LFMV) ",2570,0,0,48,0
+2014,"LFOB","Beauvais-Tillé","France","Beauvais-Tillé (LFOB) ",13574,0,0,12302,1156
+2014,"LFOH","Le Havre-Octeville","France","Le Havre-Octeville (LFOH) ",731,0,0,22,0
+2014,"LFOK","Châlons-Vatry","France","Châlons-Vatry (LFOK) ",1489,0,0,370,109
+2014,"LFOT","Tours-Val de Loire","France","Tours-Val de Loire (LFOT) ",1569,0,0,603,49
+2014,"LFPB","Paris-Le Bourget","France","Paris-Le Bourget (LFPB) ",27193,0,0,61,5
+2014,"LFPG","Paris-Charles-de-Gaulle","France","Paris-Charles-de-Gaulle (LFPG) ",235747,235806,115346,183258,101333
+2014,"LFPN","Toussus-le-Noble","France","Toussus-le-Noble (LFPN) ",5125,0,0,0,0
+2014,"LFPO","Paris-Orly","France","Paris-Orly (LFPO) ",115520,0,0,83753,31403
+2014,"LFQQ","Lille-Lesquin","France","Lille-Lesquin (LFQQ) ",11052,0,0,7023,322
+2014,"LFRB","Brest-Bretagne","France","Brest-Bretagne (LFRB) ",7429,0,0,5494,512
+2014,"LFRD","Dinard-Pleurtuit-Saint-Malo","France","Dinard-Pleurtuit-Saint-Malo (LFRD) ",1655,0,0,370,8
+2014,"LFRG","Deauville-Normandie","France","Deauville-Normandie (LFRG) ",1696,0,0,262,28
+2014,"LFRH","Lorient-Lann Bihoué","France","Lorient-Lann Bihoué (LFRH) ",3291,0,0,983,71
+2014,"LFRK","Caen-Carpiquet","France","Caen-Carpiquet (LFRK) ",2586,0,0,964,7
+2014,"LFRM","Le Mans","France","Le Mans (LFRM) ",686,0,0,4,0
+2014,"LFRN","Rennes-Saint-Jacques","France","Rennes-Saint-Jacques (LFRN) ",7944,0,0,4612,304
+2014,"LFRO","Lannion","France","Lannion (LFRO) ",703,0,0,370,0
+2014,"LFRQ","Quimper-Pluguffan","France","Quimper-Pluguffan (LFRQ) ",1388,0,0,1013,83
+2014,"LFRS","Nantes-Atlantique","France","Nantes-Atlantique (LFRS) ",25587,0,0,19951,4637
+2014,"LFRZ","Saint-Nazaire-Montoir","France","Saint-Nazaire-Montoir (LFRZ) ",1381,0,0,248,0
+2014,"LFSB","Bâle-Mulhouse","France","Bâle-Mulhouse (LFSB) ",37950,37996,2103,28286,3691
+2014,"LFSL","Brive-Souillac","France","Brive-Souillac (LFSL) ",1651,0,0,594,8
+2014,"LFST","Strasbourg-Entzheim","France","Strasbourg-Entzheim (LFST) ",11330,0,0,8790,142
+2014,"LFTH","Hyères-Le Palyvestre","France","Hyères-Le Palyvestre (LFTH) ",5269,0,0,2313,383
+2014,"LFTW","Nîmes-Garons","France","Nîmes-Garons (LFTW) ",1881,0,0,668,20
+2014,"LGAV","Athens","Greece","Athens (LGAV) ",74401,74391,24744,56868,18567
+2014,"LGIR","Heraklion","Greece","Heraklion (LGIR) ",23387,0,0,12127,3512
+2014,"LGKF","Kefallinia","Greece","Kefallinia (LGKF) ",2347,0,0,1526,204
+2014,"LGKO","Kos","Greece","Kos (LGKO) ",8932,0,0,5413,2011
+2014,"LGKR","Corfu","Greece","Corfu (LGKR) ",10262,0,0,6442,4669
+2014,"LGMK","Mikonos","Greece","Mikonos (LGMK) ",5460,0,0,2767,760
+2014,"LGPZ","Aktion","Greece","Aktion (LGPZ) ",1929,0,0,773,106
+2014,"LGRP","Rodos","Greece","Rodos (LGRP) ",18287,0,0,10689,2417
+2014,"LGSA","Khania/Souda","Greece","Khania/Souda (LGSA) ",12185,0,0,6806,1318
+2014,"LGSK","Skiathos","Greece","Skiathos (LGSK) ",1575,0,0,1073,58
+2014,"LGSR","Santorini","Greece","Santorini (LGSR) ",5616,0,0,3646,635
+2014,"LGTS","Thessaloniki","Greece","Thessaloniki (LGTS) ",24567,0,0,16888,4389
+2014,"LGZA","Zakinthos","Greece","Zakinthos (LGZA) ",4658,0,0,2708,1309
+2014,"LHBP","Budapest/ Ferihegy","Hungary","Budapest/ Ferihegy (LHBP) ",43194,43379,6235,32346,5336
+2014,"LIBR","Brindisi","Italy","Brindisi (LIBR) ",8699,0,0,7690,1373
+2014,"LICC","Catania","Italy","Catania (LICC) ",30385,30082,86800,26571,24679
+2014,"LIMC","Milan/ Malpensa","Italy","Milan/ Malpensa (LIMC) ",83325,80791,46367,60293,33468
+2014,"LIME","Bergamo","Italy","Bergamo (LIME) ",33713,33315,24251,27140,20052
+2014,"LIML","Milan/ Linate","Italy","Milan/ Linate (LIML) ",55808,45210,18235,44568,19457
+2014,"LIPH","Treviso","Italy","Treviso (LIPH) ",8302,0,0,6842,7302
+2014,"LIPZ","Venice","Italy","Venice (LIPZ) ",38872,38931,64065,29564,19583
+2014,"LIRA","Rome/Ciampino","Italy","Rome/Ciampino (LIRA) ",26182,0,0,16415,15082
+2014,"LIRF","Rome/Fiumicino","Italy","Rome/Fiumicino (LIRF) ",156074,156105,323263,129376,281329
+2014,"LIRP","Pisa San Giusto","Italy","Pisa San Giusto (LIRP) ",20773,0,0,15783,24684
+2014,"LJLJ","Ljubljana","Slovenia","Ljubljana (LJLJ) ",13053,0,0,2134,160
+2014,"LJMB","Maribor","Slovenia","Maribor (LJMB) ",674,0,0,47,8
+2014,"LJPZ","Portorož","Slovenia","Portorož (LJPZ) ",609,0,0,0,0
+2014,"LKKV","Karlovy Vary","Czech Republic","Karlovy Vary (LKKV) ",1026,0,0,262,5
+2014,"LKMT","Ostrava","Czech Republic","Ostrava (LKMT) ",3090,0,0,1422,7
+2014,"LKPR","Prague","Czech Republic","Prague (LKPR) ",60582,60301,15514,45136,25482
+2014,"LKTB","Brno-Turany","Czech Republic","Brno-Turany (LKTB) ",3562,0,0,1511,29
+2014,"LMML","Malta","Malta","Malta (LMML) ",19275,19513,1579,15131,2096
+2014,"LOWG","Graz","Austria","Graz (LOWG) ",9136,0,0,5928,99
+2014,"LOWI","Innsbruck","Austria","Innsbruck (LOWI) ",8960,0,0,5198,1107
+2014,"LOWK","Klagenfurt","Austria","Klagenfurt (LOWK) ",3815,0,0,1916,0
+2014,"LOWL","Linz","Austria","Linz (LOWL) ",8137,0,0,4705,231
+2014,"LOWS","Salzburg","Austria","Salzburg (LOWS) ",14692,0,0,8359,2754
+2014,"LOWW","Vienna","Austria","Vienna (LOWW) ",123591,0,0,102042,46507
+2014,"LPAZ","Santa Maria","Portugal","Santa Maria (LPAZ) ",1290,0,0,2,0
+2014,"LPCS","Cascais","Portugal","Cascais (LPCS) ",1262,0,0,0,0
+2014,"LPFL","Flores","Portugal","Flores (LPFL) ",591,0,0,0,0
+2014,"LPFR","Faro","Portugal","Faro (LPFR) ",21982,0,0,17139,3066
+2014,"LPHR","Horta","Portugal","Horta (LPHR) ",2015,0,0,288,86
+2014,"LPMA","Madeira","Portugal","Madeira (LPMA) ",10806,0,0,7367,3713
+2014,"LPPD","Ponta Delgada","Portugal","Ponta Delgada (LPPD) ",6025,0,0,340,47
+2014,"LPPR","Porto","Portugal","Porto (LPPR) ",31699,0,0,27672,13114
+2014,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1593,0,0,240,33
+2014,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",78280,0,0,68967,63509
+2014,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5664,0,0,2349,96
+2014,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1934,0,0,11,0
+2014,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",45620,0,0,35219,6698
+2014,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",90563,90251,21725,61576,18591
+2014,"LSGS","Sion","Switzerland","Sion (LSGS) ",2740,0,0,0,0
+2014,"LSZH","Zürich","Switzerland","Zürich (LSZH) ",128685,128659,242097,99312,221339
+2014,"LTAC","Ankara/ Esenboga","Turkey","Ankara/ Esenboga (LTAC) ",44708,0,0,29385,5628
+2014,"LTAI","Antalya","Turkey","Antalya (LTAI) ",86288,0,0,24310,25964
+2014,"LTBA","Istanbul/ Atatürk","Turkey","Istanbul/ Atatürk (LTBA) ",214633,0,0,152698,513789
+2014,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",37504,0,0,11718,6367
+2014,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",89852,0,0,22726,37865
+2014,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",9639,0,0,2720,366
+2014,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",6440,0,0,3538,139
+2014,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",31079,0,0,17572,2406
+2014,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",5049,0,0,1446,379
+2014,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",8935,0,0,4564,579
+2014,"UDYZ","Zvartnots","Armenia","Zvartnots (UDYZ) ",10458,0,0,941,176
+2014,"UGTB","Tbilisi","Georgia","Tbilisi (UGTB) ",10053,0,0,2960,2448
+2014,"UKBB","Kiev/Boryspil","Ukraine","Kiev/Boryspil (UKBB) ",36302,0,0,6856,953
+2014,"EVVA","Ventspils","Latvia","Ventspils (EVVA) ",10,0,0,0,0
+2014,"LERE","Valencia/Requena","Spain","Valencia/Requena (LERE) ",282,0,0,0,0
+2014,"EVLA","Liepaja","Latvia","Liepaja (EVLA) ",11,0,0,0,0
+2015,"EBAW","Antwerp","Belgium","Antwerp (EBAW) ",8434,0,0,689,36
+2015,"EBBR","Brussels","Belgium","Brussels (EBBR) ",116654,119059,78175,91443,66521
+2015,"EBCI","Charleroi","Belgium","Charleroi (EBCI) ",24074,23838,1712,21454,2718
+2015,"EBLG","Liège","Belgium","Liège (EBLG) ",16345,0,0,2412,2058
+2015,"EBOS","Ostend-Bruges","Belgium","Ostend-Bruges (EBOS) ",2717,0,0,925,64
+2015,"EDDB","Berlin/ Schoenefeld","Germany","Berlin/ Schoenefeld (EDDB) ",37129,0,0,24540,9005
+2015,"EDDC","Dresden","Germany","Dresden (EDDC) ",11397,0,0,8640,106
+2015,"EDDE","Erfurt","Germany","Erfurt (EDDE) ",2508,0,0,733,19
+2015,"EDDF","Frankfurt","Germany","Frankfurt (EDDF) ",234012,0,0,181700,215667
+2015,"EDDG","Muenster-Osnabrueck","Germany","Muenster-Osnabrueck (EDDG) ",8771,0,0,3874,163
+2015,"EDDH","Hamburg","Germany","Hamburg (EDDH) ",75164,0,0,60864,16456
+2015,"EDDK","Cologne-Bonn","Germany","Cologne-Bonn (EDDK) ",62726,0,0,39158,13588
+2015,"EDDL","Dusseldorf","Germany","Dusseldorf (EDDL) ",104775,0,0,84373,46470
+2015,"EDDM","Munich","Germany","Munich (EDDM) ",188598,28486,3966,151205,32428
+2015,"EDDN","Nuremberg","Germany","Nuremberg (EDDN) ",24277,24969,2502,17173,2262
+2015,"EDDP","Leipzig-Halle","Germany","Leipzig-Halle (EDDP) ",31226,31588,6269,16440,3984
+2015,"EDDR","Saarbruecken","Germany","Saarbruecken (EDDR) ",4984,0,0,3169,160
+2015,"EDDS","Stuttgart","Germany","Stuttgart (EDDS) ",59599,0,0,43422,8287
+2015,"EDDT","Berlin/ Tegel","Germany","Berlin/ Tegel (EDDT) ",91161,0,0,82392,48501
+2015,"EDDV","Hanover","Germany","Hanover (EDDV) ",31228,32214,2967,21998,3023
+2015,"EDDW","Bremen","Germany","Bremen (EDDW) ",16986,17692,379,11857,885
+2015,"EETN","Tallinn","Estonia","Tallinn (EETN) ",18584,14556,90,8342,331
+2015,"EETU","Tartu","Estonia","Tartu (EETU) ",642,0,0,321,2
+2015,"EFHK","Helsinki/ Vantaa","Finland","Helsinki/ Vantaa (EFHK) ",84598,85850,12910,74583,11861
+2015,"EGAA","Belfast/Aldergrove","United Kingdom","Belfast/Aldergrove (EGAA) ",20079,0,0,14440,3016
+2015,"EGAC","Belfast/City Airport","United Kingdom","Belfast/City Airport (EGAC) ",20903,0,0,19242,1888
+2015,"EGAE","Londonderry/Eglinton","United Kingdom","Londonderry/Eglinton (EGAE) ",1093,0,0,959,176
+2015,"EGBB","Birmingham","United Kingdom","Birmingham (EGBB) ",48603,47161,9065,35280,8742
+2015,"EGCC","Manchester","United Kingdom","Manchester (EGCC) ",86507,86540,59852,58432,39392
+2015,"EGGW","London/ Luton","United Kingdom","London/ Luton (EGGW) ",57976,0,0,36682,26427
+2015,"EGHI","Southampton","United Kingdom","Southampton (EGHI) ",19052,0,0,13888,2493
+2015,"EGKB","Biggin Hill","United Kingdom","Biggin Hill (EGKB) ",6377,0,0,0,0
+2015,"EGKK","London/ Gatwick","United Kingdom","London/ Gatwick (EGKK) ",133863,133918,98667,113232,103285
+2015,"EGLC","London/ City","United Kingdom","London/ City (EGLC) ",42272,0,0,28440,19344
+2015,"EGLF","Farnborough","United Kingdom","Farnborough (EGLF) ",11805,0,0,3,0
+2015,"EGLL","London/ Heathrow","United Kingdom","London/ Heathrow (EGLL) ",237030,0,0,182186,116255
+2015,"EGNX","East Midlands","United Kingdom","East Midlands (EGNX) ",32736,0,0,14996,2005
+2015,"EGPD","Aberdeen","United Kingdom","Aberdeen (EGPD) ",33756,0,0,15664,1016
+2015,"EGPF","Glasgow","United Kingdom","Glasgow (EGPF) ",43185,0,0,26458,6370
+2015,"EGPH","Edinburgh","United Kingdom","Edinburgh (EGPH) ",56756,54455,10636,43593,11426
+2015,"EGSS","London/ Stansted","United Kingdom","London/ Stansted (EGSS) ",83785,84070,46868,70025,54107
+2015,"EHAM","Amsterdam/ Schiphol","Netherlands","Amsterdam/ Schiphol (EHAM) ",230919,0,0,174600,291106
+2015,"EHBK","Maastricht-Aachen","Netherlands","Maastricht-Aachen (EHBK) ",4708,0,0,620,49
+2015,"EHGG","Groningen","Netherlands","Groningen (EHGG) ",4597,0,0,193,22
+2015,"EHRD","Rotterdam","Netherlands","Rotterdam (EHRD) ",12755,0,0,2189,900
+2015,"EICK","Cork","Ireland","Cork (EICK) ",11060,0,0,6271,395
+2015,"EICM","Galway Carnmore","Ireland","Galway Carnmore (EICM) ",55,0,0,0,0
+2015,"EIDL","Donegal","Ireland","Donegal (EIDL) ",951,0,0,81,0
+2015,"EIDW","Dublin","Ireland","Dublin (EIDW) ",98318,98957,52880,76481,50643
+2015,"EIKN","Connaught","Ireland","Connaught (EIKN) ",2720,0,0,2560,270
+2015,"EIKY","Kerry/Farranfore","Ireland","Kerry/Farranfore (EIKY) ",1977,0,0,912,87
+2015,"EINN","Shannon","Ireland","Shannon (EINN) ",10267,0,0,5596,826
+2015,"EISG","Sligo","Ireland","Sligo (EISG) ",19,0,0,0,0
+2015,"EIWF","Waterford","Ireland","Waterford (EIWF) ",805,0,0,106,20
+2015,"EIWT","Weston","Ireland","Weston (EIWT) ",440,0,0,0,0
+2015,"EKCH","Copenhagen/ Kastrup","Denmark","Copenhagen/ Kastrup (EKCH) ",127381,127525,3616,106767,5848
+2015,"ELLX","Luxembourg","Luxembourg","Luxembourg (ELLX) ",30416,30337,502,20393,2293
+2015,"ENBR","Bergen","Norway","Bergen (ENBR) ",46018,46156,296,37596,211
+2015,"ENGM","Oslo/ Gardermoen","Norway","Oslo/ Gardermoen (ENGM) ",120771,120432,7765,115838,8592
+2015,"ENHD","Haugesund","Norway","Haugesund (ENHD) ",3839,0,0,3548,3
+2015,"ENVA","Trondheim","Norway","Trondheim (ENVA) ",28284,28273,30,26374,20
+2015,"ENZV","Stavanger","Norway","Stavanger (ENZV) ",38210,38435,469,27891,494
+2015,"EPBY","Bydgoszcz","Poland","Bydgoszcz (EPBY) ",1791,0,0,878,12
+2015,"EPGD","Gdansk","Poland","Gdansk (EPGD) ",18314,0,0,15277,1172
+2015,"EPKK","Krakow - Balice","Poland","Krakow - Balice (EPKK) ",19688,0,0,16029,5032
+2015,"EPKT","Katowice - Pyrzowice","Poland","Katowice - Pyrzowice (EPKT) ",13559,0,0,7699,1313
+2015,"EPLB","Lublin","Poland","Lublin (EPLB) ",1337,0,0,425,4
+2015,"EPLL","Lodz - Lublinek","Poland","Lodz - Lublinek (EPLL) ",2535,0,0,694,93
+2015,"EPMO","Warszawa/ Modlin","Poland","Warszawa/ Modlin (EPMO) ",8833,0,0,8137,991
+2015,"EPPO","Poznan - Lawica","Poland","Poznan - Lawica (EPPO) ",8900,0,0,5649,259
+2015,"EPRA","Radom","Poland","Radom (EPRA) ",425,0,0,55,0
+2015,"EPRZ","Rzeszow - Jasionka","Poland","Rzeszow - Jasionka (EPRZ) ",4205,0,0,3014,129
+2015,"EPSC","Szczecin - Goleniów","Poland","Szczecin - Goleniów (EPSC) ",2337,0,0,1658,9
+2015,"EPWA","Warszawa/ Chopina","Poland","Warszawa/ Chopina (EPWA) ",70206,65830,17310,54608,18374
+2015,"EPWR","Wroclaw/ Strachowice","Poland","Wroclaw/ Strachowice (EPWR) ",11603,0,0,8906,623
+2015,"EPZG","Zielona Gora - Babimost","Poland","Zielona Gora - Babimost (EPZG) ",505,0,0,1,0
+2015,"ESSA","Stockholm/ Arlanda","Sweden","Stockholm/ Arlanda (ESSA) ",113045,111112,4527,91076,5771
+2015,"ESSB","Stockholm/ Bromma","Sweden","Stockholm/ Bromma (ESSB) ",26139,0,0,11798,566
+2015,"EVRA","Riga","Latvia","Riga (EVRA) ",33861,0,0,28427,500
+2015,"EYKA","Kaunas","Lithuania","Kaunas (EYKA) ",3417,0,0,2267,44
+2015,"EYPA","Palanga","Lithuania","Palanga (EYPA) ",1361,0,0,1156,0
+2015,"EYSA","Šiauliai","Lithuania","Šiauliai (EYSA) ",1255,0,0,0,0
+2015,"EYVI","Vilnius","Lithuania","Vilnius (EYVI) ",19280,0,0,12750,646
+2015,"GCFV","Fuerteventura","Spain","Fuerteventura (GCFV) ",19221,19100,193,13359,1849
+2015,"GCGM","La Gomera","Spain","La Gomera (GCGM) ",730,0,0,688,0
+2015,"GCHI","Hierro","Spain","Hierro (GCHI) ",1654,0,0,1518,13
+2015,"GCLA","La Palma","Spain","La Palma (GCLA) ",7572,0,0,5058,34
+2015,"GCLP","Gran Canaria","Spain","Gran Canaria (GCLP) ",48771,47905,15868,34416,14936
+2015,"GCRR","Lanzarote","Spain","Lanzarote (GCRR) ",24654,20706,1005,16979,1929
+2015,"GCTS","Tenerife Sur/Reina Sofia","Spain","Tenerife Sur/Reina Sofia (GCTS) ",28263,28191,5155,18865,4052
+2015,"GCXO","Tenerife North","Spain","Tenerife North (GCXO) ",24767,23954,1760,19182,2989
+2015,"GEML","Melilla","Spain","Melilla (GEML) ",4071,0,0,3659,21
+2015,"LATI","Tirana","Albania","Tirana (LATI) ",10453,0,0,5079,733
+2015,"LBSF","Sofia","Bulgaria","Sofia (LBSF) ",21725,21317,921,10894,1947
+2015,"LCLK","Larnaca","Cyprus","Larnaca (LCLK) ",21631,0,0,9683,3596
+2015,"LCPH","Paphos","Cyprus","Paphos (LCPH) ",7451,0,0,5252,1811
+2015,"LDZA","Zagreb","Croatia","Zagreb (LDZA) ",19077,0,0,6062,1192
+2015,"LDZL","Lucko","Croatia","Lucko (LDZL) ",132,0,0,0,0
+2015,"LEAB","Albacete","Spain","Albacete (LEAB) ",465,0,0,4,0
+2015,"LEAL","Alicante","Spain","Alicante (LEAL) ",36952,36812,8762,29269,11539
+2015,"LEAM","Almeria","Spain","Almeria (LEAM) ",4218,0,0,3492,188
+2015,"LEAS","Asturias","Spain","Asturias (LEAS) ",4994,0,0,4572,650
+2015,"LEBA","Cordoba","Spain","Cordoba (LEBA) ",100,0,0,0,0
+2015,"LEBB","Bilbao","Spain","Bilbao (LEBB) ",20376,20308,2181,19257,4663
+2015,"LEBG","Burgos","Spain","Burgos (LEBG) ",252,0,0,80,0
+2015,"LEBL","Barcelona","Spain","Barcelona (LEBL) ",144402,143991,72315,122026,94484
+2015,"LEBZ","Badajoz","Spain","Badajoz (LEBZ) ",541,0,0,377,17
+2015,"LECO","La Coruna","Spain","La Coruna (LECO) ",5261,0,0,4616,1225
+2015,"LECU","Madrid/Cuatro Viento","Spain","Madrid/Cuatro Viento (LECU) ",1419,0,0,0,0
+2015,"LEDA","Lleida/Alguaire","Spain","Lleida/Alguaire (LEDA) ",258,0,0,188,0
+2015,"LEGE","Gerona","Spain","Gerona (LEGE) ",7049,0,0,5081,301
+2015,"LEGR","Granada","Spain","Granada (LEGR) ",4385,0,0,3620,254
+2015,"LEGT","Madrid/Getafe","Spain","Madrid/Getafe (LEGT) ",1401,0,0,0,0
+2015,"LEIB","Ibiza","Spain","Ibiza (LEIB) ",30740,30431,499,21665,2283
+2015,"LEIZ","Abad","Spain","Abad (LEIZ) ",116,0,0,0,0
+2015,"LEJR","Jerez De La Frontera","Spain","Jerez De La Frontera (LEJR) ",6889,0,0,3037,441
+2015,"LELC","Murcia San Javier","Spain","Murcia San Javier (LELC) ",4043,0,0,2846,749
+2015,"LELL","Sabadell","Spain","Sabadell (LELL) ",848,0,0,0,0
+2015,"LELN","Leon","Spain","Leon (LELN) ",523,0,0,357,12
+2015,"LEMD","Madrid/ Barajas","Spain","Madrid/ Barajas (LEMD) ",183331,181683,111269,143026,142737
+2015,"LEMG","Málaga","Spain","Málaga (LEMG) ",53711,53402,17174,41317,21496
+2015,"LEMH","Mahon","Spain","Mahon (LEMH) ",14190,0,0,10849,747
+2015,"LEMO","Seville/Moron","Spain","Seville/Moron (LEMO) ",2747,0,0,0,0
+2015,"LEPA","Palma de Mallorca","Spain","Palma de Mallorca (LEPA) ",89081,87950,19745,70175,31521
+2015,"LEPP","Noain Pamplona","Spain","Noain Pamplona (LEPP) ",1782,0,0,1300,1
+2015,"LERE","Valencia/Requena","Spain","Valencia/Requena (LERE) ",1025,0,0,0,0
+2015,"LERJ","Logrono","Spain","Logrono (LERJ) ",351,0,0,260,0
+2015,"LERS","Reus","Spain","Reus (LERS) ",3127,0,0,1465,315
+2015,"LERT","Rota","Spain","Rota (LERT) ",3084,0,0,0,0
+2015,"LESA","Salamanca Matalan","Spain","Salamanca Matalan (LESA) ",1295,0,0,139,3
+2015,"LESB","Son Bonet","Spain","Son Bonet (LESB) ",233,0,0,0,0
+2015,"LESJ","Palma/Son San Juan","Spain","Palma/Son San Juan (LESJ) ",181,0,0,0,0
+2015,"LESO","San Sebastian","Spain","San Sebastian (LESO) ",2542,0,0,2130,191
+2015,"LEST","Santiago","Spain","Santiago (LEST) ",9526,0,0,7553,1138
+2015,"LETO","Madrid/Torrejon","Spain","Madrid/Torrejon (LETO) ",1014,0,0,1,0
+2015,"LEVC","Valencia","Spain","Valencia (LEVC) ",25462,25359,570,20315,2186
+2015,"LEVD","Valladolid","Spain","Valladolid (LEVD) ",1629,0,0,870,130
+2015,"LEVT","Vitoria","Spain","Vitoria (LEVT) ",3287,0,0,2472,374
+2015,"LEVX","Vigo","Spain","Vigo (LEVX) ",3896,0,0,2329,232
+2015,"LEXJ","Santander","Spain","Santander (LEXJ) ",4402,0,0,3959,219
+2015,"LEZG","Zaragoza","Spain","Zaragoza (LEZG) ",3679,0,0,1548,248
+2015,"LEZL","Sevilla","Spain","Sevilla (LEZL) ",18894,0,0,14484,3305
+2015,"LFAQ","Albert-Bray","France","Albert-Bray (LFAQ) ",508,0,0,0,0
+2015,"LFBA","Agen-La Garenne","France","Agen-La Garenne (LFBA) ",2332,0,0,687,31
+2015,"LFBD","Bordeaux-Mérignac","France","Bordeaux-Mérignac (LFBD) ",30380,0,0,23094,1483
+2015,"LFBE","Bergerac-Roumanière","France","Bergerac-Roumanière (LFBE) ",1931,0,0,945,763
+2015,"LFBH","La Rochelle-Ile de Ré","France","La Rochelle-Ile de Ré (LFBH) ",2468,0,0,1263,232
+2015,"LFBI","Poitiers-Biard","France","Poitiers-Biard (LFBI) ",2589,0,0,1059,171
+2015,"LFBL","Limoges-Bellegarde","France","Limoges-Bellegarde (LFBL) ",3433,0,0,891,312
+2015,"LFBO","Toulouse-Blagnac","France","Toulouse-Blagnac (LFBO) ",44212,0,0,33682,6422
+2015,"LFBP","Pau-Pyrénées","France","Pau-Pyrénées (LFBP) ",5605,0,0,3602,20
+2015,"LFBT","Tarbes-Lourdes Pyrénées","France","Tarbes-Lourdes Pyrénées (LFBT) ",3515,0,0,1421,37
+2015,"LFBZ","Biarritz-Bayonne-Anglet","France","Biarritz-Bayonne-Anglet (LFBZ) ",6305,0,0,4509,648
+2015,"LFCR","Rodez-Marcillac","France","Rodez-Marcillac (LFCR) ",1849,0,0,1034,29
+2015,"LFGJ","Dôle-Tavaux","France","Dôle-Tavaux (LFGJ) ",1734,0,0,396,166
+2015,"LFJL","Metz-Nancy-Lorraine","France","Metz-Nancy-Lorraine (LFJL) ",3191,0,0,1359,25
+2015,"LFJR","Angers-Marcé","France","Angers-Marcé (LFJR) ",948,0,0,40,32
+2015,"LFKB","Bastia-Poretta","France","Bastia-Poretta (LFKB) ",7427,0,0,2907,158
+2015,"LFKC","Calvi-Sainte-Catherine","France","Calvi-Sainte-Catherine (LFKC) ",3030,0,0,768,586
+2015,"LFKF","Figari-Sud Corse","France","Figari-Sud Corse (LFKF) ",5092,0,0,1076,642
+2015,"LFKJ","Ajaccio-Napoléon-Bonaparte","France","Ajaccio-Napoléon-Bonaparte (LFKJ) ",8083,0,0,2814,69
+2015,"LFLB","Chambéry-Aix-les-Bains","France","Chambéry-Aix-les-Bains (LFLB) ",3319,0,0,360,796
+2015,"LFLC","Clermont-Ferrand-Auvergne","France","Clermont-Ferrand-Auvergne (LFLC) ",6541,0,0,3065,103
+2015,"LFLI","Annemasse","France","Annemasse (LFLI) ",1011,0,0,0,0
+2015,"LFLL","Lyon-Saint-Exupéry","France","Lyon-Saint-Exupéry (LFLL) ",54240,54341,6326,42486,6707
+2015,"LFLP","Annecy-Meythet","France","Annecy-Meythet (LFLP) ",1570,0,0,0,0
+2015,"LFLS","Grenoble-Isère","France","Grenoble-Isère (LFLS) ",3006,0,0,582,329
+2015,"LFLX","Châteauroux-Déols","France","Châteauroux-Déols (LFLX) ",1313,0,0,57,35
+2015,"LFLY","Lyon-Bron","France","Lyon-Bron (LFLY) ",4618,0,0,0,0
+2015,"LFMD","Cannes-Mandelieu","France","Cannes-Mandelieu (LFMD) ",6622,0,0,2,10
+2015,"LFMH","Saint-Etienne-Bouthéon","France","Saint-Etienne-Bouthéon (LFMH) ",1400,0,0,315,31
+2015,"LFMI","Istres-Le Tubé","France","Istres-Le Tubé (LFMI) ",1621,0,0,1,0
+2015,"LFMK","Carcassonne-Salvaza","France","Carcassonne-Salvaza (LFMK) ",2635,0,0,1189,229
+2015,"LFML","Marseille-Provence","France","Marseille-Provence (LFML) ",47835,0,0,29262,8511
+2015,"LFMN","Nice-Côte d’Azur","France","Nice-Côte d’Azur (LFMN) ",67976,0,0,42874,17172
+2015,"LFMP","Perpignan-Rivesaltes","France","Perpignan-Rivesaltes (LFMP) ",4159,0,0,2170,75
+2015,"LFMT","Montpellier-Méditerranée","France","Montpellier-Méditerranée (LFMT) ",13459,0,0,6940,798
+2015,"LFMU","Béziers-Vias","France","Béziers-Vias (LFMU) ",2727,0,0,771,151
+2015,"LFMV","Avignon-Caumont","France","Avignon-Caumont (LFMV) ",2645,0,0,56,8
+2015,"LFOB","Beauvais-Tillé","France","Beauvais-Tillé (LFOB) ",14082,0,0,13151,2879
+2015,"LFOH","Le Havre-Octeville","France","Le Havre-Octeville (LFOH) ",449,0,0,5,0
+2015,"LFOK","Châlons-Vatry","France","Châlons-Vatry (LFOK) ",1600,0,0,285,251
+2015,"LFOT","Tours-Val de Loire","France","Tours-Val de Loire (LFOT) ",1542,0,0,587,644
+2015,"LFPB","Paris-Le Bourget","France","Paris-Le Bourget (LFPB) ",26670,0,0,20,25
+2015,"LFPG","Paris-Charles-de-Gaulle","France","Paris-Charles-de-Gaulle (LFPG) ",237947,237839,94443,183680,83568
+2015,"LFPN","Toussus-le-Noble","France","Toussus-le-Noble (LFPN) ",4961,0,0,0,0
+2015,"LFPO","Paris-Orly","France","Paris-Orly (LFPO) ",117101,0,0,77077,26535
+2015,"LFQQ","Lille-Lesquin","France","Lille-Lesquin (LFQQ) ",10301,0,0,7011,430
+2015,"LFRB","Brest-Bretagne","France","Brest-Bretagne (LFRB) ",7590,0,0,5230,139
+2015,"LFRD","Dinard-Pleurtuit-Saint-Malo","France","Dinard-Pleurtuit-Saint-Malo (LFRD) ",1764,0,0,407,21
+2015,"LFRG","Deauville-Normandie","France","Deauville-Normandie (LFRG) ",1876,0,0,494,84
+2015,"LFRH","Lorient-Lann Bihoué","France","Lorient-Lann Bihoué (LFRH) ",3631,0,0,1111,13
+2015,"LFRK","Caen-Carpiquet","France","Caen-Carpiquet (LFRK) ",2496,0,0,987,17
+2015,"LFRM","Le Mans","France","Le Mans (LFRM) ",692,0,0,2,0
+2015,"LFRN","Rennes-Saint-Jacques","France","Rennes-Saint-Jacques (LFRN) ",7459,0,0,3915,64
+2015,"LFRO","Lannion","France","Lannion (LFRO) ",726,0,0,528,20
+2015,"LFRQ","Quimper-Pluguffan","France","Quimper-Pluguffan (LFRQ) ",1342,0,0,900,20
+2015,"LFRS","Nantes-Atlantique","France","Nantes-Atlantique (LFRS) ",25989,0,0,20052,3655
+2015,"LFRZ","Saint-Nazaire-Montoir","France","Saint-Nazaire-Montoir (LFRZ) ",1405,0,0,312,17
+2015,"LFSB","Bâle-Mulhouse","France","Bâle-Mulhouse (LFSB) ",38572,0,0,28263,3827
+2015,"LFSL","Brive-Souillac","France","Brive-Souillac (LFSL) ",1521,0,0,647,102
+2015,"LFST","Strasbourg-Entzheim","France","Strasbourg-Entzheim (LFST) ",11619,0,0,9107,111
+2015,"LFTH","Hyères-Le Palyvestre","France","Hyères-Le Palyvestre (LFTH) ",5715,0,0,2206,123
+2015,"LFTW","Nîmes-Garons","France","Nîmes-Garons (LFTW) ",1841,0,0,634,115
+2015,"LGAV","Athens","Greece","Athens (LGAV) ",84568,84976,45924,51345,21664
+2015,"LGIR","Heraklion","Greece","Heraklion (LGIR) ",23338,0,0,11612,2473
+2015,"LGKF","Kefallinia","Greece","Kefallinia (LGKF) ",2415,0,0,993,181
+2015,"LGKO","Kos","Greece","Kos (LGKO) ",8675,0,0,3752,1708
+2015,"LGKR","Corfu","Greece","Corfu (LGKR) ",10033,0,0,5443,3663
+2015,"LGMK","Mikonos","Greece","Mikonos (LGMK) ",5969,0,0,2540,1150
+2015,"LGPZ","Aktion","Greece","Aktion (LGPZ) ",2024,0,0,641,23
+2015,"LGRP","Rodos","Greece","Rodos (LGRP) ",17919,0,0,9383,4485
+2015,"LGSA","Khania/Souda","Greece","Khania/Souda (LGSA) ",12135,0,0,7438,1577
+2015,"LGSK","Skiathos","Greece","Skiathos (LGSK) ",1823,0,0,758,78
+2015,"LGSR","Santorini","Greece","Santorini (LGSR) ",6640,0,0,4348,506
+2015,"LGTS","Thessaloniki","Greece","Thessaloniki (LGTS) ",25531,0,0,17578,3876
+2015,"LGZA","Zakinthos","Greece","Zakinthos (LGZA) ",4902,0,0,1645,946
+2015,"LHBP","Budapest/ Ferihegy","Hungary","Budapest/ Ferihegy (LHBP) ",45958,41987,5382,34517,6096
+2015,"LIBR","Brindisi","Italy","Brindisi (LIBR) ",8762,0,0,7811,1701
+2015,"LICC","Catania","Italy","Catania (LICC) ",27840,27454,68915,24200,24633
+2015,"LIMC","Milan/ Malpensa","Italy","Milan/ Malpensa (LIMC) ",80272,0,0,56986,24022
+2015,"LIME","Bergamo","Italy","Bergamo (LIME) ",37838,37956,27545,31113,24124
+2015,"LIML","Milan/ Linate","Italy","Milan/ Linate (LIML) ",58451,0,0,46921,25675
+2015,"LIPH","Treviso","Italy","Treviso (LIPH) ",8343,0,0,7166,6567
+2015,"LIPZ","Venice","Italy","Venice (LIPZ) ",40812,40973,64423,29637,22688
+2015,"LIRA","Rome/Ciampino","Italy","Rome/Ciampino (LIRA) ",27400,0,0,18047,22784
+2015,"LIRF","Rome/Fiumicino","Italy","Rome/Fiumicino (LIRF) ",157600,157646,477769,135405,414299
+2015,"LIRP","Pisa San Giusto","Italy","Pisa San Giusto (LIRP) ",20458,0,0,16109,29571
+2015,"LJLJ","Ljubljana","Slovenia","Ljubljana (LJLJ) ",13753,12016,405,2758,273
+2015,"LJMB","Maribor","Slovenia","Maribor (LJMB) ",945,0,0,47,0
+2015,"LJPZ","Portorož","Slovenia","Portorož (LJPZ) ",770,0,0,0,0
+2015,"LKKV","Karlovy Vary","Czech Republic","Karlovy Vary (LKKV) ",1104,0,0,344,0
+2015,"LKMT","Ostrava","Czech Republic","Ostrava (LKMT) ",3470,0,0,890,0
+2015,"LKPR","Prague","Czech Republic","Prague (LKPR) ",61812,61546,22131,40868,17969
+2015,"LKTB","Brno-Turany","Czech Republic","Brno-Turany (LKTB) ",4226,0,0,623,3
+2015,"LMML","Malta","Malta","Malta (LMML) ",20949,21419,1665,15931,2554
+2015,"LOWG","Graz","Austria","Graz (LOWG) ",9621,0,0,6464,130
+2015,"LOWI","Innsbruck","Austria","Innsbruck (LOWI) ",9204,0,0,4724,1184
+2015,"LOWK","Klagenfurt","Austria","Klagenfurt (LOWK) ",3914,0,0,1868,25
+2015,"LOWL","Linz","Austria","Linz (LOWL) ",6819,0,0,3881,457
+2015,"LOWS","Salzburg","Austria","Salzburg (LOWS) ",14574,0,0,8420,2809
+2015,"LOWW","Vienna","Austria","Vienna (LOWW) ",121230,119838,119707,99102,54009
+2015,"LPAZ","Santa Maria","Portugal","Santa Maria (LPAZ) ",1386,0,0,6,0
+2015,"LPCS","Cascais","Portugal","Cascais (LPCS) ",1211,0,0,1,0
+2015,"LPFL","Flores","Portugal","Flores (LPFL) ",626,0,0,0,0
+2015,"LPFR","Faro","Portugal","Faro (LPFR) ",22288,0,0,15743,3943
+2015,"LPHR","Horta","Portugal","Horta (LPHR) ",2025,0,0,40,2
+2015,"LPMA","Madeira","Portugal","Madeira (LPMA) ",10906,0,0,7046,2669
+2015,"LPPD","Ponta Delgada","Portugal","Ponta Delgada (LPPD) ",6858,0,0,1394,231
+2015,"LPPR","Porto","Portugal","Porto (LPPR) ",35219,0,0,29641,17650
+2015,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1559,0,0,242,18
+2015,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",82973,0,0,73124,62398
+2015,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5189,0,0,2632,227
+2015,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1825,0,0,6,0
+2015,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",48246,0,0,37376,8358
+2015,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",90767,90517,22613,63578,19804
+2015,"LSGS","Sion","Switzerland","Sion (LSGS) ",2940,0,0,0,0
+2015,"LSZH","Zürich","Switzerland","Zürich (LSZH) ",129016,129000,248323,102526,232048
+2015,"LTAC","Ankara/ Esenboga","Turkey","Ankara/ Esenboga (LTAC) ",47115,0,0,33770,11657
+2015,"LTAI","Antalya","Turkey","Antalya (LTAI) ",84933,0,0,24497,23312
+2015,"LTBA","Istanbul/ Atatürk","Turkey","Istanbul/ Atatürk (LTBA) ",226764,0,0,181646,732220
+2015,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",40764,0,0,14668,9462
+2015,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",106432,0,0,35454,135529
+2015,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",11242,0,0,2682,464
+2015,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",7055,0,0,4875,341
+2015,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",31285,0,0,23077,3533
+2015,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",5356,0,0,2095,217
+2015,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",9891,0,0,4022,1263
+2015,"UDYZ","Zvartnots","Armenia","Zvartnots (UDYZ) ",9046,0,0,610,83
+2015,"UGTB","Tbilisi","Georgia","Tbilisi (UGTB) ",10999,0,0,2929,2450
+2015,"UKBB","Kiev/Boryspil","Ukraine","Kiev/Boryspil (UKBB) ",34483,0,0,6294,797
+2015,"EVVA","Ventspils","Latvia","Ventspils (EVVA) ",9,0,0,0,0
+2015,"EVLA","Liepaja","Latvia","Liepaja (EVLA) ",1,0,0,0,0
+2016,"EBAW","Antwerp","Belgium","Antwerp (EBAW) ",7910,0,0,1125,404
+2016,"EBBR","Brussels","Belgium","Brussels (EBBR) ",109057,110246,47249,88435,47386
+2016,"EBCI","Charleroi","Belgium","Charleroi (EBCI) ",24880,24475,4020,22373,4624
+2016,"EBLG","Liège","Belgium","Liège (EBLG) ",16362,0,0,1726,1918
+2016,"EBOS","Ostend-Bruges","Belgium","Ostend-Bruges (EBOS) ",3337,0,0,1563,833
+2016,"EDDB","Berlin/ Schoenefeld","Germany","Berlin/ Schoenefeld (EDDB) ",47392,0,0,33815,10958
+2016,"EDDC","Dresden","Germany","Dresden (EDDC) ",11360,0,0,8456,146
+2016,"EDDE","Erfurt","Germany","Erfurt (EDDE) ",2521,0,0,811,61
+2016,"EDDF","Frankfurt","Germany","Frankfurt (EDDF) ",231422,231331,119624,182444,147252
+2016,"EDDG","Muenster-Osnabrueck","Germany","Muenster-Osnabrueck (EDDG) ",8402,0,0,4078,270
+2016,"EDDH","Hamburg","Germany","Hamburg (EDDH) ",76116,75638,24134,56872,18479
+2016,"EDDK","Cologne-Bonn","Germany","Cologne-Bonn (EDDK) ",66990,0,0,41326,9332
+2016,"EDDL","Dusseldorf","Germany","Dusseldorf (EDDL) ",108488,0,0,74195,45668
+2016,"EDDM","Munich","Germany","Munich (EDDM) ",195885,195123,8218,154739,31142
+2016,"EDDN","Nuremberg","Germany","Nuremberg (EDDN) ",24763,25270,1109,16177,1839
+2016,"EDDP","Leipzig-Halle","Germany","Leipzig-Halle (EDDP) ",30813,31349,4324,15082,4681
+2016,"EDDR","Saarbruecken","Germany","Saarbruecken (EDDR) ",4678,0,0,2841,164
+2016,"EDDS","Stuttgart","Germany","Stuttgart (EDDS) ",59534,0,0,43831,12944
+2016,"EDDT","Berlin/ Tegel","Germany","Berlin/ Tegel (EDDT) ",91931,0,0,83193,23779
+2016,"EDDV","Hanover","Germany","Hanover (EDDV) ",30914,31649,4310,21621,4044
+2016,"EDDW","Bremen","Germany","Bremen (EDDW) ",16324,18036,691,11835,737
+2016,"EETN","Tallinn","Estonia","Tallinn (EETN) ",18575,20346,780,11110,834
+2016,"EETU","Tartu","Estonia","Tartu (EETU) ",732,0,0,323,0
+2016,"EFHK","Helsinki/ Vantaa","Finland","Helsinki/ Vantaa (EFHK) ",84285,85297,15532,65163,11858
+2016,"EGAA","Belfast/Aldergrove","United Kingdom","Belfast/Aldergrove (EGAA) ",22772,0,0,16870,3771
+2016,"EGAC","Belfast/City Airport","United Kingdom","Belfast/City Airport (EGAC) ",21232,0,0,19632,1713
+2016,"EGAE","Londonderry/Eglinton","United Kingdom","Londonderry/Eglinton (EGAE) ",1072,0,0,926,83
+2016,"EGBB","Birmingham","United Kingdom","Birmingham (EGBB) ",55328,53539,12306,38966,13220
+2016,"EGCC","Manchester","United Kingdom","Manchester (EGCC) ",96071,96093,65321,62789,39420
+2016,"EGGD","Bristol","United Kingdom","Bristol (EGGD) ",32317,0,0,26697,4900
+2016,"EGGW","London/ Luton","United Kingdom","London/ Luton (EGGW) ",65452,0,0,45163,38773
+2016,"EGHI","Southampton","United Kingdom","Southampton (EGHI) ",20774,0,0,14736,3605
+2016,"EGKB","Biggin Hill","United Kingdom","Biggin Hill (EGKB) ",6677,0,0,5,0
+2016,"EGKK","London/ Gatwick","United Kingdom","London/ Gatwick (EGKK) ",140031,139634,168364,109488,138115
+2016,"EGLC","London/ City","United Kingdom","London/ City (EGLC) ",42504,0,0,29246,26068
+2016,"EGLF","Farnborough","United Kingdom","Farnborough (EGLF) ",11944,0,0,25,0
+2016,"EGLL","London/ Heathrow","United Kingdom","London/ Heathrow (EGLL) ",237524,0,0,180485,105310
+2016,"EGNX","East Midlands","United Kingdom","East Midlands (EGNX) ",32589,0,0,16089,2878
+2016,"EGPD","Aberdeen","United Kingdom","Aberdeen (EGPD) ",30900,0,0,15813,1081
+2016,"EGPF","Glasgow","United Kingdom","Glasgow (EGPF) ",46290,0,0,28333,6706
+2016,"EGPH","Edinburgh","United Kingdom","Edinburgh (EGPH) ",60611,60639,14269,46106,13523
+2016,"EGSS","London/ Stansted","United Kingdom","London/ Stansted (EGSS) ",89487,89793,88894,73253,91300
+2016,"EHAM","Amsterdam/ Schiphol","Netherlands","Amsterdam/ Schiphol (EHAM) ",245264,0,0,186945,363868
+2016,"EHBK","Maastricht-Aachen","Netherlands","Maastricht-Aachen (EHBK) ",4181,0,0,568,60
+2016,"EHGG","Groningen","Netherlands","Groningen (EHGG) ",4471,0,0,299,0
+2016,"EHRD","Rotterdam","Netherlands","Rotterdam (EHRD) ",12862,0,0,2972,618
+2016,"EICK","Cork","Ireland","Cork (EICK) ",11902,0,0,6529,478
+2016,"EIDL","Donegal","Ireland","Donegal (EIDL) ",952,0,0,67,0
+2016,"EIDW","Dublin","Ireland","Dublin (EIDW) ",107001,107539,70807,81389,66990
+2016,"EIKN","Connaught","Ireland","Connaught (EIKN) ",3200,0,0,2987,179
+2016,"EIKY","Kerry/Farranfore","Ireland","Kerry/Farranfore (EIKY) ",2044,0,0,924,91
+2016,"EINN","Shannon","Ireland","Shannon (EINN) ",10788,0,0,5405,903
+2016,"EISG","Sligo","Ireland","Sligo (EISG) ",23,0,0,0,0
+2016,"EIWF","Waterford","Ireland","Waterford (EIWF) ",558,0,0,0,0
+2016,"EIWT","Weston","Ireland","Weston (EIWT) ",510,0,0,0,0
+2016,"EKCH","Copenhagen/ Kastrup","Denmark","Copenhagen/ Kastrup (EKCH) ",132849,132895,9787,107706,11905
+2016,"ELLX","Luxembourg","Luxembourg","Luxembourg (ELLX) ",32762,32677,272,21300,741
+2016,"ENBR","Bergen","Norway","Bergen (ENBR) ",43543,43630,533,33894,197
+2016,"ENGM","Oslo/ Gardermoen","Norway","Oslo/ Gardermoen (ENGM) ",122580,122097,9815,114379,9981
+2016,"ENHD","Haugesund","Norway","Haugesund (ENHD) ",3485,3521,0,3207,63
+2016,"ENVA","Trondheim","Norway","Trondheim (ENVA) ",28720,28604,46,25345,75
+2016,"ENZV","Stavanger","Norway","Stavanger (ENZV) ",33825,33992,501,24289,450
+2016,"EPBY","Bydgoszcz","Poland","Bydgoszcz (EPBY) ",1640,0,0,880,2
+2016,"EPGD","Gdansk","Poland","Gdansk (EPGD) ",18906,0,0,16828,520
+2016,"EPKK","Krakow - Balice","Poland","Krakow - Balice (EPKK) ",22513,0,0,19284,6378
+2016,"EPKT","Katowice - Pyrzowice","Poland","Katowice - Pyrzowice (EPKT) ",14099,0,0,8535,1418
+2016,"EPLB","Lublin","Poland","Lublin (EPLB) ",1634,0,0,513,13
+2016,"EPLL","Lodz - Lublinek","Poland","Lodz - Lublinek (EPLL) ",2347,0,0,547,155
+2016,"EPMO","Warszawa/ Modlin","Poland","Warszawa/ Modlin (EPMO) ",9501,0,0,8781,2191
+2016,"EPPO","Poznan - Lawica","Poland","Poznan - Lawica (EPPO) ",9198,0,0,6425,308
+2016,"EPRA","Radom","Poland","Radom (EPRA) ",673,0,0,18,0
+2016,"EPRZ","Rzeszow - Jasionka","Poland","Rzeszow - Jasionka (EPRZ) ",3976,0,0,3001,34
+2016,"EPSC","Szczecin - Goleniów","Poland","Szczecin - Goleniów (EPSC) ",2548,0,0,2086,30
+2016,"EPSY","Olsztyn-Mazury","Poland","Olsztyn-Mazury (EPSY) ",643,0,0,138,40
+2016,"EPWA","Warszawa/ Chopina","Poland","Warszawa/ Chopina (EPWA) ",76963,77898,35244,62599,37989
+2016,"EPWR","Wroclaw/ Strachowice","Poland","Wroclaw/ Strachowice (EPWR) ",12099,0,0,9519,1721
+2016,"EPZG","Zielona Gora - Babimost","Poland","Zielona Gora - Babimost (EPZG) ",432,0,0,2,0
+2016,"ESGG","Göteborg","Sweden","Göteborg (ESGG) ",35281,0,0,28758,5969
+2016,"ESSA","Stockholm/ Arlanda","Sweden","Stockholm/ Arlanda (ESSA) ",117256,116900,10644,92304,9677
+2016,"ESSB","Stockholm/ Bromma","Sweden","Stockholm/ Bromma (ESSB) ",26408,0,0,20785,1835
+2016,"EVRA","Riga","Latvia","Riga (EVRA) ",33858,34038,2799,27857,2430
+2016,"EYKA","Kaunas","Lithuania","Kaunas (EYKA) ",3559,0,0,2268,93
+2016,"EYPA","Palanga","Lithuania","Palanga (EYPA) ",1783,0,0,1518,7
+2016,"EYSA","Šiauliai","Lithuania","Šiauliai (EYSA) ",881,0,0,4,0
+2016,"EYVI","Vilnius","Lithuania","Vilnius (EYVI) ",20343,0,0,14848,752
+2016,"GCFV","Fuerteventura","Spain","Fuerteventura (GCFV) ",22229,21924,535,13597,2075
+2016,"GCGM","La Gomera","Spain","La Gomera (GCGM) ",715,0,0,639,0
+2016,"GCHI","Hierro","Spain","Hierro (GCHI) ",1665,0,0,1471,49
+2016,"GCLA","La Palma","Spain","La Palma (GCLA) ",7946,0,0,4945,120
+2016,"GCLP","Gran Canaria","Spain","Gran Canaria (GCLP) ",54813,53606,20404,33969,16701
+2016,"GCRR","Lanzarote","Spain","Lanzarote (GCRR) ",26694,26415,1777,17310,3088
+2016,"GCTS","Tenerife Sur/Reina Sofia","Spain","Tenerife Sur/Reina Sofia (GCTS) ",32200,31830,5103,19937,5949
+2016,"GCXO","Tenerife North","Spain","Tenerife North (GCXO) ",26220,25196,4789,18466,5526
+2016,"GEML","Melilla","Spain","Melilla (GEML) ",4109,0,0,3640,5
+2016,"LATI","Tirana","Albania","Tirana (LATI) ",11159,0,0,4899,834
+2016,"LBSF","Sofia","Bulgaria","Sofia (LBSF) ",25307,24890,871,14882,2056
+2016,"LCLK","Larnaca","Cyprus","Larnaca (LCLK) ",27158,0,0,10640,4785
+2016,"LCPH","Paphos","Cyprus","Paphos (LCPH) ",7980,0,0,5280,2877
+2016,"LDZA","Zagreb","Croatia","Zagreb (LDZA) ",19798,0,0,6805,836
+2016,"LDZL","Lucko","Croatia","Lucko (LDZL) ",268,0,0,0,0
+2016,"LEAB","Albacete","Spain","Albacete (LEAB) ",418,0,0,0,0
+2016,"LEAL","Alicante","Spain","Alicante (LEAL) ",43420,43056,13393,32605,15451
+2016,"LEAM","Almeria","Spain","Almeria (LEAM) ",4969,0,0,3932,470
+2016,"LEAS","Asturias","Spain","Asturias (LEAS) ",5647,0,0,4672,683
+2016,"LEBA","Cordoba","Spain","Cordoba (LEBA) ",104,0,0,0,0
+2016,"LEBB","Bilbao","Spain","Bilbao (LEBB) ",20739,20541,910,19035,2011
+2016,"LEBG","Burgos","Spain","Burgos (LEBG) ",62,0,0,0,0
+2016,"LEBL","Barcelona","Spain","Barcelona (LEBL) ",153931,153140,112168,127075,135904
+2016,"LEBZ","Badajoz","Spain","Badajoz (LEBZ) ",643,0,0,467,13
+2016,"LECO","La Coruna","Spain","La Coruna (LECO) ",5306,0,0,4627,953
+2016,"LECU","Madrid/Cuatro Viento","Spain","Madrid/Cuatro Viento (LECU) ",1023,0,0,0,0
+2016,"LEDA","Lleida/Alguaire","Spain","Lleida/Alguaire (LEDA) ",218,0,0,142,45
+2016,"LEGE","Gerona","Spain","Gerona (LEGE) ",6632,0,0,4388,279
+2016,"LEGR","Granada","Spain","Granada (LEGR) ",4145,0,0,3444,184
+2016,"LEGT","Madrid/Getafe","Spain","Madrid/Getafe (LEGT) ",1197,0,0,0,0
+2016,"LEIB","Ibiza","Spain","Ibiza (LEIB) ",34676,34262,946,24398,3440
+2016,"LEIZ","Abad","Spain","Abad (LEIZ) ",128,0,0,0,0
+2016,"LEJR","Jerez De La Frontera","Spain","Jerez De La Frontera (LEJR) ",7151,0,0,3023,294
+2016,"LELC","Murcia San Javier","Spain","Murcia San Javier (LELC) ",4107,0,0,3232,537
+2016,"LELL","Sabadell","Spain","Sabadell (LELL) ",1059,0,0,0,0
+2016,"LELN","Leon","Spain","Leon (LELN) ",518,0,0,352,0
+2016,"LEMD","Madrid/ Barajas","Spain","Madrid/ Barajas (LEMD) ",189062,187104,90207,144807,114780
+2016,"LEMG","Málaga","Spain","Málaga (LEMG) ",61043,60184,20748,44522,23075
+2016,"LEMH","Mahon","Spain","Mahon (LEMH) ",15512,0,0,11796,1238
+2016,"LEMO","Seville/Moron","Spain","Seville/Moron (LEMO) ",2868,0,0,0,0
+2016,"LEPA","Palma de Mallorca","Spain","Palma de Mallorca (LEPA) ",98722,98027,28990,74125,43412
+2016,"LEPP","Noain Pamplona","Spain","Noain Pamplona (LEPP) ",1706,0,0,1317,154
+2016,"LERE","Valencia/Requena","Spain","Valencia/Requena (LERE) ",51,0,0,0,0
+2016,"LERJ","Logrono","Spain","Logrono (LERJ) ",338,0,0,267,0
+2016,"LERS","Reus","Spain","Reus (LERS) ",3457,0,0,1622,239
+2016,"LERT","Rota","Spain","Rota (LERT) ",2666,0,0,0,0
+2016,"LESA","Salamanca Matalan","Spain","Salamanca Matalan (LESA) ",1367,0,0,57,2
+2016,"LESB","Son Bonet","Spain","Son Bonet (LESB) ",230,0,0,0,0
+2016,"LESJ","Palma/Son San Juan","Spain","Palma/Son San Juan (LESJ) ",149,0,0,0,0
+2016,"LESO","San Sebastian","Spain","San Sebastian (LESO) ",2640,0,0,2176,215
+2016,"LEST","Santiago","Spain","Santiago (LEST) ",9960,0,0,7904,2165
+2016,"LETO","Madrid/Torrejon","Spain","Madrid/Torrejon (LETO) ",885,0,0,0,0
+2016,"LEVC","Valencia","Spain","Valencia (LEVC) ",27651,27443,766,21535,3095
+2016,"LEVD","Valladolid","Spain","Valladolid (LEVD) ",1454,0,0,698,157
+2016,"LEVT","Vitoria","Spain","Vitoria (LEVT) ",3209,0,0,1827,583
+2016,"LEVX","Vigo","Spain","Vigo (LEVX) ",4747,0,0,4120,577
+2016,"LEXJ","Santander","Spain","Santander (LEXJ) ",3999,0,0,3600,395
+2016,"LEZG","Zaragoza","Spain","Zaragoza (LEZG) ",3811,0,0,1640,292
+2016,"LEZL","Sevilla","Spain","Sevilla (LEZL) ",19459,0,0,14398,3079
+2016,"LFAQ","Albert-Bray","France","Albert-Bray (LFAQ) ",587,0,0,0,0
+2016,"LFBA","Agen-La Garenne","France","Agen-La Garenne (LFBA) ",2151,0,0,676,5
+2016,"LFBD","Bordeaux-Mérignac","France","Bordeaux-Mérignac (LFBD) ",32250,0,0,23404,1823
+2016,"LFBE","Bergerac-Roumanière","France","Bergerac-Roumanière (LFBE) ",2141,0,0,1160,168
+2016,"LFBH","La Rochelle-Ile de Ré","France","La Rochelle-Ile de Ré (LFBH) ",2562,0,0,1320,187
+2016,"LFBI","Poitiers-Biard","France","Poitiers-Biard (LFBI) ",2571,0,0,963,26
+2016,"LFBL","Limoges-Bellegarde","France","Limoges-Bellegarde (LFBL) ",3258,0,0,894,345
+2016,"LFBO","Toulouse-Blagnac","France","Toulouse-Blagnac (LFBO) ",45699,0,0,34248,10720
+2016,"LFBP","Pau-Pyrénées","France","Pau-Pyrénées (LFBP) ",5482,0,0,3304,33
+2016,"LFBT","Tarbes-Lourdes Pyrénées","France","Tarbes-Lourdes Pyrénées (LFBT) ",3392,0,0,1230,50
+2016,"LFBZ","Biarritz-Bayonne-Anglet","France","Biarritz-Bayonne-Anglet (LFBZ) ",7063,0,0,5109,901
+2016,"LFCR","Rodez-Marcillac","France","Rodez-Marcillac (LFCR) ",1794,0,0,123,0
+2016,"LFGJ","Dôle-Tavaux","France","Dôle-Tavaux (LFGJ) ",1313,0,0,296,114
+2016,"LFJL","Metz-Nancy-Lorraine","France","Metz-Nancy-Lorraine (LFJL) ",2925,0,0,1168,72
+2016,"LFJR","Angers-Marcé","France","Angers-Marcé (LFJR) ",1059,0,0,46,25
+2016,"LFKB","Bastia-Poretta","France","Bastia-Poretta (LFKB) ",8093,0,0,2243,292
+2016,"LFKC","Calvi-Sainte-Catherine","France","Calvi-Sainte-Catherine (LFKC) ",3120,0,0,758,718
+2016,"LFKF","Figari-Sud Corse","France","Figari-Sud Corse (LFKF) ",5229,0,0,1322,755
+2016,"LFKJ","Ajaccio-Napoléon-Bonaparte","France","Ajaccio-Napoléon-Bonaparte (LFKJ) ",8445,0,0,2401,193
+2016,"LFLB","Chambéry-Aix-les-Bains","France","Chambéry-Aix-les-Bains (LFLB) ",3256,0,0,391,659
+2016,"LFLC","Clermont-Ferrand-Auvergne","France","Clermont-Ferrand-Auvergne (LFLC) ",6562,0,0,2725,267
+2016,"LFLI","Annemasse","France","Annemasse (LFLI) ",906,0,0,0,0
+2016,"LFLL","Lyon-Saint-Exupéry","France","Lyon-Saint-Exupéry (LFLL) ",55346,0,0,42732,7917
+2016,"LFLP","Annecy-Meythet","France","Annecy-Meythet (LFLP) ",1645,0,0,0,0
+2016,"LFLS","Grenoble-Isère","France","Grenoble-Isère (LFLS) ",3170,0,0,508,185
+2016,"LFLX","Châteauroux-Déols","France","Châteauroux-Déols (LFLX) ",1164,0,0,17,0
+2016,"LFLY","Lyon-Bron","France","Lyon-Bron (LFLY) ",4730,0,0,0,0
+2016,"LFMD","Cannes-Mandelieu","France","Cannes-Mandelieu (LFMD) ",6862,0,0,13,0
+2016,"LFMH","Saint-Etienne-Bouthéon","France","Saint-Etienne-Bouthéon (LFMH) ",1610,0,0,340,30
+2016,"LFMI","Istres-Le Tubé","France","Istres-Le Tubé (LFMI) ",1905,0,0,0,0
+2016,"LFMK","Carcassonne-Salvaza","France","Carcassonne-Salvaza (LFMK) ",2531,0,0,1162,115
+2016,"LFML","Marseille-Provence","France","Marseille-Provence (LFML) ",48251,0,0,29758,10310
+2016,"LFMN","Nice-Côte d’Azur","France","Nice-Côte d’Azur (LFMN) ",69787,0,0,43848,20780
+2016,"LFMP","Perpignan-Rivesaltes","France","Perpignan-Rivesaltes (LFMP) ",4242,0,0,1626,142
+2016,"LFMT","Montpellier-Méditerranée","France","Montpellier-Méditerranée (LFMT) ",14124,0,0,6157,886
+2016,"LFMU","Béziers-Vias","France","Béziers-Vias (LFMU) ",2786,0,0,756,189
+2016,"LFMV","Avignon-Caumont","France","Avignon-Caumont (LFMV) ",2879,0,0,66,5
+2016,"LFOB","Beauvais-Tillé","France","Beauvais-Tillé (LFOB) ",12861,0,0,11990,3668
+2016,"LFOH","Le Havre-Octeville","France","Le Havre-Octeville (LFOH) ",474,0,0,23,5
+2016,"LFOK","Châlons-Vatry","France","Châlons-Vatry (LFOK) ",1905,0,0,267,118
+2016,"LFOT","Tours-Val de Loire","France","Tours-Val de Loire (LFOT) ",1659,0,0,598,329
+2016,"LFPB","Paris-Le Bourget","France","Paris-Le Bourget (LFPB) ",26364,0,0,19,0
+2016,"LFPG","Paris-Charles-de-Gaulle","France","Paris-Charles-de-Gaulle (LFPG) ",239719,239474,88207,185362,87523
+2016,"LFPN","Toussus-le-Noble","France","Toussus-le-Noble (LFPN) ",4820,0,0,0,0
+2016,"LFPO","Paris-Orly","France","Paris-Orly (LFPO) ",118787,118717,76857,74896,51608
+2016,"LFQQ","Lille-Lesquin","France","Lille-Lesquin (LFQQ) ",11998,0,0,8325,1111
+2016,"LFRB","Brest-Bretagne","France","Brest-Bretagne (LFRB) ",7730,0,0,4907,402
+2016,"LFRD","Dinard-Pleurtuit-Saint-Malo","France","Dinard-Pleurtuit-Saint-Malo (LFRD) ",1723,0,0,341,66
+2016,"LFRG","Deauville-Normandie","France","Deauville-Normandie (LFRG) ",1859,0,0,409,72
+2016,"LFRH","Lorient-Lann Bihoué","France","Lorient-Lann Bihoué (LFRH) ",2979,0,0,871,38
+2016,"LFRK","Caen-Carpiquet","France","Caen-Carpiquet (LFRK) ",2705,0,0,962,20
+2016,"LFRM","Le Mans","France","Le Mans (LFRM) ",730,0,0,0,0
+2016,"LFRN","Rennes-Saint-Jacques","France","Rennes-Saint-Jacques (LFRN) ",8777,0,0,4716,297
+2016,"LFRO","Lannion","France","Lannion (LFRO) ",728,0,0,492,10
+2016,"LFRQ","Quimper-Pluguffan","France","Quimper-Pluguffan (LFRQ) ",1275,0,0,679,17
+2016,"LFRS","Nantes-Atlantique","France","Nantes-Atlantique (LFRS) ",26595,0,0,19917,5789
+2016,"LFRZ","Saint-Nazaire-Montoir","France","Saint-Nazaire-Montoir (LFRZ) ",1539,0,0,222,8
+2016,"LFSB","Bâle-Mulhouse","France","Bâle-Mulhouse (LFSB) ",38694,0,0,28085,5300
+2016,"LFSL","Brive-Souillac","France","Brive-Souillac (LFSL) ",1635,0,0,71,24
+2016,"LFST","Strasbourg-Entzheim","France","Strasbourg-Entzheim (LFST) ",10817,0,0,7981,134
+2016,"LFTH","Hyères-Le Palyvestre","France","Hyères-Le Palyvestre (LFTH) ",5405,0,0,1938,109
+2016,"LFTW","Nîmes-Garons","France","Nîmes-Garons (LFTW) ",2192,0,0,662,92
+2016,"LGAV","Athens","Greece","Athens (LGAV) ",91115,91248,68502,56538,44883
+2016,"LGIR","Heraklion","Greece","Heraklion (LGIR) ",25381,0,0,13273,4383
+2016,"LGKF","Kefallinia","Greece","Kefallinia (LGKF) ",2649,0,0,1019,398
+2016,"LGKO","Kos","Greece","Kos (LGKO) ",7725,0,0,3905,2073
+2016,"LGKR","Corfu","Greece","Corfu (LGKR) ",11074,0,0,6328,5522
+2016,"LGMK","Mikonos","Greece","Mikonos (LGMK) ",6529,0,0,2903,854
+2016,"LGPZ","Aktion","Greece","Aktion (LGPZ) ",2329,0,0,780,74
+2016,"LGRP","Rodos","Greece","Rodos (LGRP) ",18698,0,0,10693,2853
+2016,"LGSA","Khania/Souda","Greece","Khania/Souda (LGSA) ",13214,0,0,7767,1767
+2016,"LGSK","Skiathos","Greece","Skiathos (LGSK) ",2004,0,0,686,126
+2016,"LGSR","Santorini","Greece","Santorini (LGSR) ",7438,0,0,4517,679
+2016,"LGTS","Thessaloniki","Greece","Thessaloniki (LGTS) ",26667,0,0,18079,6148
+2016,"LGZA","Zakinthos","Greece","Zakinthos (LGZA) ",5480,0,0,2008,1194
+2016,"LHBP","Budapest/ Ferihegy","Hungary","Budapest/ Ferihegy (LHBP) ",47894,46652,5227,37599,5731
+2016,"LIBR","Brindisi","Italy","Brindisi (LIBR) ",8926,0,0,7977,1526
+2016,"LICC","Catania","Italy","Catania (LICC) ",30803,30604,75860,25559,31869
+2016,"LIMC","Milan/ Malpensa","Italy","Milan/ Malpensa (LIMC) ",83395,82744,39884,59996,28744
+2016,"LIME","Bergamo","Italy","Bergamo (LIME) ",39800,39974,29685,33545,23387
+2016,"LIMF","Torino Caselle","Italy","Torino Caselle (LIMF) ",21116,0,0,14162,5680
+2016,"LIML","Milan/ Linate","Italy","Milan/ Linate (LIML) ",58538,58759,22773,47924,27134
+2016,"LIPE","Bologna","Italy","Bologna (LIPE) ",34584,0,0,25623,19491
+2016,"LIPH","Treviso","Italy","Treviso (LIPH) ",8872,0,0,7832,9892
+2016,"LIPZ","Venice","Italy","Venice (LIPZ) ",44982,45041,69518,32363,23935
+2016,"LIRA","Rome/Ciampino","Italy","Rome/Ciampino (LIRA) ",25239,0,0,16264,21207
+2016,"LIRF","Rome/Fiumicino","Italy","Rome/Fiumicino (LIRF) ",156970,157063,369478,133484,290510
+2016,"LIRN","Naples","Italy","Naples (LIRN) ",31429,0,0,23815,13260
+2016,"LIRP","Pisa San Giusto","Italy","Pisa San Giusto (LIRP) ",21039,0,0,16095,34115
+2016,"LJLJ","Ljubljana","Slovenia","Ljubljana (LJLJ) ",13620,12955,213,3036,483
+2016,"LJMB","Maribor","Slovenia","Maribor (LJMB) ",772,0,0,19,0
+2016,"LJPZ","Portorož","Slovenia","Portorož (LJPZ) ",720,0,0,0,0
+2016,"LKKV","Karlovy Vary","Czech Republic","Karlovy Vary (LKKV) ",894,0,0,214,14
+2016,"LKMT","Ostrava","Czech Republic","Ostrava (LKMT) ",3182,0,0,1385,10
+2016,"LKPR","Prague","Czech Republic","Prague (LKPR) ",65974,65702,35145,46398,25959
+2016,"LKTB","Brno-Turany","Czech Republic","Brno-Turany (LKTB) ",4593,0,0,1507,71
+2016,"LMML","Malta","Malta","Malta (LMML) ",22210,22473,3662,16662,5473
+2016,"LOWG","Graz","Austria","Graz (LOWG) ",9158,0,0,6713,1029
+2016,"LOWI","Innsbruck","Austria","Innsbruck (LOWI) ",9417,0,0,4677,1348
+2016,"LOWK","Klagenfurt","Austria","Klagenfurt (LOWK) ",3387,0,0,1610,11
+2016,"LOWL","Linz","Austria","Linz (LOWL) ",6255,0,0,3460,157
+2016,"LOWS","Salzburg","Austria","Salzburg (LOWS) ",13856,0,0,8049,2459
+2016,"LOWW","Vienna","Austria","Vienna (LOWW) ",120888,120586,140356,97473,60421
+2016,"LPAZ","Santa Maria","Portugal","Santa Maria (LPAZ) ",1391,0,0,7,0
+2016,"LPCS","Cascais","Portugal","Cascais (LPCS) ",2152,0,0,0,0
+2016,"LPFL","Flores","Portugal","Flores (LPFL) ",747,0,0,0,0
+2016,"LPFR","Faro","Portugal","Faro (LPFR) ",26494,0,0,18287,5301
+2016,"LPHR","Horta","Portugal","Horta (LPHR) ",2244,0,0,0,0
+2016,"LPMA","Madeira","Portugal","Madeira (LPMA) ",12209,0,0,7996,3048
+2016,"LPPD","Ponta Delgada","Portugal","Ponta Delgada (LPPD) ",7969,0,0,1847,557
+2016,"LPPR","Porto","Portugal","Porto (LPPR) ",39350,0,0,32637,19187
+2016,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1672,0,0,302,70
+2016,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",91206,0,0,79104,96543
+2016,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5305,0,0,2665,310
+2016,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1690,0,0,2,0
+2016,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",53877,0,0,41848,13316
+2016,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",91555,91365,31755,64181,25047
+2016,"LSGS","Sion","Switzerland","Sion (LSGS) ",2716,0,0,1,0
+2016,"LSZH","Zürich","Switzerland","Zürich (LSZH) ",131345,131278,147301,106869,140773
+2016,"LTAC","Ankara/ Esenboga","Turkey","Ankara/ Esenboga (LTAC) ",50169,0,0,35004,10126
+2016,"LTAI","Antalya","Turkey","Antalya (LTAI) ",61584,0,0,18941,12964
+2016,"LTBA","Istanbul/ Atatürk","Turkey","Istanbul/ Atatürk (LTBA) ",227479,0,0,176822,535709
+2016,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",39975,0,0,15064,5197
+2016,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",112708,0,0,43704,183839
+2016,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",11128,0,0,3286,668
+2016,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",7609,0,0,5661,290
+2016,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",31715,0,0,23652,3272
+2016,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",5708,0,0,2487,204
+2016,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",10455,0,0,5349,1562
+2016,"UDYZ","Zvartnots","Armenia","Zvartnots (UDYZ) ",9267,0,0,833,111
+2016,"UGTB","Tbilisi","Georgia","Tbilisi (UGTB) ",11943,0,0,3020,3405
+2016,"UKBB","Kiev/Boryspil","Ukraine","Kiev/Boryspil (UKBB) ",37169,0,0,7467,1624
+2016,"EVVA","Ventspils","Latvia","Ventspils (EVVA) ",6,0,0,0,0
+2016,"EVLA","Liepaja","Latvia","Liepaja (EVLA) ",3,0,0,0,0
+2017,"EBAW","Antwerp","Belgium","Antwerp (EBAW) ",6968,0,0,966,62
+2017,"EBBR","Brussels","Belgium","Brussels (EBBR) ",116354,117429,73681,90302,55985
+2017,"EBCI","Charleroi","Belgium","Charleroi (EBCI) ",25562,25378,2765,22540,3283
+2017,"EBLG","Liège","Belgium","Liège (EBLG) ",16251,0,0,1699,206
+2017,"EBOS","Ostend-Bruges","Belgium","Ostend-Bruges (EBOS) ",3236,0,0,1377,126
+2017,"EDDB","Berlin/ Schoenefeld","Germany","Berlin/ Schoenefeld (EDDB) ",49907,0,0,36683,12694
+2017,"EDDC","Dresden","Germany","Dresden (EDDC) ",10744,0,0,7919,477
+2017,"EDDE","Erfurt","Germany","Erfurt (EDDE) ",2882,2812,0,1004,133
+2017,"EDDF","Frankfurt","Germany","Frankfurt (EDDF) ",237747,237695,155133,185726,186377
+2017,"EDDG","Muenster-Osnabrueck","Germany","Muenster-Osnabrueck (EDDG) ",9240,4920,113,4303,486
+2017,"EDDH","Hamburg","Germany","Hamburg (EDDH) ",77171,69641,33840,55431,31296
+2017,"EDDK","Cologne-Bonn","Germany","Cologne-Bonn (EDDK) ",69175,0,0,37533,11366
+2017,"EDDL","Dusseldorf","Germany","Dusseldorf (EDDL) ",110488,0,0,70679,56272
+2017,"EDDM","Munich","Germany","Munich (EDDM) ",200953,163958,10984,158421,26615
+2017,"EDDN","Nuremberg","Germany","Nuremberg (EDDN) ",26550,16667,1271,17240,2693
+2017,"EDDP","Leipzig-Halle","Germany","Leipzig-Halle (EDDP) ",33022,33848,2637,8471,1502
+2017,"EDDR","Saarbruecken","Germany","Saarbruecken (EDDR) ",4417,4352,0,2806,206
+2017,"EDDS","Stuttgart","Germany","Stuttgart (EDDS) ",59009,59739,6684,39218,8506
+2017,"EDDT","Berlin/ Tegel","Germany","Berlin/ Tegel (EDDT) ",85890,0,0,73922,82182
+2017,"EDDV","Hanover","Germany","Hanover (EDDV) ",31172,31757,4120,20468,3882
+2017,"EDDW","Bremen","Germany","Bremen (EDDW) ",14973,16546,700,10754,1858
+2017,"EETN","Tallinn","Estonia","Tallinn (EETN) ",20848,21668,488,10506,486
+2017,"EETU","Tartu","Estonia","Tartu (EETU) ",840,0,0,352,0
+2017,"EFHK","Helsinki/ Vantaa","Finland","Helsinki/ Vantaa (EFHK) ",88305,90832,30836,78034,33155
+2017,"EGAA","Belfast/Aldergrove","United Kingdom","Belfast/Aldergrove (EGAA) ",24135,0,0,18340,4178
+2017,"EGAC","Belfast/City Airport","United Kingdom","Belfast/City Airport (EGAC) ",18787,0,0,17692,1740
+2017,"EGAE","Londonderry/Eglinton","United Kingdom","Londonderry/Eglinton (EGAE) ",1133,0,0,956,27
+2017,"EGBB","Birmingham","United Kingdom","Birmingham (EGBB) ",59579,59515,17838,41533,16354
+2017,"EGCC","Manchester","United Kingdom","Manchester (EGCC) ",101814,101371,95463,69582,61558
+2017,"EGGD","Bristol","United Kingdom","Bristol (EGGD) ",33743,33558,4908,27914,7992
+2017,"EGGW","London/ Luton","United Kingdom","London/ Luton (EGGW) ",67544,46996,16384,47343,34379
+2017,"EGHI","Southampton","United Kingdom","Southampton (EGHI) ",21703,0,0,15187,2864
+2017,"EGKB","Biggin Hill","United Kingdom","Biggin Hill (EGKB) ",7773,0,0,18,10
+2017,"EGKK","London/ Gatwick","United Kingdom","London/ Gatwick (EGKK) ",142981,65217,66138,123109,130147
+2017,"EGLC","London/ City","United Kingdom","London/ City (EGLC) ",40180,0,0,24734,15995
+2017,"EGLF","Farnborough","United Kingdom","Farnborough (EGLF) ",12897,0,0,47,182
+2017,"EGLL","London/ Heathrow","United Kingdom","London/ Heathrow (EGLL) ",237957,0,0,187284,100421
+2017,"EGNT","Newcastle","United Kingdom","Newcastle (EGNT) ",23836,0,0,14653,1944
+2017,"EGNX","East Midlands","United Kingdom","East Midlands (EGNX) ",33713,0,0,14057,2346
+2017,"EGPD","Aberdeen","United Kingdom","Aberdeen (EGPD) ",31324,0,0,16238,1380
+2017,"EGPF","Glasgow","United Kingdom","Glasgow (EGPF) ",47639,0,0,28391,6189
+2017,"EGPH","Edinburgh","United Kingdom","Edinburgh (EGPH) ",63639,63712,20843,46684,19470
+2017,"EGSS","London/ Stansted","United Kingdom","London/ Stansted (EGSS) ",94080,94050,106576,73972,103202
+2017,"EHAM","Amsterdam/ Schiphol","Netherlands","Amsterdam/ Schiphol (EHAM) ",254159,0,0,192872,472752
+2017,"EHBK","Maastricht-Aachen","Netherlands","Maastricht-Aachen (EHBK) ",4246,0,0,531,114
+2017,"EHGG","Groningen","Netherlands","Groningen (EHGG) ",4736,0,0,768,48
+2017,"EHRD","Rotterdam","Netherlands","Rotterdam (EHRD) ",11461,0,0,1196,420
+2017,"EICK","Cork","Ireland","Cork (EICK) ",12639,2393,56,6591,468
+2017,"EIDL","Donegal","Ireland","Donegal (EIDL) ",945,0,0,0,0
+2017,"EIDW","Dublin","Ireland","Dublin (EIDW) ",111153,111188,42763,84511,44520
+2017,"EIKN","Connaught","Ireland","Connaught (EIKN) ",3199,0,0,2960,220
+2017,"EIKY","Kerry/Farranfore","Ireland","Kerry/Farranfore (EIKY) ",2065,0,0,875,67
+2017,"EINN","Shannon","Ireland","Shannon (EINN) ",10859,0,0,4996,583
+2017,"EISG","Sligo","Ireland","Sligo (EISG) ",15,0,0,0,0
+2017,"EIWF","Waterford","Ireland","Waterford (EIWF) ",215,0,0,2,0
+2017,"EIWT","Weston","Ireland","Weston (EIWT) ",576,0,0,0,0
+2017,"EKCH","Copenhagen/ Kastrup","Denmark","Copenhagen/ Kastrup (EKCH) ",129611,129585,12098,106335,12976
+2017,"ELLX","Luxembourg","Luxembourg","Luxembourg (ELLX) ",35299,35145,1411,24364,1877
+2017,"ENAL","Alesund","Norway","Alesund (ENAL) ",7423,6256,41,6277,42
+2017,"ENAN","Andenes","Norway","Andenes (ENAN) ",2247,1691,11,1691,11
+2017,"ENAT","Alta","Norway","Alta (ENAT) ",4853,3438,12,3436,12
+2017,"ENBL","Forde Bringeland","Norway","Forde Bringeland (ENBL) ",2019,1929,4,1928,4
+2017,"ENBN","Bronnoysund Bronnoy","Norway","Bronnoysund Bronnoy (ENBN) ",3270,2208,0,2206,0
+2017,"ENBO","Bodø","Norway","Bodø (ENBO) ",20541,17703,743,18253,754
+2017,"ENBR","Bergen","Norway","Bergen (ENBR) ",41803,34163,256,34328,197
+2017,"ENBS","Batsfjord","Norway","Batsfjord (ENBS) ",1135,966,0,966,0
+2017,"ENBV","Berlevåg","Norway","Berlevåg (ENBV) ",795,725,0,723,0
+2017,"ENCN","Kristiansand Kjevik","Norway","Kristiansand Kjevik (ENCN) ",7696,6810,71,6824,76
+2017,"ENDU","Bardufoss","Norway","Bardufoss (ENDU) ",1941,1163,38,1181,38
+2017,"ENEV","Harstad/Narvik Evenes","Norway","Harstad/Narvik Evenes (ENEV) ",5648,4544,20,4552,20
+2017,"ENFG","Fagernes Leirin","Norway","Fagernes Leirin (ENFG) ",24,0,0,12,14
+2017,"ENFL","Florø","Norway","Florø (ENFL) ",3894,2662,0,2661,0
+2017,"ENGM","Oslo/ Gardermoen","Norway","Oslo/ Gardermoen (ENGM) ",125611,119937,18107,120193,19232
+2017,"ENHD","Haugesund","Norway","Haugesund (ENHD) ",3075,2806,0,2812,3
+2017,"ENHF","Hammerfest","Norway","Hammerfest (ENHF) ",6415,4331,15,4318,15
+2017,"ENHK","Hasvik","Norway","Hasvik (ENHK) ",815,689,9,689,9
+2017,"ENHV","Honningsvåg Valan","Norway","Honningsvåg Valan (ENHV) ",1025,919,0,918,0
+2017,"ENKB","Kristiansund Kvernberget","Norway","Kristiansund Kvernberget (ENKB) ",4762,2799,0,2932,0
+2017,"ENKR","Kirkenes Høybuktmoen","Norway","Kirkenes Høybuktmoen (ENKR) ",3893,2907,40,2915,40
+2017,"ENLK","Leknes","Norway","Leknes (ENLK) ",3360,2935,10,2934,10
+2017,"ENMH","Mehamn","Norway","Mehamn (ENMH) ",1284,959,0,953,0
+2017,"ENML","Molde Årø","Norway","Molde Årø (ENML) ",3885,3553,4,3559,4
+2017,"ENMS","Mosjøen Kjærstad","Norway","Mosjøen Kjærstad (ENMS) ",2142,1874,9,1873,9
+2017,"ENNA","Lakselv Banak","Norway","Lakselv Banak (ENNA) ",1488,1198,0,1202,0
+2017,"ENNM","Namsos Høknesøra","Norway","Namsos Høknesøra (ENNM) ",1168,1115,0,1115,0
+2017,"ENOV","Orsta¿Volda Hovden","Norway","Orsta¿Volda Hovden (ENOV) ",2206,2032,20,2032,20
+2017,"ENRA","Mo i Rana Røssvoll","Norway","Mo i Rana Røssvoll (ENRA) ",2968,2501,11,2500,11
+2017,"ENRM","Rorvik Ryum","Norway","Rorvik Ryum (ENRM) ",1199,1056,0,1149,0
+2017,"ENRO","Roros","Norway","Roros (ENRO) ",661,603,0,601,0
+2017,"ENRS","Rost","Norway","Rost (ENRS) ",620,576,0,576,0
+2017,"ENSB","Svalbard Longyear","Norway","Svalbard Longyear (ENSB) ",994,592,327,594,3
+2017,"ENSD","Sandane  Anda","Norway","Sandane  Anda (ENSD) ",1278,1225,0,1223,0
+2017,"ENSG","Sogndal Haukåsen","Norway","Sogndal Haukåsen (ENSG) ",2623,2538,36,2537,36
+2017,"ENSH","Svolvær Helle","Norway","Svolvær Helle (ENSH) ",2526,2453,0,2450,0
+2017,"ENSK","Stokmarknes Skagen","Norway","Stokmarknes Skagen (ENSK) ",3618,3052,11,3051,11
+2017,"ENSR","Sorkjosen","Norway","Sorkjosen (ENSR) ",928,800,0,799,0
+2017,"ENSS","Vardø Svartnes","Norway","Vardø Svartnes (ENSS) ",1150,982,0,982,0
+2017,"ENST","Sandnessjøen Stokka","Norway","Sandnessjøen Stokka (ENST) ",2367,1881,0,1879,0
+2017,"ENTC","Tromsø","Norway","Tromsø (ENTC) ",22223,18428,4623,18397,3965
+2017,"ENVA","Trondheim","Norway","Trondheim (ENVA) ",28312,26152,45,26218,46
+2017,"ENVD","Vadsø","Norway","Vadsø (ENVD) ",3304,2944,0,2939,0
+2017,"ENVR","Værøy","Norway","Værøy (ENVR) ",594,0,0,1,0
+2017,"ENZV","Stavanger","Norway","Stavanger (ENZV) ",31872,23013,105,23265,134
+2017,"EPBY","Bydgoszcz","Poland","Bydgoszcz (EPBY) ",1666,0,0,815,85
+2017,"EPGD","Gdansk","Poland","Gdansk (EPGD) ",20095,0,0,15220,963
+2017,"EPKK","Krakow - Balice","Poland","Krakow - Balice (EPKK) ",24837,0,0,18648,8017
+2017,"EPKT","Katowice - Pyrzowice","Poland","Katowice - Pyrzowice (EPKT) ",15870,0,0,8956,1472
+2017,"EPLB","Lublin","Poland","Lublin (EPLB) ",2005,0,0,362,5
+2017,"EPLL","Lodz - Lublinek","Poland","Lodz - Lublinek (EPLL) ",1979,0,0,531,11
+2017,"EPMO","Warszawa/ Modlin","Poland","Warszawa/ Modlin (EPMO) ",9376,0,0,8625,1975
+2017,"EPPO","Poznan - Lawica","Poland","Poznan - Lawica (EPPO) ",9704,0,0,5128,123
+2017,"EPRA","Radom","Poland","Radom (EPRA) ",574,0,0,0,0
+2017,"EPRZ","Rzeszow - Jasionka","Poland","Rzeszow - Jasionka (EPRZ) ",4091,0,0,1708,38
+2017,"EPSC","Szczecin - Goleniów","Poland","Szczecin - Goleniów (EPSC) ",2899,0,0,1468,12
+2017,"EPSY","Olsztyn-Mazury","Poland","Olsztyn-Mazury (EPSY) ",647,0,0,339,155
+2017,"EPWA","Warszawa/ Chopina","Poland","Warszawa/ Chopina (EPWA) ",85603,85554,40121,29008,10960
+2017,"EPWR","Wroclaw/ Strachowice","Poland","Wroclaw/ Strachowice (EPWR) ",13299,0,0,8632,1118
+2017,"EPZG","Zielona Gora - Babimost","Poland","Zielona Gora - Babimost (EPZG) ",403,0,0,0,0
+2017,"ESGG","Göteborg","Sweden","Göteborg (ESGG) ",36308,35555,1983,29563,2095
+2017,"ESSA","Stockholm/ Arlanda","Sweden","Stockholm/ Arlanda (ESSA) ",124421,123895,14545,99991,12044
+2017,"ESSB","Stockholm/ Bromma","Sweden","Stockholm/ Bromma (ESSB) ",26624,0,0,20179,1063
+2017,"EVRA","Riga","Latvia","Riga (EVRA) ",37226,37246,1801,30150,1947
+2017,"EYKA","Kaunas","Lithuania","Kaunas (EYKA) ",5621,0,0,3549,235
+2017,"EYPA","Palanga","Lithuania","Palanga (EYPA) ",2042,0,0,1605,22
+2017,"EYSA","Šiauliai","Lithuania","Šiauliai (EYSA) ",995,0,0,3,0
+2017,"EYVI","Vilnius","Lithuania","Vilnius (EYVI) ",19329,0,0,12560,837
+2017,"GCFV","Fuerteventura","Spain","Fuerteventura (GCFV) ",23540,19492,411,14221,4855
+2017,"GCGM","La Gomera","Spain","La Gomera (GCGM) ",746,0,0,576,0
+2017,"GCHI","Hierro","Spain","Hierro (GCHI) ",1891,0,0,1392,133
+2017,"GCLA","La Palma","Spain","La Palma (GCLA) ",8531,0,0,5009,211
+2017,"GCLP","Gran Canaria","Spain","Gran Canaria (GCLP) ",57961,57516,22138,37509,16332
+2017,"GCRR","Lanzarote","Spain","Lanzarote (GCRR) ",28997,28958,3188,18268,3750
+2017,"GCTS","Tenerife Sur/Reina Sofia","Spain","Tenerife Sur/Reina Sofia (GCTS) ",34252,34229,11039,23144,9238
+2017,"GCXO","Tenerife North","Spain","Tenerife North (GCXO) ",29073,6839,1264,19084,5097
+2017,"GEML","Melilla","Spain","Melilla (GEML) ",3693,0,0,2818,44
+2017,"LATI","Tirana","Albania","Tirana (LATI) ",12275,0,0,4040,920
+2017,"LBSF","Sofia","Bulgaria","Sofia (LBSF) ",28382,28024,2313,17511,4748
+2017,"LCLK","Larnaca","Cyprus","Larnaca (LCLK) ",31010,22454,11259,11583,5457
+2017,"LCPH","Paphos","Cyprus","Paphos (LCPH) ",8495,0,0,5379,2371
+2017,"LDZA","Zagreb","Croatia","Zagreb (LDZA) ",20521,8674,671,6089,1549
+2017,"LDZL","Lucko","Croatia","Lucko (LDZL) ",339,0,0,0,0
+2017,"LEAB","Albacete","Spain","Albacete (LEAB) ",406,0,0,1,0
+2017,"LEAL","Alicante","Spain","Alicante (LEAL) ",47557,47558,16373,35835,16425
+2017,"LEAM","Almeria","Spain","Almeria (LEAM) ",5076,0,0,3478,431
+2017,"LEAS","Asturias","Spain","Asturias (LEAS) ",6143,0,0,4884,662
+2017,"LEBA","Cordoba","Spain","Cordoba (LEBA) ",103,0,0,0,0
+2017,"LEBB","Bilbao","Spain","Bilbao (LEBB) ",21980,22055,1030,19522,2408
+2017,"LEBG","Burgos","Spain","Burgos (LEBG) ",79,0,0,0,0
+2017,"LEBL","Barcelona","Spain","Barcelona (LEBL) ",161771,141505,111965,129328,161175
+2017,"LEBZ","Badajoz","Spain","Badajoz (LEBZ) ",695,0,0,449,0
+2017,"LECO","La Coruna","Spain","La Coruna (LECO) ",5625,0,0,4356,630
+2017,"LECU","Madrid/Cuatro Viento","Spain","Madrid/Cuatro Viento (LECU) ",1319,0,0,0,0
+2017,"LEDA","Lleida/Alguaire","Spain","Lleida/Alguaire (LEDA) ",252,0,0,138,0
+2017,"LEGE","Gerona","Spain","Gerona (LEGE) ",7606,0,0,4667,824
+2017,"LEGR","Granada","Spain","Granada (LEGR) ",4523,0,0,3364,237
+2017,"LEGT","Madrid/Getafe","Spain","Madrid/Getafe (LEGT) ",736,0,0,0,0
+2017,"LEIB","Ibiza","Spain","Ibiza (LEIB) ",36664,30347,1863,24109,4328
+2017,"LEIZ","Abad","Spain","Abad (LEIZ) ",139,0,0,0,0
+2017,"LEJR","Jerez De La Frontera","Spain","Jerez De La Frontera (LEJR) ",7568,0,0,2828,190
+2017,"LELC","Murcia San Javier","Spain","Murcia San Javier (LELC) ",4318,0,0,3331,1391
+2017,"LELL","Sabadell","Spain","Sabadell (LELL) ",1038,0,0,0,0
+2017,"LELN","Leon","Spain","Leon (LELN) ",492,0,0,275,0
+2017,"LEMD","Madrid/ Barajas","Spain","Madrid/ Barajas (LEMD) ",193818,179631,102065,141817,120547
+2017,"LEMG","Málaga","Spain","Málaga (LEMG) ",67425,67250,33452,50683,28170
+2017,"LEMH","Mahon","Spain","Mahon (LEMH) ",15017,0,0,10467,1214
+2017,"LEMO","Seville/Moron","Spain","Seville/Moron (LEMO) ",2364,0,0,0,0
+2017,"LEPA","Palma de Mallorca","Spain","Palma de Mallorca (LEPA) ",104339,100875,62032,75956,77369
+2017,"LEPP","Noain Pamplona","Spain","Noain Pamplona (LEPP) ",1772,0,0,1165,16
+2017,"LERE","Valencia/Requena","Spain","Valencia/Requena (LERE) ",12,0,0,0,0
+2017,"LERJ","Logrono","Spain","Logrono (LERJ) ",356,0,0,237,0
+2017,"LERS","Reus","Spain","Reus (LERS) ",4022,0,0,1735,245
+2017,"LERT","Rota","Spain","Rota (LERT) ",2909,0,0,0,0
+2017,"LESA","Salamanca Matalan","Spain","Salamanca Matalan (LESA) ",1712,0,0,18,0
+2017,"LESB","Son Bonet","Spain","Son Bonet (LESB) ",221,0,0,0,0
+2017,"LESJ","Palma/Son San Juan","Spain","Palma/Son San Juan (LESJ) ",149,0,0,0,0
+2017,"LESO","San Sebastian","Spain","San Sebastian (LESO) ",2844,0,0,2064,188
+2017,"LEST","Santiago","Spain","Santiago (LEST) ",10112,0,0,7416,1512
+2017,"LETO","Madrid/Torrejon","Spain","Madrid/Torrejon (LETO) ",880,0,0,0,0
+2017,"LEVC","Valencia","Spain","Valencia (LEVC) ",30575,27755,1361,22570,3619
+2017,"LEVD","Valladolid","Spain","Valladolid (LEVD) ",1333,0,0,652,85
+2017,"LEVT","Vitoria","Spain","Vitoria (LEVT) ",3744,0,0,638,123
+2017,"LEVX","Vigo","Spain","Vigo (LEVX) ",5198,0,0,4366,415
+2017,"LEXJ","Santander","Spain","Santander (LEXJ) ",4577,0,0,3824,209
+2017,"LEZG","Zaragoza","Spain","Zaragoza (LEZG) ",3936,0,0,1831,302
+2017,"LEZL","Sevilla","Spain","Sevilla (LEZL) ",20742,3305,248,14607,3058
+2017,"LFAQ","Albert-Bray","France","Albert-Bray (LFAQ) ",460,0,0,0,0
+2017,"LFBA","Agen-La Garenne","France","Agen-La Garenne (LFBA) ",2335,0,0,643,5
+2017,"LFBD","Bordeaux-Mérignac","France","Bordeaux-Mérignac (LFBD) ",33185,0,0,24600,2423
+2017,"LFBE","Bergerac-Roumanière","France","Bergerac-Roumanière (LFBE) ",2255,0,0,1155,145
+2017,"LFBH","La Rochelle-Ile de Ré","France","La Rochelle-Ile de Ré (LFBH) ",2399,0,0,1259,161
+2017,"LFBI","Poitiers-Biard","France","Poitiers-Biard (LFBI) ",2628,0,0,1203,70
+2017,"LFBL","Limoges-Bellegarde","France","Limoges-Bellegarde (LFBL) ",3417,0,0,1009,333
+2017,"LFBO","Toulouse-Blagnac","France","Toulouse-Blagnac (LFBO) ",49691,0,0,38153,14158
+2017,"LFBP","Pau-Pyrénées","France","Pau-Pyrénées (LFBP) ",5874,0,0,3315,21
+2017,"LFBT","Tarbes-Lourdes Pyrénées","France","Tarbes-Lourdes Pyrénées (LFBT) ",3504,0,0,566,79
+2017,"LFBZ","Biarritz-Bayonne-Anglet","France","Biarritz-Bayonne-Anglet (LFBZ) ",7264,0,0,5413,2000
+2017,"LFCR","Rodez-Marcillac","France","Rodez-Marcillac (LFCR) ",2012,0,0,93,0
+2017,"LFGJ","Dôle-Tavaux","France","Dôle-Tavaux (LFGJ) ",1324,0,0,311,12
+2017,"LFJL","Metz-Nancy-Lorraine","France","Metz-Nancy-Lorraine (LFJL) ",3124,0,0,1220,99
+2017,"LFJR","Angers-Marcé","France","Angers-Marcé (LFJR) ",918,0,0,1,0
+2017,"LFKB","Bastia-Poretta","France","Bastia-Poretta (LFKB) ",8096,0,0,2771,297
+2017,"LFKC","Calvi-Sainte-Catherine","France","Calvi-Sainte-Catherine (LFKC) ",3140,0,0,804,842
+2017,"LFKF","Figari-Sud Corse","France","Figari-Sud Corse (LFKF) ",5366,0,0,1841,731
+2017,"LFKJ","Ajaccio-Napoléon-Bonaparte","France","Ajaccio-Napoléon-Bonaparte (LFKJ) ",8742,0,0,3014,102
+2017,"LFLB","Chambéry-Aix-les-Bains","France","Chambéry-Aix-les-Bains (LFLB) ",3440,0,0,394,884
+2017,"LFLC","Clermont-Ferrand-Auvergne","France","Clermont-Ferrand-Auvergne (LFLC) ",6370,0,0,2759,886
+2017,"LFLI","Annemasse","France","Annemasse (LFLI) ",848,0,0,0,0
+2017,"LFLL","Lyon-Saint-Exupéry","France","Lyon-Saint-Exupéry (LFLL) ",56185,0,0,42327,15503
+2017,"LFLP","Annecy-Meythet","France","Annecy-Meythet (LFLP) ",1538,0,0,0,0
+2017,"LFLS","Grenoble-Isère","France","Grenoble-Isère (LFLS) ",3498,0,0,687,348
+2017,"LFLX","Châteauroux-Déols","France","Châteauroux-Déols (LFLX) ",1169,0,0,42,0
+2017,"LFLY","Lyon-Bron","France","Lyon-Bron (LFLY) ",4586,0,0,1,0
+2017,"LFMD","Cannes-Mandelieu","France","Cannes-Mandelieu (LFMD) ",6954,0,0,13,0
+2017,"LFMH","Saint-Etienne-Bouthéon","France","Saint-Etienne-Bouthéon (LFMH) ",1202,0,0,251,20
+2017,"LFMI","Istres-Le Tubé","France","Istres-Le Tubé (LFMI) ",1298,0,0,1,0
+2017,"LFMK","Carcassonne-Salvaza","France","Carcassonne-Salvaza (LFMK) ",2718,0,0,1206,14
+2017,"LFML","Marseille-Provence","France","Marseille-Provence (LFML) ",48777,0,0,30360,9431
+2017,"LFMN","Nice-Côte d’Azur","France","Nice-Côte d’Azur (LFMN) ",71337,70629,25546,44245,23118
+2017,"LFMP","Perpignan-Rivesaltes","France","Perpignan-Rivesaltes (LFMP) ",4438,0,0,1852,97
+2017,"LFMT","Montpellier-Méditerranée","France","Montpellier-Méditerranée (LFMT) ",15297,0,0,7228,523
+2017,"LFMU","Béziers-Vias","France","Béziers-Vias (LFMU) ",2892,0,0,724,57
+2017,"LFMV","Avignon-Caumont","France","Avignon-Caumont (LFMV) ",3171,0,0,78,21
+2017,"LFOB","Beauvais-Tillé","France","Beauvais-Tillé (LFOB) ",11539,0,0,10478,3265
+2017,"LFOH","Le Havre-Octeville","France","Le Havre-Octeville (LFOH) ",462,0,0,29,0
+2017,"LFOK","Châlons-Vatry","France","Châlons-Vatry (LFOK) ",2126,0,0,198,65
+2017,"LFOT","Tours-Val de Loire","France","Tours-Val de Loire (LFOT) ",1586,0,0,543,113
+2017,"LFPB","Paris-Le Bourget","France","Paris-Le Bourget (LFPB) ",26996,0,0,41,0
+2017,"LFPG","Paris-Charles-de-Gaulle","France","Paris-Charles-de-Gaulle (LFPG) ",241402,0,0,182874,98844
+2017,"LFPN","Toussus-le-Noble","France","Toussus-le-Noble (LFPN) ",5004,0,0,0,0
+2017,"LFPO","Paris-Orly","France","Paris-Orly (LFPO) ",116001,116234,83042,73315,56548
+2017,"LFQQ","Lille-Lesquin","France","Lille-Lesquin (LFQQ) ",12149,0,0,8832,597
+2017,"LFRB","Brest-Bretagne","France","Brest-Bretagne (LFRB) ",7882,0,0,5142,576
+2017,"LFRD","Dinard-Pleurtuit-Saint-Malo","France","Dinard-Pleurtuit-Saint-Malo (LFRD) ",1711,0,0,380,6
+2017,"LFRG","Deauville-Normandie","France","Deauville-Normandie (LFRG) ",1975,0,0,573,63
+2017,"LFRH","Lorient-Lann Bihoué","France","Lorient-Lann Bihoué (LFRH) ",3024,0,0,983,13
+2017,"LFRK","Caen-Carpiquet","France","Caen-Carpiquet (LFRK) ",2903,0,0,1188,55
+2017,"LFRM","Le Mans","France","Le Mans (LFRM) ",749,0,0,0,0
+2017,"LFRN","Rennes-Saint-Jacques","France","Rennes-Saint-Jacques (LFRN) ",9313,0,0,4976,49
+2017,"LFRO","Lannion","France","Lannion (LFRO) ",628,0,0,334,0
+2017,"LFRQ","Quimper-Pluguffan","France","Quimper-Pluguffan (LFRQ) ",1232,0,0,790,104
+2017,"LFRS","Nantes-Atlantique","France","Nantes-Atlantique (LFRS) ",28827,0,0,22744,8203
+2017,"LFRZ","Saint-Nazaire-Montoir","France","Saint-Nazaire-Montoir (LFRZ) ",1454,0,0,358,0
+2017,"LFSB","Bâle-Mulhouse","France","Bâle-Mulhouse (LFSB) ",39426,26194,3095,28902,3796
+2017,"LFSL","Brive-Souillac","France","Brive-Souillac (LFSL) ",1517,0,0,173,4
+2017,"LFST","Strasbourg-Entzheim","France","Strasbourg-Entzheim (LFST) ",11244,0,0,8339,219
+2017,"LFTH","Hyères-Le Palyvestre","France","Hyères-Le Palyvestre (LFTH) ",5583,0,0,2304,105
+2017,"LFTW","Nîmes-Garons","France","Nîmes-Garons (LFTW) ",2246,0,0,673,0
+2017,"LGAV","Athens","Greece","Athens (LGAV) ",94898,94784,63890,56561,49105
+2017,"LGIR","Heraklion","Greece","Heraklion (LGIR) ",26936,0,0,13583,6802
+2017,"LGKF","Kefallinia","Greece","Kefallinia (LGKF) ",2838,0,0,1308,759
+2017,"LGKO","Kos","Greece","Kos (LGKO) ",8743,0,0,4336,1706
+2017,"LGKR","Corfu","Greece","Corfu (LGKR) ",11122,0,0,6514,6540
+2017,"LGMK","Mikonos","Greece","Mikonos (LGMK) ",7044,0,0,3410,2113
+2017,"LGPZ","Aktion","Greece","Aktion (LGPZ) ",2663,0,0,929,287
+2017,"LGRP","Rodos","Greece","Rodos (LGRP) ",18811,0,0,11018,5405
+2017,"LGSA","Khania/Souda","Greece","Khania/Souda (LGSA) ",12997,0,0,7959,3449
+2017,"LGSK","Skiathos","Greece","Skiathos (LGSK) ",2093,0,0,706,153
+2017,"LGSR","Santorini","Greece","Santorini (LGSR) ",8410,0,0,4980,1218
+2017,"LGTS","Thessaloniki","Greece","Thessaloniki (LGTS) ",27516,0,0,16335,11746
+2017,"LGZA","Zakinthos","Greece","Zakinthos (LGZA) ",6182,0,0,2298,2053
+2017,"LHBP","Budapest/ Ferihegy","Hungary","Budapest/ Ferihegy (LHBP) ",51130,51101,12750,39868,11462
+2017,"LIBR","Brindisi","Italy","Brindisi (LIBR) ",8722,0,0,7741,1099
+2017,"LICC","Catania","Italy","Catania (LICC) ",34370,33924,88300,28975,39532
+2017,"LIMC","Milan/ Malpensa","Italy","Milan/ Malpensa (LIMC) ",89421,89360,51517,63060,36365
+2017,"LIME","Bergamo","Italy","Bergamo (LIME) ",42907,42975,42278,34584,27177
+2017,"LIMF","Torino Caselle","Italy","Torino Caselle (LIMF) ",21939,19862,7865,13985,6252
+2017,"LIML","Milan/ Linate","Italy","Milan/ Linate (LIML) ",58040,53030,14305,46969,16940
+2017,"LIPE","Bologna","Italy","Bologna (LIPE) ",35661,33547,23776,25706,17788
+2017,"LIPH","Treviso","Italy","Treviso (LIPH) ",9850,0,0,8753,8243
+2017,"LIPZ","Venice","Italy","Venice (LIPZ) ",46076,46067,81652,33727,29000
+2017,"LIRA","Rome/Ciampino","Italy","Rome/Ciampino (LIRA) ",26360,0,0,17033,26730
+2017,"LIRF","Rome/Fiumicino","Italy","Rome/Fiumicino (LIRF) ",148712,148710,266922,124950,187168
+2017,"LIRN","Naples","Italy","Naples (LIRN) ",37053,20827,14566,28896,23106
+2017,"LIRP","Pisa San Giusto","Italy","Pisa San Giusto (LIRP) ",21587,0,0,16216,32045
+2017,"LJLJ","Ljubljana","Slovenia","Ljubljana (LJLJ) ",15111,14575,350,2385,358
+2017,"LJMB","Maribor","Slovenia","Maribor (LJMB) ",1003,0,0,19,0
+2017,"LJPZ","Portorož","Slovenia","Portorož (LJPZ) ",776,0,0,0,0
+2017,"LKKV","Karlovy Vary","Czech Republic","Karlovy Vary (LKKV) ",830,0,0,201,0
+2017,"LKMT","Ostrava","Czech Republic","Ostrava (LKMT) ",3321,0,0,1665,121
+2017,"LKPR","Prague","Czech Republic","Prague (LKPR) ",71953,71582,39329,53502,36138
+2017,"LKTB","Brno-Turany","Czech Republic","Brno-Turany (LKTB) ",5554,0,0,1880,458
+2017,"LMML","Malta","Malta","Malta (LMML) ",25410,26702,4661,18548,5148
+2017,"LOWG","Graz","Austria","Graz (LOWG) ",9504,0,0,6545,672
+2017,"LOWI","Innsbruck","Austria","Innsbruck (LOWI) ",9658,0,0,4700,997
+2017,"LOWK","Klagenfurt","Austria","Klagenfurt (LOWK) ",3722,0,0,1688,18
+2017,"LOWL","Linz","Austria","Linz (LOWL) ",6015,0,0,2710,136
+2017,"LOWS","Salzburg","Austria","Salzburg (LOWS) ",14917,0,0,7661,3480
+2017,"LOWW","Vienna","Austria","Vienna (LOWW) ",120044,120033,128983,90617,47568
+2017,"LPAZ","Santa Maria","Portugal","Santa Maria (LPAZ) ",1336,0,0,15,0
+2017,"LPCS","Cascais","Portugal","Cascais (LPCS) ",2314,0,0,5,0
+2017,"LPFL","Flores","Portugal","Flores (LPFL) ",784,0,0,0,0
+2017,"LPFR","Faro","Portugal","Faro (LPFR) ",29597,0,0,20774,7930
+2017,"LPHR","Horta","Portugal","Horta (LPHR) ",2288,0,0,0,0
+2017,"LPMA","Madeira","Portugal","Madeira (LPMA) ",12682,0,0,8492,3520
+2017,"LPPD","Ponta Delgada","Portugal","Ponta Delgada (LPPD) ",9726,0,0,2284,469
+2017,"LPPR","Porto","Portugal","Porto (LPPR) ",43349,43371,25459,35255,19154
+2017,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1772,0,0,339,102
+2017,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",101640,101793,265036,87455,218527
+2017,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5927,0,0,2417,482
+2017,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1951,0,0,6,0
+2017,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",58160,8838,2669,42280,15034
+2017,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",91811,91706,31586,64525,25518
+2017,"LSGS","Sion","Switzerland","Sion (LSGS) ",2979,0,0,10,0
+2017,"LSZH","Zürich","Switzerland","Zürich (LSZH) ",131822,131707,125506,104000,116156
+2017,"LTAC","Ankara/ Esenboga","Turkey","Ankara/ Esenboga (LTAC) ",56361,0,0,38311,29027
+2017,"LTAI","Antalya","Turkey","Antalya (LTAI) ",76976,0,0,16177,24217
+2017,"LTBA","Istanbul/ Atatürk","Turkey","Istanbul/ Atatürk (LTBA) ",225522,0,0,164608,541512
+2017,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",41422,0,0,12625,11271
+2017,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",107036,0,0,33023,61631
+2017,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",13565,0,0,3478,1172
+2017,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",8194,0,0,5460,342
+2017,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",32042,0,0,10335,2565
+2017,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",6460,0,0,2128,481
+2017,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",11084,0,0,5905,1231
+2017,"UDYZ","Zvartnots","Armenia","Zvartnots (UDYZ) ",10620,0,0,698,97
+2017,"UGTB","Tbilisi","Georgia","Tbilisi (UGTB) ",16110,0,0,3505,4015
+2017,"UKBB","Kiev/Boryspil","Ukraine","Kiev/Boryspil (UKBB) ",43784,0,0,7280,1031
+2017,"EVLA","Liepaja","Latvia","Liepaja (EVLA) ",115,0,0,96,0
+2017,"EVVA","Ventspils","Latvia","Ventspils (EVVA) ",6,0,0,0,0
+2017,"ENNK","Narvik Framnes","Norway","Narvik Framnes (ENNK) ",278,228,0,228,0
+2018,"EBAW","Antwerp","Belgium","Antwerp (EBAW) ",6644,0,0,891,205
+2018,"EBBR","Brussels","Belgium","Brussels (EBBR) ",97324,88412,70241,72314,56766
+2018,"EBCI","Charleroi","Belgium","Charleroi (EBCI) ",22822,20238,3057,18195,2587
+2018,"EBLG","Liège","Belgium","Liège (EBLG) ",14488,0,0,1416,122
+2018,"EBOS","Ostend-Bruges","Belgium","Ostend-Bruges (EBOS) ",2791,0,0,1384,142
+2018,"EDDB","Berlin/ Schoenefeld","Germany","Berlin/ Schoenefeld (EDDB) ",42746,0,0,28296,7670
+2018,"EDDC","Dresden","Germany","Dresden (EDDC) ",9383,0,0,7080,780
+2018,"EDDE","Erfurt","Germany","Erfurt (EDDE) ",2461,2187,0,891,471
+2018,"EDDF","Frankfurt","Germany","Frankfurt (EDDF) ",216293,193011,108606,171838,149215
+2018,"EDDG","Muenster-Osnabrueck","Germany","Muenster-Osnabrueck (EDDG) ",8279,5620,839,3758,394
+2018,"EDDH","Hamburg","Germany","Hamburg (EDDH) ",62791,55700,15058,47585,16148
+2018,"EDDK","Cologne-Bonn","Germany","Cologne-Bonn (EDDK) ",60283,0,0,32699,7785
+2018,"EDDL","Dusseldorf","Germany","Dusseldorf (EDDL) ",91694,0,0,66867,43712
+2018,"EDDM","Munich","Germany","Munich (EDDM) ",172884,32989,3210,137271,24063
+2018,"EDDN","Nuremberg","Germany","Nuremberg (EDDN) ",23073,13079,838,14499,2270
+2018,"EDDP","Leipzig-Halle","Germany","Leipzig-Halle (EDDP) ",31271,22210,2342,6697,591
+2018,"EDDR","Saarbruecken","Germany","Saarbruecken (EDDR) ",3951,3583,0,2466,143
+2018,"EDDS","Stuttgart","Germany","Stuttgart (EDDS) ",54661,49010,10016,36038,10638
+2018,"EDDT","Berlin/ Tegel","Germany","Berlin/ Tegel (EDDT) ",76674,0,0,60934,35827
+2018,"EDDV","Hanover","Germany","Hanover (EDDV) ",28287,25137,9136,18474,4987
+2018,"EDDW","Bremen","Germany","Bremen (EDDW) ",13276,12964,824,9087,1937
+2018,"EETN","Tallinn","Estonia","Tallinn (EETN) ",19042,17830,289,10678,673
+2018,"EETU","Tartu","Estonia","Tartu (EETU) ",624,0,0,265,0
+2018,"EFHK","Helsinki/ Vantaa","Finland","Helsinki/ Vantaa (EFHK) ",80534,73878,32531,70047,33574
+2018,"EGAA","Belfast/Aldergrove","United Kingdom","Belfast/Aldergrove (EGAA) ",21373,0,0,14678,3861
+2018,"EGAC","Belfast/City Airport","United Kingdom","Belfast/City Airport (EGAC) ",15332,0,0,14449,1127
+2018,"EGAE","Londonderry/Eglinton","United Kingdom","Londonderry/Eglinton (EGAE) ",1102,0,0,880,0
+2018,"EGBB","Birmingham","United Kingdom","Birmingham (EGBB) ",47273,41839,9661,34080,11595
+2018,"EGCC","Manchester","United Kingdom","Manchester (EGCC) ",86270,32605,26521,62092,43830
+2018,"EGGD","Bristol","United Kingdom","Bristol (EGGD) ",30021,23005,3868,23602,6024
+2018,"EGGW","London/ Luton","United Kingdom","London/ Luton (EGGW) ",57751,41554,15915,39966,28556
+2018,"EGHI","Southampton","United Kingdom","Southampton (EGHI) ",16474,0,0,11089,1821
+2018,"EGKB","Biggin Hill","United Kingdom","Biggin Hill (EGKB) ",7445,0,0,6,0
+2018,"EGKK","London/ Gatwick","United Kingdom","London/ Gatwick (EGKK) ",122050,109504,98751,99732,97201
+2018,"EGLC","London/ City","United Kingdom","London/ City (EGLC) ",33954,0,0,23948,18604
+2018,"EGLF","Farnborough","United Kingdom","Farnborough (EGLF) ",12582,0,0,31,0
+2018,"EGLL","London/ Heathrow","United Kingdom","London/ Heathrow (EGLL) ",200409,0,0,146411,88626
+2018,"EGNT","Newcastle","United Kingdom","Newcastle (EGNT) ",19952,0,0,12173,1220
+2018,"EGNX","East Midlands","United Kingdom","East Midlands (EGNX) ",29798,0,0,11832,1651
+2018,"EGPD","Aberdeen","United Kingdom","Aberdeen (EGPD) ",24173,21648,548,11338,351
+2018,"EGPF","Glasgow","United Kingdom","Glasgow (EGPF) ",39247,35312,4609,23051,4418
+2018,"EGPH","Edinburgh","United Kingdom","Edinburgh (EGPH) ",55177,49194,16626,37543,15937
+2018,"EGSS","London/ Stansted","United Kingdom","London/ Stansted (EGSS) ",85444,76383,105000,59922,87164
+2018,"EHAM","Amsterdam/ Schiphol","Netherlands","Amsterdam/ Schiphol (EHAM) ",216521,0,0,150981,345104
+2018,"EHBK","Maastricht-Aachen","Netherlands","Maastricht-Aachen (EHBK) ",4002,0,0,262,10
+2018,"EHGG","Groningen","Netherlands","Groningen (EHGG) ",4828,0,0,484,36
+2018,"EHRD","Rotterdam","Netherlands","Rotterdam (EHRD) ",11061,0,0,1467,1402
+2018,"EICK","Cork","Ireland","Cork (EICK) ",10602,0,0,5770,1079
+2018,"EIDL","Donegal","Ireland","Donegal (EIDL) ",792,0,0,0,0
+2018,"EIDW","Dublin","Ireland","Dublin (EIDW) ",98686,88292,57787,71407,51130
+2018,"EIKN","Connaught","Ireland","Connaught (EIKN) ",2851,0,0,2492,44
+2018,"EIKY","Kerry/Farranfore","Ireland","Kerry/Farranfore (EIKY) ",1937,0,0,739,162
+2018,"EINN","Shannon","Ireland","Shannon (EINN) ",9608,0,0,4239,524
+2018,"EISG","Sligo","Ireland","Sligo (EISG) ",36,0,0,0,0
+2018,"EIWF","Waterford","Ireland","Waterford (EIWF) ",176,0,0,0,0
+2018,"EIWT","Weston","Ireland","Weston (EIWT) ",503,0,0,0,0
+2018,"EKCH","Copenhagen/ Kastrup","Denmark","Copenhagen/ Kastrup (EKCH) ",112829,100790,14559,86603,13594
+2018,"ELLX","Luxembourg","Luxembourg","Luxembourg (ELLX) ",31547,28079,3073,20677,4277
+2018,"ENAL","Alesund","Norway","Alesund (ENAL) ",6142,4610,40,4869,49
+2018,"ENAN","Andenes","Norway","Andenes (ENAN) ",1906,1299,0,1175,0
+2018,"ENAT","Alta","Norway","Alta (ENAT) ",3626,2333,15,2213,0
+2018,"ENBL","Forde Bringeland","Norway","Forde Bringeland (ENBL) ",1671,1429,0,1266,0
+2018,"ENBN","Bronnoysund Bronnoy","Norway","Bronnoysund Bronnoy (ENBN) ",3014,1461,0,1292,0
+2018,"ENBO","Bodø","Norway","Bodø (ENBO) ",16461,12596,425,12434,565
+2018,"ENBR","Bergen","Norway","Bergen (ENBR) ",35758,25585,203,25813,300
+2018,"ENBS","Batsfjord","Norway","Batsfjord (ENBS) ",936,706,8,630,8
+2018,"ENBV","Berlevåg","Norway","Berlevåg (ENBV) ",676,518,0,464,0
+2018,"ENCN","Kristiansand Kjevik","Norway","Kristiansand Kjevik (ENCN) ",6641,5212,79,5080,74
+2018,"ENDU","Bardufoss","Norway","Bardufoss (ENDU) ",1574,784,0,813,0
+2018,"ENEV","Harstad/Narvik Evenes","Norway","Harstad/Narvik Evenes (ENEV) ",4184,3263,0,3169,0
+2018,"ENFG","Fagernes Leirin","Norway","Fagernes Leirin (ENFG) ",11,0,0,7,0
+2018,"ENFL","Florø","Norway","Florø (ENFL) ",3329,1980,0,1765,0
+2018,"ENGM","Oslo/ Gardermoen","Norway","Oslo/ Gardermoen (ENGM) ",108690,96271,16401,96059,17728
+2018,"ENHD","Haugesund","Norway","Haugesund (ENHD) ",2591,2107,0,2211,14
+2018,"ENHF","Hammerfest","Norway","Hammerfest (ENHF) ",4717,2788,14,2469,14
+2018,"ENHK","Hasvik","Norway","Hasvik (ENHK) ",744,526,0,467,0
+2018,"ENHV","Honningsvåg Valan","Norway","Honningsvåg Valan (ENHV) ",841,620,2,547,2
+2018,"ENKB","Kristiansund Kvernberget","Norway","Kristiansund Kvernberget (ENKB) ",4099,2027,0,2016,44
+2018,"ENKR","Kirkenes Høybuktmoen","Norway","Kirkenes Høybuktmoen (ENKR) ",3181,2166,7,2064,7
+2018,"ENLK","Leknes","Norway","Leknes (ENLK) ",2703,2082,0,1874,0
+2018,"ENMH","Mehamn","Norway","Mehamn (ENMH) ",1023,657,0,582,0
+2018,"ENML","Molde Årø","Norway","Molde Årø (ENML) ",2690,2176,0,2175,0
+2018,"ENMS","Mosjøen Kjærstad","Norway","Mosjøen Kjærstad (ENMS) ",1625,1244,5,1113,5
+2018,"ENNA","Lakselv Banak","Norway","Lakselv Banak (ENNA) ",1035,788,0,713,0
+2018,"ENNM","Namsos Høknesøra","Norway","Namsos Høknesøra (ENNM) ",1136,974,0,863,0
+2018,"ENOV","Orsta¿Volda Hovden","Norway","Orsta¿Volda Hovden (ENOV) ",2047,1675,14,1487,0
+2018,"ENRA","Mo i Rana Røssvoll","Norway","Mo i Rana Røssvoll (ENRA) ",2297,1726,0,1533,0
+2018,"ENRM","Rorvik Ryum","Norway","Rorvik Ryum (ENRM) ",982,843,0,747,0
+2018,"ENRO","Roros","Norway","Roros (ENRO) ",509,421,2,380,2
+2018,"ENRS","Rost","Norway","Rost (ENRS) ",515,430,0,383,0
+2018,"ENSB","Svalbard Longyear","Norway","Svalbard Longyear (ENSB) ",969,571,11,595,11
+2018,"ENSD","Sandane  Anda","Norway","Sandane  Anda (ENSD) ",961,831,0,741,0
+2018,"ENSG","Sogndal Haukåsen","Norway","Sogndal Haukåsen (ENSG) ",2129,1640,7,1640,7
+2018,"ENSH","Svolvær Helle","Norway","Svolvær Helle (ENSH) ",2092,1872,0,1709,0
+2018,"ENSK","Stokmarknes Skagen","Norway","Stokmarknes Skagen (ENSK) ",2614,2004,0,1791,0
+2018,"ENSR","Sorkjosen","Norway","Sorkjosen (ENSR) ",726,505,0,506,0
+2018,"ENSS","Vardø Svartnes","Norway","Vardø Svartnes (ENSS) ",927,716,0,640,0
+2018,"ENST","Sandnessjøen Stokka","Norway","Sandnessjøen Stokka (ENST) ",1622,1203,0,1070,0
+2018,"ENTC","Tromsø","Norway","Tromsø (ENTC) ",17698,13270,535,12921,549
+2018,"ENVA","Trondheim","Norway","Trondheim (ENVA) ",22910,18749,67,19100,54
+2018,"ENVD","Vadsø","Norway","Vadsø (ENVD) ",2711,1869,0,1849,0
+2018,"ENVR","Værøy","Norway","Værøy (ENVR) ",510,0,0,0,0
+2018,"ENZV","Stavanger","Norway","Stavanger (ENZV) ",26566,16398,111,17147,136
+2018,"EPBY","Bydgoszcz","Poland","Bydgoszcz (EPBY) ",1756,0,0,759,10
+2018,"EPGD","Gdansk","Poland","Gdansk (EPGD) ",18489,0,0,14078,731
+2018,"EPKK","Krakow - Balice","Poland","Krakow - Balice (EPKK) ",23042,0,0,16703,7636
+2018,"EPKT","Katowice - Pyrzowice","Poland","Katowice - Pyrzowice (EPKT) ",16555,0,0,8402,1225
+2018,"EPLB","Lublin","Poland","Lublin (EPLB) ",1874,0,0,330,0
+2018,"EPLL","Lodz - Lublinek","Poland","Lodz - Lublinek (EPLL) ",1559,0,0,563,9
+2018,"EPMO","Warszawa/ Modlin","Poland","Warszawa/ Modlin (EPMO) ",8292,0,0,6904,1513
+2018,"EPPO","Poznan - Lawica","Poland","Poznan - Lawica (EPPO) ",10621,0,0,5888,954
+2018,"EPRA","Radom","Poland","Radom (EPRA) ",288,0,0,0,0
+2018,"EPRZ","Rzeszow - Jasionka","Poland","Rzeszow - Jasionka (EPRZ) ",3933,0,0,2031,75
+2018,"EPSC","Szczecin - Goleniów","Poland","Szczecin - Goleniów (EPSC) ",2658,0,0,1497,0
+2018,"EPSY","Olsztyn-Mazury","Poland","Olsztyn-Mazury (EPSY) ",625,0,0,314,0
+2018,"EPWA","Warszawa/ Chopina","Poland","Warszawa/ Chopina (EPWA) ",79183,70941,23361,38747,15506
+2018,"EPWR","Wroclaw/ Strachowice","Poland","Wroclaw/ Strachowice (EPWR) ",13174,0,0,8848,1099
+2018,"EPZG","Zielona Gora - Babimost","Poland","Zielona Gora - Babimost (EPZG) ",371,0,0,104,0
+2018,"ESGG","Göteborg","Sweden","Göteborg (ESGG) ",30683,26896,1945,22762,1889
+2018,"ESSA","Stockholm/ Arlanda","Sweden","Stockholm/ Arlanda (ESSA) ",102822,91365,6673,81735,6677
+2018,"ESSB","Stockholm/ Bromma","Sweden","Stockholm/ Bromma (ESSB) ",22660,0,0,10516,623
+2018,"EVLA","Liepaja","Latvia","Liepaja (EVLA) ",156,0,0,117,0
+2018,"EVRA","Riga","Latvia","Riga (EVRA) ",35215,31500,1603,26376,1566
+2018,"EYKA","Kaunas","Lithuania","Kaunas (EYKA) ",3663,0,0,2373,44
+2018,"EYPA","Palanga","Lithuania","Palanga (EYPA) ",1820,0,0,1482,79
+2018,"EYSA","Šiauliai","Lithuania","Šiauliai (EYSA) ",987,0,0,2,0
+2018,"EYVI","Vilnius","Lithuania","Vilnius (EYVI) ",19731,0,0,12493,500
+2018,"GCFV","Fuerteventura","Spain","Fuerteventura (GCFV) ",21140,16599,499,13405,2180
+2018,"GCGM","La Gomera","Spain","La Gomera (GCGM) ",715,0,0,588,15
+2018,"GCHI","Hierro","Spain","Hierro (GCHI) ",1935,0,0,1379,151
+2018,"GCLA","La Palma","Spain","La Palma (GCLA) ",8716,0,0,5979,256
+2018,"GCLP","Gran Canaria","Spain","Gran Canaria (GCLP) ",52425,46276,15263,35592,11828
+2018,"GCRR","Lanzarote","Spain","Lanzarote (GCRR) ",24660,19764,1552,16512,3243
+2018,"GCTS","Tenerife Sur/Reina Sofia","Spain","Tenerife Sur/Reina Sofia (GCTS) ",27367,24290,12112,18707,10824
+2018,"GCXO","Tenerife North","Spain","Tenerife North (GCXO) ",29140,18169,5004,20733,6725
+2018,"GEML","Melilla","Spain","Melilla (GEML) ",3161,0,0,724,24
+2018,"GMAD","Al Massira","Morocco","Al Massira (GMAD) ",6829,0,0,2325,297
+2018,"GMFF","Saïss","Morocco","Saïss (GMFF) ",4358,0,0,1951,1868
+2018,"GMME","Rabat-Salé","Morocco","Rabat-Salé (GMME) ",5007,0,0,1670,1071
+2018,"GMMN","Mohammed V International","Morocco","Mohammed V International (GMMN) ",37167,0,0,3694,4217
+2018,"GMMX","Menara","Morocco","Menara (GMMX) ",16441,0,0,8742,10328
+2018,"GMTT","Ibn Batouta","Morocco","Ibn Batouta (GMTT) ",4909,0,0,1424,1243
+2018,"LATI","Tirana","Albania","Tirana (LATI) ",10881,0,0,3271,1221
+2018,"LBSF","Sofia","Bulgaria","Sofia (LBSF) ",25375,22487,3002,15113,3839
+2018,"LCLK","Larnaca","Cyprus","Larnaca (LCLK) ",28484,13748,4051,13036,3969
+2018,"LCPH","Paphos","Cyprus","Paphos (LCPH) ",8297,0,0,5244,1584
+2018,"LDZA","Zagreb","Croatia","Zagreb (LDZA) ",18428,16368,1464,5336,1233
+2018,"LDZL","Lucko","Croatia","Lucko (LDZL) ",184,0,0,0,0
+2018,"LEAB","Albacete","Spain","Albacete (LEAB) ",267,0,0,1,0
+2018,"LEAL","Alicante","Spain","Alicante (LEAL) ",41819,37014,13411,29023,13122
+2018,"LEAM","Almeria","Spain","Almeria (LEAM) ",4372,0,0,1397,297
+2018,"LEAS","Asturias","Spain","Asturias (LEAS) ",5093,0,0,3913,878
+2018,"LEBA","Cordoba","Spain","Cordoba (LEBA) ",98,0,0,0,0
+2018,"LEBB","Bilbao","Spain","Bilbao (LEBB) ",19971,17618,986,16897,2431
+2018,"LEBG","Burgos","Spain","Burgos (LEBG) ",122,0,0,0,0
+2018,"LEBL","Barcelona","Spain","Barcelona (LEBL) ",143518,92850,133117,115142,197921
+2018,"LEBZ","Badajoz","Spain","Badajoz (LEBZ) ",637,0,0,13,0
+2018,"LECO","La Coruna","Spain","La Coruna (LECO) ",4868,0,0,3927,1425
+2018,"LECU","Madrid/Cuatro Viento","Spain","Madrid/Cuatro Viento (LECU) ",1015,0,0,0,0
+2018,"LEDA","Lleida/Alguaire","Spain","Lleida/Alguaire (LEDA) ",317,0,0,20,20
+2018,"LEGE","Gerona","Spain","Gerona (LEGE) ",7374,0,0,4010,288
+2018,"LEGR","Granada","Spain","Granada (LEGR) ",4406,0,0,2596,346
+2018,"LEGT","Madrid/Getafe","Spain","Madrid/Getafe (LEGT) ",633,0,0,0,0
+2018,"LEIB","Ibiza","Spain","Ibiza (LEIB) ",35192,14822,911,20112,4024
+2018,"LEIZ","Abad","Spain","Abad (LEIZ) ",116,0,0,0,0
+2018,"LEJR","Jerez De La Frontera","Spain","Jerez De La Frontera (LEJR) ",6487,0,0,2912,287
+2018,"LELC","Murcia San Javier","Spain","Murcia San Javier (LELC) ",4071,0,0,2789,556
+2018,"LELL","Sabadell","Spain","Sabadell (LELL) ",650,0,0,0,0
+2018,"LELN","Leon","Spain","Leon (LELN) ",508,0,0,10,0
+2018,"LEMD","Madrid/ Barajas","Spain","Madrid/ Barajas (LEMD) ",171909,151773,110538,104471,82256
+2018,"LEMG","Málaga","Spain","Málaga (LEMG) ",59807,52777,26546,41287,25734
+2018,"LEMH","Mahon","Spain","Mahon (LEMH) ",14414,0,0,8179,744
+2018,"LEMO","Seville/Moron","Spain","Seville/Moron (LEMO) ",1564,0,0,0,0
+2018,"LEPA","Palma de Mallorca","Spain","Palma de Mallorca (LEPA) ",100620,81596,38799,68054,48929
+2018,"LEPP","Noain Pamplona","Spain","Noain Pamplona (LEPP) ",1672,0,0,180,0
+2018,"LERJ","Logrono","Spain","Logrono (LERJ) ",287,0,0,2,0
+2018,"LERS","Reus","Spain","Reus (LERS) ",3932,0,0,1881,606
+2018,"LERT","Rota","Spain","Rota (LERT) ",1702,0,0,0,0
+2018,"LESA","Salamanca Matalan","Spain","Salamanca Matalan (LESA) ",1491,0,0,19,0
+2018,"LESB","Son Bonet","Spain","Son Bonet (LESB) ",213,0,0,0,0
+2018,"LESJ","Palma/Son San Juan","Spain","Palma/Son San Juan (LESJ) ",139,0,0,0,0
+2018,"LESO","San Sebastian","Spain","San Sebastian (LESO) ",2322,0,0,455,137
+2018,"LEST","Santiago","Spain","Santiago (LEST) ",8875,0,0,5571,1251
+2018,"LETO","Madrid/Torrejon","Spain","Madrid/Torrejon (LETO) ",768,0,0,0,0
+2018,"LEVC","Valencia","Spain","Valencia (LEVC) ",29193,23714,376,17304,4022
+2018,"LEVD","Valladolid","Spain","Valladolid (LEVD) ",1276,0,0,554,66
+2018,"LEVT","Vitoria","Spain","Vitoria (LEVT) ",3607,0,0,300,4
+2018,"LEVX","Vigo","Spain","Vigo (LEVX) ",4539,0,0,3483,298
+2018,"LEXJ","Santander","Spain","Santander (LEXJ) ",3961,0,0,2643,260
+2018,"LEZG","Zaragoza","Spain","Zaragoza (LEZG) ",3993,0,0,1710,248
+2018,"LEZL","Sevilla","Spain","Sevilla (LEZL) ",20892,4247,363,13564,4440
+2018,"LFAQ","Albert-Bray","France","Albert-Bray (LFAQ) ",412,0,0,0,0
+2018,"LFBA","Agen-La Garenne","France","Agen-La Garenne (LFBA) ",1829,0,0,376,0
+2018,"LFBD","Bordeaux-Mérignac","France","Bordeaux-Mérignac (LFBD) ",29691,0,0,20105,2934
+2018,"LFBE","Bergerac-Roumanière","France","Bergerac-Roumanière (LFBE) ",1888,0,0,910,109
+2018,"LFBH","La Rochelle-Ile de Ré","France","La Rochelle-Ile de Ré (LFBH) ",2267,0,0,1173,130
+2018,"LFBI","Poitiers-Biard","France","Poitiers-Biard (LFBI) ",2065,0,0,919,137
+2018,"LFBL","Limoges-Bellegarde","France","Limoges-Bellegarde (LFBL) ",2670,0,0,728,371
+2018,"LFBO","Toulouse-Blagnac","France","Toulouse-Blagnac (LFBO) ",41093,0,0,27951,10401
+2018,"LFBP","Pau-Pyrénées","France","Pau-Pyrénées (LFBP) ",4950,0,0,2229,0
+2018,"LFBT","Tarbes-Lourdes Pyrénées","France","Tarbes-Lourdes Pyrénées (LFBT) ",3186,0,0,491,31
+2018,"LFBZ","Biarritz-Bayonne-Anglet","France","Biarritz-Bayonne-Anglet (LFBZ) ",6065,0,0,4001,1597
+2018,"LFCR","Rodez-Marcillac","France","Rodez-Marcillac (LFCR) ",1593,0,0,81,0
+2018,"LFGJ","Dôle-Tavaux","France","Dôle-Tavaux (LFGJ) ",1142,0,0,238,131
+2018,"LFJL","Metz-Nancy-Lorraine","France","Metz-Nancy-Lorraine (LFJL) ",2818,0,0,979,24
+2018,"LFJR","Angers-Marcé","France","Angers-Marcé (LFJR) ",724,0,0,0,0
+2018,"LFKB","Bastia-Poretta","France","Bastia-Poretta (LFKB) ",7618,0,0,2808,257
+2018,"LFKC","Calvi-Sainte-Catherine","France","Calvi-Sainte-Catherine (LFKC) ",2866,0,0,757,741
+2018,"LFKF","Figari-Sud Corse","France","Figari-Sud Corse (LFKF) ",5084,0,0,1707,460
+2018,"LFKJ","Ajaccio-Napoléon-Bonaparte","France","Ajaccio-Napoléon-Bonaparte (LFKJ) ",8112,0,0,2881,586
+2018,"LFLB","Chambéry-Aix-les-Bains","France","Chambéry-Aix-les-Bains (LFLB) ",2924,0,0,377,549
+2018,"LFLC","Clermont-Ferrand-Auvergne","France","Clermont-Ferrand-Auvergne (LFLC) ",5131,0,0,2187,658
+2018,"LFLI","Annemasse","France","Annemasse (LFLI) ",761,0,0,0,0
+2018,"LFLL","Lyon-Saint-Exupéry","France","Lyon-Saint-Exupéry (LFLL) ",47626,0,0,30911,13286
+2018,"LFLP","Annecy-Meythet","France","Annecy-Meythet (LFLP) ",1291,0,0,0,0
+2018,"LFLS","Grenoble-Isère","France","Grenoble-Isère (LFLS) ",3103,0,0,663,232
+2018,"LFLX","Châteauroux-Déols","France","Châteauroux-Déols (LFLX) ",1129,0,0,30,0
+2018,"LFLY","Lyon-Bron","France","Lyon-Bron (LFLY) ",4286,0,0,1,0
+2018,"LFMD","Cannes-Mandelieu","France","Cannes-Mandelieu (LFMD) ",6363,0,0,3,0
+2018,"LFMH","Saint-Etienne-Bouthéon","France","Saint-Etienne-Bouthéon (LFMH) ",749,0,0,2,0
+2018,"LFMI","Istres-Le Tubé","France","Istres-Le Tubé (LFMI) ",947,0,0,0,0
+2018,"LFMK","Carcassonne-Salvaza","France","Carcassonne-Salvaza (LFMK) ",2363,0,0,936,10
+2018,"LFML","Marseille-Provence","France","Marseille-Provence (LFML) ",41382,0,0,23310,7775
+2018,"LFMN","Nice-Côte d’Azur","France","Nice-Côte d’Azur (LFMN) ",63000,56885,19493,35291,18198
+2018,"LFMP","Perpignan-Rivesaltes","France","Perpignan-Rivesaltes (LFMP) ",4377,0,0,1619,44
+2018,"LFMT","Montpellier-Méditerranée","France","Montpellier-Méditerranée (LFMT) ",12315,0,0,5372,646
+2018,"LFMU","Béziers-Vias","France","Béziers-Vias (LFMU) ",2768,0,0,605,125
+2018,"LFMV","Avignon-Caumont","France","Avignon-Caumont (LFMV) ",2584,0,0,48,0
+2018,"LFOB","Beauvais-Tillé","France","Beauvais-Tillé (LFOB) ",10034,0,0,8268,3628
+2018,"LFOH","Le Havre-Octeville","France","Le Havre-Octeville (LFOH) ",342,0,0,18,0
+2018,"LFOK","Châlons-Vatry","France","Châlons-Vatry (LFOK) ",1396,0,0,147,20
+2018,"LFOT","Tours-Val de Loire","France","Tours-Val de Loire (LFOT) ",1300,0,0,391,39
+2018,"LFPB","Paris-Le Bourget","France","Paris-Le Bourget (LFPB) ",24426,0,0,27,0
+2018,"LFPG","Paris-Charles-de-Gaulle","France","Paris-Charles-de-Gaulle (LFPG) ",205168,0,0,142156,85453
+2018,"LFPN","Toussus-le-Noble","France","Toussus-le-Noble (LFPN) ",4312,0,0,0,0
+2018,"LFPO","Paris-Orly","France","Paris-Orly (LFPO) ",98468,60086,32233,55264,32904
+2018,"LFQQ","Lille-Lesquin","France","Lille-Lesquin (LFQQ) ",10877,0,0,7081,695
+2018,"LFRB","Brest-Bretagne","France","Brest-Bretagne (LFRB) ",6808,0,0,4043,386
+2018,"LFRD","Dinard-Pleurtuit-Saint-Malo","France","Dinard-Pleurtuit-Saint-Malo (LFRD) ",1263,0,0,270,71
+2018,"LFRG","Deauville-Normandie","France","Deauville-Normandie (LFRG) ",1675,0,0,424,35
+2018,"LFRH","Lorient-Lann Bihoué","France","Lorient-Lann Bihoué (LFRH) ",2489,0,0,668,34
+2018,"LFRK","Caen-Carpiquet","France","Caen-Carpiquet (LFRK) ",2976,0,0,1287,0
+2018,"LFRM","Le Mans","France","Le Mans (LFRM) ",644,0,0,0,0
+2018,"LFRN","Rennes-Saint-Jacques","France","Rennes-Saint-Jacques (LFRN) ",7671,0,0,3755,314
+2018,"LFRO","Lannion","France","Lannion (LFRO) ",274,0,0,0,0
+2018,"LFRQ","Quimper-Pluguffan","France","Quimper-Pluguffan (LFRQ) ",1097,0,0,643,213
+2018,"LFRS","Nantes-Atlantique","France","Nantes-Atlantique (LFRS) ",25952,0,0,18414,7037
+2018,"LFRZ","Saint-Nazaire-Montoir","France","Saint-Nazaire-Montoir (LFRZ) ",1115,0,0,258,0
+2018,"LFSB","Bâle-Mulhouse","France","Bâle-Mulhouse (LFSB) ",34845,29078,2511,23923,4105
+2018,"LFSL","Brive-Souillac","France","Brive-Souillac (LFSL) ",1262,0,0,61,0
+2018,"LFST","Strasbourg-Entzheim","France","Strasbourg-Entzheim (LFST) ",9238,0,0,5713,444
+2018,"LFTH","Hyères-Le Palyvestre","France","Hyères-Le Palyvestre (LFTH) ",5340,0,0,2201,721
+2018,"LFTW","Nîmes-Garons","France","Nîmes-Garons (LFTW) ",1927,0,0,562,5
+2018,"LGAV","Athens","Greece","Athens (LGAV) ",91134,55344,60274,52389,50772
+2018,"LGIR","Heraklion","Greece","Heraklion (LGIR) ",28225,0,0,13796,6412
+2018,"LGKF","Kefallinia","Greece","Kefallinia (LGKF) ",3426,0,0,1603,2128
+2018,"LGKO","Kos","Greece","Kos (LGKO) ",9849,0,0,5163,3134
+2018,"LGKR","Corfu","Greece","Corfu (LGKR) ",12664,0,0,7465,7436
+2018,"LGMK","Mikonos","Greece","Mikonos (LGMK) ",8072,0,0,3933,1743
+2018,"LGPZ","Aktion","Greece","Aktion (LGPZ) ",2670,0,0,1039,150
+2018,"LGRP","Rodos","Greece","Rodos (LGRP) ",18947,0,0,10737,3867
+2018,"LGSA","Khania/Souda","Greece","Khania/Souda (LGSA) ",11685,0,0,6615,5648
+2018,"LGSK","Skiathos","Greece","Skiathos (LGSK) ",2007,0,0,1032,188
+2018,"LGSR","Santorini","Greece","Santorini (LGSR) ",9615,0,0,5529,631
+2018,"LGTS","Thessaloniki","Greece","Thessaloniki (LGTS) ",24286,0,0,13866,7767
+2018,"LGZA","Zakinthos","Greece","Zakinthos (LGZA) ",6475,0,0,2802,1102
+2018,"LHBP","Budapest/ Ferihegy","Hungary","Budapest/ Ferihegy (LHBP) ",48376,43258,8802,35751,7913
+2018,"LIBR","Brindisi","Italy","Brindisi (LIBR) ",8142,0,0,6326,934
+2018,"LICC","Catania","Italy","Catania (LICC) ",31824,28201,62699,24422,27549
+2018,"LIMC","Milan/ Malpensa","Italy","Milan/ Malpensa (LIMC) ",81658,72535,43755,54100,35046
+2018,"LIME","Bergamo","Italy","Bergamo (LIME) ",38027,34158,29233,27135,17029
+2018,"LIMF","Torino Caselle","Italy","Torino Caselle (LIMF) ",17806,14312,8117,10145,3602
+2018,"LIML","Milan/ Linate","Italy","Milan/ Linate (LIML) ",47928,33227,5682,34548,8263
+2018,"LIPE","Bologna","Italy","Bologna (LIPE) ",30089,25384,15074,19153,10546
+2018,"LIPH","Treviso","Italy","Treviso (LIPH) ",9019,0,0,7198,3988
+2018,"LIPZ","Venice","Italy","Venice (LIPZ) ",41195,36725,44535,29070,23473
+2018,"LIRA","Rome/Ciampino","Italy","Rome/Ciampino (LIRA) ",21950,11453,13921,12761,12701
+2018,"LIRF","Rome/Fiumicino","Italy","Rome/Fiumicino (LIRF) ",130259,116489,188072,100146,131885
+2018,"LIRN","Naples","Italy","Naples (LIRN) ",34295,30018,24257,24877,24178
+2018,"LIRP","Pisa San Giusto","Italy","Pisa San Giusto (LIRP) ",19559,0,0,12959,21546
+2018,"LJLJ","Ljubljana","Slovenia","Ljubljana (LJLJ) ",13538,12751,351,1960,1082
+2018,"LJMB","Maribor","Slovenia","Maribor (LJMB) ",948,0,0,2,0
+2018,"LJPZ","Portorož","Slovenia","Portorož (LJPZ) ",725,0,0,0,0
+2018,"LKKV","Karlovy Vary","Czech Republic","Karlovy Vary (LKKV) ",690,0,0,92,0
+2018,"LKMT","Ostrava","Czech Republic","Ostrava (LKMT) ",3240,0,0,788,32
+2018,"LKPR","Prague","Czech Republic","Prague (LKPR) ",64463,57461,25687,39373,20547
+2018,"LKTB","Brno-Turany","Czech Republic","Brno-Turany (LKTB) ",4564,0,0,779,41
+2018,"LLBG","Ben Gurion International","Israel","Ben Gurion International (LLBG) ",66981,0,0,31604,28534
+2018,"LMML","Malta","Malta","Malta (LMML) ",24466,23553,6422,16234,5318
+2018,"LOWG","Graz","Austria","Graz (LOWG) ",8114,0,0,4965,249
+2018,"LOWI","Innsbruck","Austria","Innsbruck (LOWI) ",8242,0,0,3676,1406
+2018,"LOWK","Klagenfurt","Austria","Klagenfurt (LOWK) ",3046,0,0,1265,10
+2018,"LOWL","Linz","Austria","Linz (LOWL) ",5305,0,0,2059,49
+2018,"LOWS","Salzburg","Austria","Salzburg (LOWS) ",12376,0,0,6001,2787
+2018,"LOWW","Vienna","Austria","Vienna (LOWW) ",107034,94985,152389,76643,54162
+2018,"LPAZ","Santa Maria","Portugal","Santa Maria (LPAZ) ",1216,0,0,2,0
+2018,"LPCS","Cascais","Portugal","Cascais (LPCS) ",2204,0,0,2,95
+2018,"LPFL","Flores","Portugal","Flores (LPFL) ",767,0,0,0,0
+2018,"LPFR","Faro","Portugal","Faro (LPFR) ",27090,0,0,18021,5175
+2018,"LPHR","Horta","Portugal","Horta (LPHR) ",2003,0,0,0,0
+2018,"LPMA","Madeira","Portugal","Madeira (LPMA) ",10222,0,0,6556,1930
+2018,"LPPD","Ponta Delgada","Portugal","Ponta Delgada (LPPD) ",8688,0,0,1835,228
+2018,"LPPR","Porto","Portugal","Porto (LPPR) ",39476,35316,21459,29289,19653
+2018,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1297,0,0,542,85
+2018,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",91839,82334,356475,72491,313225
+2018,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5334,0,0,2079,345
+2018,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",2049,0,0,1,0
+2018,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",51919,46558,14676,34959,8970
+2018,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",76418,68725,28614,50070,23356
+2018,"LSGS","Sion","Switzerland","Sion (LSGS) ",2782,0,0,13,12
+2018,"LSZH","Zürich","Switzerland","Zürich (LSZH) ",114870,102510,114541,84321,104837
+2018,"LTAC","Ankara/ Esenboga","Turkey","Ankara/ Esenboga (LTAC) ",48946,0,0,32504,44033
+2018,"LTAI","Antalya","Turkey","Antalya (LTAI) ",85713,0,0,17777,22604
+2018,"LTBA","Istanbul/ Atatürk","Turkey","Istanbul/ Atatürk (LTBA) ",192482,0,0,131109,441620
+2018,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",36008,0,0,12546,15447
+2018,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",95020,0,0,38862,84384
+2018,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",12074,0,0,3136,1746
+2018,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",7639,0,0,5015,220
+2018,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",28373,0,0,6399,1145
+2018,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",6143,0,0,1828,286
+2018,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",10334,4144,292,3954,760
+2018,"UDYZ","Zvartnots","Armenia","Zvartnots (UDYZ) ",9625,0,0,713,354
+2018,"UGTB","Tbilisi","Georgia","Tbilisi (UGTB) ",16018,0,0,3238,3727
+2018,"UKBB","Kiev/Boryspil","Ukraine","Kiev/Boryspil (UKBB) ",40780,0,0,6563,703
+2018,"LERE","Valencia/Requena","Spain","Valencia/Requena (LERE) ",6,0,0,0,0
+2018,"EVVA","Ventspils","Latvia","Ventspils (EVVA) ",8,0,0,0,0
