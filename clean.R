@@ -1,3 +1,5 @@
+lib_req <- c("data.table", "magrittr", "plyr", "rstudioapi")
+
 library(data.table)
 library(magrittr)
 library(plyr)
@@ -41,6 +43,12 @@ for (file in names(dat)) {
     }
   }
 }
+
+# Minor data corrections
+dat$ATFM_APT$STATE_NAME[dat$ATFM_APT$STATE_NAME == "The former Yugoslav Republic of Macedonia"] <- "FYR Macedonia"
+dat$ATFM_APT$STATE_NAME[dat$ATFM_APT$STATE_NAME == "Bosnia and Herzegovina"] <- "Bosnia and Herzegovina"
+dat$PREDEP$STATE_NAME[dat$PREDEP$STATE_NAME == "The former Yugoslav Republic of Macedonia"] <- "FYR Macedonia"
+dat$PREDEP$STATE_NAME[dat$PREDEP$STATE_NAME == "Bosnia and Herzegovina"] <- "Bosnia & Herzegovina"
 
 # ATFM --------------------------------------------------------------------
 ATFM_numcols <- c(

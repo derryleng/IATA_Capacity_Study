@@ -250,7 +250,7 @@
 2014,"LPPR","Porto","Portugal","Porto (LPPR) ",31699,0,0,27672,13114
 2014,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1593,0,0,240,33
 2014,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",78280,0,0,68967,63509
-2014,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5664,0,0,2349,96
+2014,"LQSA","Sarajevo","Bosnia & Herzegovina","Sarajevo (LQSA) ",5664,0,0,2349,96
 2014,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1934,0,0,11,0
 2014,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",45620,0,0,35219,6698
 2014,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",90563,90251,21725,61576,18591
@@ -262,7 +262,7 @@
 2014,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",37504,0,0,11718,6367
 2014,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",89852,0,0,22726,37865
 2014,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",9639,0,0,2720,366
-2014,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",6440,0,0,3538,139
+2014,"LWSK","Skopje","FYR Macedonia","Skopje (LWSK) ",6440,0,0,3538,139
 2014,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",31079,0,0,17572,2406
 2014,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",5049,0,0,1446,379
 2014,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",8935,0,0,4564,579
@@ -524,7 +524,7 @@
 2015,"LPPR","Porto","Portugal","Porto (LPPR) ",35219,0,0,29641,17650
 2015,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1559,0,0,242,18
 2015,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",82973,0,0,73124,62398
-2015,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5189,0,0,2632,227
+2015,"LQSA","Sarajevo","Bosnia & Herzegovina","Sarajevo (LQSA) ",5189,0,0,2632,227
 2015,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1825,0,0,6,0
 2015,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",48246,0,0,37376,8358
 2015,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",90767,90517,22613,63578,19804
@@ -536,7 +536,7 @@
 2015,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",40764,0,0,14668,9462
 2015,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",106432,0,0,35454,135529
 2015,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",11242,0,0,2682,464
-2015,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",7055,0,0,4875,341
+2015,"LWSK","Skopje","FYR Macedonia","Skopje (LWSK) ",7055,0,0,4875,341
 2015,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",31285,0,0,23077,3533
 2015,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",5356,0,0,2095,217
 2015,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",9891,0,0,4022,1263
@@ -802,7 +802,7 @@
 2016,"LPPR","Porto","Portugal","Porto (LPPR) ",39350,0,0,32637,19187
 2016,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1672,0,0,302,70
 2016,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",91206,0,0,79104,96543
-2016,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5305,0,0,2665,310
+2016,"LQSA","Sarajevo","Bosnia & Herzegovina","Sarajevo (LQSA) ",5305,0,0,2665,310
 2016,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1690,0,0,2,0
 2016,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",53877,0,0,41848,13316
 2016,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",91555,91365,31755,64181,25047
@@ -814,7 +814,7 @@
 2016,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",39975,0,0,15064,5197
 2016,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",112708,0,0,43704,183839
 2016,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",11128,0,0,3286,668
-2016,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",7609,0,0,5661,290
+2016,"LWSK","Skopje","FYR Macedonia","Skopje (LWSK) ",7609,0,0,5661,290
 2016,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",31715,0,0,23652,3272
 2016,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",5708,0,0,2487,204
 2016,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",10455,0,0,5349,1562
@@ -1121,7 +1121,7 @@
 2017,"LPPR","Porto","Portugal","Porto (LPPR) ",43349,43371,25459,35255,19154
 2017,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1772,0,0,339,102
 2017,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",101640,101793,265036,87455,218527
-2017,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5927,0,0,2417,482
+2017,"LQSA","Sarajevo","Bosnia & Herzegovina","Sarajevo (LQSA) ",5927,0,0,2417,482
 2017,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",1951,0,0,6,0
 2017,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",58160,8838,2669,42280,15034
 2017,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",91811,91706,31586,64525,25518
@@ -1133,7 +1133,7 @@
 2017,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",41422,0,0,12625,11271
 2017,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",107036,0,0,33023,61631
 2017,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",13565,0,0,3478,1172
-2017,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",8194,0,0,5460,342
+2017,"LWSK","Skopje","FYR Macedonia","Skopje (LWSK) ",8194,0,0,5460,342
 2017,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",32042,0,0,10335,2565
 2017,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",6460,0,0,2128,481
 2017,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",11084,0,0,5905,1231
@@ -1448,7 +1448,7 @@
 2018,"LPPR","Porto","Portugal","Porto (LPPR) ",39476,35316,21459,29289,19653
 2018,"LPPS","Porto Santo","Portugal","Porto Santo (LPPS) ",1297,0,0,542,85
 2018,"LPPT","Lisbon","Portugal","Lisbon (LPPT) ",91839,82334,356475,72491,313225
-2018,"LQSA","Sarajevo","Bosnia and Herzegovina","Sarajevo (LQSA) ",5334,0,0,2079,345
+2018,"LQSA","Sarajevo","Bosnia & Herzegovina","Sarajevo (LQSA) ",5334,0,0,2079,345
 2018,"LRBS","Bucharest/ Baneasa","Romania","Bucharest/ Baneasa (LRBS) ",2049,0,0,1,0
 2018,"LROP","Bucharest/ Otopeni","Romania","Bucharest/ Otopeni (LROP) ",51919,46558,14676,34959,8970
 2018,"LSGG","Geneva","Switzerland","Geneva (LSGG) ",76418,68725,28614,50070,23356
@@ -1460,7 +1460,7 @@
 2018,"LTBJ","Izmir/ Adnan Menderes","Turkey","Izmir/ Adnan Menderes (LTBJ) ",36008,0,0,12546,15447
 2018,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey","Istanbul/ Sabiha Gökçen (LTFJ) ",95020,0,0,38862,84384
 2018,"LUKK","Chi<U+0219>inau","Moldova","Chi<U+0219>inau (LUKK) ",12074,0,0,3136,1746
-2018,"LWSK","Skopje","The former Yugoslav Republic of Macedonia","Skopje (LWSK) ",7639,0,0,5015,220
+2018,"LWSK","Skopje","FYR Macedonia","Skopje (LWSK) ",7639,0,0,5015,220
 2018,"LYBE","Belgrade/ Nikola Tesla","Serbia","Belgrade/ Nikola Tesla (LYBE) ",28373,0,0,6399,1145
 2018,"LYPG","Podgorica","Montenegro","Podgorica (LYPG) ",6143,0,0,1828,286
 2018,"LZIB","Bratislava","Slovakia","Bratislava (LZIB) ",10334,4144,292,3954,760

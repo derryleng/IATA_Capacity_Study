@@ -1,0 +1,86 @@
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.shiny-output-error {
+  	visibility: hidden;
+}
+.shiny-output-error:before {
+  	visibility: hidden;
+}
+
+/* Header */
+.main-header {
+    border: 1px solid black;
+}
+.sidebar-toggle {
+    display: none;
+}
+.sidebar-toggle-border {
+    position: absolute;
+    left: 229px;
+    top: 0px;
+    height: 52px;
+    width: 45px;
+    z-index: 100000;
+    border-left: 1px solid black;
+    pointer-events: none;
+    background: none;
+}
+.topbar-wrapper {
+    position: absolute;
+    left: 275px;
+    right: 0;
+    top: 0;
+    height: 50px;
+    z-index: 100000;
+}
+
+/* Sidebar */
+.sidebar-wrapper {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: auto;
+    width: 100%;
+    z-index: 1000;
+}
+.sidebar-wrapper > * > * > .dropdown {
+    background-color: rgb(34,45,50);
+}
+.skin-black .sidebar a {
+    color: #444;
+}
+.form-group {
+    margin-bottom: -8px;
+}
+.think {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    background-image: url('Think_FullLogoStrapline_Pink.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 113.4px 56.6px;
+}
+
+/* Body */
+.content-wrapper {
+    background-color: #FFFFFF;
+}
+.plot-wrapper {
+    position: absolute;
+    height: auto;
+    width: auto;
+    left: 230px;
+    right: 15px;
+    top: 70px;
+    bottom: 15px;
+}
