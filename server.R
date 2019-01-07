@@ -23,8 +23,8 @@ server <- function(input, output) {
     if (input$kpi == "En-Route ATFM Delay") {
       pickerInput("type", "Select Type", choices = choices_ATFM_TYPE, selected="AREA (AUA)", width = "200px")
     } else if (input$kpi == "Airport Arrival AFTM Delay") {
-      if (input$metric %!in% c("Delay Ranking (Yearly)", "Delay Ranking (Month)")) {
-        pickerInput("state", "Select State", choices = choices_ATFM_APT_STATE, selected="All Countries", width = "200px")
+      if (input$metric %!in% metrics_ranking) {
+        pickerInput("state", "Select State/FAB", choices = choices_ATFM_APT_STATE, selected="All Countries", width = "200px")
       }
     } else if (input$kpi == "ASMA Additional Time") {
       pickerInput("state", "Select State", choices = choices_ASMA_STATE, selected="United Kingdom", width = "200px")
@@ -32,6 +32,8 @@ server <- function(input, output) {
       pickerInput("state", "Select State", choices = choices_TAXI_STATE, selected="United Kingdom", width = "200px")
     } else if (input$kpi == "ATC Pre-Departure Delay") {
       pickerInput("state", "Select State", choices = choices_PREDEP_STATE, selected="United Kingdom", width = "200px")
+    } else if (input$kpi == "ATC Pre-Departure Delay") {
+      pickerInput("state", "Select State/FAB", choices = choices_BOTH_STATE, selected="All Countries", width = "200px")
     }
   })
   
@@ -49,8 +51,10 @@ server <- function(input, output) {
         pickerInput("entity", "Select FAB", choices = choices_ATFM_FAB, width = "200px")
       }
     } else if (input$kpi == "Airport Arrival AFTM Delay") {
-      choices_ATFM_APT_AIRPORT <- sort(unique(dat$ATFM_APT[STATE %in% input$state]$NAME))
-      pickerInput("entity", "Select Airport", choices = choices_ATFM_APT_AIRPORT, selected = grep("^All *", choices_ATFM_APT_AIRPORT, value=T), width = "200px")
+      if (input$metric %!in% metrics_ranking) {
+        choices_ATFM_APT_AIRPORT <- sort(unique(dat$ATFM_APT[STATE %in% input$state]$NAME))
+        pickerInput("entity", "Select Airport", choices = choices_ATFM_APT_AIRPORT, selected = grep("^All *", choices_ATFM_APT_AIRPORT, value=T), width = "200px")
+      }
     } else if (input$kpi == "ASMA Additional Time") {
       choices_ASMA_AIRPORT <- sort(unique(dat$ASMA[STATE %in% input$state]$NAME))
       pickerInput("entity", "Select Airport", choices = choices_ASMA_AIRPORT, selected = "London/ Gatwick", width = "200px")
@@ -68,13 +72,13 @@ server <- function(input, output) {
   })
   
   output$option_month <- renderUI({
-    if (input$metric %in% c("Delays per Flight (Month)","Delay Ranking (Month)", "Average Monthly Delays (Month)", "APT Average Monthly Delays (Month)", "AL Average Monthly Delays (Month)")) {
+    if (input$metric %in% metrics_month) {
       pickerInput("month", "Select Month", choices=as.vector(monthsfull), selected="July", width="200px")
     }
   })
   
   output$option_ranking <- renderUI({
-    if (input$metric %in% c("Delay Ranking (Yearly)", "Delay Ranking (Month)")) {
+    if (input$metric %in% metrics_ranking) {
       div(style="display: table; margin: 0 auto;", numericInput("top", "Display Top", value=10, min=3, max=100, step=1, width="100%"))
     }
   })
@@ -89,25 +93,10 @@ server <- function(input, output) {
     }
   })
   
-  d <- reactive({
-    if (input$kpi == "En-Route ATFM Delay") {
-      dat$ATFM
-    } else if (input$kpi == "Airport Arrival AFTM Delay") {
-      dat$ATFM_APT
-    } else if (input$kpi == "ASMA Additional Time") {
-      dat$ASMA
-    } else if (input$kpi == "Taxi-Out Additional Time") {
-      dat$TAXI
-    } else if (input$kpi == "ATC Pre-Departure Delay") {
-      dat$PREDEP
-    }
-  })
-  
   draw_plot <- reactive({
     req(input$kpi)
     if (input$kpi == "En-Route ATFM Delay") {
       plot_ATFM(
-        dataset = d(),
         metric = input$metric,
         type = input$type,
         entity = input$entity,
@@ -120,7 +109,6 @@ server <- function(input, output) {
       )
     } else if (input$kpi == "Airport Arrival AFTM Delay") {
       plot_ATFM_APT(
-        dataset = d(),
         metric = input$metric,
         type = input$state,
         entity = input$entity,
@@ -131,9 +119,17 @@ server <- function(input, output) {
         years = input$year,
         month = input$month
       )
-    } else if (input$kpi %in% c("ASMA Additional Time","Taxi-Out Additional Time")) {
-      plot_ADDITIONAL(
-        dataset = d(),
+    } else if (input$kpi == "ASMA Additional Time") {
+      plot_ASMA(
+        metric = input$metric,
+        type = input$state,
+        entity = input$entity,
+        fontsize = input$fontsize,
+        years = input$year,
+        month = input$month
+      )
+    } else if (input$kpi == "Taxi-Out Additional Time") {
+      plot_TAXI(
         metric = input$metric,
         type = input$state,
         entity = input$entity,
@@ -143,7 +139,6 @@ server <- function(input, output) {
       )
     } else if (input$kpi == "ATC Pre-Departure Delay") {
       plot_PREDEP(
-        dataset = d(),
         metric = input$metric,
         type = input$state,
         entity = input$entity,
@@ -161,7 +156,7 @@ server <- function(input, output) {
       paste(gsub(" ","_",input$kpi), "_", gsub("-|:| ","",Sys.time()), ".png", sep="")
     },
     content = function(file) {
-      plotly_IMAGE(draw_plot(), width=1600, height=1000, format="png", out_file=file)
+      plotly_IMAGE(draw_plot(), width=input$exportx, height=input$exporty, format="png", out_file=file)
     }
   )
   

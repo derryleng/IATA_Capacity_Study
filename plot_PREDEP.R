@@ -1,5 +1,5 @@
-plot_PREDEP <- function(dataset, metric, type, entity, breakdown=T, annual=F, top=10, fontsize=12, years, month) {
-  g <- plot_ly(data=subset(dataset, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)))
+plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fontsize=12, years, month) {
+  g <- plot_ly(data=subset(dat$PREDEP, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)))
   
   if (metric == "APT Total Monthly Delays") {
     title <- paste("ATC Pre-Departure Total Delay (Reported by Airport Operators) for", entity)
@@ -56,11 +56,11 @@ plot_PREDEP <- function(dataset, metric, type, entity, breakdown=T, annual=F, to
   } else if (metric == "APT Average Monthly Delays (Yearly)") {
     title <- paste("ATC Pre-Departure Average Delay (Reported by Airport Operators) for", entity)
     ytitle <- paste("Delay per IFR Departure (min.)")
-    uniqueyears <- unique(subset(dataset, NAME %in% entity & YEAR %in% years)$YEAR)
+    uniqueyears <- unique(subset(dat$PREDEP, NAME %in% entity & YEAR %in% years)$YEAR)
     for (i in 1:length(uniqueyears)) {
       g <- g %>%
         add_trace(
-          data=subset(dataset, NAME %in% entity & YEAR %in% uniqueyears[i]) %>% arrange(factor(MONTH, levels=months)),
+          data=subset(dat$PREDEP, NAME %in% entity & YEAR %in% uniqueyears[i]) %>% arrange(factor(MONTH, levels=months)),
           x=~factor(MONTH,levels=months),
           y=~DELAY_APT/FLIGHTS_APT,
           name=uniqueyears[i],
@@ -74,11 +74,11 @@ plot_PREDEP <- function(dataset, metric, type, entity, breakdown=T, annual=F, to
   } else if (metric == "AL Average Monthly Delays (Yearly)") {
     title <- paste("ATC Pre-Departure Average Delay (Reported by CODA/Airlines) for", entity)
     ytitle <- paste("Delay per IFR Departure (min.)")
-    uniqueyears <- unique(subset(dataset, NAME %in% entity & YEAR %in% years)$YEAR)
+    uniqueyears <- unique(subset(dat$PREDEP, NAME %in% entity & YEAR %in% years)$YEAR)
     for (i in 1:length(uniqueyears)) {
       g <- g %>%
         add_trace(
-          data=subset(dataset, NAME %in% entity & YEAR %in% uniqueyears[i]) %>% arrange(factor(MONTH, levels=months)),
+          data=subset(dat$PREDEP, NAME %in% entity & YEAR %in% uniqueyears[i]) %>% arrange(factor(MONTH, levels=months)),
           x=~factor(MONTH,levels=months),
           y=~DELAY_AL/FLIGHTS_AL,
           name=uniqueyears[i],
@@ -92,11 +92,11 @@ plot_PREDEP <- function(dataset, metric, type, entity, breakdown=T, annual=F, to
   } else if (metric == "APT Average Monthly Delays (Month)") {
     title <- paste(month,"ATC Pre-Departure Average Delay (Reported by Airport Operators) for", entity)
     ytitle <- paste("Delay per IFR Departure (min.)")
-    uniqueyears <- unique(subset(dataset, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
+    uniqueyears <- unique(subset(dat$PREDEP, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
     for (i in 1:length(uniqueyears)) {
       g <- g %>%
         add_trace(
-          data=subset(dataset, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
+          data=subset(dat$PREDEP, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
           x=~YEAR,
           y=~DELAY_APT/FLIGHTS_APT,
           name=uniqueyears[i],
@@ -109,11 +109,11 @@ plot_PREDEP <- function(dataset, metric, type, entity, breakdown=T, annual=F, to
   } else if (metric == "AL Average Monthly Delays (Month)") {
     title <- paste(month,"ATC Pre-Departure Average Delay (Reported by CODA/Airlines) for", entity)
     ytitle <- paste("Delay per IFR Departure (min.)")
-    uniqueyears <- unique(subset(dataset, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
+    uniqueyears <- unique(subset(dat$PREDEP, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
     for (i in 1:length(uniqueyears)) {
       g <- g %>%
         add_trace(
-          data=subset(dataset, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
+          data=subset(dat$PREDEP, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
           x=~YEAR,
           y=~DELAY_AL/FLIGHTS_AL,
           name=uniqueyears[i],

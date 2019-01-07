@@ -1,28 +1,29 @@
-plot_ADDITIONAL <- function(dataset, metric, type, entity, breakdown=T, annual=F, top=10, fontsize=12, years, month) {
+plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fontsize=12, years, month) {
   g <- plot_ly()
   
   if (metric == "Average Monthly Delays") {
-    title <- paste("Average Monthly Delays for", entity)
+    title <- paste("Average Monthly Taxi-Out Additional Time for", entity)
     ytitle <- paste("Average Delay (min.)")
     xtitle <- "Date"
     g <- g %>%
       add_trace(
-        data=subset(dataset, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)),
+        data=subset(dat$TAXI, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)),
         x=~factor(paste(MONTH,YEAR),levels=monthsyears),
         y=~TIME_ADD,
         type="scatter",
         mode="lines",
         line=list(color="rgb(213,16,103)", width=3)
       )
+    
   } else if (metric == "Average Monthly Delays (Yearly)") {
-    title <- paste("Average Monthly Delays for", entity, "Yearly Trends")
+    title <- paste("Average Monthly Taxi-Out Additional Time for", entity, "Yearly Trends")
     ytitle <- paste("Average Delay (min.)")
     xtitle <- "Month"
-    uniqueyears <- unique(subset(dataset, NAME %in% entity & YEAR %in% years)$YEAR)
+    uniqueyears <- unique(subset(dat$TAXI, NAME %in% entity & YEAR %in% years)$YEAR)
     for (i in 1:length(uniqueyears)) {
       g <- g %>%
         add_trace(
-          data=subset(dataset, NAME %in% entity & YEAR %in% uniqueyears[i]) %>% arrange(factor(MONTH, levels=months)),
+          data=subset(dat$TAXI, NAME %in% entity & YEAR %in% uniqueyears[i]) %>% arrange(factor(MONTH, levels=months)),
           x=~factor(MONTH, levels=months),
           y=~TIME_ADD,
           name=uniqueyears[i],
@@ -32,15 +33,16 @@ plot_ADDITIONAL <- function(dataset, metric, type, entity, breakdown=T, annual=F
         )
     }
     g <- g %>% layout(hovermode="compare")
+    
   } else if (metric == "Average Monthly Delays (Month)") {
-    title <- paste(month, "Average Monthly Delays for", entity, "Yearly Trends")
+    title <- paste(month, "Average Monthly Taxi-Out Additional Time for", entity, "Yearly Trends")
     ytitle <- paste("Average Delay (min.)")
     xtitle <- "Year"
-    uniqueyears <- unique(subset(dataset, NAME %in% entity & YEAR %in% years & MONTH %in% "JUL")$YEAR)
+    uniqueyears <- unique(subset(dat$TAXI, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
     for (i in 1:length(uniqueyears)) {
       g <- g %>%
         add_trace(
-          data=subset(dataset, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% "JUL"),
+          data=subset(dat$TAXI, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
           x=~YEAR,
           y=~TIME_ADD,
           name=uniqueyears[i],

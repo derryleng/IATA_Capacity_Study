@@ -1,20 +1,20 @@
 ﻿STATE,FAB
-Lithuania,BALTIC FAB
-Poland,BALTIC FAB
+Lithuania,Baltic FAB
+Poland,Baltic FAB
 Cyprus,BLUE MED FAB
 Greece,BLUE MED FAB
 Italy,BLUE MED FAB
 Malta,BLUE MED FAB
-Bulgaria,DANUBE
-Romania,DANUBE
+Bulgaria,DANUBE FAB
+Romania,DANUBE FAB
 Denmark,DK-SE FAB
 Sweden,DK-SE FAB
-Austria,FAB CE
-Croatia,FAB CE
-Czech Rep,FAB CE
-Hungary,FAB CE
-Slovakia,FAB CE
-Slovenia,FAB CE
+Austria,FAB CE (SES RP2)
+Croatia,FAB CE (SES RP2)
+Czech Rep,FAB CE (SES RP2)
+Hungary,FAB CE (SES RP2)
+Slovakia,FAB CE (SES RP2)
+Slovenia,FAB CE (SES RP2)
 Belgium,FABEC
 Germany,FABEC
 France,FABEC
@@ -27,5 +27,5 @@ Latvia,NEFAB
 Norway,NEFAB
 Portugal,SW FAB
 Spain,SW FAB
-Ireland,UK-IRL FAB
-United Kingdom,UK-IRL FAB
+Ireland,UK-Ireland FAB
+United Kingdom,UK-Ireland FAB

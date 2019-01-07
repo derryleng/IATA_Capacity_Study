@@ -4,18 +4,16 @@ library(data.table)
 library(magrittr)
 library(plyr)
 
+# Import ------------------------------------------------------------------
 project_path <- "C:\\Dropbox (Think Research)\\Projects\\IATA Capacity Study\\0. Resources\\"
 
 # ATFM Delay Enroute
 ATFM_AUA <- fread(paste0(project_path, "ATFM Delay Enroute\\En-Route_ATFM_Delay_AUA.csv"), encoding = "UTF-8")
-#ATFM_AUA_postops <- fread(paste0(project_path, "ATFM Delay Enroute\\En-Route_ATFM_Delay_AUA_post_ops.csv"), encoding = "UTF-8")
 ATFM_FIR <- fread(paste0(project_path, "ATFM Delay Enroute\\En-Route_ATFM_Delay_FIR.csv"), encoding = "UTF-8")
-#ATFM_FIR_postops <- fread(paste0(project_path, "ATFM Delay Enroute\\En-Route_ATFM_Delay_FIR_post_ops.csv"), encoding = "UTF-8")
 ATFM <- rbind(ATFM_AUA, ATFM_FIR)
 
 # ATFM Delay Airport
 ATFM_APT <- fread(paste0(project_path, "ATFM Delay Airport\\Airport_Arrival_ATFM_Delay.csv"), encoding = "UTF-8")
-#ATFM_APT_postops <- fread(paste0(project_path, "ATFM Delay Airport\\Airport_Arrival_ATFM_Delay_post_ops.csv"), encoding = "UTF-8")
 
 # ASMA Delay
 ASMA <- fread(paste0(project_path, "ASMA Delay\\ASMA_Additional_Time.csv"), encoding = "UTF-8")
@@ -27,15 +25,21 @@ TAXI <- fread(paste0(project_path, "Taxi-Out Additional Time\\Taxi-Out_Additiona
 PREDEP <- fread(paste0(project_path, "ATC Pre-Departure Delay\\ATC_Pre-Departure_Delay.csv"), encoding = "UTF-8")
 
 # Append data tables to list
-#datnames <- c("ATFM_AUA","ATFM_AUA_postops","ATFM_FIR","ATFM_FIR_postops","ATFM_APT","ATFM_APT_postops","ASMA","TAXI","PREDEP")
 datnames <- c("ATFM","ATFM_APT","ASMA","TAXI","PREDEP")
 dat <- lapply(datnames, function(x) eval(parse(text=x))); names(dat) <- datnames
 
 # Remove bad values and clean numeric columns
 for (file in names(dat)) {
   for (col in names(dat[[file]])) {
+    # Replace "missing" text values with NA
     set(dat[[file]], i=which(dat[[file]][[col]] %in% c("","N/A","NULL","NA","<NA>"," ")), j=col, value=NA)
+    # Shorten some names
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "The former Yugoslav Republic of Macedonia"), j=col, value="FYR Macedonia")
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "Bosnia and Herzegovina"), j=col, value="Bosnia & Herzegovina")
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "Serbia and Montenegro"), j=col, value="Serbia & Montenegro")
+    # Remove commas from data values (needed for next step)
     dat[[file]][[col]] <- gsub(",","",dat[[file]][[col]])
+    # Detect numeric columns and coerce to proper type
     y <- dat[[file]][[col]] %>% .[!is.na(.)]
     sample <- ifelse(length(y) > 0, y[sample(seq(1,length(y)),1)], NA)
     if (grepl("^[0-9]{1,}$", sample)) {
@@ -43,12 +47,6 @@ for (file in names(dat)) {
     }
   }
 }
-
-# Minor data corrections
-dat$ATFM_APT$STATE_NAME[dat$ATFM_APT$STATE_NAME == "The former Yugoslav Republic of Macedonia"] <- "FYR Macedonia"
-dat$ATFM_APT$STATE_NAME[dat$ATFM_APT$STATE_NAME == "Bosnia and Herzegovina"] <- "Bosnia and Herzegovina"
-dat$PREDEP$STATE_NAME[dat$PREDEP$STATE_NAME == "The former Yugoslav Republic of Macedonia"] <- "FYR Macedonia"
-dat$PREDEP$STATE_NAME[dat$PREDEP$STATE_NAME == "Bosnia and Herzegovina"] <- "Bosnia & Herzegovina"
 
 # ATFM --------------------------------------------------------------------
 ATFM_numcols <- c(
@@ -131,6 +129,15 @@ for (state in unique(dat$ATFM_APT$STATE_NAME)) {
 for (i in temp_agg) {
   temp <- rbind(temp, i)
 }
+# Add FAB to ATFM_APT
+STATE_FAB <- fread(paste0(project_path, "STATE_FAB.csv"), encoding = "UTF-8")
+temp <- merge(temp, STATE_FAB, by.x="STATE_NAME", by.y="STATE", all.x=T)
+temp_agg <- aggregate(data=subset(temp, !is.na(FAB), select=-c(STATE_NAME, APT_ICAO, APT_NAME)), .~YEAR+MONTH_MON+FAB, "sum")
+temp_agg$STATE_NAME <- temp_agg$FAB
+temp_agg$APT_ICAO <- NA
+temp_agg$APT_NAME <- paste("All", temp_agg$FAB)
+temp <- rbind(subset(temp, select=-c(FAB)), subset(temp_agg, select=-c(FAB)))
+temp <- temp[c(2,3,4,5,1,seq(6,length(temp),1))]
 # Create average columns
 for (col in ATFM_APT_numcols[-c(1)]) {
   temp[[paste0(col,"_AVG")]] <- ifelse(temp$FLT_ARR_1 == 0, NA, temp[[col]]/temp$FLT_ARR_1)
@@ -141,15 +148,12 @@ names(temp) <- c(
   "DELAY_AVG","A_AVG","C_AVG","D_AVG","E_AVG","G_AVG","I_AVG","M_AVG","N_AVG",
   "O_AVG","P_AVG","R_AVG","S_AVG","T_AVG","V_AVG","W_AVG","NA_AVG"
 )
-temp$LABEL <- paste0(temp$NAME," (",temp$ICAO,") ")
 dat$ATFM_APT <- temp
 
 such_temp <- ddply(dat$ATFM_APT, .(YEAR,MONTH), numcolwise(sum, na.rm=T))
 such_temp$ICAO <- "NA"
-such_temp$NAME <- "Europe"
+such_temp$NAME <- "NA"
 such_temp$STATE <- "All Countries"
-such_temp$LABEL <- "NA"
-such_temp <- such_temp[,c(1,2,38,39,40,seq(3,37,1),41)]
 dat$ATFM_APT <- rbind(dat$ATFM_APT, such_temp)
 
 # ASMA --------------------------------------------------------------------
@@ -186,6 +190,9 @@ dat$ATFM_ANNUAL <- ddply(dat$ATFM[,1:24], .(YEAR,NAME,TYPE), numcolwise(sum, na.
 for (col in names(dat$ATFM_ANNUAL[,-c(1,2,3,4)])) {
   dat$ATFM_ANNUAL[[paste0(col,"_AVG")]] <- ifelse(dat$ATFM_ANNUAL$FLIGHTS_TOTAL == 0, NA, dat$ATFM_ANNUAL[[col]]/dat$ATFM_ANNUAL$FLIGHTS_TOTAL)
 }
+# Add ATFM Delay Targets to ATFM_ANNUAL
+ATFM_TARGETS <- fread(paste0(project_path, "ATFM_TARGETS.csv"), encoding = "UTF-8")
+dat$ATFM_ANNUAL <- merge(dat$ATFM_ANNUAL, subset(ATFM_TARGETS, select=c(YEAR,NAME,TARGET)), by=c("YEAR", "NAME"), all.x=T)
 
 dat$ATFM_APT_ANNUAL <- ddply(dat$ATFM_APT[,1:23], .(YEAR,ICAO,NAME,STATE), numcolwise(sum, na.rm=T))
 for (col in names(dat$ATFM_APT_ANNUAL[,-c(1,2,3,4,5)])) {
@@ -195,6 +202,18 @@ for (col in names(dat$ATFM_APT_ANNUAL[,-c(1,2,3,4,5)])) {
 dat$ASMA_ANNUAL <-  ddply(dat$ASMA, .(YEAR,ICAO,NAME,STATE,ASMA_RADIUS,LABEL), numcolwise(sum, na.rm=T))
 dat$TAXI_ANNUAL <- ddply(dat$TAXI, .(YEAR,ICAO,NAME,STATE,LABEL), numcolwise(sum, na.rm=T))
 dat$PREDEP_ANNUAL <- ddply(dat$PREDEP, .(YEAR,ICAO,NAME,STATE,LABEL), numcolwise(sum, na.rm=T))
+
+# Other Adjustments -------------------------------------------------------
+
+# Remove 2018 total flights due to incomplete 2018 data
+dat$ATFM <- as.data.table(dat$ATFM)
+dat$ATFM_ANNUAL <- as.data.table(dat$ATFM_ANNUAL)
+dat$ATFM_APT <- as.data.table(dat$ATFM_APT)
+dat$ATFM_APT_ANNUAL <- as.data.table(dat$ATFM_APT_ANNUAL)
+dat$ATFM[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
+dat$ATFM_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
+dat$ATFM_APT[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
+dat$ATFM_APT_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA
 
 # Save to CSV -------------------------------------------------------------
 setwd(paste(dirname(rstudioapi::getSourceEditorContext()$path)))
