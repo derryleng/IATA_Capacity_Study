@@ -1,3 +1,6 @@
+# For differentiation between states and FAB
+ATFM_APT_FAB <- c("Baltic FAB", "BLUE MED FAB", "DANUBE FAB", "DK-SE FAB", "FAB CE (SES RP2)", "FABEC", "NEFAB", "SW FAB", "UK-Ireland FAB")
+
 plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, fontsize=12, years, month) {
   
   if (metric == "Delays per Flight") {
@@ -7,35 +10,35 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
     if (breakdown == T & annual == T) {
       xtitle <- "Year"
       colour <- c(brewer.pal(9, "Set1"), brewer.pal(7, "Set3"))
-      g <- plot_ly(data=subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)))
+      g <- plot_ly(data=subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
       g <- g %>%
-        add_trace(x=~YEAR, y=~A_AVG, name="A - Accident/Incident", type="bar", marker=list(color=colour[1])) %>%
-        add_trace(x=~YEAR, y=~C_AVG, name="C - ATC Capacity", type="bar", marker=list(color=colour[2])) %>%
-        add_trace(x=~YEAR, y=~D_AVG, name="D - De-icing", type="bar", marker=list(color=colour[3])) %>%
-        add_trace(x=~YEAR, y=~E_AVG, name="E - Equipment (Non-ATC)", type="bar", marker=list(color=colour[4])) %>%
-        add_trace(x=~YEAR, y=~G_AVG, name="G - Aerodrome Capacity", type="bar", marker=list(color=colour[5])) %>%
-        add_trace(x=~YEAR, y=~I_AVG, name="I - Industrial Action (ATC)", type="bar", marker=list(color=colour[6])) %>%
-        add_trace(x=~YEAR, y=~M_AVG, name="M - Airspace Management", type="bar", marker=list(color=colour[7])) %>%
-        add_trace(x=~YEAR, y=~N_AVG, name="N - Industrial Action (Non-ATC)", type="bar", marker=list(color=colour[8])) %>%
-        add_trace(x=~YEAR, y=~O_AVG, name="O - Other", type="bar", marker=list(color=colour[9])) %>%
-        add_trace(x=~YEAR, y=~P_AVG, name="P - Special Event", type="bar", marker=list(color=colour[10])) %>%
-        add_trace(x=~YEAR, y=~R_AVG, name="R - ATC Routeing", type="bar", marker=list(color=colour[11])) %>%
-        add_trace(x=~YEAR, y=~S_AVG, name="S - ATC Staffing", type="bar", marker=list(color=colour[12])) %>%
-        add_trace(x=~YEAR, y=~T_AVG, name="T - Equipment (ATC)", type="bar", marker=list(color=colour[13])) %>%
-        add_trace(x=~YEAR, y=~V_AVG, name="V - Environmental Issues", type="bar", marker=list(color=colour[14])) %>%
-        add_trace(x=~YEAR, y=~W_AVG, name="W - Weather", type="bar", marker=list(color=colour[15])) %>%
-        add_trace(x=~YEAR, y=~NA_AVG, name="NA - Not Specified", type="bar", marker=list(color=colour[16])) %>%
-        add_lines(x=~YEAR, y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
+        add_trace(y=~A_AVG, name="A - Accident/Incident", type="bar", marker=list(color=colour[1])) %>%
+        add_trace(y=~C_AVG, name="C - ATC Capacity", type="bar", marker=list(color=colour[2])) %>%
+        add_trace(y=~D_AVG, name="D - De-icing", type="bar", marker=list(color=colour[3])) %>%
+        add_trace(y=~E_AVG, name="E - Equipment (Non-ATC)", type="bar", marker=list(color=colour[4])) %>%
+        add_trace(y=~G_AVG, name="G - Aerodrome Capacity", type="bar", marker=list(color=colour[5])) %>%
+        add_trace(y=~I_AVG, name="I - Industrial Action (ATC)", type="bar", marker=list(color=colour[6])) %>%
+        add_trace(y=~M_AVG, name="M - Airspace Management", type="bar", marker=list(color=colour[7])) %>%
+        add_trace(y=~N_AVG, name="N - Industrial Action (Non-ATC)", type="bar", marker=list(color=colour[8])) %>%
+        add_trace(y=~O_AVG, name="O - Other", type="bar", marker=list(color=colour[9])) %>%
+        add_trace(y=~P_AVG, name="P - Special Event", type="bar", marker=list(color=colour[10])) %>%
+        add_trace(y=~R_AVG, name="R - ATC Routeing", type="bar", marker=list(color=colour[11])) %>%
+        add_trace(y=~S_AVG, name="S - ATC Staffing", type="bar", marker=list(color=colour[12])) %>%
+        add_trace(y=~T_AVG, name="T - Equipment (ATC)", type="bar", marker=list(color=colour[13])) %>%
+        add_trace(y=~V_AVG, name="V - Environmental Issues", type="bar", marker=list(color=colour[14])) %>%
+        add_trace(y=~W_AVG, name="W - Weather", type="bar", marker=list(color=colour[15])) %>%
+        add_trace(y=~NA_AVG, name="NA - Not Specified", type="bar", marker=list(color=colour[16])) %>%
+        add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
         layout(barmode="stack",
                yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
                annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
       
     } else if (breakdown == F & annual == T) {
       xtitle <- "Year"
-      g <- plot_ly(data=subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)))
+      g <- plot_ly(data=subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
       g <- g %>%
-        add_trace(x=~YEAR, y=~DELAY_AVG, name="Delays per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
-        add_lines(x=~YEAR, y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
+        add_trace(y=~DELAY_AVG, name="Delays per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
+        add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
         layout(barmode="stack",
                yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
                annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
@@ -62,8 +65,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
         add_trace(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~W_AVG, name="W - Weather", type="bar", marker=list(color=colour[15])) %>%
         add_trace(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~NA_AVG, name="NA - Not Specified", type="bar", marker=list(color=colour[16])) %>%
         add_lines(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
-        layout(barmode="stack",
-               yaxis2=list(overlaying="y", side="right", title="Total Flights", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
+        layout(barmode="stack", xaxis=list(tickangle=90),
+               yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
                annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
       
     } else if (breakdown == F & annual == F) {
@@ -72,12 +75,10 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
       g <- g %>%
         add_trace(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~DELAY_AVG, name="Delays per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
         add_lines(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
-        layout(barmode="stack",
-               yaxis2=list(overlaying="y", side="right", title="Total Flights", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
+        layout(barmode="stack", xaxis=list(tickangle=90),
+               yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
                annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
     }
-    
-    g <- g %>% layout(xaxis=list(tickangle=90))
     
   } else if (metric == "Delays per Flight (Yearly)") {
     title <- paste("Airport Arrivals ATFM Delay per Flight for", entity, "Yearly Trends")
@@ -97,33 +98,56 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
           line=list(color=rev(brewer.pal(length(uniqueyears),"Dark2"))[i], width=3)
         )
     }
-    g <- g %>% layout(hovermode="compare", xaxis=list(tickangle=90))
     
   } else if (metric == "Delays per Flight (Month)") {
+    
     title <- paste(month, "Airport Arrivals ATFM Delay per Flight for", entity, "Yearly Trends")
     ytitle <- "Airport Arrivals ATFM Delay per Flight (min.)"
     xtitle <- "Year"
-    uniqueyears <- unique(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
-    g <- plot_ly()
-    for (i in 1:length(uniqueyears)) {
+    if (breakdown == T) {
+      colour <- c(brewer.pal(9, "Set1"), brewer.pal(7, "Set3"))
+      g <- plot_ly(data=subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
       g <- g %>%
-        add_trace(
-          data=subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
-          x=~YEAR,
-          y=~DELAY_AVG,
-          name=uniqueyears[i],
-          marker=list(color=rev(brewer.pal(length(uniqueyears),"Spectral"))[i]),
-          type="bar",
-          showlegend=F
-        )
+        add_trace(y=~A_AVG, name="A - Accident/Incident", type="bar", marker=list(color=colour[1])) %>%
+        add_trace(y=~C_AVG, name="C - ATC Capacity", type="bar", marker=list(color=colour[2])) %>%
+        add_trace(y=~D_AVG, name="D - De-icing", type="bar", marker=list(color=colour[3])) %>%
+        add_trace(y=~E_AVG, name="E - Equipment (Non-ATC)", type="bar", marker=list(color=colour[4])) %>%
+        add_trace(y=~G_AVG, name="G - Aerodrome Capacity", type="bar", marker=list(color=colour[5])) %>%
+        add_trace(y=~I_AVG, name="I - Industrial Action (ATC)", type="bar", marker=list(color=colour[6])) %>%
+        add_trace(y=~M_AVG, name="M - Airspace Management", type="bar", marker=list(color=colour[7])) %>%
+        add_trace(y=~N_AVG, name="N - Industrial Action (Non-ATC)", type="bar", marker=list(color=colour[8])) %>%
+        add_trace(y=~O_AVG, name="O - Other", type="bar", marker=list(color=colour[9])) %>%
+        add_trace(y=~P_AVG, name="P - Special Event", type="bar", marker=list(color=colour[10])) %>%
+        add_trace(y=~R_AVG, name="R - ATC Routeing", type="bar", marker=list(color=colour[11])) %>%
+        add_trace(y=~S_AVG, name="S - ATC Staffing", type="bar", marker=list(color=colour[12])) %>%
+        add_trace(y=~T_AVG, name="T - Equipment (ATC)", type="bar", marker=list(color=colour[13])) %>%
+        add_trace(y=~V_AVG, name="V - Environmental Issues", type="bar", marker=list(color=colour[14])) %>%
+        add_trace(y=~W_AVG, name="W - Weather", type="bar", marker=list(color=colour[15])) %>%
+        add_trace(y=~NA_AVG, name="NA - Not Specified", type="bar", marker=list(color=colour[16])) %>%
+        layout(barmode="stack")
+      
+    } else {
+      uniqueyears <- unique(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
+      g <- plot_ly()
+      for (i in 1:length(uniqueyears)) {
+        g <- g %>%
+          add_trace(
+            data=subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
+            x=~YEAR,
+            y=~DELAY_AVG,
+            name=uniqueyears[i],
+            marker=list(color=rev(brewer.pal(length(uniqueyears),"Spectral"))[i]),
+            type="bar",
+            showlegend=F
+          )
+      }
     }
-    g <- g %>% layout(xaxis=list(tickangle=90))
     
   } else if (metric == "Airport Delay Ranking (Yearly)") {
-    title <- "Yearly Average Airport Delay Ranking"
+    title <- "Yearly Average Airport Arrival ATFM Delay Ranking by Airport"
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %!in% c("NA",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
       .[rev(order(YEAR, DELAY_AVG))]
     g <- plot_ly(
         data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -135,10 +159,10 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
       ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "Airport Delay Ranking (Month)") {
-    title <- paste(month, "Average Airport Delay Ranking")
+    title <- paste(month, "Average Airport Arrival ATFM Delay Ranking by Airport")
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, NAME %!in% c("NA",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
       .[rev(order(YEAR, DELAY_AVG))]
     g <- plot_ly(
         data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -149,8 +173,38 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
         type="bar"
       ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
+  } else if (metric == "State Delay Ranking (Yearly)") {
+    title <- "Yearly Average Airport Arrival ATFM Delay Ranking by State"
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    g <- plot_ly(
+      data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
+      y=~DELAY_AVG,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "State Delay Ranking (Month)") {
+    title <- paste(month, "Average Airport Arrival ATFM Delay Ranking by State")
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM_APT, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    g <- plot_ly(
+      data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
+      y=~DELAY_AVG,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
   } else if (metric == "FAB Delay Ranking (Yearly)") {
-    title <- "Yearly Average FAB Delay Ranking"
+    title <- "Yearly Average Airport Arrival ATFM Delay Ranking by FAB"
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
     temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% ATFM_APT_FAB & !is.na(DELAY_AVG) & YEAR %in% years) %>%
@@ -165,7 +219,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "FAB Delay Ranking (Month)") {
-    title <- paste(month, "Average FAB Delay Ranking")
+    title <- paste(month, "Average Airport Arrival ATFM Delay Ranking by FAB")
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
     temp <- subset(dat$ATFM_APT, STATE %in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%

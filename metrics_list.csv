@@ -1,0 +1,35 @@
+﻿kpi,metric,plot_type,ranking,yearly,monthly,breakdown,shortname
+En-Route ATFM Delay,Delays per Flight,bar,,,,T,ER_ATFM
+En-Route ATFM Delay,Delays per Flight (Yearly),line,,T,,,ER_ATFM_TRENDS
+En-Route ATFM Delay,Delays per Flight (Month),bar,,,T,T,ER_ATFM_MON
+En-Route ATFM Delay,Delay Ranking (Yearly),bar,T,T,,,ER_ATFM_RANK
+En-Route ATFM Delay,Delay Ranking (Month),bar,T,,T,,ER_ATFM_RANK_MON
+En-Route ATFM Delay,No. of Monthly Delays,line,,,,,ER_ATFM_NUM
+En-Route ATFM Delay,Percentage Monthly Delays,line,,,,,ER_ATFM_PERC
+En-Route ATFM Delay,No. of Monthly Delays (15min+),line,,,,,ER_ATFM_NUM15
+En-Route ATFM Delay,Percentage Monthly Delays (15min+),line,,,,,ER_ATFM_PERC15
+Airport Arrival AFTM Delay,Delays per Flight,bar,,,,T,APT_ATFM
+Airport Arrival AFTM Delay,Delays per Flight (Yearly),line,,T,,,APT_ATFM_TRENDS
+Airport Arrival AFTM Delay,Delays per Flight (Month),bar,,,T,T,APT_ATFM_MON
+Airport Arrival AFTM Delay,Airport Delay Ranking (Yearly),bar,T,T,,,APT_ATFM_RANK_APT
+Airport Arrival AFTM Delay,Airport Delay Ranking (Month),bar,T,,T,,APT_ATFM_RANK_APT_MON
+Airport Arrival AFTM Delay,State Delay Ranking (Yearly),bar,T,T,,,APT_ATFM_RANK_STATE
+Airport Arrival AFTM Delay,State Delay Ranking (Month),bar,T,,T,,APT_ATFM_RANK_STATE_MON
+Airport Arrival AFTM Delay,FAB Delay Ranking (Yearly),bar,T,T,,,APT_ATFM_RANK_FAB
+Airport Arrival AFTM Delay,FAB Delay Ranking (Month),bar,T,,T,,APT_ATFM_RANK_FAB_MON
+ASMA Additional Time,Average Monthly Delays,line,,,,,ASMA_ADD
+ASMA Additional Time,Average Monthly Delays (Yearly),line,,T,,,ASMA_ADD_TRENDS
+ASMA Additional Time,Average Monthly Delays (Month),bar,,,T,,ASMA_ADD_MON
+Taxi-Out Additional Time,Average Monthly Delays,line,,,,,TAXI_ADD
+Taxi-Out Additional Time,Average Monthly Delays (Yearly),line,,T,,,TAXI_ADD_TRENDS
+Taxi-Out Additional Time,Average Monthly Delays (Month),bar,,,T,,TAXI_ADD_MON
+ATC Pre-Departure Delay,AL Total Monthly Delays,line,,,,,ATC_PREDEP_AL_TOT
+ATC Pre-Departure Delay,AL Average Monthly Delays,line,,,,,ATC_PREDEP_AL_AVG
+ATC Pre-Departure Delay,AL Average Monthly Delays (Yearly),line,,T,,,ATC_PREDEP_AL_AVG_TRENDS
+ATC Pre-Departure Delay,AL Average Monthly Delays (Month),bar,,,T,,ATC_PREDEP_AL_AVG_MON
+ATC Pre-Departure Delay,APT Total Monthly Delays,line,,,,,ATC_PREDEP_APT_TOT
+ATC Pre-Departure Delay,APT Average Monthly Delays,line,,,,,ATC_PREDEP_APT_AVG
+ATC Pre-Departure Delay,APT Average Monthly Delays (Yearly),line,,T,,,ATC_PREDEP_APT_AVG_TRENDS
+ATC Pre-Departure Delay,APT Average Monthly Delays (Month),bar,,,T,,ATC_PREDEP_APT_AVG_MON
+En-Route vs Airport ATFM,Average Monthly Delays (Yearly),line,,T,,,ER_APT_ATFM_TRENDS
+En-Route vs Airport ATFM,Average Monthly Delays (Month),bar,,,T,,ER_APT_ATFM_MON

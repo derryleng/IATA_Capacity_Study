@@ -37,6 +37,8 @@ for (file in names(dat)) {
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "The former Yugoslav Republic of Macedonia"), j=col, value="FYR Macedonia")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "Bosnia and Herzegovina"), j=col, value="Bosnia & Herzegovina")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "Serbia and Montenegro"), j=col, value="Serbia & Montenegro")
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "SES Area (RP1)"), j=col, value="SES Area")
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "SES Area (RP2)"), j=col, value="SES Area (FIR)")
     # Remove commas from data values (needed for next step)
     dat[[file]][[col]] <- gsub(",","",dat[[file]][[col]])
     # Detect numeric columns and coerce to proper type
@@ -152,7 +154,7 @@ dat$ATFM_APT <- temp
 
 such_temp <- ddply(dat$ATFM_APT, .(YEAR,MONTH), numcolwise(sum, na.rm=T))
 such_temp$ICAO <- "NA"
-such_temp$NAME <- "NA"
+such_temp$NAME <- "Europe"
 such_temp$STATE <- "All Countries"
 dat$ATFM_APT <- rbind(dat$ATFM_APT, such_temp)
 
@@ -206,13 +208,13 @@ dat$PREDEP_ANNUAL <- ddply(dat$PREDEP, .(YEAR,ICAO,NAME,STATE,LABEL), numcolwise
 # Other Adjustments -------------------------------------------------------
 
 # Remove 2018 total flights due to incomplete 2018 data
-dat$ATFM <- as.data.table(dat$ATFM)
+#dat$ATFM <- as.data.table(dat$ATFM)
+#dat$ATFM[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
 dat$ATFM_ANNUAL <- as.data.table(dat$ATFM_ANNUAL)
-dat$ATFM_APT <- as.data.table(dat$ATFM_APT)
-dat$ATFM_APT_ANNUAL <- as.data.table(dat$ATFM_APT_ANNUAL)
-dat$ATFM[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
 dat$ATFM_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
-dat$ATFM_APT[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
+#dat$ATFM_APT <- as.data.table(dat$ATFM_APT)
+#dat$ATFM_APT[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
+dat$ATFM_APT_ANNUAL <- as.data.table(dat$ATFM_APT_ANNUAL)
 dat$ATFM_APT_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA
 
 # Save to CSV -------------------------------------------------------------

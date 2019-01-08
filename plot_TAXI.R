@@ -11,8 +11,9 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
         x=~factor(paste(MONTH,YEAR),levels=monthsyears),
         y=~TIME_ADD,
         type="scatter",
-        mode="lines",
-        line=list(color="rgb(213,16,103)", width=3)
+        mode="lines+markers",
+        line=list(color="rgb(213,16,103)", width=3),
+        marker=list(color="rgb(34,45,50)")
       )
     
   } else if (metric == "Average Monthly Delays (Yearly)") {
@@ -28,8 +29,9 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
           y=~TIME_ADD,
           name=uniqueyears[i],
           type="scatter",
-          mode="lines",
-          line=list(color=rev(brewer.pal(length(uniqueyears),"Dark2"))[i], width=3)
+          mode="lines+markers",
+          line=list(color=rev(brewer.pal(length(uniqueyears),"Dark2"))[i], width=3),
+          marker=list(color="rgb(34,45,50)")
         )
     }
     g <- g %>% layout(hovermode="compare")
