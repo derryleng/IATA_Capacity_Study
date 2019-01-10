@@ -38,7 +38,7 @@ server <- function(input, output) {
         "State"=unique(subset(dat$ATFM_APT_ANNUAL, (grepl("^All *", NAME) | grepl("^NA$", NAME)) & STATE %!in% ATFM_APT_FAB, select=c(STATE))),
         "FAB"=ATFM_APT_FAB
       )
-      pickerInput("state", "Select State/FAB", choices = choices_BOTH_STATE, selected="All Countries", width = "200px")
+      pickerInput("state", "Select State/FAB", choices = choices_BOTH_STATE, selected="United Kingdom", width = "200px")
     }
   })
   
