@@ -13,6 +13,8 @@ Airport Arrival AFTM Delay,Delays per Flight (Yearly),line,,T,,,APT_ATFM_TRENDS
 Airport Arrival AFTM Delay,Delays per Flight (Month),bar,,,T,T,APT_ATFM_MON
 Airport Arrival AFTM Delay,Airport Delay Ranking (Yearly),bar,T,T,,,APT_ATFM_RANK_APT
 Airport Arrival AFTM Delay,Airport Delay Ranking (Month),bar,T,,T,,APT_ATFM_RANK_APT_MON
+Airport Arrival AFTM Delay,State Airport Delay Ranking (Yearly),bar,T,T,,,APT_ATFM_RANK_STATEAPT
+Airport Arrival AFTM Delay,State Airport Delay Ranking (Month),bar,T,,T,,APT_ATFM_RANK_STATEAPT_MON
 Airport Arrival AFTM Delay,State Delay Ranking (Yearly),bar,T,T,,,APT_ATFM_RANK_STATE
 Airport Arrival AFTM Delay,State Delay Ranking (Month),bar,T,,T,,APT_ATFM_RANK_STATE_MON
 Airport Arrival AFTM Delay,FAB Delay Ranking (Yearly),bar,T,T,,,APT_ATFM_RANK_FAB

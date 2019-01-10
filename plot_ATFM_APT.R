@@ -1,6 +1,3 @@
-# For differentiation between states and FAB
-ATFM_APT_FAB <- c("Baltic FAB", "BLUE MED FAB", "DANUBE FAB", "DK-SE FAB", "FAB CE (SES RP2)", "FABEC", "NEFAB", "SW FAB", "UK-Ireland FAB")
-
 plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, fontsize=12, years, month) {
   
   if (metric == "Delays per Flight") {
@@ -37,7 +34,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
       xtitle <- "Year"
       g <- plot_ly(data=subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
       g <- g %>%
-        add_trace(y=~DELAY_AVG, name="Delays per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
+        add_trace(y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
         add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
         layout(barmode="stack",
                yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
@@ -73,7 +70,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
       xtitle <- "Date"
       g <- plot_ly(data=subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)))
       g <- g %>%
-        add_trace(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~DELAY_AVG, name="Delays per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
+        add_trace(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
         add_lines(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
         layout(barmode="stack", xaxis=list(tickangle=90),
                yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
@@ -172,6 +169,36 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
         colors="Spectral",
         type="bar"
       ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "State Airport Delay Ranking (Yearly)") {
+    title <- paste("Yearly Average Airport Arrival ATFM Delay Ranking in", type)
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    g <- plot_ly(
+      data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~DELAY_AVG,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "State Airport Delay Ranking (Month)") {
+    title <- paste(month, "Average Airport Arrival ATFM Delay Ranking in", type)
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM_APT, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    g <- plot_ly(
+      data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~DELAY_AVG,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "State Delay Ranking (Yearly)") {
     title <- "Yearly Average Airport Arrival ATFM Delay Ranking by State"

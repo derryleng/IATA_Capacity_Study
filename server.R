@@ -15,8 +15,14 @@ server <- function(input, output) {
       pickerInput("type", "Select Type", choices = choices_ATFM_TYPE, selected="AREA (AUA)", width = "200px")
     } else if (input$kpi == "Airport Arrival AFTM Delay") {
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
-        choices_ATFM_APT_STATE <- sort(unique(dat$ATFM_APT$STATE))
-        pickerInput("state", "Select State/FAB", choices = choices_ATFM_APT_STATE, selected="All Countries", width = "200px")
+        choices_ATFM_APT_STATEFAB <- list(
+          "State"=sort(unique(dat$ATFM_APT[dat$ATFM_APT$STATE %!in% ATFM_APT_FAB]$STATE)),
+          "FAB"=ATFM_APT_FAB
+        )
+        pickerInput("state", "Select State/FAB", choices = choices_ATFM_APT_STATEFAB, selected="All Countries", width = "200px")
+      } else if (grepl("^State Airport *", input$metric)) {
+        choice_ATFM_APT_STATE <- sort(unique(dat$ATFM_APT[dat$ATFM_APT$STATE %!in% c(ATFM_APT_FAB, "All Countries")]$STATE))
+        pickerInput("state", "Select State", choices = choice_ATFM_APT_STATE, selected="United Kingdom", width = "200px")
       }
     } else if (input$kpi == "ASMA Additional Time") {
       choices_ASMA_STATE <- sort(unique(dat$ASMA$STATE))
@@ -27,8 +33,11 @@ server <- function(input, output) {
     } else if (input$kpi == "ATC Pre-Departure Delay") {
       choices_PREDEP_STATE <- sort(unique(dat$PREDEP$STATE))
       pickerInput("state", "Select State", choices = choices_PREDEP_STATE, selected="United Kingdom", width = "200px")
-    } else if (input$kpi == "ATC Pre-Departure Delay") {
-      choices_BOTH_STATE <- unique(subset(dat$ATFM_APT_ANNUAL, grepl("^All *", NAME) | grepl("^NA$", NAME), select=c(STATE)))
+    } else if (input$kpi == "En-Route vs Airport ATFM") {
+      choices_BOTH_STATE <- list(
+        "State"=unique(subset(dat$ATFM_APT_ANNUAL, (grepl("^All *", NAME) | grepl("^NA$", NAME)) & STATE %!in% ATFM_APT_FAB, select=c(STATE))),
+        "FAB"=ATFM_APT_FAB
+      )
       pickerInput("state", "Select State/FAB", choices = choices_BOTH_STATE, selected="All Countries", width = "200px")
     }
   })
@@ -72,7 +81,7 @@ server <- function(input, output) {
   
   output$option_year <- renderUI({
     #pickerInput("year", "Select Year", choices = as.character(years_range), selected = as.character(years_range), multiple = T, options = list("actions-box"=T), width = "200px")
-    sliderInput("year", "Select Year", value=range(years_range), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
+    sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
   })
   
   output$option_month <- renderUI({
@@ -152,6 +161,14 @@ server <- function(input, output) {
         years = seq(input$year[1], input$year[2], 1),
         month = input$month
       )
+    } else if (input$kpi == "En-Route vs Airport ATFM") {
+      plot_ATFM_BOTH(
+        metric = input$metric,
+        entity = input$state,
+        fontsize = input$fontsize,
+        years = seq(input$year[1], input$year[2], 1),
+        month = input$month
+      )
     }
     # Fix title cut off
     plt %>% layout(margin=list(t=input$fontsize*3))
@@ -169,6 +186,7 @@ server <- function(input, output) {
       }
       if (metrics_list[kpi == input$kpi & metric == input$metric]$monthly == T) filenom <- gsub("MON",months[which(monthsfull==input$month)],filenom)
       if (input$metric == "Delays per Flight" & input$annual == F) filenom <- paste0(filenom,"_Monthly")
+      filenom <- gsub("STATEAPT", input$type, filenom)
       if (input$year[1] != input$year[2]) {
         filenom <- paste0(filenom,"_",paste(input$year,collapse="-"))
       } else {

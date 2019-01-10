@@ -22,8 +22,7 @@ sidebar <- dashboardSidebar(
 body <- dashboardBody(
   
   tags$head(
-    tags$link(rel = "stylesheet", type = "text/css", href = "styles.css"),
-    tags$script(src = "https://d3js.org/d3.v5.min.js")
+    tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
   ),
   
   div(class = "plot-wrapper", plotlyOutput("plot", height="100%")),

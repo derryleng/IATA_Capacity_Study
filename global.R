@@ -12,6 +12,7 @@ source("plot_ATFM_APT.R", local=T)
 source("plot_ASMA.R", local=T)
 source("plot_TAXI.R", local=T)
 source("plot_PREDEP.R", local=T)
+source("plot_ATFM_BOTH.R", local=T)
 
 Sys.setenv("plotly_username"="rob.sawyer")
 Sys.setenv("plotly_api_key"="HSQo0QjxFICKCIsnCPqW")
@@ -46,3 +47,6 @@ metrics_list$ranking <- ifelse(metrics_list$ranking=="T",T,F)
 metrics_list$yearly <- ifelse(metrics_list$yearly=="T",T,F)
 metrics_list$monthly <- ifelse(metrics_list$monthly=="T",T,F)
 metrics_list$breakdown <- ifelse(metrics_list$breakdown=="T",T,F)
+
+# For differentiation between states and FAB
+ATFM_APT_FAB <- c("Baltic FAB", "BLUE MED FAB", "DANUBE FAB", "DK-SE FAB", "FAB CE (SES RP2)", "FABEC", "NEFAB", "SW FAB", "UK-Ireland FAB")

@@ -218,11 +218,14 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     
   } else if (metric == "Delay Ranking (Yearly)") {
     
-    title <- paste("Yearly Average En-Route AFTM Delay Ranking by", gsub("COUNTRY","State",strsplit(type," ")[[1]][1]))
+    title <- paste("Yearly Average En-Route ATFM Delay Ranking by", gsub("COUNTRY","State",strsplit(type," ")[[1]][1]))
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
     temp <- subset(dat$ATFM_ANNUAL, TYPE %in% type & NAME %!in% paste("All",type) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))] %>% subset(., NAME %in% head(unique(.$NAME), top))
+      .[rev(order(YEAR, DELAY_AVG))]
+    if (type == "COUNTRY (FIR)") temp <- subset(temp, NAME %!in% c("United Kingdom", "UK Oceanic", "Spain", "Spain Canarias", "Portugal", "Portugal Santa Maria"))
+    if (type == "FAB (FIR)") temp <- subset(temp, NAME %!in% c("FAB CE (SES RP1)", "FAB CE"))
+    temp <- temp %>% subset(., NAME %in% head(unique(.$NAME), top))
     g <- plot_ly(data=temp)
     g <- g %>%
       add_trace(
@@ -247,7 +250,7 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     
   } else if (metric == "Delay Ranking (Month)") {
     
-    title <- paste(month, "Average En-Route AFTM Delay Ranking by", gsub("COUNTRY","State",strsplit(type," ")[[1]][1]))
+    title <- paste(month, "Average En-Route ATFM Delay Ranking by", gsub("COUNTRY","State",strsplit(type," ")[[1]][1]))
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
     g <- plot_ly()
