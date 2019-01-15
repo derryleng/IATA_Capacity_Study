@@ -1,18 +1,29 @@
 server <- function(input, output) {
   
+  # Level 1 KPI options
   output$option_kpi <- renderUI({
     pickerInput("kpi", "Select KPI", choices = unique(metrics_list$kpi), width = "200px")
   })
   
+  # Level 2 Metric options
   output$option_metric <- renderUI({
     req(input$kpi)
     pickerInput("metric", "Select Metric", choices = metrics_list[kpi == input$kpi]$metric, width = "200px")
   })
   
+  # Level 3 options
   output$option_1 <- renderUI({
     if (input$kpi == "En-Route ATFM Delay") {
-      choices_ATFM_TYPE <- sort(unique(dat$ATFM$TYPE))
-      pickerInput("type", "Select Type", choices = choices_ATFM_TYPE, selected="AREA (AUA)", width = "200px")
+      if (input$metric %in% metrics_list[grep("^FAB State*", metrics_list$metric)]$metric) {
+        choices_ATFM_FABSTATE <- sort(unique(dat$ATFM[dat$ATFM$TYPE %in% "FAB (FIR)" & dat$ATFM$NAME %!in% c("All FAB (FIR)", "FAB CE", "FAB CE (SES RP1)")]$NAME))
+        pickerInput("type", "Select FAB", choices = choices_ATFM_FABSTATE, selected="FABEC", width = "200px")
+      } else if (input$metric %in% metrics_list[grep("^SES State*", metrics_list$metric)]$metric) {
+        # No selection needed here
+      } else {
+        choices_ATFM_TYPE <- sort(unique(dat$ATFM$TYPE))
+        pickerInput("type", "Select Type", choices = choices_ATFM_TYPE, selected="AREA (AUA)", width = "200px")
+      }
+      
     } else if (input$kpi == "Airport Arrival AFTM Delay") {
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
         choices_ATFM_APT_STATEFAB <- list(
@@ -24,15 +35,19 @@ server <- function(input, output) {
         choice_ATFM_APT_STATE <- sort(unique(dat$ATFM_APT[dat$ATFM_APT$STATE %!in% c(ATFM_APT_FAB, "All Countries")]$STATE))
         pickerInput("state", "Select State", choices = choice_ATFM_APT_STATE, selected="United Kingdom", width = "200px")
       }
+      
     } else if (input$kpi == "ASMA Additional Time") {
       choices_ASMA_STATE <- sort(unique(dat$ASMA$STATE))
       pickerInput("state", "Select State", choices = choices_ASMA_STATE, selected="United Kingdom", width = "200px")
+      
     } else if (input$kpi == "Taxi-Out Additional Time") {
       choices_TAXI_STATE <- sort(unique(dat$TAXI$STATE))
       pickerInput("state", "Select State", choices = choices_TAXI_STATE, selected="United Kingdom", width = "200px")
+      
     } else if (input$kpi == "ATC Pre-Departure Delay") {
       choices_PREDEP_STATE <- sort(unique(dat$PREDEP$STATE))
       pickerInput("state", "Select State", choices = choices_PREDEP_STATE, selected="United Kingdom", width = "200px")
+      
     } else if (input$kpi == "En-Route vs Airport ATFM") {
       choices_BOTH_STATE <- list(
         "State"=unique(subset(dat$ATFM_APT_ANNUAL, (grepl("^All *", NAME) | grepl("^NA$", NAME)) & STATE %!in% ATFM_APT_FAB, select=c(STATE))),
@@ -42,6 +57,7 @@ server <- function(input, output) {
     }
   })
   
+  # Level 4 options
   output$option_2 <- renderUI({
     if (input$kpi == "En-Route ATFM Delay") {
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
@@ -79,33 +95,43 @@ server <- function(input, output) {
     }
   })
   
+  # Options for year range selection when available
   output$option_year <- renderUI({
     #pickerInput("year", "Select Year", choices = as.character(years_range), selected = as.character(years_range), multiple = T, options = list("actions-box"=T), width = "200px")
     sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
   })
   
+  # Option for month selection when available
   output$option_month <- renderUI({
     if (input$metric %in% metrics_list[monthly == T]$metric) {
       pickerInput("month", "Select Month", choices=as.vector(monthsfull), selected="July", width="200px")
     }
   })
   
+  # Option for top X entities to display in ranking metrics
   output$option_ranking <- renderUI({
     if (input$metric %in% metrics_list[ranking == T]$metric) {
       div(style="display: table; margin: 0 auto;", numericInput("top", "Display Top", value=10, min=3, max=100, step=1, width="100%"))
     }
   })
   
+  # Option for breaking down delay causes in Delays per Flight metrics
   output$option_breakdown <- renderUI({
     if (input$metric %in% metrics_list[breakdown == T]$metric) {
       div(style="text-align:center; height:25px;", checkboxInput("breakdown", "Category Breakdown", value=T))
     }
   })
   
+  # Option for grouping bars by years/month in Delays per Flight metrics
   output$option_annual <- renderUI({
     if (input$metric == "Delays per Flight") {
       div(style="text-align:center; height:25px;", checkboxInput("annual", "Group By Year", value=T))
     }
+  })
+  
+  # Option to toggle display of legends
+  output$option_legend <- renderUI({
+    div(style="text-align:center; height:25px;", checkboxInput("legend", "Display Legend", value=T))
   })
 
   draw_plot <- reactive({
@@ -171,7 +197,15 @@ server <- function(input, output) {
       )
     }
     # Fix title cut off
-    plt %>% layout(margin=list(t=input$fontsize*3))
+    plt <- plt %>% layout(margin=list(t=input$fontsize*3))
+    
+    if (input$legend) {
+      plt <- plt %>% layout(showlegend = T)
+    } else {
+      plt <- plt %>% layout(showlegend = F, margin=list(r=30))
+    }
+    
+    plt
   })
   
   output$plot <- renderPlotly(draw_plot())

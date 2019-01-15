@@ -4,6 +4,10 @@ En-Route ATFM Delay,Delays per Flight (Yearly),line,,T,,,ER_ATFM_TRENDS
 En-Route ATFM Delay,Delays per Flight (Month),bar,,,T,T,ER_ATFM_MON
 En-Route ATFM Delay,Delay Ranking (Yearly),bar,T,T,,,ER_ATFM_RANK
 En-Route ATFM Delay,Delay Ranking (Month),bar,T,,T,,ER_ATFM_RANK_MON
+En-Route ATFM Delay,FAB State Delay Ranking (Yearly),bar,T,T,,,ER_ATFM_RANK_FABSTATE
+En-Route ATFM Delay,FAB State Delay Ranking (Month),bar,T,,T,,ER_ATFM_RANK_FABSTATE_MON
+En-Route ATFM Delay,SES State Delay Ranking (Yearly),bar,T,T,,,ER_ATFM_RANK_SESSTATE
+En-Route ATFM Delay,SES State Delay Ranking (Month),bar,T,,T,,ER_ATFM_RANK_SESSTATE_MON
 En-Route ATFM Delay,No. of Monthly Delays,line,,,,,ER_ATFM_NUM
 En-Route ATFM Delay,Percentage Monthly Delays,line,,,,,ER_ATFM_PERC
 En-Route ATFM Delay,No. of Monthly Delays (15min+),line,,,,,ER_ATFM_NUM15

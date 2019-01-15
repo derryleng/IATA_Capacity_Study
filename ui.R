@@ -14,7 +14,8 @@ sidebar <- dashboardSidebar(
     uiOutput("option_month"),
     uiOutput("option_ranking"),
     uiOutput("option_breakdown"),
-    uiOutput("option_annual")
+    uiOutput("option_annual"),
+    uiOutput("option_legend")
   ),
   div(class = "think")
 )

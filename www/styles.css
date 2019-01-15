@@ -6,6 +6,12 @@ html {
     -ms-user-select: none;
     user-select: none;
 }
+html, body {
+    margin: 0;
+    width: 100%;
+    min-width: 645px;
+    overflow: hidden;
+}
 .shiny-output-error {
   	visibility: hidden;
 }
@@ -13,41 +19,28 @@ html {
   	visibility: hidden;
 }
 
-/* Header */
-.main-header {
-    border: 1px solid black;
-}
-.sidebar-toggle {
-    display: none;
-}
-.sidebar-toggle-border {
-    position: absolute;
-    left: 229px;
-    top: 0px;
-    height: 52px;
-    width: 45px;
-    z-index: 100000;
-    border-left: 1px solid black;
-    pointer-events: none;
-    background: none;
-}
 .topbar-wrapper {
     position: absolute;
-    left: 275px;
+    left: 45px;
     right: 0;
-    top: 0;
+    top: 50px;
     height: 50px;
     z-index: 100000;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 /* Sidebar */
+.sidebar {
+    overflow-y: hidden;
+}
 .sidebar-wrapper {
     position: absolute;
     left: 0;
-    top: 50px;
-    height: auto;
+    top: 100px;
     width: 100%;
     z-index: 1000;
+    overflow: visible;
 }
 .sidebar-wrapper > * > * > .dropdown {
     background-color: rgb(34,45,50);
@@ -79,8 +72,45 @@ html {
     position: absolute;
     height: auto;
     width: auto;
-    left: 230px;
+    left: 15px;
     right: 15px;
-    top: 70px;
+    top: 120px;
     bottom: 15px;
 }
+
+/* Full screen desktop */
+@media only screen and (min-width: 768px) {
+  .main-header {
+    border: 1px solid black;
+  }
+  .topbar-wrapper {
+    left: 229px;
+    top: 0;
+  }
+  .logo {
+    visibility: visible;
+    height: 50px;
+  }
+  .sidebar-wrapper {
+    top: 50px;
+  }
+  .plot-wrapper {
+      left: 230px;
+      top: 70px;
+  }
+  .sidebar-toggle {
+      display: none;
+  }
+  .sidebar-toggle-border {
+    position: absolute;
+    left: 229px;
+    top: 0px;
+    height: 52px;
+    width: 45px;
+    z-index: 100000;
+    border-left: 1px solid black;
+    pointer-events: none;
+    background: none;
+  }
+}
+

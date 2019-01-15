@@ -266,6 +266,98 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
         type="bar"
       ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
+  } else if (metric == "FAB State Delay Ranking (Yearly)") {
+    
+    title <- paste("Yearly Average En-Route ATFM Delay Ranking in", type)
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM_ANNUAL, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$FAB %in% type]$STATE)) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- temp %>% subset(., NAME %in% head(unique(.$NAME), top))
+    g <- plot_ly(data=temp)
+    g <- g %>%
+      add_trace(
+        x=~factor(NAME, levels=unique(temp$NAME)),
+        y=~DELAY_AVG,
+        color=~factor(YEAR, levels=years),
+        colors=ifelse(length(years) == 1, "#d51067", "Spectral"),
+        type="bar",
+        legendgroup=~YEAR
+      ) %>%
+      add_trace(
+        x=~factor(NAME, levels=unique(temp$NAME)),
+        y=~ifelse(is.na(TARGET),0,TARGET),
+        name=~paste(YEAR,"Target"),
+        marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
+        type="bar",
+        xaxis="x2",
+        showlegend=F,
+        legendgroup=~YEAR
+      ) %>%
+      layout(barmode="group", xaxis=list(tickangle=45), xaxis2=list(overlaying="x", showticklabels=F))
+    
+  } else if (metric == "FAB State Delay Ranking (Month)") {
+    
+    title <- paste(month, "Average Average En-Route ATFM Delay Ranking in", type)
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$FAB %in% type]$STATE)) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    g <- plot_ly(
+      data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
+      y=~DELAY_AVG,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "SES State Delay Ranking (Yearly)") {
+    
+    title <- paste("Yearly Average En-Route ATFM Delay Ranking in SES Area")
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM_ANNUAL, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$STATE %!in% "MUAC"]$STATE)) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- temp %>% subset(., NAME %in% head(unique(.$NAME), top))
+    g <- plot_ly(data=temp)
+    g <- g %>%
+      add_trace(
+        x=~factor(NAME, levels=unique(temp$NAME)),
+        y=~DELAY_AVG,
+        color=~factor(YEAR, levels=years),
+        colors=ifelse(length(years) == 1, "#d51067", "Spectral"),
+        type="bar",
+        legendgroup=~YEAR
+      ) %>%
+      add_trace(
+        x=~factor(NAME, levels=unique(temp$NAME)),
+        y=~ifelse(is.na(TARGET),0,TARGET),
+        name=~paste(YEAR,"Target"),
+        marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
+        type="bar",
+        xaxis="x2",
+        showlegend=F,
+        legendgroup=~YEAR
+      ) %>%
+      layout(barmode="group", xaxis=list(tickangle=45), xaxis2=list(overlaying="x", showticklabels=F))
+    
+  } else if (metric == "SES State Delay Ranking (Month)") {
+    
+    title <- paste(month, "Average Average En-Route ATFM Delay Ranking in SES Area")
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    temp <- subset(dat$ATFM, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$STATE %!in% "MUAC"]$STATE)) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
+    g <- plot_ly(
+      data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
+      y=~DELAY_AVG,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
   }
   
   g <- g %>%

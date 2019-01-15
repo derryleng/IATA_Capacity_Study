@@ -1,0 +1,98 @@
+:root {
+    --topbar-height: 50px;
+    --leftbar-width: 230px;
+}
+
+html {
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.shiny-output-error {
+    visibility: hidden;
+}
+
+.shiny-output-error:before {
+    visibility: hidden;
+}
+
+.topbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: var(--topbar-height);
+    background-color: #222d32;
+    color: #fff;
+    overflow: auto;
+}
+
+.topbar > * {
+    color: #fff;
+}
+
+.title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    line-height: var(--topbar-height);
+    height: inherit;
+}
+
+.leftbar {
+    position: absolute;
+    top: var(--topbar-height);
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: visible;
+    width: var(--leftbar-width);
+    background-color: #222d32;
+    color: #fff;
+}
+
+.content {
+    position: absolute;
+    top: var(--topbar-height);
+    bottom: 0;
+    left: var(--leftbar-width);
+    right: 0;
+    height: 100%;
+    z-index: 1;
+    background-color: blue;
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+}
+
+/* leftbar Toggler*/
+input[id=toggle] {
+    display: none;
+}
+
+#toggle:checked ~ .content {
+    left: 0;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--topbar-height);
+    width: var(--topbar-height);
+    padding-top: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
