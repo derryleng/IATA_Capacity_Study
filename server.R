@@ -131,7 +131,11 @@ server <- function(input, output) {
   
   # Option to toggle display of legends
   output$option_legend <- renderUI({
-    div(style="text-align:center; height:25px;", checkboxInput("legend", "Display Legend", value=T))
+    if (input$metric %in% metrics_list[legend == T]$metric) {
+      div(style="text-align:center; height:25px;", checkboxInput("legend", "Display Legend", value=T))
+    } else {
+      div(style="text-align:center; height:25px;", checkboxInput("legend", "Display Legend", value=F))
+    }
   })
 
   draw_plot <- reactive({
@@ -197,7 +201,7 @@ server <- function(input, output) {
       )
     }
     # Fix title cut off
-    plt <- plt %>% layout(margin=list(t=input$fontsize*3))
+    plt <- plt %>% layout(margin=list(l=80, t=input$fontsize*3))
     
     if (input$legend) {
       plt <- plt %>% layout(showlegend = T)

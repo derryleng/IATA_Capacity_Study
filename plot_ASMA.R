@@ -9,7 +9,7 @@ plot_ASMA <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
       add_trace(
         data=subset(dat$ASMA, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)),
         x=~factor(paste(MONTH,YEAR),levels=monthsyears),
-        y=~TIME_ADD,
+        y=~TIME_ADD/FLIGHTS_UNIMPEDED,
         type="scatter",
         mode="lines+markers",
         line=list(color="rgb(213,16,103)", width=3),
@@ -26,7 +26,7 @@ plot_ASMA <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
         add_trace(
           data=subset(dat$ASMA, NAME %in% entity & YEAR %in% uniqueyears[i]) %>% arrange(factor(MONTH, levels=months)),
           x=~factor(MONTH, levels=months),
-          y=~TIME_ADD,
+          y=~TIME_ADD/FLIGHTS_UNIMPEDED,
           name=uniqueyears[i],
           type="scatter",
           mode="lines+markers",
@@ -46,7 +46,7 @@ plot_ASMA <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
         add_trace(
           data=subset(dat$ASMA, NAME %in% entity & YEAR %in% uniqueyears[i] & MONTH %in% months[which(monthsfull == month)]),
           x=~YEAR,
-          y=~TIME_ADD,
+          y=~TIME_ADD/FLIGHTS_UNIMPEDED,
           name=uniqueyears[i],
           marker=list(color=rev(brewer.pal(length(uniqueyears),"Spectral"))[i]),
           type="bar",
