@@ -13,6 +13,7 @@ source("plot_ASMA.R", local=T)
 source("plot_TAXI.R", local=T)
 source("plot_PREDEP.R", local=T)
 source("plot_ATFM_BOTH.R", local=T)
+source("plot_TRAFFIC_FORECAST.R", local=T)
 
 Sys.setenv("plotly_username"="rob.sawyer")
 Sys.setenv("plotly_api_key"="HSQo0QjxFICKCIsnCPqW")
@@ -35,11 +36,12 @@ dat$ATFM_APT_ANNUAL <- fread(paste0(path,"ATFM_APT_ANNUAL.csv"), encoding="UTF-8
 dat$PREDEP_ANNUAL <- fread(paste0(path,"PREDEP_ANNUAL.csv"), encoding="UTF-8")
 dat$TAXI_ANNUAL <- fread(paste0(path,"TAXI_ANNUAL.csv"), encoding="UTF-8")
 dat$STATE_FAB <- fread(paste0(path,"STATE_FAB.csv"), encoding="UTF-8")
+dat$TRAFFIC_FORECAST <- fread(paste0(path,"TRAFFIC_FORECAST.csv"), encoding="UTF-8")
 
 # Date ordered factors
 monthsfull <- c("January","Feburary","March","April","May","June","July","August","September","October","November","December") %>% factor(., levels=., ordered=T)
 months <- c("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC") %>% factor(., levels=., ordered=T)
-years_range <- seq(2011,2018,1) %>% factor(., levels=., ordered=T)
+years_range <- seq(2011,2021,1) %>% factor(., levels=., ordered=T)
 monthsyears <- as.vector(outer(months, years_range, FUN="paste")) %>% factor(., levels=., ordered=T)
 
 # Get metrics list w/ properties

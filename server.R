@@ -54,6 +54,9 @@ server <- function(input, output) {
         "FAB"=ATFM_APT_FAB
       )
       pickerInput("state", "Select State/FAB", choices = choices_BOTH_STATE, selected="United Kingdom", width = "200px")
+    } else if (input$kpi == "Traffic Forecast") {
+      choices_FORECAST_STATEFAB <- c("Croatia", "France", "Germany", "Poland", "FABEC")
+      pickerInput("state", "Select State/FAB", choices = choices_FORECAST_STATEFAB, selected="Germany", width = "200px")
     }
   })
   
@@ -98,7 +101,11 @@ server <- function(input, output) {
   # Options for year range selection when available
   output$option_year <- renderUI({
     #pickerInput("year", "Select Year", choices = as.character(years_range), selected = as.character(years_range), multiple = T, options = list("actions-box"=T), width = "200px")
-    sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
+    if (input$kpi == "Traffic Forecast") {
+      sliderInput("year", "Select Year", value=c(2011,2021), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
+    } else {
+      sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=2018, step=1, ticks=F, sep="", width="250px")
+    }
   })
   
   # Option for month selection when available
@@ -199,6 +206,12 @@ server <- function(input, output) {
         years = seq(input$year[1], input$year[2], 1),
         month = input$month
       )
+    } else if (input$kpi == "Traffic Forecast") {
+      plot_TRAFFIC_FORECAST(
+        entity = input$state,
+        fontsize = input$fontsize,
+        years = seq(input$year[1], input$year[2], 1)
+      )
     }
     # Fix title cut off
     plt <- plt %>% layout(margin=list(l=80, t=input$fontsize*3))
@@ -218,7 +231,7 @@ server <- function(input, output) {
     filename = function() {
       filenom <- metrics_list[kpi == input$kpi & metric == input$metric]$shortname
       if (metrics_list[kpi == input$kpi & metric == input$metric]$ranking == F) {
-        filenom <- paste0(filenom,"_",input$entity)
+        filenom <- paste0(filenom,"_",ifelse(input$kpi == "Traffic Forecast",input$state,input$entity))
       } else {
         filenom <- paste0(filenom,"_",ifelse(input$kpi == "En-Route ATFM Delay",input$type,input$state))
       }

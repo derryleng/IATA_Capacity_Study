@@ -39,3 +39,4 @@ ATC Pre-Departure Delay,APT Average Monthly Delays (Yearly),line,,T,,,T,ATC_PRED
 ATC Pre-Departure Delay,APT Average Monthly Delays (Month),bar,,,T,,,ATC_PREDEP_APT_AVG_MON
 En-Route vs Airport ATFM,Average Monthly Delays (Yearly),line,,T,,,T,ER_APT_ATFM_TRENDS
 En-Route vs Airport ATFM,Average Monthly Delays (Month),bar,,,T,,T,ER_APT_ATFM_MON
+Traffic Forecast,IFR Movements per State,line,,,,,T,IFR_FORECAST
