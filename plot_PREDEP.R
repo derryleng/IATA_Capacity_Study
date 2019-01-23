@@ -128,7 +128,6 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
   g <- g %>%
     layout(
       title=title,
-      legend=list(x=1.04,y=0.5),
       font=list(size=fontsize),
       xaxis=list(title="Date", linewidth=1, showgrid=F, tickangle=90, autotick=F),
       yaxis=list(title=ytitle, linewidth=1, showgrid=F)

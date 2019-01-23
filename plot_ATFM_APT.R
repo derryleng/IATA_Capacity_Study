@@ -265,7 +265,6 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, annual=F, top=10, f
   g <- g %>%
     layout(
       title=title,
-      legend=list(x=1.04,y=0.5),
       font=list(size=fontsize),
       xaxis=list(title=xtitle, linewidth=1, showgrid=F, autotick=F),
       yaxis=list(title=ytitle, linewidth=1, showgrid=F)

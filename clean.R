@@ -210,12 +210,12 @@ dat$PREDEP_ANNUAL <- ddply(dat$PREDEP, .(YEAR,ICAO,NAME,STATE,LABEL), numcolwise
 # Remove 2018 total flights due to incomplete 2018 data
 #dat$ATFM <- as.data.table(dat$ATFM)
 #dat$ATFM[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
-dat$ATFM_ANNUAL <- as.data.table(dat$ATFM_ANNUAL)
-dat$ATFM_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
+#dat$ATFM_ANNUAL <- as.data.table(dat$ATFM_ANNUAL)
+#dat$ATFM_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
 #dat$ATFM_APT <- as.data.table(dat$ATFM_APT)
 #dat$ATFM_APT[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
-dat$ATFM_APT_ANNUAL <- as.data.table(dat$ATFM_APT_ANNUAL)
-dat$ATFM_APT_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA
+#dat$ATFM_APT_ANNUAL <- as.data.table(dat$ATFM_APT_ANNUAL)
+#dat$ATFM_APT_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA
 
 # Save to CSV -------------------------------------------------------------
 setwd(paste(dirname(rstudioapi::getSourceEditorContext()$path)))

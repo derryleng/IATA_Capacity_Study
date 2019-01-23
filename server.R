@@ -102,9 +102,9 @@ server <- function(input, output) {
   output$option_year <- renderUI({
     #pickerInput("year", "Select Year", choices = as.character(years_range), selected = as.character(years_range), multiple = T, options = list("actions-box"=T), width = "200px")
     if (input$kpi == "Traffic Forecast") {
-      sliderInput("year", "Select Year", value=c(2011,2021), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
+      sliderInput("year", "Select Year", value=c(2011,2021), min=min(years_range_extended), max=max(years_range_extended), step=1, ticks=F, sep="", width="250px")
     } else {
-      sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=2018, step=1, ticks=F, sep="", width="250px")
+      sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
     }
   })
   
@@ -214,7 +214,7 @@ server <- function(input, output) {
       )
     }
     # Fix title cut off
-    plt <- plt %>% layout(margin=list(l=80, t=input$fontsize*3))
+    plt <- plt %>% layout(margin=list(l=80, t=input$fontsize*3), legend=list(x=1.07,y=0.5))
     
     if (input$legend) {
       plt <- plt %>% layout(showlegend = T)

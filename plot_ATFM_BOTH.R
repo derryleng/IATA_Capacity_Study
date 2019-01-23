@@ -37,7 +37,6 @@ plot_ATFM_BOTH <- function(metric, entity, top=10, fontsize=12, years, month, ba
   g <- g %>%
     layout(
       title=title,
-      legend=list(x=1.05,y=0.5),
       font=list(size=fontsize),
       xaxis=list(title=xtitle, linewidth=1, showgrid=F, autotick=F),
       yaxis=list(title=ytitle, linewidth=1, showgrid=F)

@@ -41,7 +41,8 @@ dat$TRAFFIC_FORECAST <- fread(paste0(path,"TRAFFIC_FORECAST.csv"), encoding="UTF
 # Date ordered factors
 monthsfull <- c("January","Feburary","March","April","May","June","July","August","September","October","November","December") %>% factor(., levels=., ordered=T)
 months <- c("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC") %>% factor(., levels=., ordered=T)
-years_range <- seq(2011,2021,1) %>% factor(., levels=., ordered=T)
+years_range <- seq(2011,2018,1) %>% factor(., levels=., ordered=T)
+years_range_extended <- seq(2011,2021,1) %>% factor(., levels=., ordered=T)
 monthsyears <- as.vector(outer(months, years_range, FUN="paste")) %>% factor(., levels=., ordered=T)
 
 # Get metrics list w/ properties
