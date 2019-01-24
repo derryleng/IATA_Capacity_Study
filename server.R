@@ -55,8 +55,8 @@ server <- function(input, output) {
       )
       pickerInput("state", "Select State/FAB", choices = choices_BOTH_STATE, selected="United Kingdom", width = "200px")
     } else if (input$kpi == "Traffic Forecast") {
-      choices_FORECAST_STATEFAB <- c("Croatia", "France", "Germany", "Poland", "FABEC")
-      pickerInput("state", "Select State/FAB", choices = choices_FORECAST_STATEFAB, selected="Germany", width = "200px")
+      choices_FORECAST_STATEFAB <- sort(unique(dat$TRAFFIC_FORECAST$ENTITY))
+      pickerInput("state", "Select State/FAB/Area", choices = choices_FORECAST_STATEFAB, selected="Germany", width = "200px")
     }
   })
   

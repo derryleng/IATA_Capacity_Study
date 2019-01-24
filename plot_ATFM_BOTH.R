@@ -13,7 +13,7 @@ plot_ATFM_BOTH <- function(metric, entity, top=10, fontsize=12, years, month, ba
       add_lines(data=subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)),
                 x=~YEAR, y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(85,87,89)"), yaxis="y2") %>%
       layout(barmode="group",
-             yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
+             yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
              annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
     
   } else if (metric == "Average Monthly Delays (Month)") {
@@ -29,7 +29,7 @@ plot_ATFM_BOTH <- function(metric, entity, top=10, fontsize=12, years, month, ba
       add_lines(data=subset(dat$ATFM, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% arrange(factor(YEAR, levels=years_range)),
                 x=~YEAR, y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(85,87,89)"), yaxis="y2") %>%
       layout(barmode="group",
-             yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL, na.rm=T))),
+             yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
              annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
     
   }
