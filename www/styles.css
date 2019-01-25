@@ -9,10 +9,9 @@ html {
 html, body {
     margin: 0;
     height: 100%;
-    width: 100%;
     min-width: 645px;
     background-color: #222d32;
-    overflow: hidden;
+    overflow: auto;
 }
 .shiny-output-error {
   	visibility: hidden;
@@ -20,21 +19,18 @@ html, body {
 .shiny-output-error:before {
   	visibility: hidden;
 }
-
-.main-header {
-  position: relative;
-  z-index: 0;
-}
-
 .topbar-wrapper {
     position: absolute;
     left: 45px;
     right: 0;
     top: 50px;
     height: 50px;
-    z-index: 1;
+    z-index: 10000;
     overflow: hidden;
     white-space: nowrap;
+}
+.content-wrapper {
+    background-color: rgb(255,255,255);
 }
 
 /* Sidebar */
@@ -49,11 +45,11 @@ html, body {
     width: 100%;
     z-index: 1000;
     overflow: visible;
-    background-color: #222d32;
-    background-image: url('Think_FullLogoStrapline_Pink.svg');
+    background-color: rgb(34,45,50);
+    /*background-image: url('Think_FullLogoStrapline_Pink.svg');
     background-size: 113.4px 56.6px;
     background-position: center bottom;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 .sidebar-wrapper > * > * > .dropdown {
     background-color: rgb(34,45,50);
@@ -69,53 +65,18 @@ html, body {
     margin-bottom: -8px;
 }
 
-/* Body */
-.content-wrapper {
-    background-color: #FFFFFF;
-}
-.plot-wrapper {
-    position: absolute;
-    height: auto;
-    width: auto;
-    left: 15px;
-    right: 15px;
-    top: 120px;
-    bottom: 15px;
-}
-
 /* Full screen desktop */
 @media only screen and (min-width: 768px) {
-  /*.main-header {
-    border-bottom: 1px solid black;
-  }*/
   .topbar-wrapper {
-    left: 229px;
-    top: 0;
+      left: 279px;
+      top: 0;
   }
   .logo {
-    visibility: visible;
-    height: 50px;
+      visibility: visible;
+      height: 50px;
   }
   .sidebar-wrapper {
-    top: 50px;
+      top: 50px;
   }
-  .plot-wrapper {
-    left: 230px;
-    top: 70px;
-  }
-  .sidebar-toggle {
-    display: none;
-  }
-  /*.sidebar-toggle-border {
-    position: absolute;
-    left: 229px;
-    top: 0px;
-    height: 52px;
-    width: 45px;
-    z-index: 2;
-    border-left: 1px solid black;
-    pointer-events: none;
-    background: none;
-  }*/
 }
 

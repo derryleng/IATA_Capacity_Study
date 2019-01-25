@@ -100,7 +100,6 @@ server <- function(input, output) {
   
   # Options for year range selection when available
   output$option_year <- renderUI({
-    #pickerInput("year", "Select Year", choices = as.character(years_range), selected = as.character(years_range), multiple = T, options = list("actions-box"=T), width = "200px")
     if (input$kpi == "Traffic Forecast") {
       sliderInput("year", "Select Year", value=c(2011,2021), min=min(years_range_extended), max=max(years_range_extended), step=1, ticks=F, sep="", width="250px")
     } else {
@@ -163,12 +162,14 @@ server <- function(input, output) {
     }
   })
   
+  # Option for toggling annual targets on ER ATFM Delays per Flight metric
   output$option_annualtargets <- renderUI({
     if (input$kpi == "En-Route ATFM Delay" & input$metric == "Delays per Flight" & input$annual == T) {
       div(style="text-align:center; height:25px;", checkboxInput("annualtargets", "Display Annual Targets", value=T))
     }
   })
   
+  # Option for toggling total flights on ATFM Delays per Flight metric
   output$option_totalflights <- renderUI({
     if (input$metric == "Delays per Flight") {
       div(style="text-align:center; height:25px;", checkboxInput("totalflights", "Display Total Flights", value=T))
@@ -200,7 +201,8 @@ server <- function(input, output) {
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         month = input$month,
-        rank = ifelse(!is.null(input$rank),rank(),NA)
+        rank = ifelse(!is.null(input$rank),rank(),NA),
+        rank_title = ifelse(!is.null(input$rank),input$rank,NA)
       )
     } else if (input$kpi == "Airport Arrival AFTM Delay") {
       plot_ATFM_APT(
@@ -216,7 +218,8 @@ server <- function(input, output) {
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         month = input$month,
-        rank = ifelse(!is.null(input$rank),rank(),NA)
+        rank = ifelse(!is.null(input$rank),rank(),NA),
+        rank_title = ifelse(!is.null(input$rank),input$rank,NA)
       )
     } else if (input$kpi == "ASMA Additional Time") {
       plot_ASMA(
@@ -260,8 +263,14 @@ server <- function(input, output) {
         years = seq(input$year[1], input$year[2], 1)
       )
     }
-    # Fix title cut off
-    plt <- plt %>% layout(margin=list(l=80, t=input$fontsize*3), legend=list(x=1.07,y=0.5))
+    
+    # Fix display cutoff issues
+    plt <- plt %>% layout(
+      margin=list(l=80, t=input$fontsize*3),
+      legend=list(x=1.07,y=0.5),
+      width = as.numeric(input$dimension[1])-28,
+      height = as.numeric(input$dimension[2])-28
+    )
     
     if (input$legend) {
       plt <- plt %>% layout(showlegend = T)
@@ -272,7 +281,9 @@ server <- function(input, output) {
     plt
   })
   
-  output$plot <- renderPlotly(draw_plot())
+  observeEvent(input$dimension,{
+    output$plot <- renderPlotly(draw_plot())
+  })
   
   output$download <- downloadHandler(
     filename = function() {

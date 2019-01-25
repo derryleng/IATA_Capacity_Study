@@ -1,6 +1,6 @@
-title <- "IATA Capacity Study"
+page_title <- "IATA Capacity Study"
 
-header <- dashboardHeader(title = title)
+header <- dashboardHeader(title = page_title)
 
 sidebar <- dashboardSidebar(
   collapsed = F,
@@ -27,10 +27,11 @@ sidebar <- dashboardSidebar(
 body <- dashboardBody(
   
   tags$head(
-    tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
+    tags$link(rel = "stylesheet", type = "text/css", href = "styles.css"),
+    tags$script(src = "script.js")
   ),
   
-  div(class = "plot-wrapper", plotlyOutput("plot", height="100%")),
+  plotlyOutput("plot", width="100%"),
   
   div(
     class = "topbar-wrapper",
@@ -71,4 +72,4 @@ body <- dashboardBody(
   div(class = "sidebar-toggle-border")
 )
 
-ui <- dashboardPage(skin = "black", title = title, header, sidebar, body)
+ui <- dashboardPage(skin = "black", title = page_title, header, sidebar, body)
