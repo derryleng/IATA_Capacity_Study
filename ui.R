@@ -11,6 +11,7 @@ sidebar <- dashboardSidebar(
     uiOutput("option_1"),
     uiOutput("option_2"),
     uiOutput("option_year"),
+    uiOutput("option_rankingcategories"),
     uiOutput("option_month"),
     uiOutput("option_breakdowncategories"),
     uiOutput("option_ranking"),
