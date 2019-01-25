@@ -55,3 +55,23 @@ metrics_list$legend <- ifelse(metrics_list$legend=="T",T,F)
 
 # For differentiation between states and FAB
 ATFM_APT_FAB <- c("Baltic FAB", "BLUE MED FAB", "DANUBE FAB", "DK-SE FAB", "FAB CE (SES RP2)", "FABEC", "NEFAB", "SW FAB", "UK-Ireland FAB")
+
+# ATFM Delay Categories
+ATFM_DELAY_CATEGORIES <- c(
+  "A - Accident/Incident",
+  "C - ATC Capacity",
+  "D - De-icing",
+  "E - Equipment (Non-ATC)",
+  "G - Aerodrome Capacity",
+  "I - Industrial Action (ATC)",
+  "M - Airspace Management",
+  "N - Industrial Action (Non-ATC)",
+  "O - Other",
+  "P - Special Event",
+  "R - ATC Routeing",
+  "S - ATC Staffing",
+  "T - Equipment (ATC)",
+  "V - Environmental Issues",
+  "W - Weather",
+  "NA - Not Specified"
+)

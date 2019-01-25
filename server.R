@@ -115,6 +115,15 @@ server <- function(input, output) {
     }
   })
   
+  # Option for selecting which delay categories to display in Delays per Flight (& monthly) metrics
+  output$option_breakdowncategories <- renderUI({
+    if (input$metric %in% c("Delays per Flight", "Delays per Flight (Month)") & input$breakdown == T) {
+      pickerInput("category", "Select Categories", 
+                  choices = ATFM_DELAY_CATEGORIES, selected = ATFM_DELAY_CATEGORIES, 
+                  multiple = T, options = list(`actions-box` = TRUE), width = "200px")
+    }
+  })
+  
   # Option for top X entities to display in ranking metrics
   output$option_ranking <- renderUI({
     if (input$metric %in% metrics_list[ranking == T]$metric) {
@@ -122,7 +131,7 @@ server <- function(input, output) {
     }
   })
   
-  # Option for breaking down delay causes in Delays per Flight metrics
+  # Option for breaking down delay causes in Delays per Flight (& monthly) metrics
   output$option_breakdown <- renderUI({
     if (input$metric %in% metrics_list[breakdown == T]$metric) {
       div(style="text-align:center; height:25px;", checkboxInput("breakdown", "Category Breakdown", value=T))
@@ -133,6 +142,18 @@ server <- function(input, output) {
   output$option_annual <- renderUI({
     if (input$metric == "Delays per Flight") {
       div(style="text-align:center; height:25px;", checkboxInput("annual", "Group By Year", value=T))
+    }
+  })
+  
+  output$option_annualtargets <- renderUI({
+    if (input$kpi == "En-Route ATFM Delay" & input$metric == "Delays per Flight" & input$annual == T) {
+      div(style="text-align:center; height:25px;", checkboxInput("annualtargets", "Display Annual Targets", value=T))
+    }
+  })
+  
+  output$option_totalflights <- renderUI({
+    if (input$metric == "Delays per Flight") {
+      div(style="text-align:center; height:25px;", checkboxInput("totalflights", "Display Total Flights", value=T))
     }
   })
   
@@ -154,7 +175,10 @@ server <- function(input, output) {
         entity = input$entity,
         top = input$top,
         breakdown = input$breakdown,
+        category = input$category,
         annual = input$annual,
+        annualtargets = input$annualtargets,
+        totalflights = input$totalflights,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         month = input$month
@@ -166,7 +190,10 @@ server <- function(input, output) {
         entity = input$entity,
         top = input$top,
         breakdown = input$breakdown,
+        category = input$category,
         annual = input$annual,
+        annualtargets = input$annualtargets,
+        totalflights = input$totalflights,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         month = input$month

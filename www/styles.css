@@ -8,8 +8,10 @@ html {
 }
 html, body {
     margin: 0;
+    height: 100%;
     width: 100%;
     min-width: 645px;
+    background-color: #222d32;
     overflow: hidden;
 }
 .shiny-output-error {
@@ -19,13 +21,18 @@ html, body {
   	visibility: hidden;
 }
 
+.main-header {
+  position: relative;
+  z-index: 0;
+}
+
 .topbar-wrapper {
     position: absolute;
     left: 45px;
     right: 0;
     top: 50px;
     height: 50px;
-    z-index: 100000;
+    z-index: 1;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -36,32 +43,30 @@ html, body {
 }
 .sidebar-wrapper {
     position: absolute;
-    left: 0;
     top: 100px;
+    left: 0;
+    bottom: 0;
     width: 100%;
     z-index: 1000;
     overflow: visible;
+    background-color: #222d32;
+    background-image: url('Think_FullLogoStrapline_Pink.svg');
+    background-size: 113.4px 56.6px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 .sidebar-wrapper > * > * > .dropdown {
     background-color: rgb(34,45,50);
 }
+.skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper {
+    background: none;
+}
 .skin-black .sidebar a {
     color: #444;
+    background: none;
 }
 .form-group {
     margin-bottom: -8px;
-}
-.think {
-    position:absolute;
-    left: 0;
-    bottom: 0;
-    height: 80px;
-    width: 100%;
-    z-index: 999;
-    background-image: url('Think_FullLogoStrapline_Pink.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 113.4px 56.6px;
 }
 
 /* Body */
@@ -80,9 +85,9 @@ html, body {
 
 /* Full screen desktop */
 @media only screen and (min-width: 768px) {
-  .main-header {
-    border: 1px solid black;
-  }
+  /*.main-header {
+    border-bottom: 1px solid black;
+  }*/
   .topbar-wrapper {
     left: 229px;
     top: 0;
@@ -95,22 +100,22 @@ html, body {
     top: 50px;
   }
   .plot-wrapper {
-      left: 230px;
-      top: 70px;
+    left: 230px;
+    top: 70px;
   }
   .sidebar-toggle {
-      display: none;
+    display: none;
   }
-  .sidebar-toggle-border {
+  /*.sidebar-toggle-border {
     position: absolute;
     left: 229px;
     top: 0px;
     height: 52px;
     width: 45px;
-    z-index: 100000;
+    z-index: 2;
     border-left: 1px solid black;
     pointer-events: none;
     background: none;
-  }
+  }*/
 }
 

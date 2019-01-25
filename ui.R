@@ -12,9 +12,12 @@ sidebar <- dashboardSidebar(
     uiOutput("option_2"),
     uiOutput("option_year"),
     uiOutput("option_month"),
+    uiOutput("option_breakdowncategories"),
     uiOutput("option_ranking"),
     uiOutput("option_breakdown"),
     uiOutput("option_annual"),
+    uiOutput("option_annualtargets"),
+    uiOutput("option_totalflights"),
     uiOutput("option_legend")
   ),
   div(class = "think")
@@ -55,8 +58,8 @@ body <- dashboardBody(
     ),
     div(
       style = "float:right; padding:10px 5px;",
-      title = "Font size 16 is recommended for 1280x768 images",
-      numericInput("fontsize", NULL, value=16, min=5, max=36, step=1, width="75px")
+      title = "Font size 20 is recommended for 1280x768 images",
+      numericInput("fontsize", NULL, value=15, min=5, max=36, step=1, width="75px")
     ),
     div(
       style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;",

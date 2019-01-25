@@ -1,4 +1,4 @@
-plot_ATFM <- function(metric, type, entity, breakdown=T, annual=F, top=10, fontsize=12, years, month) {
+plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, annualtargets=T, totalflights=T, top=10, fontsize=12, years, month) {
   
   if (metric == "Delays per Flight") {
     
@@ -9,28 +9,28 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
       xtitle <- "Year"
       colour <- c(brewer.pal(9, "Set1"), brewer.pal(7, "Set3"))
       g <- plot_ly(data=subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
-      g <- g %>%
-        add_trace(y=~A_AVG, name="A - Accident/Incident", type="bar", marker=list(color=colour[1])) %>%
-        add_trace(y=~C_AVG, name="C - ATC Capacity", type="bar", marker=list(color=colour[2])) %>%
-        add_trace(y=~D_AVG, name="D - De-icing", type="bar", marker=list(color=colour[3])) %>%
-        add_trace(y=~E_AVG, name="E - Equipment (Non-ATC)", type="bar", marker=list(color=colour[4])) %>%
-        add_trace(y=~G_AVG, name="G - Aerodrome Capacity", type="bar", marker=list(color=colour[5])) %>%
-        add_trace(y=~I_AVG, name="I - Industrial Action (ATC)", type="bar", marker=list(color=colour[6])) %>%
-        add_trace(y=~M_AVG, name="M - Airspace Management", type="bar", marker=list(color=colour[7])) %>%
-        add_trace(y=~N_AVG, name="N - Industrial Action (Non-ATC)", type="bar", marker=list(color=colour[8])) %>%
-        add_trace(y=~O_AVG, name="O - Other", type="bar", marker=list(color=colour[9])) %>%
-        add_trace(y=~P_AVG, name="P - Special Event", type="bar", marker=list(color=colour[10])) %>%
-        add_trace(y=~R_AVG, name="R - ATC Routeing", type="bar", marker=list(color=colour[11])) %>%
-        add_trace(y=~S_AVG, name="S - ATC Staffing", type="bar", marker=list(color=colour[12])) %>%
-        add_trace(y=~T_AVG, name="T - Equipment (ATC)", type="bar", marker=list(color=colour[13])) %>%
-        add_trace(y=~V_AVG, name="V - Environmental Issues", type="bar", marker=list(color=colour[14])) %>%
-        add_trace(y=~W_AVG, name="W - Weather", type="bar", marker=list(color=colour[15])) %>%
-        add_trace(y=~NA_AVG, name="NA - Not Specified", type="bar", marker=list(color=colour[16])) %>%
-        add_markers(y=~TARGET, name="Delay Target", marker=list(symbol="x", color="red", size=10)) %>%
-        add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
-        layout(barmode="stack",
-               yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F,range=c(0,max(subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
-               annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
+      
+      for (i in 1:length(ATFM_DELAY_CATEGORIES)) {
+        if (ATFM_DELAY_CATEGORIES[i] %in% category) {
+          g <- g %>% add_trace(y=eval(parse(text=paste0("~", strsplit(ATFM_DELAY_CATEGORIES[i], split=" ")[[1]][1], "_AVG"))),
+                               name=ATFM_DELAY_CATEGORIES[i], type="bar", marker=list(color=colour[i]))
+        }
+      }
+      
+      if (annualtargets & all(category == ATFM_DELAY_CATEGORIES)) {
+        g <- g %>% add_markers(y=~TARGET, name="Delay Target", marker=list(symbol="x", color="red", size=10))
+      }
+      
+      if (totalflights) {
+        g <- g %>%
+          add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
+          layout(
+            yaxis2=list(overlaying="y",side="right", title="", linewidth=1, showgrid=F,range=c(0,max(subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
+            annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90))
+          )
+      }
+      
+      g <- g %>% layout(barmode="stack")
       
     } else if (breakdown == F & annual == T) {
       xtitle <- "Year"
@@ -50,27 +50,24 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
         data=subset(dat$ATFM, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)),
         x=~factor(paste(MONTH,YEAR),levels=monthsyears)
       )
-      g <- g %>%
-        add_trace(y=~A_AVG, name="A - Accident/Incident", type="bar", marker=list(color=colour[1])) %>%
-        add_trace(y=~C_AVG, name="C - ATC Capacity", type="bar", marker=list(color=colour[2])) %>%
-        add_trace(y=~D_AVG, name="D - De-icing", type="bar", marker=list(color=colour[3])) %>%
-        add_trace(y=~E_AVG, name="E - Equipment (Non-ATC)", type="bar", marker=list(color=colour[4])) %>%
-        add_trace(y=~G_AVG, name="G - Aerodrome Capacity", type="bar", marker=list(color=colour[5])) %>%
-        add_trace(y=~I_AVG, name="I - Industrial Action (ATC)", type="bar", marker=list(color=colour[6])) %>%
-        add_trace(y=~M_AVG, name="M - Airspace Management", type="bar", marker=list(color=colour[7])) %>%
-        add_trace(y=~N_AVG, name="N - Industrial Action (Non-ATC)", type="bar", marker=list(color=colour[8])) %>%
-        add_trace(y=~O_AVG, name="O - Other", type="bar", marker=list(color=colour[9])) %>%
-        add_trace(y=~P_AVG, name="P - Special Event", type="bar", marker=list(color=colour[10])) %>%
-        add_trace(y=~R_AVG, name="R - ATC Routeing", type="bar", marker=list(color=colour[11])) %>%
-        add_trace(y=~S_AVG, name="S - ATC Staffing", type="bar", marker=list(color=colour[12])) %>%
-        add_trace(y=~T_AVG, name="T - Equipment (ATC)", type="bar", marker=list(color=colour[13])) %>%
-        add_trace(y=~V_AVG, name="V - Environmental Issues", type="bar", marker=list(color=colour[14])) %>%
-        add_trace(y=~W_AVG, name="W - Weather", type="bar", marker=list(color=colour[15])) %>%
-        add_trace(y=~NA_AVG, name="NA - Not Specified", type="bar", marker=list(color=colour[16])) %>%
-        add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
-        layout(barmode="stack",  xaxis=list(tickangle=90),
-               yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
-               annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
+      
+      for (i in 1:length(ATFM_DELAY_CATEGORIES)) {
+        if (ATFM_DELAY_CATEGORIES[i] %in% category) {
+          g <- g %>% add_trace(y=eval(parse(text=paste0("~", strsplit(ATFM_DELAY_CATEGORIES[i], split=" ")[[1]][1], "_AVG"))),
+                               name=ATFM_DELAY_CATEGORIES[i], type="bar", marker=list(color=colour[i]))
+        }
+      }
+      
+      if (totalflights) {
+        g <- g %>%
+          add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
+          layout(
+            yaxis2=list(overlaying="y",side="right", title="", linewidth=1, showgrid=F,range=c(0,max(subset(dat$ATFM, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
+            annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90))
+          )
+      }
+      
+      g <- g %>% layout(barmode="stack", xaxis=list(tickangle=90))
       
     } else if (breakdown == F & annual == F) {
       xtitle <- "Date"
@@ -116,24 +113,15 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
       colour <- c(brewer.pal(9, "Set1"), brewer.pal(7, "Set3"))
       temp <- subset(dat$ATFM, NAME %in% entity & MONTH %in% months[which(monthsfull == month)])
       g <- plot_ly(data=subset(dat$ATFM, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
-      g <- g %>%
-        add_trace(y=~A_AVG, name="A - Accident/Incident", type="bar", marker=list(color=colour[1])) %>%
-        add_trace(y=~C_AVG, name="C - ATC Capacity", type="bar", marker=list(color=colour[2])) %>%
-        add_trace(y=~D_AVG, name="D - De-icing", type="bar", marker=list(color=colour[3])) %>%
-        add_trace(y=~E_AVG, name="E - Equipment (Non-ATC)", type="bar", marker=list(color=colour[4])) %>%
-        add_trace(y=~G_AVG, name="G - Aerodrome Capacity", type="bar", marker=list(color=colour[5])) %>%
-        add_trace(y=~I_AVG, name="I - Industrial Action (ATC)", type="bar", marker=list(color=colour[6])) %>%
-        add_trace(y=~M_AVG, name="M - Airspace Management", type="bar", marker=list(color=colour[7])) %>%
-        add_trace(y=~N_AVG, name="N - Industrial Action (Non-ATC)", type="bar", marker=list(color=colour[8])) %>%
-        add_trace(y=~O_AVG, name="O - Other", type="bar", marker=list(color=colour[9])) %>%
-        add_trace(y=~P_AVG, name="P - Special Event", type="bar", marker=list(color=colour[10])) %>%
-        add_trace(y=~R_AVG, name="R - ATC Routeing", type="bar", marker=list(color=colour[11])) %>%
-        add_trace(y=~S_AVG, name="S - ATC Staffing", type="bar", marker=list(color=colour[12])) %>%
-        add_trace(y=~T_AVG, name="T - Equipment (ATC)", type="bar", marker=list(color=colour[13])) %>%
-        add_trace(y=~V_AVG, name="V - Environmental Issues", type="bar", marker=list(color=colour[14])) %>%
-        add_trace(y=~W_AVG, name="W - Weather", type="bar", marker=list(color=colour[15])) %>%
-        add_trace(y=~NA_AVG, name="NA - Not Specified", type="bar", marker=list(color=colour[16])) %>%
-        layout(barmode="stack")
+      
+      for (i in 1:length(ATFM_DELAY_CATEGORIES)) {
+        if (ATFM_DELAY_CATEGORIES[i] %in% category) {
+          g <- g %>% add_trace(y=eval(parse(text=paste0("~", strsplit(ATFM_DELAY_CATEGORIES[i], split=" ")[[1]][1], "_AVG"))),
+                               name=ATFM_DELAY_CATEGORIES[i], type="bar", marker=list(color=colour[i]))
+        }
+      }
+      
+      g <- g %>% layout(barmode="stack")
 
     } else {
       g <- plot_ly()
