@@ -1,4 +1,4 @@
-plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F, annualtargets=T, totalflights=T, top=10, fontsize=12, years, month) {
+plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F, annualtargets=T, totalflights=T, top=10, fontsize=12, years, month, rank) {
   
   if (metric == "Delays per Flight") {
     title <- paste("Airport Arrivals ATFM Delay per Flight for", entity)
@@ -129,12 +129,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- "Yearly Average Airport Arrival ATFM Delay Ranking by Airport"
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
         data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
         x=~factor(NAME, levels=unique(temp$NAME)),
-        y=~DELAY_AVG,
+        y=eval(parse(text=paste0("~",rank))),
         color=~factor(YEAR, levels=years_range),
         colors="Spectral",
         type="bar"
@@ -144,12 +144,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste(month, "Average Airport Arrival ATFM Delay Ranking by Airport")
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
         data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
         x=~factor(NAME, levels=unique(temp$NAME)),
-        y=~DELAY_AVG,
+        y=eval(parse(text=paste0("~",rank))),
         color=~factor(YEAR, levels=years_range),
         colors="Spectral",
         type="bar"
@@ -159,12 +159,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste("Yearly Average Airport Arrival ATFM Delay Ranking in", type)
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
       x=~factor(NAME, levels=unique(temp$NAME)),
-      y=~DELAY_AVG,
+      y=eval(parse(text=paste0("~",rank))),
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"
@@ -174,12 +174,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste(month, "Average Airport Arrival ATFM Delay Ranking in", type)
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
       x=~factor(NAME, levels=unique(temp$NAME)),
-      y=~DELAY_AVG,
+      y=eval(parse(text=paste0("~",rank))),
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"
@@ -189,12 +189,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- "Yearly Average Airport Arrival ATFM Delay Ranking by State"
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
       x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
-      y=~DELAY_AVG,
+      y=eval(parse(text=paste0("~",rank))),
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"
@@ -204,12 +204,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste(month, "Average Airport Arrival ATFM Delay Ranking by State")
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
       x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
-      y=~DELAY_AVG,
+      y=eval(parse(text=paste0("~",rank))),
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"
@@ -219,12 +219,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- "Yearly Average Airport Arrival ATFM Delay Ranking by FAB"
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% ATFM_APT_FAB & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% ATFM_APT_FAB & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, STATE %in% head(unique(temp$STATE), top)),
       x=~factor(STATE, levels=unique(temp$STATE)),
-      y=~DELAY_AVG,
+      y=eval(parse(text=paste0("~",rank))),
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"
@@ -234,12 +234,12 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste(month, "Average Airport Arrival ATFM Delay Ranking by FAB")
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, STATE %in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
-      .[rev(order(YEAR, DELAY_AVG))]
+    temp <- subset(dat$ATFM_APT, STATE %in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, STATE %in% head(unique(temp$STATE), top)),
       x=~factor(STATE, levels=unique(temp$STATE)),
-      y=~DELAY_AVG,
+      y=eval(parse(text=paste0("~",rank))),
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"
