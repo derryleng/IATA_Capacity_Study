@@ -1,4 +1,4 @@
-plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, annualtargets=T, totalflights=T, top=10, fontsize=12, years, month, rank) {
+plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, annualtargets=T, totalflights=T, top=10, fontsize=12, years, month) {
   
   if (metric == "Delays per Flight") {
     
@@ -209,8 +209,8 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
     title <- paste("Yearly Average En-Route ATFM Delay Ranking by", gsub("COUNTRY","State",strsplit(type," ")[[1]][1]))
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_ANNUAL, TYPE %in% type & NAME %!in% paste("All",type) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
-      .[rev(order(YEAR, eval(parse(text=rank))))]
+    temp <- subset(dat$ATFM_ANNUAL, TYPE %in% type & NAME %!in% paste("All",type) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
     if (type == "COUNTRY (FIR)") temp <- subset(temp, NAME %!in% c("United Kingdom", "UK Oceanic", "Spain", "Spain Canarias", "Portugal", "Portugal Santa Maria"))
     if (type == "FAB (FIR)") temp <- subset(temp, NAME %!in% c("FAB CE (SES RP1)", "FAB CE"))
     temp <- temp %>% subset(., NAME %in% head(unique(.$NAME), top))
@@ -218,29 +218,23 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
     g <- g %>%
       add_trace(
         x=~factor(NAME, levels=unique(temp$NAME)),
-        y=eval(parse(text=paste0("~",rank))),
+        y=~DELAY_AVG,
         color=~factor(YEAR, levels=years),
         colors=ifelse(length(years) == 1, "#d51067", "Spectral"),
         type="bar",
         legendgroup=~YEAR
-      )
-    
-    if (rank == "DELAY_AVG") {
-      g <- g %>%
-        add_trace(
-          x=~factor(NAME, levels=unique(temp$NAME)),
-          y=~ifelse(is.na(TARGET),0,TARGET),
-          name=~paste(YEAR,"Target"),
-          marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
-          type="bar",
-          xaxis="x2",
-          showlegend=F,
-          legendgroup=~YEAR
-        ) %>%
-        layout(xaxis2=list(overlaying="x", showticklabels=F))
-    }
-      
-    g <- g %>% layout(barmode="group", xaxis=list(tickangle=45))
+      ) %>%
+      add_trace(
+        x=~factor(NAME, levels=unique(temp$NAME)),
+        y=~ifelse(is.na(TARGET),0,TARGET),
+        name=~paste(YEAR,"Target"),
+        marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
+        type="bar",
+        xaxis="x2",
+        showlegend=F,
+        legendgroup=~YEAR
+      ) %>%
+      layout(barmode="group", xaxis=list(tickangle=45), xaxis2=list(overlaying="x", showticklabels=F))
     
   } else if (metric == "Delay Ranking (Month)") {
     
@@ -248,13 +242,13 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
     g <- plot_ly()
-    temp <- subset(dat$ATFM, MONTH %in% months[which(monthsfull == month)] & TYPE %in% type & NAME %!in% paste("All",type) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
-      .[rev(order(YEAR, eval(parse(text=rank))))]
+    temp <- subset(dat$ATFM, MONTH %in% months[which(monthsfull == month)] & TYPE %in% type & NAME %!in% paste("All",type) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
     g <- g %>%
       add_trace(
         data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
         x=~factor(NAME, levels=unique(temp$NAME)),
-        y=eval(parse(text=paste0("~",rank))),
+        y=~DELAY_AVG,
         color=~factor(YEAR, levels=years),
         colors="Spectral",
         type="bar"
@@ -265,48 +259,42 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
     title <- paste("Yearly Average En-Route ATFM Delay Ranking in", type)
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_ANNUAL, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$FAB %in% type]$STATE)) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
-      .[rev(order(YEAR, eval(parse(text=rank))))]
+    temp <- subset(dat$ATFM_ANNUAL, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$FAB %in% type]$STATE)) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
     temp <- temp %>% subset(., NAME %in% head(unique(.$NAME), top))
     g <- plot_ly(data=temp)
     g <- g %>%
       add_trace(
         x=~factor(NAME, levels=unique(temp$NAME)),
-        y=eval(parse(text=paste0("~",rank))),
+        y=~DELAY_AVG,
         color=~factor(YEAR, levels=years),
         colors=ifelse(length(years) == 1, "#d51067", "Spectral"),
         type="bar",
         legendgroup=~YEAR
-      )
-    
-    if (rank == "DELAY_AVG") {
-      g <- g %>%
-        add_trace(
-          x=~factor(NAME, levels=unique(temp$NAME)),
-          y=~ifelse(is.na(TARGET),0,TARGET),
-          name=~paste(YEAR,"Target"),
-          marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
-          type="bar",
-          xaxis="x2",
-          showlegend=F,
-          legendgroup=~YEAR
-        ) %>%
-        layout(xaxis2=list(overlaying="x", showticklabels=F))
-    }
-
-    g <- g %>% layout(barmode="group", xaxis=list(tickangle=45))
+      ) %>%
+      add_trace(
+        x=~factor(NAME, levels=unique(temp$NAME)),
+        y=~ifelse(is.na(TARGET),0,TARGET),
+        name=~paste(YEAR,"Target"),
+        marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
+        type="bar",
+        xaxis="x2",
+        showlegend=F,
+        legendgroup=~YEAR
+      ) %>%
+      layout(barmode="group", xaxis=list(tickangle=45), xaxis2=list(overlaying="x", showticklabels=F))
     
   } else if (metric == "FAB State Delay Ranking (Month)") {
     
     title <- paste(month, "Average Average En-Route ATFM Delay Ranking in", type)
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$FAB %in% type]$STATE)) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
-      .[rev(order(YEAR, eval(parse(text=rank))))]
+    temp <- subset(dat$ATFM, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$FAB %in% type]$STATE)) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
       x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
-      y=eval(parse(text=paste0("~",rank))),
+      y=~DELAY_AVG,
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"
@@ -317,48 +305,42 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
     title <- paste("Yearly Average En-Route ATFM Delay Ranking in SES Area")
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM_ANNUAL, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$STATE %!in% "MUAC"]$STATE)) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
-      .[rev(order(YEAR, eval(parse(text=rank))))]
+    temp <- subset(dat$ATFM_ANNUAL, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$STATE %!in% "MUAC"]$STATE)) & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
     temp <- temp %>% subset(., NAME %in% head(unique(.$NAME), top))
     g <- plot_ly(data=temp)
     g <- g %>%
       add_trace(
         x=~factor(NAME, levels=unique(temp$NAME)),
-        y=eval(parse(text=paste0("~",rank))),
+        y=~DELAY_AVG,
         color=~factor(YEAR, levels=years),
         colors=ifelse(length(years) == 1, "#d51067", "Spectral"),
         type="bar",
         legendgroup=~YEAR
-      )
-    
-    if (rank == "DELAY_AVG") {
-      g <- g %>%
-        add_trace(
-          x=~factor(NAME, levels=unique(temp$NAME)),
-          y=~ifelse(is.na(TARGET),0,TARGET),
-          name=~paste(YEAR,"Target"),
-          marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
-          type="bar",
-          xaxis="x2",
-          showlegend=F,
-          legendgroup=~YEAR
-        ) %>%
-        layout(xaxis2=list(overlaying="x", showticklabels=F))
-    }
-    
-    g <- g %>% layout(barmode="group", xaxis=list(tickangle=45))
+      ) %>%
+      add_trace(
+        x=~factor(NAME, levels=unique(temp$NAME)),
+        y=~ifelse(is.na(TARGET),0,TARGET),
+        name=~paste(YEAR,"Target"),
+        marker=list(color="rgba(0,0,0,0)", line=list(color="red", width=10/top)),
+        type="bar",
+        xaxis="x2",
+        showlegend=F,
+        legendgroup=~YEAR
+      ) %>%
+      layout(barmode="group", xaxis=list(tickangle=45), xaxis2=list(overlaying="x", showticklabels=F))
     
   } else if (metric == "SES State Delay Ranking (Month)") {
     
-    title <- paste(month, "Average En-Route ATFM Delay Ranking in SES Area")
+    title <- paste(month, "Average Average En-Route ATFM Delay Ranking in SES Area")
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
-    temp <- subset(dat$ATFM, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$STATE %!in% "MUAC"]$STATE)) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
-      .[rev(order(YEAR, eval(parse(text=rank))))]
+    temp <- subset(dat$ATFM, NAME %in% sort(unique(dat$STATE_FAB[dat$STATE_FAB$STATE %!in% "MUAC"]$STATE)) & MONTH %in% months[which(monthsfull == month)] & !is.na(DELAY_AVG) & YEAR %in% years) %>%
+      .[rev(order(YEAR, DELAY_AVG))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
       x=~factor(gsub("All ","",NAME), levels=unique(gsub("All ","",temp$NAME))),
-      y=eval(parse(text=paste0("~",rank))),
+      y=~DELAY_AVG,
       color=~factor(YEAR, levels=years_range),
       colors="Spectral",
       type="bar"

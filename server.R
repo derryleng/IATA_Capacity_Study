@@ -108,24 +108,6 @@ server <- function(input, output) {
     }
   })
   
-  # Option for selecting which delay category to rank by
-  output$option_rankingcategories <- renderUI({
-    if (input$metric %in% metrics_list[ranking == T]$metric) {
-      choice_RANKING <- c("Total Flights", "Average Delay", ATFM_DELAY_CATEGORIES)
-      pickerInput("rank", "Rank By", choices=choice_RANKING, selected="Average Delay", width="200px")
-    }
-  })
-  
-  rank <- reactive({
-    if (input$rank == "Total Flights") {
-      "FLIGHTS_TOTAL"
-    } else if (input$rank == "Average Delay") {
-      "DELAY_AVG"
-    } else {
-      paste0(strsplit(input$rank, split=" - ")[[1]][1], "_AVG")
-    }
-  })
-  
   # Option for month selection when available
   output$option_month <- renderUI({
     if (input$metric %in% metrics_list[monthly == T]$metric) {
@@ -199,8 +181,7 @@ server <- function(input, output) {
         totalflights = input$totalflights,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
-        month = input$month,
-        rank = ifelse(!is.null(input$rank),rank(),NA)
+        month = input$month
       )
     } else if (input$kpi == "Airport Arrival AFTM Delay") {
       plot_ATFM_APT(
@@ -215,8 +196,7 @@ server <- function(input, output) {
         totalflights = input$totalflights,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
-        month = input$month,
-        rank = ifelse(!is.null(input$rank),rank(),NA)
+        month = input$month
       )
     } else if (input$kpi == "ASMA Additional Time") {
       plot_ASMA(
