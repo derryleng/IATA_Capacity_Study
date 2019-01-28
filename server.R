@@ -24,7 +24,7 @@ server <- function(input, output) {
         pickerInput("type", "Select Type", choices = choices_ATFM_TYPE, selected="AREA (AUA)", width = "200px")
       }
       
-    } else if (input$kpi == "Airport Arrival AFTM Delay") {
+    } else if (input$kpi == "Airport Arrival ATFM Delay") {
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
         choices_ATFM_APT_STATEFAB <- list(
           "State"=sort(unique(dat$ATFM_APT[dat$ATFM_APT$STATE %!in% ATFM_APT_FAB]$STATE)),
@@ -85,7 +85,7 @@ server <- function(input, output) {
           pickerInput("entity", "Select FAB", choices = choices_ATFM_FAB, width = "200px")
         }
       }
-    } else if (input$kpi == "Airport Arrival AFTM Delay") {
+    } else if (input$kpi == "Airport Arrival ATFM Delay") {
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
         choices_ATFM_APT_AIRPORT <- sort(unique(dat$ATFM_APT[STATE %in% input$state]$NAME))
         pickerInput("entity", "Select Airport", choices = choices_ATFM_APT_AIRPORT, selected = grep("^All *", choices_ATFM_APT_AIRPORT, value=T), width = "200px")
@@ -208,7 +208,7 @@ server <- function(input, output) {
         rank = ifelse(!is.null(input$rank),rank(),NA),
         rank_title = ifelse(!is.null(input$rank),input$rank,NA)
       )
-    } else if (input$kpi == "Airport Arrival AFTM Delay") {
+    } else if (input$kpi == "Airport Arrival ATFM Delay") {
       plot_ATFM_APT(
         metric = input$metric,
         type = input$state,
