@@ -47,11 +47,6 @@ monthsyears <- as.vector(outer(months, years_range, FUN="paste")) %>% factor(., 
 
 # Get metrics list w/ properties
 metrics_list <- fread(paste0(here::here(),"/metrics_list.csv"), encoding="UTF-8")
-metrics_list$ranking <- ifelse(metrics_list$ranking=="T",T,F)
-metrics_list$yearly <- ifelse(metrics_list$yearly=="T",T,F)
-metrics_list$monthly <- ifelse(metrics_list$monthly=="T",T,F)
-metrics_list$breakdown <- ifelse(metrics_list$breakdown=="T",T,F)
-metrics_list$legend <- ifelse(metrics_list$legend=="T",T,F)
 
 # For differentiation between states and FAB
 ATFM_APT_FAB <- c("Baltic FAB", "BLUE MED FAB", "DANUBE FAB", "DK-SE FAB", "FAB CE (SES RP2)", "FABEC", "NEFAB", "SW FAB", "UK-Ireland FAB")

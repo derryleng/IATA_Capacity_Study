@@ -5,7 +5,8 @@ header <- dashboardHeader(title = page_title)
 sidebar <- dashboardSidebar(
   collapsed = F,
   div(
-    class = "sidebar-wrapper",
+    class = "sidebar-wrapper scrollbar",
+    id = "style-2",
     uiOutput("option_kpi"),
     uiOutput("option_metric"),
     uiOutput("option_1"),

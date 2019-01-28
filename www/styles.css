@@ -11,7 +11,10 @@ html, body {
     height: 100%;
     min-width: 645px;
     background-color: #222d32;
-    overflow: auto;
+    overflow: hidden;
+}
+.wrapper {
+    overflow-y: auto;
 }
 .shiny-output-error {
   	visibility: hidden;
@@ -38,8 +41,10 @@ html, body {
 }
 
 /* Sidebar */
-.sidebar {
-    overflow-y: hidden;
+#sidebarCollapsed {
+    position: absolute;
+    padding-top: 100px;
+    overflow: visible;
 }
 .sidebar-wrapper {
     position: absolute;
@@ -48,7 +53,6 @@ html, body {
     bottom: 0;
     width: 100%;
     z-index: 1000;
-    overflow: visible;
     background-color: rgb(34,45,50);
     /*background-image: url('Think_FullLogoStrapline_Pink.svg');
     background-size: 113.4px 56.6px;
@@ -78,6 +82,9 @@ html, body {
   .logo {
       visibility: visible;
       height: 50px;
+  }
+  #sidebarCollapsed {
+      padding-top: 50px;
   }
   .sidebar-wrapper {
       top: 50px;

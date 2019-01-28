@@ -38,16 +38,25 @@ server <- function(input, output) {
       
     } else if (input$kpi == "ASMA Additional Time") {
       choices_ASMA_STATE <- sort(unique(dat$ASMA$STATE))
-      pickerInput("state", "Select State", choices = choices_ASMA_STATE, selected="United Kingdom", width = "200px")
-      
+      if (input$metric %!in% metrics_list[ranking == T]$metric) {
+        pickerInput("state", "Select State", choices = choices_ASMA_STATE, selected="United Kingdom", width = "200px")
+      } else {
+        pickerInput("state", "Select State", choices = c("All Countries", choices_ASMA_STATE), selected="All Countries", width = "200px")
+      }
     } else if (input$kpi == "Taxi-Out Additional Time") {
       choices_TAXI_STATE <- sort(unique(dat$TAXI$STATE))
-      pickerInput("state", "Select State", choices = choices_TAXI_STATE, selected="United Kingdom", width = "200px")
-      
+      if (input$metric %!in% metrics_list[ranking == T]$metric) {
+        pickerInput("state", "Select State", choices = choices_TAXI_STATE, selected="United Kingdom", width = "200px")
+      } else {
+        pickerInput("state", "Select State", choices = c("All Countries", choices_TAXI_STATE), selected="All Countries", width = "200px")
+      }
     } else if (input$kpi == "ATC Pre-Departure Delay") {
       choices_PREDEP_STATE <- sort(unique(dat$PREDEP$STATE))
-      pickerInput("state", "Select State", choices = choices_PREDEP_STATE, selected="United Kingdom", width = "200px")
-      
+      if (input$metric %!in% metrics_list[ranking == T]$metric) {
+        pickerInput("state", "Select State", choices = choices_PREDEP_STATE, selected="United Kingdom", width = "200px")
+      } else {
+        pickerInput("state", "Select State", choices = c("All Countries", choices_PREDEP_STATE), selected="All Countries", width = "200px")
+      }
     } else if (input$kpi == "En-Route vs Airport ATFM") {
       choices_BOTH_STATE <- list(
         "State"=unique(subset(dat$ATFM_APT_ANNUAL, (grepl("^All *", NAME) | grepl("^NA$", NAME)) & STATE %!in% ATFM_APT_FAB, select=c(STATE))),
@@ -91,30 +100,36 @@ server <- function(input, output) {
         pickerInput("entity", "Select Airport", choices = choices_ATFM_APT_AIRPORT, selected = grep("^All *", choices_ATFM_APT_AIRPORT, value=T), width = "200px")
       }
     } else if (input$kpi == "ASMA Additional Time") {
-      choices_ASMA_AIRPORT <- sort(unique(dat$ASMA[STATE %in% input$state]$NAME))
-      pickerInput("entity", "Select Airport", choices = choices_ASMA_AIRPORT, selected = "London/ Gatwick", width = "200px")
+      if (input$metric %!in% metrics_list[ranking == T]$metric) {
+        choices_ASMA_AIRPORT <- sort(unique(dat$ASMA[STATE %in% input$state]$NAME))
+        pickerInput("entity", "Select Airport", choices = choices_ASMA_AIRPORT, selected = "London/ Gatwick", width = "200px")
+      }
     } else if (input$kpi == "Taxi-Out Additional Time") {
-      choices_TAXI_AIRPORT <- sort(unique(dat$TAXI[STATE %in% input$state]$NAME))
-      pickerInput("entity", "Select Airport", choices = choices_TAXI_AIRPORT, selected = "London/ Gatwick", width = "200px")
+      if (input$metric %!in% metrics_list[ranking == T]$metric) {
+        choices_TAXI_AIRPORT <- sort(unique(dat$TAXI[STATE %in% input$state]$NAME))
+        pickerInput("entity", "Select Airport", choices = choices_TAXI_AIRPORT, selected = "London/ Gatwick", width = "200px")
+      }
     } else if (input$kpi == "ATC Pre-Departure Delay") {
-      choices_PREDEP_AIRPORT <- sort(unique(dat$PREDEP[STATE %in% input$state]$NAME))
-      pickerInput("entity", "Select Airport", choices = choices_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
+      if (input$metric %!in% metrics_list[ranking == T]$metric) {
+        choices_PREDEP_AIRPORT <- sort(unique(dat$PREDEP[STATE %in% input$state]$NAME))
+        pickerInput("entity", "Select Airport", choices = choices_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
+      }
     }
   })
   
   # Options for year range selection when available
   output$option_year <- renderUI({
     if (input$kpi == "Traffic Forecast") {
-      sliderInput("year", "Select Year", value=c(2011,2021), min=min(years_range_extended), max=max(years_range_extended), step=1, ticks=F, sep="", width="250px")
+      sliderInput("year", "Select Year", value=c(2011,2021), min=min(years_range_extended), max=max(years_range_extended), step=1, ticks=F, sep="", width="228px")
     } else {
-      sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="250px")
+      sliderInput("year", "Select Year", value=c(2015,2018), min=min(years_range), max=max(years_range), step=1, ticks=F, sep="", width="228px")
     }
   })
   
-  # Option for selecting which delay category to rank by
+  # Option for selecting which delay category to rank by (ATFM Only)
   output$option_rankingcategories <- renderUI({
-    if (input$metric %in% metrics_list[ranking == T]$metric) {
-      choice_RANKING <- c("Total Flights", "Average Delay", ATFM_DELAY_CATEGORIES)
+    if (input$metric %in% metrics_list[ranking == T]$metric & input$kpi %in% c("En-Route ATFM Delay", "Airport Arrival ATFM Delay")) {
+      choice_RANKING <- c("Total Flights", "Total Delay", "Average Delay", ATFM_DELAY_CATEGORIES)
       pickerInput("rank", "Rank By", choices=choice_RANKING, selected="Average Delay", width="200px")
     }
   })
@@ -122,7 +137,9 @@ server <- function(input, output) {
   rank <- reactive({
     if (input$rank == "Total Flights") {
       "FLIGHTS_TOTAL"
-    } else if (input$rank == "Average Delay") {
+    } else if (input$rank == "Total Delay") {
+      "DELAY"
+    }  else if (input$rank == "Average Delay") {
       "DELAY_AVG"
     } else {
       paste0(strsplit(input$rank, split=" - ")[[1]][1], "_AVG")
@@ -161,7 +178,7 @@ server <- function(input, output) {
   
   # Option for grouping bars by years/month in Delays per Flight metrics
   output$option_annual <- renderUI({
-    if (input$metric == "Delays per Flight") {
+    if (input$metric %in% metrics_list[date_grouping == T]$metric) {
       div(style="text-align:center; height:25px;", checkboxInput("annual", "Group By Year", value=T))
     }
   })
@@ -230,6 +247,7 @@ server <- function(input, output) {
         metric = input$metric,
         type = input$state,
         entity = input$entity,
+        annual = input$annual,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         month = input$month
@@ -239,6 +257,7 @@ server <- function(input, output) {
         metric = input$metric,
         type = input$state,
         entity = input$entity,
+        annual = input$annual,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         month = input$month
@@ -248,6 +267,7 @@ server <- function(input, output) {
         metric = input$metric,
         type = input$state,
         entity = input$entity,
+        annual = input$annual,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         month = input$month

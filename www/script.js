@@ -29,3 +29,6 @@ function resizeend() {
   }
 }
 
+$(document).ready(function() {
+  $(".sidebar-wrapper").css("max-height", ($("#sidebarCollapsed").height()-$(".sidebar-wrapper").height()));
+});

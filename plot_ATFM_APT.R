@@ -126,8 +126,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     }
     
   } else if (metric == "Airport Delay Ranking (Yearly)") {
-    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by Airport")
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by Airport")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT_ANNUAL, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
@@ -141,8 +141,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
       ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "Airport Delay Ranking (Month)") {
-    title <- paste("Average Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by Airport")
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste("Average Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by Airport")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
@@ -156,8 +156,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
       ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "State Airport Delay Ranking (Yearly)") {
-    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking in", type)
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking in", type)
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
@@ -171,8 +171,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "State Airport Delay Ranking (Month)") {
-    title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking in", type)
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking in", type)
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
@@ -186,8 +186,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "State Delay Ranking (Yearly)") {
-    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by State")
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by State")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT_ANNUAL, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
@@ -201,8 +201,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "State Delay Ranking (Month)") {
-    title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by State")
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by State")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
@@ -216,8 +216,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "FAB Delay Ranking (Yearly)") {
-    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by FAB")
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by FAB")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% ATFM_APT_FAB & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
@@ -231,8 +231,8 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "FAB Delay Ranking (Month)") {
-    title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title=="Average Delay",rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by FAB")
-    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title=="Average Delay","Average Delay (min.)",paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by FAB")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
     temp <- subset(dat$ATFM_APT, STATE %in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
