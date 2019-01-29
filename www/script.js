@@ -16,6 +16,11 @@ $(window).resize(function() {
     timeout = true;
     setTimeout(resizeend, delta);
   }
+  if ($(window).width() < 768) {
+    Shiny.onInputChange("legend", false);
+  } else {
+    Shiny.onInputChange("legend", true);
+  }
 });
 
 function resizeend() {
@@ -28,7 +33,3 @@ function resizeend() {
     Shiny.onInputChange("dimension", dimension);
   }
 }
-
-$(document).ready(function() {
-  $(".sidebar-wrapper").css("max-height", ($("#sidebarCollapsed").height()-$(".sidebar-wrapper").height()));
-});

@@ -76,7 +76,7 @@ plot_ASMA <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
   } else if (metric == "Average Monthly Delays (Month)") {
     title <- paste(month, "Average Monthly ASMA Additional Time for", entity, "Yearly Trends")
     ytitle <- paste("Average Delay (min.)")
-    xtitle <- "Year"
+    xtitle <- ""
     uniqueyears <- unique(subset(dat$ASMA, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
     for (i in 1:length(uniqueyears)) {
       g <- g %>%

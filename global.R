@@ -12,6 +12,7 @@ source("plot_ATFM_APT.R", local=T)
 source("plot_ASMA.R", local=T)
 source("plot_TAXI.R", local=T)
 source("plot_PREDEP.R", local=T)
+source("plot_ASMA_TAXI_PREDEP.R", local=T)
 source("plot_ATFM_BOTH.R", local=T)
 source("plot_TRAFFIC_FORECAST.R", local=T)
 

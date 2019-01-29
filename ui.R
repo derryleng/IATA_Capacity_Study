@@ -20,7 +20,9 @@ sidebar <- dashboardSidebar(
     uiOutput("option_annual"),
     uiOutput("option_annualtargets"),
     uiOutput("option_totalflights"),
-    uiOutput("option_legend")
+    uiOutput("option_legend"),
+    uiOutput("option_barmode"),
+    uiOutput("option_togglepredep")
   ),
   div(class = "think")
 )

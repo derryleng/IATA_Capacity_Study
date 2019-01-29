@@ -47,6 +47,7 @@ ATC Pre-Departure Delay,APT Average Monthly Delays (Month),bar,FALSE,FALSE,FALSE
 ATC Pre-Departure Delay,APT Total Monthly Delays,line,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,ATC_PREDEP_APT_TOT
 ATC Pre-Departure Delay,APT Airport Delay Ranking (Yearly),bar,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,ATC_PREDEP_APT_RANK_APT
 ATC Pre-Departure Delay,APT Airport Delay Ranking (Month),bar,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,ATC_PREDEP_APT_RANK_APT_MON
+ASMA/Taxi-Out/Pre-Dep Delay,Average Monthly Delays,bar,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,ASMA_TAXI_PREDEP
 En-Route vs Airport ATFM,Average Monthly Delays (Yearly),line,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,ER_APT_ATFM_TRENDS
 En-Route vs Airport ATFM,Average Monthly Delays (Month),bar,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,ER_APT_ATFM_MON
 Traffic Forecast,IFR Movements per State,line,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,IFR_FORECAST

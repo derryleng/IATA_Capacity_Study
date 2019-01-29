@@ -57,6 +57,10 @@ server <- function(input, output) {
       } else {
         pickerInput("state", "Select State", choices = c("All Countries", choices_PREDEP_STATE), selected="All Countries", width = "200px")
       }
+    } else if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+      choices_ASMATAXIPREDEP_STATE <- intersect(unique(dat$ASMA$STATE), unique(dat$TAXI$STATE)) %>% intersect(., unique(dat$PREDEP$STATE)) %>% sort()
+      pickerInput("state", "Select State", choices = choices_ASMATAXIPREDEP_STATE, selected="United Kingdom", width = "200px")
+      
     } else if (input$kpi == "En-Route vs Airport ATFM") {
       choices_BOTH_STATE <- list(
         "State"=unique(subset(dat$ATFM_APT_ANNUAL, (grepl("^All *", NAME) | grepl("^NA$", NAME)) & STATE %!in% ATFM_APT_FAB, select=c(STATE))),
@@ -114,6 +118,10 @@ server <- function(input, output) {
         choices_PREDEP_AIRPORT <- sort(unique(dat$PREDEP[STATE %in% input$state]$NAME))
         pickerInput("entity", "Select Airport", choices = choices_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
       }
+    } else if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+      choices_ASMA_TAXI_PREDEP_AIRPORT <- intersect(unique(dat$ASMA[STATE %in% input$state]$NAME), unique(dat$TAXI[STATE %in% input$state]$NAME)) %>% 
+        intersect(., unique(dat$PREDEP[STATE %in% input$state]$NAME)) %>% sort()
+      pickerInput("entity", "Select Airport", choices = choices_ASMA_TAXI_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
     }
   })
   
@@ -205,6 +213,20 @@ server <- function(input, output) {
       div(style="text-align:center; height:25px;", checkboxInput("legend", "Display Legend", value=F))
     }
   })
+  
+  # Option for changing barmode
+  output$option_barmode <- renderUI({
+    if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+      div(style="padding-top:15px; text-align:center;", radioButtons("barmode", "Barmode", choices=c("Stacked","Grouped"), inline=T))
+    }
+  })
+  
+  # Option for switching between AL and APT PREDEP Delays (ASMA/TAXI-OUT/PREDEP metric only)
+  output$option_togglepredep <- renderUI({
+    if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+      div(style="text-align:center;", radioButtons("predep", "Pre-Dep. Data", choices=c("Airlines","Airports"), inline=T))
+    }
+  })
 
   draw_plot <- reactive({
     req(input$kpi)
@@ -272,6 +294,17 @@ server <- function(input, output) {
         years = seq(input$year[1], input$year[2], 1),
         month = input$month
       )
+    } else if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+      plot_ASMA_TAXI_PREDEP(
+        metric = input$metric,
+        type = input$state,
+        entity = input$entity,
+        annual = input$annual,
+        fontsize = input$fontsize,
+        years = seq(input$year[1], input$year[2], 1),
+        barmode = input$barmode,
+        predep_source = input$predep
+      )
     } else if (input$kpi == "En-Route vs Airport ATFM") {
       plot_ATFM_BOTH(
         metric = input$metric,
@@ -288,10 +321,11 @@ server <- function(input, output) {
       )
     }
     
-    # Fix display cutoff issues
     plt <- plt %>% layout(
+      # Fix display cutoff issues
       margin=list(l=80, t=input$fontsize*3),
       legend=list(x=1.07,y=0.5),
+      
       width = as.numeric(input$dimension[1])-28,
       height = as.numeric(input$dimension[2])-28
     )

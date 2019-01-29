@@ -24,6 +24,7 @@ html, body {
 }
 .topbar-wrapper {
     position: absolute;
+    visibility: hidden;
     left: 45px;
     right: 0;
     top: 50px;
@@ -50,7 +51,7 @@ html, body {
     position: absolute;
     top: 100px;
     left: 0;
-    bottom: 0;
+    height: auto;
     width: 100%;
     z-index: 1000;
     background-color: rgb(34,45,50);
@@ -76,12 +77,9 @@ html, body {
 /* Full screen desktop */
 @media only screen and (min-width: 768px) {
   .topbar-wrapper {
+      visibility: visible;
       left: 279px;
       top: 0;
-  }
-  .logo {
-      visibility: visible;
-      height: 50px;
   }
   #sidebarCollapsed {
       padding-top: 50px;
