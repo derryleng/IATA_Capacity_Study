@@ -57,7 +57,7 @@ server <- function(input, output) {
       } else {
         pickerInput("state", "Select State", choices = c("All Countries", choices_PREDEP_STATE), selected="All Countries", width = "200px")
       }
-    } else if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+    } else if (input$kpi %in% c("ASMA/Taxi-Out/Pre-Dep Delay", "Airport Delays")) {
       choices_ASMATAXIPREDEP_STATE <- intersect(unique(dat$ASMA$STATE), unique(dat$TAXI$STATE)) %>% intersect(., unique(dat$PREDEP$STATE)) %>% sort()
       pickerInput("state", "Select State", choices = choices_ASMATAXIPREDEP_STATE, selected="United Kingdom", width = "200px")
       
@@ -118,7 +118,7 @@ server <- function(input, output) {
         choices_PREDEP_AIRPORT <- sort(unique(dat$PREDEP[STATE %in% input$state]$NAME))
         pickerInput("entity", "Select Airport", choices = choices_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
       }
-    } else if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+    } else if (input$kpi %in% c("ASMA/Taxi-Out/Pre-Dep Delay", "Airport Delays")) {
       choices_ASMA_TAXI_PREDEP_AIRPORT <- intersect(unique(dat$ASMA[STATE %in% input$state]$NAME), unique(dat$TAXI[STATE %in% input$state]$NAME)) %>% 
         intersect(., unique(dat$PREDEP[STATE %in% input$state]$NAME)) %>% sort()
       pickerInput("entity", "Select Airport", choices = choices_ASMA_TAXI_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
@@ -308,6 +308,50 @@ server <- function(input, output) {
         barmode = input$barmode,
         predep_source = input$predep
       )
+    } else if (input$kpi == "Airport Delays") {
+      subplot(
+        subplot(
+          plot_ATFM_APT(
+            metric = input$metric,
+            type = input$state,
+            entity = input$entity,
+            breakdown = T,
+            category = ATFM_DELAY_CATEGORIES,
+            annual = input$annual,
+            annualtargets = T,
+            totalflights = F,
+            fontsize = input$fontsize,
+            years = seq(input$year[1], input$year[2], 1)
+          ) %>% layout(title="Arrival ATFM Delay"),
+          plot_ASMA(
+            metric = input$metric,
+            type = input$state,
+            entity = input$entity,
+            annual = input$annual,
+            fontsize = input$fontsize,
+            years = seq(input$year[1], input$year[2], 1)
+          ) %>% layout(title="Additional ASMA Time")
+        ),
+        subplot(
+          plot_TAXI(
+            metric = input$metric,
+            type = input$state,
+            entity = input$entity,
+            annual = input$annual,
+            fontsize = input$fontsize,
+            years = seq(input$year[1], input$year[2], 1)
+          ) %>% layout(title="Additional Taxi-Out Time"),
+          plot_PREDEP(
+            metric = input$metric,
+            type = input$state,
+            entity = input$entity,
+            annual = input$annual,
+            fontsize = input$fontsize,
+            years = seq(input$year[1], input$year[2], 1)
+          ) %>% layout(title="Pre-Departure Delay")
+        ),
+        nrows=2
+      ) %>% layout(title=paste("Average Airport Delay Statistics for", input$entity))
     } else if (input$kpi == "En-Route vs Airport ATFM") {
       plot_ATFM_BOTH(
         metric = input$metric,
@@ -324,11 +368,14 @@ server <- function(input, output) {
       )
     }
     
+    # Fix display cutoff issues
     plt <- plt %>% layout(
-      # Fix display cutoff issues
       margin=list(l=80, t=input$fontsize*3),
-      legend=list(x=1.07,y=0.5),
-      
+      legend=list(x=1.07,y=0.5)
+    )
+
+    # Adjust plot dimension on window resize
+    plt <- plt %>% layout(
       width = as.numeric(input$dimension[1])-28,
       height = as.numeric(input$dimension[2])-28
     )

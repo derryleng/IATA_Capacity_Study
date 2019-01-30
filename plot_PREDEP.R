@@ -11,7 +11,7 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
           x=~factor(paste(MONTH,YEAR),levels=monthsyears),
           y=~DELAY_APT,
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCEA4C")
         ) %>% layout(xaxis = list(tickangle=90))
     } else if (annual == T) {
       g <- g %>%
@@ -20,7 +20,7 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
           x=~YEAR,
           y=~DELAY_APT,
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCEA4C")
         )
     }
 
@@ -35,7 +35,7 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
           x=~factor(paste(MONTH,YEAR),levels=monthsyears),
           y=~DELAY_AL,
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCE625")
         ) %>% layout(xaxis = list(tickangle=90))
     } else if (annual == T) {
       g <- g %>%
@@ -44,12 +44,12 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
           x=~YEAR,
           y=~DELAY_AL,
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCE625")
         )
     }
 
     
-  } else if (metric == "APT Average Monthly Delays") {
+  } else if (metric == "APT Average Monthly Delays" | metric == "Delays per Flight (Pre-Dep APT)") {
     title <- paste("ATC Pre-Departure Average Delay (Reported by Airport Operators) for", entity)
     ytitle <- paste("Delay per IFR Departure (min.)")
     xtitle <- ""
@@ -58,8 +58,9 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
         add_trace(
           x=~factor(paste(MONTH,YEAR),levels=monthsyears),
           y=~DELAY_APT/FLIGHTS_APT,
+          name="Pre-Departure Delay (APT)",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCEA4C")
         ) %>% layout(xaxis = list(tickangle=90))
     } else if (annual == T) {
       g <- g %>%
@@ -67,13 +68,14 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
           data=subset(dat$PREDEP_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)),
           x=~YEAR,
           y=~DELAY_APT/FLIGHTS_APT,
+          name="Pre-Departure Delay (APT)",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCEA4C")
         )
     }
 
     
-  } else if (metric == "AL Average Monthly Delays") {
+  } else if (metric == "AL Average Monthly Delays" | metric == "Delays per Flight (Pre-Dep AL)") {
     title <- paste("ATC Pre-Departure Average Delay (Reported by CODA/Airlines) for", entity)
     ytitle <- paste("Delay per IFR Departure (min.)")
     xtitle <- ""
@@ -82,8 +84,9 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
         add_trace(
           x=~factor(paste(MONTH,YEAR),levels=monthsyears),
           y=~DELAY_AL/FLIGHTS_AL,
+          name="Pre-Departure Delay (AL)",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCE625")
         ) %>% layout(xaxis = list(tickangle=90))
     } else if (annual == T) {
       g <- g %>%
@@ -91,8 +94,9 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
           data=subset(dat$PREDEP_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)),
           x=~YEAR,
           y=~DELAY_AL/FLIGHTS_AL,
+          name="Pre-Departure Delay (AL)",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="FCE625")
         )
     }
 

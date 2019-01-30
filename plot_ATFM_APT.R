@@ -1,11 +1,11 @@
 plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F, annualtargets=T, totalflights=T, top=10, fontsize=12, years, month, rank, rank_title) {
   
-  if (metric == "Delays per Flight") {
+  if (metric == "Delays per Flight" | grepl("^Delays per Flight \\(Pre-Dep [A-z]+\\)$",metric)) {
     title <- paste("Airport Arrivals ATFM Delay per Flight for", entity)
     ytitle <- "Airport Arrivals ATFM Delay per Flight (min.)"
+    xtitle <- ""
     
     if (breakdown == T & annual == T) {
-      xtitle <- "Year"
       colour <- c(brewer.pal(9, "Set1"), brewer.pal(7, "Set3"))
       g <- plot_ly(data=subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
       
@@ -28,7 +28,6 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
       g <- g %>% layout(barmode="stack")
       
     } else if (breakdown == F & annual == T) {
-      xtitle <- "Year"
       g <- plot_ly(data=subset(dat$ATFM_APT_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
       g <- g %>%
         add_trace(y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
@@ -61,7 +60,6 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
       g <- g %>% layout(barmode="stack", xaxis=list(tickangle=90))
       
     } else if (breakdown == F & annual == F) {
-      xtitle <- "Date"
       g <- plot_ly(data=subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)))
       g <- g %>%
         add_trace(x=~factor(paste(MONTH,YEAR),levels=monthsyears), y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
@@ -74,7 +72,6 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
   } else if (metric == "Delays per Flight (Yearly)") {
     title <- paste("Airport Arrivals ATFM Delay per Flight for", entity, "Yearly Trends")
     ytitle <- "Airport Arrivals ATFM Delay per Flight (min.)"
-    xtitle <- "Month"
     uniqueyears <- unique(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years)$YEAR)
     g <- plot_ly()
     for (i in 1:length(uniqueyears)) {

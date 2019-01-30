@@ -12,8 +12,9 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
           data=subset(dat$TAXI, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)),
           x=~factor(paste(MONTH,YEAR),levels=monthsyears),
           y=~TIME_ADD,
+          name="Taxi-Out Additional Time",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="EF8700")
         ) %>% layout(xaxis=list(tickangle=90))
     } else if (annual == T) {
       g <- g %>%
@@ -21,13 +22,14 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
           data=subset(dat$TAXI_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)),
           x=~YEAR,
           y=~TIME_ADD,
+          name="Taxi-Out Additional Time",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="EF8700")
         )
     }
     
     
-  } else if (metric == "Average Monthly Delays") {
+  } else if (metric == "Average Monthly Delays" | grepl("^Delays per Flight \\(Pre-Dep [A-z]+\\)$",metric)) {
     
     title <- paste("Average Monthly Taxi-Out Additional Time for", entity)
     ytitle <- paste("Average Delay (min.)")
@@ -38,8 +40,9 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
           data=subset(dat$TAXI, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)),
           x=~factor(paste(MONTH,YEAR),levels=monthsyears),
           y=~TIME_ADD/FLIGHTS_UNIMPEDED,
+          name="Taxi-Out Additional Time",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="EF8700")
         ) %>% layout(xaxis=list(tickangle=90))
     } else if (annual == T) {
       g <- g %>%
@@ -47,8 +50,9 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
           data=subset(dat$TAXI_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)),
           x=~YEAR,
           y=~TIME_ADD/FLIGHTS_UNIMPEDED,
+          name="Taxi-Out Additional Time",
           type="bar",
-          marker=list(color="rgb(213,16,103)")
+          marker=list(color="EF8700")
         )
     }
 
