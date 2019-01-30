@@ -272,7 +272,8 @@ server <- function(input, output) {
         annual = input$annual,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
-        month = input$month
+        month = input$month,
+        top = input$top
       )
     } else if (input$kpi == "Taxi-Out Additional Time") {
       plot_TAXI(
@@ -282,7 +283,8 @@ server <- function(input, output) {
         annual = input$annual,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
-        month = input$month
+        month = input$month,
+        top = input$top
       )
     } else if (input$kpi == "ATC Pre-Departure Delay") {
       plot_PREDEP(
@@ -292,7 +294,8 @@ server <- function(input, output) {
         annual = input$annual,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
-        month = input$month
+        month = input$month,
+        top = input$top
       )
     } else if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
       plot_ASMA_TAXI_PREDEP(
