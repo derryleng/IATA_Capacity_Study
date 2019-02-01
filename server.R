@@ -222,7 +222,11 @@ server <- function(input, output) {
   # Option for changing barmode
   output$option_barmode <- renderUI({
     if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
-      div(style="padding-top:15px; text-align:center;", radioButtons("barmode", "Barmode", choices=c("Stacked","Grouped"), inline=T))
+      if (input$annual) {
+        div(style="padding-top:15px; text-align:center;", radioButtons("barmode", "Barmode", choices=c("Separate","Stacked","Grouped"), inline=T))
+      } else {
+        div(style="padding-top:15px; text-align:center;", radioButtons("barmode", "Barmode", choices=c("Stacked","Grouped"), inline=T))
+      }
     }
   })
   
