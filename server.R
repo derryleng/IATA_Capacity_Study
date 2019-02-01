@@ -58,7 +58,7 @@ server <- function(input, output) {
         pickerInput("state", "Select State", choices = c("All Countries", choices_PREDEP_STATE), selected="All Countries", width = "200px")
       }
     } else if (input$kpi %in% c("ASMA/Taxi-Out/Pre-Dep Delay", "Airport Delays")) {
-      choices_ASMATAXIPREDEP_STATE <- intersect(unique(dat$ASMA$STATE), unique(dat$TAXI$STATE)) %>% intersect(., unique(dat$PREDEP$STATE)) %>% sort()
+      choices_ASMATAXIPREDEP_STATE <- union_all(dat$ASMA$STATE, dat$TAXI$STATE) %>% union_all(., dat$PREDEP$STATE) %>% unique() %>% sort()
       pickerInput("state", "Select State", choices = choices_ASMATAXIPREDEP_STATE, selected="United Kingdom", width = "200px")
       
     } else if (input$kpi == "En-Route vs Airport ATFM") {
@@ -119,8 +119,8 @@ server <- function(input, output) {
         pickerInput("entity", "Select Airport", choices = choices_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
       }
     } else if (input$kpi %in% c("ASMA/Taxi-Out/Pre-Dep Delay", "Airport Delays")) {
-      choices_ASMA_TAXI_PREDEP_AIRPORT <- intersect(unique(dat$ASMA[STATE %in% input$state]$NAME), unique(dat$TAXI[STATE %in% input$state]$NAME)) %>% 
-        intersect(., unique(dat$PREDEP[STATE %in% input$state]$NAME)) %>% sort()
+      choices_ASMA_TAXI_PREDEP_AIRPORT <- union_all(dat$ASMA[STATE %in% input$state]$NAME, dat$TAXI[STATE %in% input$state]$NAME) %>% 
+        union_all(., dat$PREDEP[STATE %in% input$state]$NAME) %>% unique() %>% sort()
       pickerInput("entity", "Select Airport", choices = choices_ASMA_TAXI_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
     }
   })
@@ -212,6 +212,11 @@ server <- function(input, output) {
     } else {
       div(style="text-align:center; height:25px;", checkboxInput("legend", "Display Legend", value=F))
     }
+  })
+  
+  # Option for toggling title of plots
+  output$option_toggletitle <- renderUI({
+    div(style="text-align:center; height:25px;", checkboxInput("title", "Display Title", value=T))
   })
   
   # Option for changing barmode
@@ -367,12 +372,6 @@ server <- function(input, output) {
         years = seq(input$year[1], input$year[2], 1)
       )
     }
-    
-    # Fix display cutoff issues
-    plt <- plt %>% layout(
-      margin=list(l=80, t=input$fontsize*3),
-      legend=list(x=1.07,y=0.5)
-    )
 
     # Adjust plot dimension on window resize
     plt <- plt %>% layout(
@@ -386,7 +385,21 @@ server <- function(input, output) {
       plt <- plt %>% layout(showlegend = F, margin=list(r=30))
     }
     
+    # Fix display cutoff issues
+    if (input$title) {
+      plt <- plt %>% layout(
+        margin=list(l=80, t=input$fontsize*3),
+        legend=list(x=1.07,y=0.5)
+      )
+    } else {
+      plt <- plt %>% layout(
+        title=NA,
+        legend=list(x=1.07,y=0.5)
+      )
+    }
+
     plt
+    
   })
   
   observeEvent(input$dimension,{

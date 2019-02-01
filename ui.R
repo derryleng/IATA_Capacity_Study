@@ -21,6 +21,7 @@ sidebar <- dashboardSidebar(
     uiOutput("option_annualtargets"),
     uiOutput("option_totalflights"),
     uiOutput("option_legend"),
+    uiOutput("option_toggletitle"),
     uiOutput("option_barmode"),
     uiOutput("option_togglepredep")
   ),
