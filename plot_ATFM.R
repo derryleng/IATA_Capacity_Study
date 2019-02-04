@@ -35,13 +35,21 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
     } else if (breakdown == F & annual == T) {
       xtitle <- "Year"
       g <- plot_ly(data=subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
-      g <- g %>%
-        add_trace(y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
-        add_markers(y=~TARGET, name="Delay Target", marker=list(symbol="x", color="red", size=10)) %>%
-        add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
-        layout(barmode="stack",
-               yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
-               annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
+      
+      g <- g %>% add_trace(y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="blue4"))
+      
+      if (annualtargets) {
+        g <- g %>% add_markers(y=~TARGET, name="Delay Target", marker=list(symbol="x", color="red", size=10))
+      }
+      
+      if (totalflights) {
+        g <- g %>%
+          add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
+          layout(yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM_ANNUAL, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
+                 annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
+      }
+      
+      g <- g %>% layout(barmode="stack")
       
     } else if (breakdown == T & annual == F) {
       xtitle <- "Date"
@@ -75,12 +83,17 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
         data=subset(dat$ATFM, NAME %in% entity & YEAR %in% years) %>% arrange(factor(paste(MONTH, YEAR), levels=monthsyears)),
         x=~factor(paste(MONTH,YEAR),levels=monthsyears)
       )
-      g <- g %>%
-        add_trace(y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="rgb(85,87,89)")) %>%
-        add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
-        layout(barmode="stack", xaxis=list(tickangle=90),
-               yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
-               annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
+      g <- g %>% add_trace(y=~DELAY_AVG, name="Delay per Flight", type="bar", marker=list(color="blue4"))
+      
+      if (totalflights) {
+        g <- g %>%
+          add_lines(y=~FLIGHTS_TOTAL, name="Total Flights", line=list(color="rgb(213,16,103)"), yaxis="y2") %>%
+          layout(yaxis2=list(overlaying="y", side="right", title="", linewidth=1, showgrid=F, range=c(0,max(subset(dat$ATFM, NAME %in% entity & YEAR %in% years)$FLIGHTS_TOTAL*1.02, na.rm=T))),
+                 annotations=list(list(x=1, y=1, text="Total Flights", xref="paper", yref="paper", showarrow=F, textangle=90)))
+      }
+      
+      g <- g %>% layout(barmode="stack", xaxis=list(tickangle=90))
+        
     }
     
   } else if (metric == "Delays per Flight (Yearly)") {

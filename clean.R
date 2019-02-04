@@ -4,6 +4,16 @@ library(data.table)
 library(magrittr)
 library(plyr)
 
+EU28_States <- c(
+  "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France",
+  "Germany", "Greece", "Hungary", "Italy", "Ireland", "Lativa", "Lithuania", "Luxembourg", "Malta", "The Netherlands",
+  "Poland", "Portugal", "Romania", "Spain", "Slovakia", "Slovenia", "Sweden", "United Kingdom"
+)
+
+SES_States <- c(
+  EU28_States, "Norway", "Switzerland"
+)
+
 # Import ------------------------------------------------------------------
 project_path <- "C:\\Dropbox (Think Research)\\Projects\\IATA Capacity Study\\0. Resources\\"
 
@@ -140,6 +150,14 @@ temp_agg$APT_ICAO <- NA
 temp_agg$APT_NAME <- paste("All", temp_agg$FAB)
 temp <- rbind(subset(temp, select=-c(FAB)), subset(temp_agg, select=-c(FAB)))
 temp <- temp[c(2,3,4,5,1,seq(6,length(temp),1))]
+
+# Aggregate all airports of SES states
+temp_ses <- ddply(subset(temp, STATE_NAME %in% SES_States), .(YEAR,MONTH_MON), numcolwise(sum, na.rm=T))
+temp_ses$APT_ICAO <- NA
+temp_ses$APT_NAME <- "SES"
+temp_ses$STATE_NAME <- "SES"
+temp <- rbind(temp, temp_ses)
+
 # Create average columns
 for (col in ATFM_APT_numcols[-c(1)]) {
   temp[[paste0(col,"_AVG")]] <- ifelse(temp$FLT_ARR_1 == 0, NA, temp[[col]]/temp$FLT_ARR_1)
@@ -160,32 +178,74 @@ dat$ATFM_APT <- rbind(dat$ATFM_APT, such_temp)
 
 # ASMA --------------------------------------------------------------------
 dat$ASMA <- subset(dat$ASMA, select=-c(MONTH_NUM))
+
+# Aggregate all airports for each state
+temp <- ddply(dat$ASMA, .(YEAR,MONTH_MON,STATE_NAME,ASMA_RADIUS), numcolwise(sum, na.rm=T))
+temp$APT_ICAO <- NA
+temp$APT_NAME <- temp$STATE_NAME
+temp$PIVOT_LABEL <- NA
+
+# Aggregate all airports of SES states
+temp_ses <- ddply(subset(dat$ASMA, STATE_NAME %in% SES_States), .(YEAR,MONTH_MON,ASMA_RADIUS), numcolwise(sum, na.rm=T))
+temp_ses$APT_ICAO <- NA
+temp_ses$APT_NAME <- "SES"
+temp_ses$STATE_NAME <- "SES"
+temp_ses$PIVOT_LABEL <- NA
+
+dat$ASMA <- rbind(dat$ASMA, temp, temp_ses, fill=T)
 names(dat$ASMA) <- c("YEAR","MONTH","ICAO","NAME","STATE","ASMA_RADIUS","FLIGHTS_UNIMPEDED","TIME_REF","TIME_ADD","LABEL")
 
 # TAXI --------------------------------------------------------------------
 dat$TAXI <- subset(dat$TAXI, select=-c(MONTH_NUM))
+
+# Aggregate all airports for each state
+temp <- ddply(dat$TAXI, .(YEAR,MONTH_MON,STATE_NAME), numcolwise(sum, na.rm=T))
+temp$APT_ICAO <- NA
+temp$APT_NAME <- temp$STATE_NAME
+
+# Aggregate all airports of SES states
+temp_ses <- ddply(subset(dat$TAXI, STATE_NAME %in% SES_States), .(YEAR,MONTH_MON), numcolwise(sum, na.rm=T))
+temp_ses$APT_ICAO <- NA
+temp_ses$APT_NAME <- "SES"
+temp_ses$STATE_NAME <- "SES"
+
+dat$TAXI <- rbind(dat$TAXI, temp, temp_ses, fill=T)
 names(dat$TAXI) <- c("YEAR","MONTH","ICAO","NAME","STATE","FLIGHTS_UNIMPEDED","TIME_REF","TIME_ADD")
 dat$TAXI$LABEL <- paste0(dat$TAXI$NAME," (",dat$TAXI$ICAO,") ")
 
 # PREDEP ------------------------------------------------------------------
-PREDEP_numcols <- c(
-  "FLT_DEP_1", "FLT_DEP_IFR_2", "DLY_ATC_PRE_2", "FLT_DEP_3", "DLY_ATC_PRE_3"
-)
-# Aggregate data to monthly
-for (i in 1:length(PREDEP_numcols)) {
-  if (i == 1) {
-    temp <- aggregate(eval(parse(text=PREDEP_numcols[i]))~YEAR+MONTH_MON+APT_ICAO+APT_NAME+STATE_NAME,data=dat$PREDEP,sum)
-    names(temp) <- c("YEAR","MONTH_MON","APT_ICAO","APT_NAME","STATE_NAME",PREDEP_numcols[1])
-  } else {
-    temp <- merge(temp, aggregate(eval(parse(text=PREDEP_numcols[i]))~YEAR+MONTH_MON+APT_ICAO+APT_NAME+STATE_NAME,data=dat$PREDEP,sum), all.x=T)
-    names(temp) <- c("YEAR","MONTH_MON","APT_ICAO","APT_NAME","STATE_NAME",PREDEP_numcols[1:i])
-  }
-}
-names(temp) <- c(
-  "YEAR", "MONTH", "ICAO", "NAME", "STATE", "FLIGHTS_NM", "FLIGHTS_APT", "DELAY_APT", "FLIGHTS_AL", "DELAY_AL"
-)
-temp$LABEL <- paste0(temp$NAME," (",temp$ICAO,") ")
-dat$PREDEP <- temp
+dat$PREDEP <- subset(dat$PREDEP, select=c(YEAR,MONTH_MON,APT_ICAO,APT_NAME,STATE_NAME,FLT_DEP_1,FLT_DEP_IFR_2,DLY_ATC_PRE_2,FLT_DEP_3,DLY_ATC_PRE_3))
+
+# Aggregate all airports for each state
+temp <- ddply(dat$PREDEP, .(YEAR,MONTH_MON,STATE_NAME), numcolwise(sum, na.rm=T))
+temp$APT_ICAO <- NA
+temp$APT_NAME <- temp$STATE_NAME
+
+# Aggregate all airports of SES states
+temp_ses <- ddply(subset(dat$PREDEP, STATE_NAME %in% SES_States), .(YEAR,MONTH_MON), numcolwise(sum, na.rm=T))
+temp_ses$APT_ICAO <- NA
+temp_ses$APT_NAME <- "SES"
+temp_ses$STATE_NAME <- "SES"
+
+dat$PREDEP <- rbind(dat$PREDEP, temp, temp_ses, fill=T)
+names(dat$PREDEP) <- c("YEAR", "MONTH", "ICAO", "NAME", "STATE", "FLIGHTS_NM", "FLIGHTS_APT", "DELAY_APT", "FLIGHTS_AL", "DELAY_AL")
+
+# # Old
+# PREDEP_numcols <- c(
+#   "FLT_DEP_1", "FLT_DEP_IFR_2", "DLY_ATC_PRE_2", "FLT_DEP_3", "DLY_ATC_PRE_3"
+# )
+# # Aggregate data to monthly
+# for (i in 1:length(PREDEP_numcols)) {
+#   if (i == 1) {
+#     temp <- aggregate(eval(parse(text=PREDEP_numcols[i]))~YEAR+MONTH_MON+APT_ICAO+APT_NAME+STATE_NAME,data=dat$PREDEP,sum)
+#     names(temp) <- c("YEAR","MONTH_MON","APT_ICAO","APT_NAME","STATE_NAME",PREDEP_numcols[1])
+#   } else {
+#     temp <- merge(temp, aggregate(eval(parse(text=PREDEP_numcols[i]))~YEAR+MONTH_MON+APT_ICAO+APT_NAME+STATE_NAME,data=dat$PREDEP,sum), all.x=T)
+#     names(temp) <- c("YEAR","MONTH_MON","APT_ICAO","APT_NAME","STATE_NAME",PREDEP_numcols[1:i])
+#   }
+# }
+# names(temp) <- c("YEAR", "MONTH", "ICAO", "NAME", "STATE", "FLIGHTS_NM", "FLIGHTS_APT", "DELAY_APT", "FLIGHTS_AL", "DELAY_AL", "LABEL")
+# dat$PREDEP <- temp
 
 # Annual ------------------------------------------------------------------
 dat$ATFM_ANNUAL <- ddply(dat$ATFM[,1:24], .(YEAR,NAME,TYPE), numcolwise(sum, na.rm=T))
@@ -200,10 +260,9 @@ dat$ATFM_APT_ANNUAL <- ddply(dat$ATFM_APT[,1:23], .(YEAR,ICAO,NAME,STATE), numco
 for (col in names(dat$ATFM_APT_ANNUAL[,-c(1,2,3,4,5)])) {
   dat$ATFM_APT_ANNUAL[[paste0(col,"_AVG")]] <- ifelse(dat$ATFM_APT_ANNUAL$FLIGHTS_TOTAL == 0, NA, dat$ATFM_APT_ANNUAL[[col]]/dat$ATFM_APT_ANNUAL$FLIGHTS_TOTAL)
 }
-
 dat$ASMA_ANNUAL <-  ddply(dat$ASMA, .(YEAR,ICAO,NAME,STATE,ASMA_RADIUS,LABEL), numcolwise(sum, na.rm=T))
 dat$TAXI_ANNUAL <- ddply(dat$TAXI, .(YEAR,ICAO,NAME,STATE,LABEL), numcolwise(sum, na.rm=T))
-dat$PREDEP_ANNUAL <- ddply(dat$PREDEP, .(YEAR,ICAO,NAME,STATE,LABEL), numcolwise(sum, na.rm=T))
+dat$PREDEP_ANNUAL <- ddply(dat$PREDEP, .(YEAR,ICAO,NAME,STATE), numcolwise(sum, na.rm=T))
 
 # Other Adjustments -------------------------------------------------------
 
