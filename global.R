@@ -71,3 +71,13 @@ ATFM_DELAY_CATEGORIES <- c(
   "W - Weather",
   "NA - Not Specified"
 )
+
+EU28_States <- c(
+  "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France",
+  "Germany", "Greece", "Hungary", "Italy", "Ireland", "Lativa", "Lithuania", "Luxembourg", "Malta", "The Netherlands",
+  "Poland", "Portugal", "Romania", "Spain", "Slovakia", "Slovenia", "Sweden", "United Kingdom"
+)
+
+SES_States <- c(
+  EU28_States, "Norway", "Switzerland"
+)

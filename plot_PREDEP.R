@@ -185,7 +185,7 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
     } else {
       temp <- subset(dat$PREDEP_ANNUAL, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(DELAY_AL) & FLIGHTS_AL != 0 & !is.na(FLIGHTS_AL) & YEAR %in% years) %>% .[rev(order(YEAR, DELAY_AL/FLIGHTS_AL))]
+    temp <- temp %>% subset(., !is.na(DELAY_AL) & FLIGHTS_AL != 0 & !is.na(FLIGHTS_AL) & NAME %!in% SES_States & YEAR %in% years) %>% .[rev(order(YEAR, DELAY_AL/FLIGHTS_AL))]
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -206,7 +206,7 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
     } else {
       temp <- subset(dat$PREDEP, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(DELAY_AL) & FLIGHTS_AL != 0 & !is.na(FLIGHTS_AL) & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, DELAY_AL/FLIGHTS_AL))]
+    temp <- temp %>% subset(., !is.na(DELAY_AL) & FLIGHTS_AL != 0 & !is.na(FLIGHTS_AL) & NAME %!in% SES_States & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, DELAY_AL/FLIGHTS_AL))]
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -227,7 +227,7 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
     } else {
       temp <- subset(dat$PREDEP_ANNUAL, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(DELAY_APT) & FLIGHTS_APT != 0 & !is.na(FLIGHTS_APT) & YEAR %in% years) %>% .[rev(order(YEAR, DELAY_APT/FLIGHTS_APT))]
+    temp <- temp %>% subset(., !is.na(DELAY_APT) & FLIGHTS_APT != 0 & !is.na(FLIGHTS_APT) & NAME %!in% SES_States & YEAR %in% years) %>% .[rev(order(YEAR, DELAY_APT/FLIGHTS_APT))]
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -248,7 +248,7 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
     } else {
       temp <- subset(dat$PREDEP, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(DELAY_APT) & FLIGHTS_APT != 0 & !is.na(FLIGHTS_APT) & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, DELAY_APT/FLIGHTS_APT))]
+    temp <- temp %>% subset(., !is.na(DELAY_APT) & FLIGHTS_APT != 0 & !is.na(FLIGHTS_APT) & NAME %!in% SES_States & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, DELAY_APT/FLIGHTS_APT))]
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),

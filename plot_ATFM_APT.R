@@ -82,6 +82,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
   } else if (metric == "Delays per Flight (Yearly)") {
     title <- paste("Airport Arrivals ATFM Delay per Flight for", entity, "Yearly Trends")
     ytitle <- "Airport Arrivals ATFM Delay per Flight (min.)"
+    xtitle <- ""
     uniqueyears <- unique(subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years)$YEAR)
     g <- plot_ly()
     for (i in 1:length(uniqueyears)) {
@@ -101,7 +102,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     
     title <- paste(month, "Airport Arrivals ATFM Delay per Flight for", entity, "Yearly Trends")
     ytitle <- "Airport Arrivals ATFM Delay per Flight (min.)"
-    xtitle <- "Year"
+    xtitle <- ""
     if (breakdown == T) {
       colour <- c(brewer.pal(9, "Set1"), brewer.pal(7, "Set3"))
       g <- plot_ly(data=subset(dat$ATFM_APT, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% arrange(factor(YEAR, levels=years_range)), x=~YEAR)
@@ -136,7 +137,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by Airport")
     ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %!in% c("SES","Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
         data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -151,7 +152,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste("Average Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by Airport")
     ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT, NAME %!in% c("SES","Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
         data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -166,7 +167,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking in", type)
     ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT_ANNUAL, STATE %in% type & NAME %!in% c("SES","Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -181,7 +182,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking in", type)
     ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, STATE %in% type & NAME %!in% c("Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT, STATE %in% type & NAME %!in% c("SES","Europe",paste("All", c("Countries",unique(dat$ATFM_APT$STATE)))) & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -196,7 +197,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by State")
     ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% c(ATFM_APT_FAB,"SES") & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -211,7 +212,7 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
     title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking by State")
     ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
     xtitle <- ""
-    temp <- subset(dat$ATFM_APT, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% ATFM_APT_FAB & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+    temp <- subset(dat$ATFM_APT, NAME %in% paste("All", c("Countries",unique(dat$ATFM_APT$STATE))) & STATE %!in% c(ATFM_APT_FAB,"SES") & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
       .[rev(order(YEAR, eval(parse(text=rank))))]
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),

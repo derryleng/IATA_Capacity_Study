@@ -3,7 +3,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
   
   if (metric == "Total Monthly Delays") {
     
-    title <- paste("Total Monthly Taxi-Out Additional Time for", entity)
+    title <- paste("Total Taxi-Out Additional Time for", entity)
     ytitle <- paste("Total Delay (min.)")
     xtitle <- ""
     if (annual == F) {
@@ -31,7 +31,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     
   } else if (metric == "Average Monthly Delays" | grepl("^Delays per Flight \\(Pre-Dep [A-z]+\\)$",metric)) {
     
-    title <- paste("Average Monthly Taxi-Out Additional Time for", entity)
+    title <- paste("Average Taxi-Out Additional Time for", entity)
     ytitle <- paste("Average Delay (min.)")
     xtitle <- ""
     if (annual == F) {
@@ -58,7 +58,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
 
     
   } else if (metric == "Average Monthly Delays (Yearly)") {
-    title <- paste("Average Monthly Taxi-Out Additional Time for", entity, "Yearly Trends")
+    title <- paste("Average Taxi-Out Additional Time for", entity, "Yearly Trends")
     ytitle <- paste("Average Delay (min.)")
     xtitle <- ""
     uniqueyears <- unique(subset(dat$TAXI, NAME %in% entity & YEAR %in% years)$YEAR)
@@ -78,7 +78,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     g <- g %>% layout(hovermode="compare", xaxis=list(tickangle=90))
     
   } else if (metric == "Average Monthly Delays (Month)") {
-    title <- paste(month, "Average Monthly Taxi-Out Additional Time for", entity, "Yearly Trends")
+    title <- paste(month, "Average Taxi-Out Additional Time for", entity, "Yearly Trends")
     ytitle <- paste("Average Delay (min.)")
     xtitle <- ""
     uniqueyears <- unique(subset(dat$TAXI, NAME %in% entity & YEAR %in% years & MONTH %in% months[which(monthsfull == month)])$YEAR)
@@ -95,7 +95,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
         )
     }
   } else if (metric == "Airport Delay Ranking (Yearly)") {
-    title <- paste("Average Monthly Taxi-Out Additional Time Ranking", ifelse(type=="All Countries", "", paste("for", type)))
+    title <- paste("Average Taxi-Out Additional Time Ranking", ifelse(type=="All Countries", "", paste("for", type)))
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
     if (type == "All Countries") {
@@ -103,7 +103,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     } else {
       temp <- subset(dat$TAXI_ANNUAL, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & YEAR %in% years) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
+    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & NAME %!in% SES_States & YEAR %in% years) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -116,7 +116,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     
   } else if (metric == "Airport Delay Ranking (Month)") {
     
-    title <- paste(month, "Average Monthly Taxi-Out Additional Time Ranking", ifelse(type=="All Countries", "", paste("for", type)))
+    title <- paste(month, "Average Taxi-Out Additional Time Ranking", ifelse(type=="All Countries", "", paste("for", type)))
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
     if (type == "All Countries") {
@@ -124,7 +124,7 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     } else {
       temp <- subset(dat$TAXI, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
+    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & NAME %!in% SES_States & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
