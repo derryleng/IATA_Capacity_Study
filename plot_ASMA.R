@@ -103,7 +103,7 @@ plot_ASMA <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     } else {
       temp <- subset(dat$ASMA_ANNUAL, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & NAME %!in% SES_States & YEAR %in% years) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
+    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & NAME %!in% c("SES", SES_States) & YEAR %in% years) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
 
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
@@ -124,7 +124,7 @@ plot_ASMA <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     } else {
       temp <- subset(dat$ASMA, STATE %in% type)
     }
-    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & NAME %!in% SES_States & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
+    temp <- temp %>% subset(., !is.na(TIME_ADD) & FLIGHTS_UNIMPEDED != 0 & !is.na(FLIGHTS_UNIMPEDED) & NAME %!in% c("SES", SES_States) & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),

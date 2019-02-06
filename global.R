@@ -74,7 +74,7 @@ ATFM_DELAY_CATEGORIES <- c(
 
 EU28_States <- c(
   "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France",
-  "Germany", "Greece", "Hungary", "Italy", "Ireland", "Lativa", "Lithuania", "Luxembourg", "Malta", "The Netherlands",
+  "Germany", "Greece", "Hungary", "Italy", "Ireland", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "The Netherlands",
   "Poland", "Portugal", "Romania", "Spain", "Slovakia", "Slovenia", "Sweden", "United Kingdom"
 )
 
