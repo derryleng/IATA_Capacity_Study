@@ -23,6 +23,8 @@ Airport Arrival ATFM Delay,State Delay Ranking (Yearly),bar,TRUE,FALSE,TRUE,FALS
 Airport Arrival ATFM Delay,State Delay Ranking (Month),bar,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,APT_ATFM_RANK_STATE_MON
 Airport Arrival ATFM Delay,FAB Delay Ranking (Yearly),bar,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,APT_ATFM_RANK_FAB
 Airport Arrival ATFM Delay,FAB Delay Ranking (Month),bar,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,APT_ATFM_RANK_FAB_MON
+Airport Arrival ATFM Delay,Top 20 Airport Delay Ranking (Yearly),bar,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,APT_ATFM_TOP20AIRPORTS
+Airport Arrival ATFM Delay,Top 20 Airport Delay Ranking (Month),bar,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,APT_ATFM_TOP20AIRPORTS_MON
 ASMA Additional Time,Average Monthly Delays,line,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,ASMA_ADD
 ASMA Additional Time,Average Monthly Delays (Yearly),line,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,ASMA_ADD_TRENDS
 ASMA Additional Time,Average Monthly Delays (Month),bar,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,ASMA_ADD_MON
@@ -50,6 +52,8 @@ ATC Pre-Departure Delay,APT Airport Delay Ranking (Month),bar,TRUE,FALSE,FALSE,T
 ASMA/Taxi-Out/Pre-Dep Delay,Average Monthly Delays,bar,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,ASMA_TAXI_PREDEP
 Airport Delays,Delays per Flight (Pre-Dep AL),bar,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,APT_DELAYS_PLOTS
 Airport Delays,Delays per Flight (Pre-Dep APT),bar,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,APT_DELAYS_PLOTS
-En-Route vs Airport ATFM,Average Monthly Delays (Yearly),line,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,ER_APT_ATFM_TRENDS
-En-Route vs Airport ATFM,Average Monthly Delays (Month),bar,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,ER_APT_ATFM_MON
+En-Route vs Airport ATFM,Average Monthly Delays (Yearly),line,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,ER_APT_ATFM_AVG_TRENDS
+En-Route vs Airport ATFM,Average Monthly Delays (Month),bar,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,ER_APT_ATFM_AVG_MON
+En-Route vs Airport ATFM,Total Monthly Delays (Yearly),bar,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,ER_APT_ATFM_TOT_TRENDS
+En-Route vs Airport ATFM,Total Monthly Delays (Month),bar,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,ER_APT_ATFM_TOT_MON
 Traffic Forecast,IFR Movements per State,line,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,IFR_FORECAST

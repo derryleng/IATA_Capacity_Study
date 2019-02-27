@@ -253,6 +253,36 @@ plot_ATFM_APT <- function(metric, type, entity, breakdown=T, category, annual=F,
       type="bar"
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
+  } else if (metric == "Top 20 Airport Delay Ranking (Yearly)") {
+    title <- paste("Yearly Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    xtitle <- ""
+    temp <- subset(dat$ATFM_APT_ANNUAL, NAME %in% Top20_Airports & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
+    g <- plot_ly(
+      data=temp,
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=eval(parse(text=paste0("~",rank))),
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "Top 20 Airport Delay Ranking (Month)") {
+    title <- paste(month, "Airport Arrival ATFM", ifelse(rank_title=="Total Flights","Flight",ifelse(rank_title %in% c("Total Delay", "Average Delay"),rank_title,paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay"))), "Ranking")
+    ytitle <- ifelse(rank_title=="Total Flights",rank_title,ifelse(rank_title %in% c("Total Delay", "Average Delay"),paste(rank_title,"(min.)"),paste(strsplit(rank_title,split=" - ")[[1]][2],"Delay (min.)")))
+    xtitle <- ""
+    temp <- subset(dat$ATFM_APT, NAME %in% Top20_Airports & MONTH %in% months[which(monthsfull == month)] & !is.na(eval(parse(text=rank))) & YEAR %in% years) %>%
+      .[rev(order(YEAR, eval(parse(text=rank))))]
+    g <- plot_ly(
+      data=temp,
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=eval(parse(text=paste0("~",rank))),
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
   }
   
   g <- g %>%

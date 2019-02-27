@@ -44,11 +44,12 @@ for (file in names(dat)) {
     # Replace "missing" text values with NA
     set(dat[[file]], i=which(dat[[file]][[col]] %in% c("","N/A","NULL","NA","<NA>"," ")), j=col, value=NA)
     # Shorten some names
-    set(dat[[file]], i=which(dat[[file]][[col]] %in% "The former Yugoslav Republic of Macedonia"), j=col, value="FYR Macedonia")
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "The former Yugoslav Republic of Macedonia"), j=col, value="North Macedonia")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "Bosnia and Herzegovina"), j=col, value="Bosnia & Herzegovina")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "Serbia and Montenegro"), j=col, value="Serbia & Montenegro")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "SES Area (RP1)"), j=col, value="SES Area")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "SES Area (RP2)"), j=col, value="SES Area (FIR)")
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "Palma/Son San Juan"), j=col, value="Palma de Mallorca")
     # Remove commas from data values (needed for next step)
     dat[[file]][[col]] <- gsub(",","",dat[[file]][[col]])
     # Detect numeric columns and coerce to proper type
@@ -210,8 +211,8 @@ temp_ses$APT_NAME <- "SES"
 temp_ses$STATE_NAME <- "SES"
 
 dat$TAXI <- rbind(dat$TAXI, temp, temp_ses, fill=T)
-names(dat$TAXI) <- c("YEAR","MONTH","ICAO","NAME","STATE","FLIGHTS_UNIMPEDED","TIME_REF","TIME_ADD")
-dat$TAXI$LABEL <- paste0(dat$TAXI$NAME," (",dat$TAXI$ICAO,") ")
+names(dat$TAXI) <- c("YEAR","MONTH","ICAO","NAME","STATE","FLIGHTS_UNIMPEDED","TIME_REF","TIME_ADD", "LABEL")
+#dat$TAXI$LABEL <- paste0(dat$TAXI$NAME," (",dat$TAXI$ICAO,") ")
 
 # PREDEP ------------------------------------------------------------------
 dat$PREDEP <- subset(dat$PREDEP, select=c(YEAR,MONTH_MON,APT_ICAO,APT_NAME,STATE_NAME,FLT_DEP_1,FLT_DEP_IFR_2,DLY_ATC_PRE_2,FLT_DEP_3,DLY_ATC_PRE_3))
@@ -275,6 +276,11 @@ dat$PREDEP_ANNUAL <- ddply(dat$PREDEP, .(YEAR,ICAO,NAME,STATE), numcolwise(sum, 
 #dat$ATFM_APT[YEAR == 2018]$FLIGHTS_TOTAL <- NA 
 #dat$ATFM_APT_ANNUAL <- as.data.table(dat$ATFM_APT_ANNUAL)
 #dat$ATFM_APT_ANNUAL[YEAR == 2018]$FLIGHTS_TOTAL <- NA
+
+# Drop all 2019 data
+for (file in names(dat)) {
+  dat[[file]] <- subset(dat[[file]], !(YEAR %in% 2019))
+}
 
 # Save to CSV -------------------------------------------------------------
 setwd(paste(dirname(rstudioapi::getSourceEditorContext()$path)))

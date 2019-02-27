@@ -172,7 +172,7 @@ server <- function(input, output) {
   
   # Option for top X entities to display in ranking metrics
   output$option_ranking <- renderUI({
-    if (input$metric %in% metrics_list[ranking == T]$metric) {
+    if (input$metric %in% metrics_list[ranking == T]$metric & !grepl("^Top 20 Airport Delay Ranking", input$metric)) {
       div(style="display: table; margin: 0 auto;", numericInput("top", "Display Top", value=10, min=3, max=100, step=1, width="100%"))
     }
   })
@@ -200,7 +200,7 @@ server <- function(input, output) {
   
   # Option for toggling total flights on ATFM Delays per Flight metric
   output$option_totalflights <- renderUI({
-    if (input$metric == "Delays per Flight") {
+    if (input$metric == "Delays per Flight" | input$kpi == "En-Route vs Airport ATFM") {
       div(style="text-align:center; height:25px;", checkboxInput("totalflights", "Display Total Flights", value=T))
     }
   })
@@ -367,7 +367,8 @@ server <- function(input, output) {
         entity = input$state,
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
-        month = input$month
+        month = input$month,
+        totalflights = input$totalflights
       )
     } else if (input$kpi == "Traffic Forecast") {
       plot_TRAFFIC_FORECAST(

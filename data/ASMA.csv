@@ -3466,7 +3466,7 @@
 2018,"SEP","EBBR","Brussels","Belgium",40,10085,124915,8419,"Brussels (EBBR)"
 2018,"OCT","EBBR","Brussels","Belgium",40,9368,116267,7197,"Brussels (EBBR)"
 2018,"NOV","EBBR","Brussels","Belgium",40,8157,103637,8515,"Brussels (EBBR)"
-2018,"DEC","EBBR","Brussels","Belgium",40,NA,NA,NA,"Brussels (EBBR)"
+2018,"DEC","EBBR","Brussels","Belgium",40,8155,101130,10218,"Brussels (EBBR)"
 2018,"JAN","EBCI","Charleroi","Belgium",40,1802,22275,1100,"Charleroi (EBCI)"
 2018,"FEB","EBCI","Charleroi","Belgium",40,1587,19911,1091,"Charleroi (EBCI)"
 2018,"MAR","EBCI","Charleroi","Belgium",40,1856,23066,620,"Charleroi (EBCI)"
@@ -3478,7 +3478,7 @@
 2018,"SEP","EBCI","Charleroi","Belgium",40,892,11032,128,"Charleroi (EBCI)"
 2018,"OCT","EBCI","Charleroi","Belgium",40,2333,28892,381,"Charleroi (EBCI)"
 2018,"NOV","EBCI","Charleroi","Belgium",40,1777,21915,917,"Charleroi (EBCI)"
-2018,"DEC","EBCI","Charleroi","Belgium",40,NA,NA,NA,"Charleroi (EBCI)"
+2018,"DEC","EBCI","Charleroi","Belgium",40,1850,22848,1287,"Charleroi (EBCI)"
 2018,"JAN","EDDB","Berlin/ Schoenefeld","Germany",40,3523,47743,1921,"Berlin/ Schoenefeld (EDDB)"
 2018,"FEB","EDDB","Berlin/ Schoenefeld","Germany",40,3451,45057,1715,"Berlin/ Schoenefeld (EDDB)"
 2018,"MAR","EDDB","Berlin/ Schoenefeld","Germany",40,3954,51946,2156,"Berlin/ Schoenefeld (EDDB)"
@@ -3489,8 +3489,8 @@
 2018,"AUG","EDDB","Berlin/ Schoenefeld","Germany",40,4260,57567,0,"Berlin/ Schoenefeld (EDDB)"
 2018,"SEP","EDDB","Berlin/ Schoenefeld","Germany",40,4309,58608,877,"Berlin/ Schoenefeld (EDDB)"
 2018,"OCT","EDDB","Berlin/ Schoenefeld","Germany",40,4483,60338,1649,"Berlin/ Schoenefeld (EDDB)"
-2018,"NOV","EDDB","Berlin/ Schoenefeld","Germany",40,NA,NA,NA,"Berlin/ Schoenefeld (EDDB)"
-2018,"DEC","EDDB","Berlin/ Schoenefeld","Germany",40,NA,NA,NA,"Berlin/ Schoenefeld (EDDB)"
+2018,"NOV","EDDB","Berlin/ Schoenefeld","Germany",40,3732,48346,1198,"Berlin/ Schoenefeld (EDDB)"
+2018,"DEC","EDDB","Berlin/ Schoenefeld","Germany",40,3621,49255,2211,"Berlin/ Schoenefeld (EDDB)"
 2018,"JAN","EDDE","Erfurt","Germany",40,89,1198,41,"Erfurt (EDDE)"
 2018,"FEB","EDDE","Erfurt","Germany",40,84,1124,54,"Erfurt (EDDE)"
 2018,"MAR","EDDE","Erfurt","Germany",40,113,1489,68,"Erfurt (EDDE)"
@@ -3501,8 +3501,8 @@
 2018,"AUG","EDDE","Erfurt","Germany",40,194,2511,0,"Erfurt (EDDE)"
 2018,"SEP","EDDE","Erfurt","Germany",40,209,2675,0,"Erfurt (EDDE)"
 2018,"OCT","EDDE","Erfurt","Germany",40,234,3039,0,"Erfurt (EDDE)"
-2018,"NOV","EDDE","Erfurt","Germany",40,NA,NA,NA,"Erfurt (EDDE)"
-2018,"DEC","EDDE","Erfurt","Germany",40,NA,NA,NA,"Erfurt (EDDE)"
+2018,"NOV","EDDE","Erfurt","Germany",40,97,1263,7,"Erfurt (EDDE)"
+2018,"DEC","EDDE","Erfurt","Germany",40,92,1210,34,"Erfurt (EDDE)"
 2018,"JAN","EDDF","Frankfurt","Germany",40,17541,238107,42186,"Frankfurt (EDDF)"
 2018,"FEB","EDDF","Frankfurt","Germany",40,16179,234889,39117,"Frankfurt (EDDF)"
 2018,"MAR","EDDF","Frankfurt","Germany",40,19331,271070,39922,"Frankfurt (EDDF)"
@@ -3514,7 +3514,7 @@
 2018,"SEP","EDDF","Frankfurt","Germany",40,21632,299346,37626,"Frankfurt (EDDF)"
 2018,"OCT","EDDF","Frankfurt","Germany",40,21547,306705,42813,"Frankfurt (EDDF)"
 2018,"NOV","EDDF","Frankfurt","Germany",40,18884,271662,43466,"Frankfurt (EDDF)"
-2018,"DEC","EDDF","Frankfurt","Germany",40,NA,NA,NA,"Frankfurt (EDDF)"
+2018,"DEC","EDDF","Frankfurt","Germany",40,18600,252271,54039,"Frankfurt (EDDF)"
 2018,"JAN","EDDG","Muenster-Osnabrueck","Germany",40,342,4660,78,"Muenster-Osnabrueck (EDDG)"
 2018,"FEB","EDDG","Muenster-Osnabrueck","Germany",40,372,4987,139,"Muenster-Osnabrueck (EDDG)"
 2018,"MAR","EDDG","Muenster-Osnabrueck","Germany",40,452,6072,0,"Muenster-Osnabrueck (EDDG)"
@@ -3525,8 +3525,8 @@
 2018,"AUG","EDDG","Muenster-Osnabrueck","Germany",40,618,8161,0,"Muenster-Osnabrueck (EDDG)"
 2018,"SEP","EDDG","Muenster-Osnabrueck","Germany",40,693,9200,11,"Muenster-Osnabrueck (EDDG)"
 2018,"OCT","EDDG","Muenster-Osnabrueck","Germany",40,716,9536,69,"Muenster-Osnabrueck (EDDG)"
-2018,"NOV","EDDG","Muenster-Osnabrueck","Germany",40,NA,NA,NA,"Muenster-Osnabrueck (EDDG)"
-2018,"DEC","EDDG","Muenster-Osnabrueck","Germany",40,NA,NA,NA,"Muenster-Osnabrueck (EDDG)"
+2018,"NOV","EDDG","Muenster-Osnabrueck","Germany",40,502,6632,-62,"Muenster-Osnabrueck (EDDG)"
+2018,"DEC","EDDG","Muenster-Osnabrueck","Germany",40,392,5233,195,"Muenster-Osnabrueck (EDDG)"
 2018,"JAN","EDDH","Hamburg","Germany",40,5108,69945,7697,"Hamburg (EDDH)"
 2018,"FEB","EDDH","Hamburg","Germany",40,4794,61965,8438,"Hamburg (EDDH)"
 2018,"MAR","EDDH","Hamburg","Germany",40,5650,74957,9237,"Hamburg (EDDH)"
@@ -3562,19 +3562,19 @@
 2018,"SEP","EDDL","Dusseldorf","Germany",40,9790,126699,18266,"Dusseldorf (EDDL)"
 2018,"OCT","EDDL","Dusseldorf","Germany",40,10161,130766,20867,"Dusseldorf (EDDL)"
 2018,"NOV","EDDL","Dusseldorf","Germany",40,8723,113636,15155,"Dusseldorf (EDDL)"
-2018,"DEC","EDDL","Dusseldorf","Germany",40,NA,NA,NA,"Dusseldorf (EDDL)"
-2018,"JAN","EDDM","Munich","Germany",40,14709,199325,28316,"Munich (EDDM)"
-2018,"FEB","EDDM","Munich","Germany",40,14244,191213,26097,"Munich (EDDM)"
-2018,"MAR","EDDM","Munich","Germany",40,16152,218469,22207,"Munich (EDDM)"
-2018,"APR","EDDM","Munich","Germany",40,15989,215326,20699,"Munich (EDDM)"
-2018,"MAY","EDDM","Munich","Germany",40,17407,234168,26096,"Munich (EDDM)"
-2018,"JUN","EDDM","Munich","Germany",40,NA,NA,NA,"Munich (EDDM)"
-2018,"JUL","EDDM","Munich","Germany",40,NA,NA,NA,"Munich (EDDM)"
-2018,"AUG","EDDM","Munich","Germany",40,NA,NA,NA,"Munich (EDDM)"
-2018,"SEP","EDDM","Munich","Germany",40,NA,NA,NA,"Munich (EDDM)"
-2018,"OCT","EDDM","Munich","Germany",40,NA,NA,NA,"Munich (EDDM)"
-2018,"NOV","EDDM","Munich","Germany",40,NA,NA,NA,"Munich (EDDM)"
-2018,"DEC","EDDM","Munich","Germany",40,NA,NA,NA,"Munich (EDDM)"
+2018,"DEC","EDDL","Dusseldorf","Germany",40,8098,102637,14281,"Dusseldorf (EDDL)"
+2018,"JAN","EDDM","Munich","Germany",40,14704,192596,27636,"Munich (EDDM)"
+2018,"FEB","EDDM","Munich","Germany",40,14276,185862,24800,"Munich (EDDM)"
+2018,"MAR","EDDM","Munich","Germany",40,16160,211452,21251,"Munich (EDDM)"
+2018,"APR","EDDM","Munich","Germany",40,16319,212739,19972,"Munich (EDDM)"
+2018,"MAY","EDDM","Munich","Germany",40,17448,227486,24715,"Munich (EDDM)"
+2018,"JUN","EDDM","Munich","Germany",40,17686,230617,18140,"Munich (EDDM)"
+2018,"JUL","EDDM","Munich","Germany",40,18037,235757,19209,"Munich (EDDM)"
+2018,"AUG","EDDM","Munich","Germany",40,17515,228617,16615,"Munich (EDDM)"
+2018,"SEP","EDDM","Munich","Germany",40,18243,238801,27966,"Munich (EDDM)"
+2018,"OCT","EDDM","Munich","Germany",40,18439,240462,37196,"Munich (EDDM)"
+2018,"NOV","EDDM","Munich","Germany",40,16365,212059,35376,"Munich (EDDM)"
+2018,"DEC","EDDM","Munich","Germany",40,15426,201936,42475,"Munich (EDDM)"
 2018,"JAN","EDDN","Nuremberg","Germany",40,1535,20415,907,"Nuremberg (EDDN)"
 2018,"FEB","EDDN","Nuremberg","Germany",40,1483,18796,1061,"Nuremberg (EDDN)"
 2018,"MAR","EDDN","Nuremberg","Germany",40,1758,22960,924,"Nuremberg (EDDN)"
@@ -3586,7 +3586,7 @@
 2018,"SEP","EDDN","Nuremberg","Germany",40,2291,30111,532,"Nuremberg (EDDN)"
 2018,"OCT","EDDN","Nuremberg","Germany",40,2214,28796,1597,"Nuremberg (EDDN)"
 2018,"NOV","EDDN","Nuremberg","Germany",40,1784,22292,1429,"Nuremberg (EDDN)"
-2018,"DEC","EDDN","Nuremberg","Germany",40,NA,NA,NA,"Nuremberg (EDDN)"
+2018,"DEC","EDDN","Nuremberg","Germany",40,1576,20996,1111,"Nuremberg (EDDN)"
 2018,"JAN","EDDP","Leipzig-Halle","Germany",40,2484,32725,6421,"Leipzig-Halle (EDDP)"
 2018,"FEB","EDDP","Leipzig-Halle","Germany",40,2351,29119,4793,"Leipzig-Halle (EDDP)"
 2018,"MAR","EDDP","Leipzig-Halle","Germany",40,2661,33332,9260,"Leipzig-Halle (EDDP)"
@@ -3598,7 +3598,7 @@
 2018,"SEP","EDDP","Leipzig-Halle","Germany",40,3025,38892,3853,"Leipzig-Halle (EDDP)"
 2018,"OCT","EDDP","Leipzig-Halle","Germany",40,3149,40587,6059,"Leipzig-Halle (EDDP)"
 2018,"NOV","EDDP","Leipzig-Halle","Germany",40,2814,34741,4626,"Leipzig-Halle (EDDP)"
-2018,"DEC","EDDP","Leipzig-Halle","Germany",40,NA,NA,NA,"Leipzig-Halle (EDDP)"
+2018,"DEC","EDDP","Leipzig-Halle","Germany",40,2628,34576,6492,"Leipzig-Halle (EDDP)"
 2018,"JAN","EDDR","Saarbruecken","Germany",40,201,2378,347,"Saarbruecken (EDDR)"
 2018,"FEB","EDDR","Saarbruecken","Germany",40,174,2216,241,"Saarbruecken (EDDR)"
 2018,"MAR","EDDR","Saarbruecken","Germany",40,199,2509,333,"Saarbruecken (EDDR)"
@@ -3622,7 +3622,7 @@
 2018,"SEP","EDDS","Stuttgart","Germany",40,5801,72597,4933,"Stuttgart (EDDS)"
 2018,"OCT","EDDS","Stuttgart","Germany",40,5673,72580,5015,"Stuttgart (EDDS)"
 2018,"NOV","EDDS","Stuttgart","Germany",40,4568,58774,4448,"Stuttgart (EDDS)"
-2018,"DEC","EDDS","Stuttgart","Germany",40,NA,NA,NA,"Stuttgart (EDDS)"
+2018,"DEC","EDDS","Stuttgart","Germany",40,4108,50924,5002,"Stuttgart (EDDS)"
 2018,"JAN","EDDT","Berlin/ Tegel","Germany",40,5547,73035,6010,"Berlin/ Tegel (EDDT)"
 2018,"FEB","EDDT","Berlin/ Tegel","Germany",40,5887,73329,6269,"Berlin/ Tegel (EDDT)"
 2018,"MAR","EDDT","Berlin/ Tegel","Germany",40,6766,85540,7739,"Berlin/ Tegel (EDDT)"
@@ -3633,8 +3633,8 @@
 2018,"AUG","EDDT","Berlin/ Tegel","Germany",40,8407,110892,5466,"Berlin/ Tegel (EDDT)"
 2018,"SEP","EDDT","Berlin/ Tegel","Germany",40,8709,115263,9816,"Berlin/ Tegel (EDDT)"
 2018,"OCT","EDDT","Berlin/ Tegel","Germany",40,9100,118866,12210,"Berlin/ Tegel (EDDT)"
-2018,"NOV","EDDT","Berlin/ Tegel","Germany",40,NA,NA,NA,"Berlin/ Tegel (EDDT)"
-2018,"DEC","EDDT","Berlin/ Tegel","Germany",40,NA,NA,NA,"Berlin/ Tegel (EDDT)"
+2018,"NOV","EDDT","Berlin/ Tegel","Germany",40,7966,98251,9406,"Berlin/ Tegel (EDDT)"
+2018,"DEC","EDDT","Berlin/ Tegel","Germany",40,7669,102451,9832,"Berlin/ Tegel (EDDT)"
 2018,"JAN","EDDV","Hanover","Germany",40,1923,24234,1275,"Hanover (EDDV)"
 2018,"FEB","EDDV","Hanover","Germany",40,1879,23378,1429,"Hanover (EDDV)"
 2018,"MAR","EDDV","Hanover","Germany",40,2218,27656,1542,"Hanover (EDDV)"
@@ -3682,19 +3682,19 @@
 2018,"SEP","EFHK","Helsinki/ Vantaa","Finland",40,7855,95943,7963,"Helsinki/ Vantaa (EFHK)"
 2018,"OCT","EFHK","Helsinki/ Vantaa","Finland",40,7834,95054,8329,"Helsinki/ Vantaa (EFHK)"
 2018,"NOV","EFHK","Helsinki/ Vantaa","Finland",40,7439,89912,9140,"Helsinki/ Vantaa (EFHK)"
-2018,"DEC","EFHK","Helsinki/ Vantaa","Finland",40,NA,NA,NA,"Helsinki/ Vantaa (EFHK)"
-2018,"JAN","EGBB","Birmingham","United Kingdom",40,3659,49839,4165,"Birmingham (EGBB)"
-2018,"FEB","EGBB","Birmingham","United Kingdom",40,3542,48299,4479,"Birmingham (EGBB)"
-2018,"MAR","EGBB","Birmingham","United Kingdom",40,3943,54636,6570,"Birmingham (EGBB)"
-2018,"APR","EGBB","Birmingham","United Kingdom",40,4183,57835,5381,"Birmingham (EGBB)"
-2018,"MAY","EGBB","Birmingham","United Kingdom",40,4862,65498,7013,"Birmingham (EGBB)"
-2018,"JUN","EGBB","Birmingham","United Kingdom",40,5048,67163,6777,"Birmingham (EGBB)"
-2018,"JUL","EGBB","Birmingham","United Kingdom",40,5187,69841,6342,"Birmingham (EGBB)"
-2018,"AUG","EGBB","Birmingham","United Kingdom",40,5194,69175,7308,"Birmingham (EGBB)"
-2018,"SEP","EGBB","Birmingham","United Kingdom",40,4949,66450,8197,"Birmingham (EGBB)"
-2018,"OCT","EGBB","Birmingham","United Kingdom",40,NA,NA,NA,"Birmingham (EGBB)"
-2018,"NOV","EGBB","Birmingham","United Kingdom",40,NA,NA,NA,"Birmingham (EGBB)"
-2018,"DEC","EGBB","Birmingham","United Kingdom",40,NA,NA,NA,"Birmingham (EGBB)"
+2018,"DEC","EFHK","Helsinki/ Vantaa","Finland",40,7216,86402,8976,"Helsinki/ Vantaa (EFHK)"
+2018,"JAN","EGBB","Birmingham","United Kingdom",40,3653,51271,2647,"Birmingham (EGBB)"
+2018,"FEB","EGBB","Birmingham","United Kingdom",40,3541,49743,3037,"Birmingham (EGBB)"
+2018,"MAR","EGBB","Birmingham","United Kingdom",40,3942,56126,5082,"Birmingham (EGBB)"
+2018,"APR","EGBB","Birmingham","United Kingdom",40,4183,59385,3839,"Birmingham (EGBB)"
+2018,"MAY","EGBB","Birmingham","United Kingdom",40,4858,67400,5070,"Birmingham (EGBB)"
+2018,"JUN","EGBB","Birmingham","United Kingdom",40,5041,69105,4712,"Birmingham (EGBB)"
+2018,"JUL","EGBB","Birmingham","United Kingdom",40,5184,71822,4324,"Birmingham (EGBB)"
+2018,"AUG","EGBB","Birmingham","United Kingdom",40,5193,71286,5223,"Birmingham (EGBB)"
+2018,"SEP","EGBB","Birmingham","United Kingdom",40,4947,68413,6230,"Birmingham (EGBB)"
+2018,"OCT","EGBB","Birmingham","United Kingdom",40,4867,67318,5526,"Birmingham (EGBB)"
+2018,"NOV","EGBB","Birmingham","United Kingdom",40,3784,54373,3918,"Birmingham (EGBB)"
+2018,"DEC","EGBB","Birmingham","United Kingdom",40,3697,51933,3349,"Birmingham (EGBB)"
 2018,"JAN","EGCC","Manchester","United Kingdom",40,6633,89570,14742,"Manchester (EGCC)"
 2018,"FEB","EGCC","Manchester","United Kingdom",40,6254,84363,14003,"Manchester (EGCC)"
 2018,"MAR","EGCC","Manchester","United Kingdom",40,7130,96206,16436,"Manchester (EGCC)"
@@ -3706,7 +3706,7 @@
 2018,"SEP","EGCC","Manchester","United Kingdom",40,9290,125849,14754,"Manchester (EGCC)"
 2018,"OCT","EGCC","Manchester","United Kingdom",40,8762,118957,14499,"Manchester (EGCC)"
 2018,"NOV","EGCC","Manchester","United Kingdom",40,6882,93708,12514,"Manchester (EGCC)"
-2018,"DEC","EGCC","Manchester","United Kingdom",40,NA,NA,NA,"Manchester (EGCC)"
+2018,"DEC","EGCC","Manchester","United Kingdom",40,7013,96183,11004,"Manchester (EGCC)"
 2018,"JAN","EGGD","Bristol","United Kingdom",40,2225,28475,4210,"Bristol (EGGD)"
 2018,"FEB","EGGD","Bristol","United Kingdom",40,2179,28047,2636,"Bristol (EGGD)"
 2018,"MAR","EGGD","Bristol","United Kingdom",40,2344,30319,3483,"Bristol (EGGD)"
@@ -3730,7 +3730,7 @@
 2018,"SEP","EGGW","London/ Luton","United Kingdom",40,5887,85958,7818,"London/ Luton (EGGW)"
 2018,"OCT","EGGW","London/ Luton","United Kingdom",40,5936,86997,8369,"London/ Luton (EGGW)"
 2018,"NOV","EGGW","London/ Luton","United Kingdom",40,4568,67535,7038,"London/ Luton (EGGW)"
-2018,"DEC","EGGW","London/ Luton","United Kingdom",40,NA,NA,NA,"London/ Luton (EGGW)"
+2018,"DEC","EGGW","London/ Luton","United Kingdom",40,5036,72606,6516,"London/ Luton (EGGW)"
 2018,"JAN","EGKK","London/ Gatwick","United Kingdom",40,9189,130101,24280,"London/ Gatwick (EGKK)"
 2018,"FEB","EGKK","London/ Gatwick","United Kingdom",40,9180,130170,26129,"London/ Gatwick (EGKK)"
 2018,"MAR","EGKK","London/ Gatwick","United Kingdom",40,10734,151832,31388,"London/ Gatwick (EGKK)"
@@ -3742,7 +3742,7 @@
 2018,"SEP","EGKK","London/ Gatwick","United Kingdom",40,12984,178355,71287,"London/ Gatwick (EGKK)"
 2018,"OCT","EGKK","London/ Gatwick","United Kingdom",40,12187,167954,53060,"London/ Gatwick (EGKK)"
 2018,"NOV","EGKK","London/ Gatwick","United Kingdom",40,9452,130538,25549,"London/ Gatwick (EGKK)"
-2018,"DEC","EGKK","London/ Gatwick","United Kingdom",40,NA,NA,NA,"London/ Gatwick (EGKK)"
+2018,"DEC","EGKK","London/ Gatwick","United Kingdom",40,9883,136150,35808,"London/ Gatwick (EGKK)"
 2018,"JAN","EGLC","London/ City","United Kingdom",40,3094,39934,5984,"London/ City (EGLC)"
 2018,"FEB","EGLC","London/ City","United Kingdom",40,2968,41125,3697,"London/ City (EGLC)"
 2018,"MAR","EGLC","London/ City","United Kingdom",40,3286,45312,3412,"London/ City (EGLC)"
@@ -3766,7 +3766,7 @@
 2018,"SEP","EGLL","London/ Heathrow","United Kingdom",40,19683,264571,132872,"London/ Heathrow (EGLL)"
 2018,"OCT","EGLL","London/ Heathrow","United Kingdom",40,19884,268472,161617,"London/ Heathrow (EGLL)"
 2018,"NOV","EGLL","London/ Heathrow","United Kingdom",40,17913,247068,165686,"London/ Heathrow (EGLL)"
-2018,"DEC","EGLL","London/ Heathrow","United Kingdom",40,NA,NA,NA,"London/ Heathrow (EGLL)"
+2018,"DEC","EGLL","London/ Heathrow","United Kingdom",40,18639,250036,153769,"London/ Heathrow (EGLL)"
 2018,"JAN","EGNT","Newcastle","United Kingdom",40,1340,17565,807,"Newcastle (EGNT)"
 2018,"FEB","EGNT","Newcastle","United Kingdom",40,1290,16756,780,"Newcastle (EGNT)"
 2018,"MAR","EGNT","Newcastle","United Kingdom",40,1470,18504,844,"Newcastle (EGNT)"
@@ -3778,7 +3778,7 @@
 2018,"SEP","EGNT","Newcastle","United Kingdom",40,2242,29367,693,"Newcastle (EGNT)"
 2018,"OCT","EGNT","Newcastle","United Kingdom",40,2068,27053,780,"Newcastle (EGNT)"
 2018,"NOV","EGNT","Newcastle","United Kingdom",40,1361,17455,113,"Newcastle (EGNT)"
-2018,"DEC","EGNT","Newcastle","United Kingdom",40,NA,NA,NA,"Newcastle (EGNT)"
+2018,"DEC","EGNT","Newcastle","United Kingdom",40,1234,16234,514,"Newcastle (EGNT)"
 2018,"JAN","EGPD","Aberdeen","United Kingdom",40,2263,29742,3261,"Aberdeen (EGPD)"
 2018,"FEB","EGPD","Aberdeen","United Kingdom",40,2162,28260,3579,"Aberdeen (EGPD)"
 2018,"MAR","EGPD","Aberdeen","United Kingdom",40,2313,30254,3697,"Aberdeen (EGPD)"
@@ -3802,7 +3802,7 @@
 2018,"SEP","EGPF","Glasgow","United Kingdom",40,3724,51347,4122,"Glasgow (EGPF)"
 2018,"OCT","EGPF","Glasgow","United Kingdom",40,3688,50401,4032,"Glasgow (EGPF)"
 2018,"NOV","EGPF","Glasgow","United Kingdom",40,2897,39563,2029,"Glasgow (EGPF)"
-2018,"DEC","EGPF","Glasgow","United Kingdom",40,NA,NA,NA,"Glasgow (EGPF)"
+2018,"DEC","EGPF","Glasgow","United Kingdom",40,2715,37466,2447,"Glasgow (EGPF)"
 2018,"JAN","EGPH","Edinburgh","United Kingdom",40,4292,58010,3447,"Edinburgh (EGPH)"
 2018,"FEB","EGPH","Edinburgh","United Kingdom",40,4117,55591,4162,"Edinburgh (EGPH)"
 2018,"MAR","EGPH","Edinburgh","United Kingdom",40,4584,60202,4571,"Edinburgh (EGPH)"
@@ -3814,7 +3814,7 @@
 2018,"SEP","EGPH","Edinburgh","United Kingdom",40,5782,78863,8611,"Edinburgh (EGPH)"
 2018,"OCT","EGPH","Edinburgh","United Kingdom",40,5820,78664,9386,"Edinburgh (EGPH)"
 2018,"NOV","EGPH","Edinburgh","United Kingdom",40,4795,63051,4427,"Edinburgh (EGPH)"
-2018,"DEC","EGPH","Edinburgh","United Kingdom",40,NA,NA,NA,"Edinburgh (EGPH)"
+2018,"DEC","EGPH","Edinburgh","United Kingdom",40,4597,62121,4395,"Edinburgh (EGPH)"
 2018,"JAN","EGSS","London/ Stansted","United Kingdom",40,6915,95389,16856,"London/ Stansted (EGSS)"
 2018,"FEB","EGSS","London/ Stansted","United Kingdom",40,6295,90892,10064,"London/ Stansted (EGSS)"
 2018,"MAR","EGSS","London/ Stansted","United Kingdom",40,7232,102859,11925,"London/ Stansted (EGSS)"
@@ -3826,7 +3826,7 @@
 2018,"SEP","EGSS","London/ Stansted","United Kingdom",40,9148,128633,16937,"London/ Stansted (EGSS)"
 2018,"OCT","EGSS","London/ Stansted","United Kingdom",40,8782,125251,19471,"London/ Stansted (EGSS)"
 2018,"NOV","EGSS","London/ Stansted","United Kingdom",40,7015,97911,11748,"London/ Stansted (EGSS)"
-2018,"DEC","EGSS","London/ Stansted","United Kingdom",40,NA,NA,NA,"London/ Stansted (EGSS)"
+2018,"DEC","EGSS","London/ Stansted","United Kingdom",40,7097,95515,10990,"London/ Stansted (EGSS)"
 2018,"JAN","EHAM","Amsterdam/ Schiphol","Netherlands",40,18314,244748,36273,"Amsterdam/ Schiphol (EHAM)"
 2018,"FEB","EHAM","Amsterdam/ Schiphol","Netherlands",40,17468,228478,30436,"Amsterdam/ Schiphol (EHAM)"
 2018,"MAR","EHAM","Amsterdam/ Schiphol","Netherlands",40,20000,264918,34168,"Amsterdam/ Schiphol (EHAM)"
@@ -3862,7 +3862,7 @@
 2018,"SEP","EIDW","Dublin","Ireland",40,10388,126503,37963,"Dublin (EIDW)"
 2018,"OCT","EIDW","Dublin","Ireland",40,10176,125331,27413,"Dublin (EIDW)"
 2018,"NOV","EIDW","Dublin","Ireland",40,8579,112577,24317,"Dublin (EIDW)"
-2018,"DEC","EIDW","Dublin","Ireland",40,NA,NA,NA,"Dublin (EIDW)"
+2018,"DEC","EIDW","Dublin","Ireland",40,8439,105518,22737,"Dublin (EIDW)"
 2018,"JAN","EKCH","Copenhagen/ Kastrup","Denmark",40,8602,109661,10121,"Copenhagen/ Kastrup (EKCH)"
 2018,"FEB","EKCH","Copenhagen/ Kastrup","Denmark",40,8837,111321,11508,"Copenhagen/ Kastrup (EKCH)"
 2018,"MAR","EKCH","Copenhagen/ Kastrup","Denmark",40,10074,125910,12853,"Copenhagen/ Kastrup (EKCH)"
@@ -3874,7 +3874,7 @@
 2018,"SEP","EKCH","Copenhagen/ Kastrup","Denmark",40,11184,142995,12091,"Copenhagen/ Kastrup (EKCH)"
 2018,"OCT","EKCH","Copenhagen/ Kastrup","Denmark",40,11262,144476,14594,"Copenhagen/ Kastrup (EKCH)"
 2018,"NOV","EKCH","Copenhagen/ Kastrup","Denmark",40,10118,128084,12320,"Copenhagen/ Kastrup (EKCH)"
-2018,"DEC","EKCH","Copenhagen/ Kastrup","Denmark",40,NA,NA,NA,"Copenhagen/ Kastrup (EKCH)"
+2018,"DEC","EKCH","Copenhagen/ Kastrup","Denmark",40,8967,114144,9822,"Copenhagen/ Kastrup (EKCH)"
 2018,"JAN","ELLX","Luxembourg","Luxembourg",40,2611,34974,2633,"Luxembourg (ELLX)"
 2018,"FEB","ELLX","Luxembourg","Luxembourg",40,2400,32411,2146,"Luxembourg (ELLX)"
 2018,"MAR","ELLX","Luxembourg","Luxembourg",40,2805,37644,2273,"Luxembourg (ELLX)"
@@ -3886,7 +3886,7 @@
 2018,"SEP","ELLX","Luxembourg","Luxembourg",40,3117,41941,916,"Luxembourg (ELLX)"
 2018,"OCT","ELLX","Luxembourg","Luxembourg",40,3143,42321,1326,"Luxembourg (ELLX)"
 2018,"NOV","ELLX","Luxembourg","Luxembourg",40,2836,38120,2427,"Luxembourg (ELLX)"
-2018,"DEC","ELLX","Luxembourg","Luxembourg",40,NA,NA,NA,"Luxembourg (ELLX)"
+2018,"DEC","ELLX","Luxembourg","Luxembourg",40,2672,35904,2952,"Luxembourg (ELLX)"
 2018,"JAN","ENBR","Bergen","Norway",40,2444,30272,3883,"Bergen (ENBR)"
 2018,"FEB","ENBR","Bergen","Norway",40,2294,28374,3370,"Bergen (ENBR)"
 2018,"MAR","ENBR","Bergen","Norway",40,2471,30461,2092,"Bergen (ENBR)"
@@ -3898,7 +3898,7 @@
 2018,"SEP","ENBR","Bergen","Norway",40,3098,38219,4534,"Bergen (ENBR)"
 2018,"OCT","ENBR","Bergen","Norway",40,3207,39570,3964,"Bergen (ENBR)"
 2018,"NOV","ENBR","Bergen","Norway",40,2863,35345,3536,"Bergen (ENBR)"
-2018,"DEC","ENBR","Bergen","Norway",40,NA,NA,NA,"Bergen (ENBR)"
+2018,"DEC","ENBR","Bergen","Norway",40,2396,29596,2560,"Bergen (ENBR)"
 2018,"JAN","ENGM","Oslo/ Gardermoen","Norway",40,9035,116954,14721,"Oslo/ Gardermoen (ENGM)"
 2018,"FEB","ENGM","Oslo/ Gardermoen","Norway",40,8903,113790,14443,"Oslo/ Gardermoen (ENGM)"
 2018,"MAR","ENGM","Oslo/ Gardermoen","Norway",40,9897,124879,10295,"Oslo/ Gardermoen (ENGM)"
@@ -3910,7 +3910,7 @@
 2018,"SEP","ENGM","Oslo/ Gardermoen","Norway",40,10990,143827,13286,"Oslo/ Gardermoen (ENGM)"
 2018,"OCT","ENGM","Oslo/ Gardermoen","Norway",40,11305,145821,14595,"Oslo/ Gardermoen (ENGM)"
 2018,"NOV","ENGM","Oslo/ Gardermoen","Norway",40,10316,132683,14106,"Oslo/ Gardermoen (ENGM)"
-2018,"DEC","ENGM","Oslo/ Gardermoen","Norway",40,NA,NA,NA,"Oslo/ Gardermoen (ENGM)"
+2018,"DEC","ENGM","Oslo/ Gardermoen","Norway",40,8967,114518,10876,"Oslo/ Gardermoen (ENGM)"
 2018,"JAN","ENVA","Trondheim","Norway",40,NA,NA,NA,"Trondheim (ENVA)"
 2018,"FEB","ENVA","Trondheim","Norway",40,NA,NA,NA,"Trondheim (ENVA)"
 2018,"MAR","ENVA","Trondheim","Norway",40,NA,NA,NA,"Trondheim (ENVA)"
@@ -3942,11 +3942,11 @@
 2018,"MAY","EPWA","Warszawa/ Chopina","Poland",40,7779,101665,11298,"Warszawa/ Chopina (EPWA)"
 2018,"JUN","EPWA","Warszawa/ Chopina","Poland",40,8257,107895,11340,"Warszawa/ Chopina (EPWA)"
 2018,"JUL","EPWA","Warszawa/ Chopina","Poland",40,8716,113769,12659,"Warszawa/ Chopina (EPWA)"
-2018,"AUG","EPWA","Warszawa/ Chopina","Poland",40,NA,NA,NA,"Warszawa/ Chopina (EPWA)"
-2018,"SEP","EPWA","Warszawa/ Chopina","Poland",40,NA,NA,NA,"Warszawa/ Chopina (EPWA)"
-2018,"OCT","EPWA","Warszawa/ Chopina","Poland",40,NA,NA,NA,"Warszawa/ Chopina (EPWA)"
-2018,"NOV","EPWA","Warszawa/ Chopina","Poland",40,NA,NA,NA,"Warszawa/ Chopina (EPWA)"
-2018,"DEC","EPWA","Warszawa/ Chopina","Poland",40,NA,NA,NA,"Warszawa/ Chopina (EPWA)"
+2018,"AUG","EPWA","Warszawa/ Chopina","Poland",40,8843,115479,6722,"Warszawa/ Chopina (EPWA)"
+2018,"SEP","EPWA","Warszawa/ Chopina","Poland",40,8576,112408,7838,"Warszawa/ Chopina (EPWA)"
+2018,"OCT","EPWA","Warszawa/ Chopina","Poland",40,8117,106430,12784,"Warszawa/ Chopina (EPWA)"
+2018,"NOV","EPWA","Warszawa/ Chopina","Poland",40,6991,92334,13692,"Warszawa/ Chopina (EPWA)"
+2018,"DEC","EPWA","Warszawa/ Chopina","Poland",40,7010,92244,11676,"Warszawa/ Chopina (EPWA)"
 2018,"JAN","ESGG","Göteborg","Sweden",40,2478,32688,1559,"Göteborg (ESGG)"
 2018,"FEB","ESGG","Göteborg","Sweden",40,2370,30829,2390,"Göteborg (ESGG)"
 2018,"MAR","ESGG","Göteborg","Sweden",40,2789,36234,1413,"Göteborg (ESGG)"
@@ -3958,7 +3958,7 @@
 2018,"SEP","ESGG","Göteborg","Sweden",40,3063,40847,583,"Göteborg (ESGG)"
 2018,"OCT","ESGG","Göteborg","Sweden",40,2994,39555,599,"Göteborg (ESGG)"
 2018,"NOV","ESGG","Göteborg","Sweden",40,2650,34893,638,"Göteborg (ESGG)"
-2018,"DEC","ESGG","Göteborg","Sweden",40,NA,NA,NA,"Göteborg (ESGG)"
+2018,"DEC","ESGG","Göteborg","Sweden",40,2399,31879,310,"Göteborg (ESGG)"
 2018,"JAN","ESSA","Stockholm/ Arlanda","Sweden",40,8873,115944,11413,"Stockholm/ Arlanda (ESSA)"
 2018,"FEB","ESSA","Stockholm/ Arlanda","Sweden",40,8605,111884,14035,"Stockholm/ Arlanda (ESSA)"
 2018,"MAR","ESSA","Stockholm/ Arlanda","Sweden",40,10172,131927,14469,"Stockholm/ Arlanda (ESSA)"
@@ -3970,7 +3970,7 @@
 2018,"SEP","ESSA","Stockholm/ Arlanda","Sweden",40,10544,136424,15271,"Stockholm/ Arlanda (ESSA)"
 2018,"OCT","ESSA","Stockholm/ Arlanda","Sweden",40,10724,138991,14006,"Stockholm/ Arlanda (ESSA)"
 2018,"NOV","ESSA","Stockholm/ Arlanda","Sweden",40,9730,126128,12169,"Stockholm/ Arlanda (ESSA)"
-2018,"DEC","ESSA","Stockholm/ Arlanda","Sweden",40,NA,NA,NA,"Stockholm/ Arlanda (ESSA)"
+2018,"DEC","ESSA","Stockholm/ Arlanda","Sweden",40,8596,110830,8597,"Stockholm/ Arlanda (ESSA)"
 2018,"JAN","EVRA","Riga","Latvia",40,2955,38333,3902,"Riga (EVRA)"
 2018,"FEB","EVRA","Riga","Latvia",40,2624,33574,3295,"Riga (EVRA)"
 2018,"MAR","EVRA","Riga","Latvia",40,3111,39807,4033,"Riga (EVRA)"
@@ -3982,7 +3982,7 @@
 2018,"SEP","EVRA","Riga","Latvia",40,3676,47136,4905,"Riga (EVRA)"
 2018,"OCT","EVRA","Riga","Latvia",40,3653,47126,4746,"Riga (EVRA)"
 2018,"NOV","EVRA","Riga","Latvia",40,3100,39911,5505,"Riga (EVRA)"
-2018,"DEC","EVRA","Riga","Latvia",40,NA,NA,NA,"Riga (EVRA)"
+2018,"DEC","EVRA","Riga","Latvia",40,3097,39911,5283,"Riga (EVRA)"
 2018,"JAN","EYVI","Vilnius","Lithuania",40,NA,NA,NA,"Vilnius (EYVI)"
 2018,"FEB","EYVI","Vilnius","Lithuania",40,NA,NA,NA,"Vilnius (EYVI)"
 2018,"MAR","EYVI","Vilnius","Lithuania",40,NA,NA,NA,"Vilnius (EYVI)"
@@ -4006,7 +4006,7 @@
 2018,"SEP","GCFV","Fuerteventura","Spain",40,1951,27277,982,"Fuerteventura (GCFV)"
 2018,"OCT","GCFV","Fuerteventura","Spain",40,2035,28311,1308,"Fuerteventura (GCFV)"
 2018,"NOV","GCFV","Fuerteventura","Spain",40,1924,26871,1381,"Fuerteventura (GCFV)"
-2018,"DEC","GCFV","Fuerteventura","Spain",40,NA,NA,NA,"Fuerteventura (GCFV)"
+2018,"DEC","GCFV","Fuerteventura","Spain",40,1980,27551,926,"Fuerteventura (GCFV)"
 2018,"JAN","GCLP","Gran Canaria","Spain",40,4472,65557,9337,"Gran Canaria (GCLP)"
 2018,"FEB","GCLP","Gran Canaria","Spain",40,3980,57126,10094,"Gran Canaria (GCLP)"
 2018,"MAR","GCLP","Gran Canaria","Spain",40,4516,64967,9801,"Gran Canaria (GCLP)"
@@ -4018,7 +4018,7 @@
 2018,"SEP","GCLP","Gran Canaria","Spain",40,3795,55011,5186,"Gran Canaria (GCLP)"
 2018,"OCT","GCLP","Gran Canaria","Spain",40,4186,60150,6833,"Gran Canaria (GCLP)"
 2018,"NOV","GCLP","Gran Canaria","Spain",40,4401,63536,7843,"Gran Canaria (GCLP)"
-2018,"DEC","GCLP","Gran Canaria","Spain",40,NA,NA,NA,"Gran Canaria (GCLP)"
+2018,"DEC","GCLP","Gran Canaria","Spain",40,4670,67309,7058,"Gran Canaria (GCLP)"
 2018,"JAN","GCRR","Lanzarote","Spain",40,2323,32669,1033,"Lanzarote (GCRR)"
 2018,"FEB","GCRR","Lanzarote","Spain",40,2132,29667,2017,"Lanzarote (GCRR)"
 2018,"MAR","GCRR","Lanzarote","Spain",40,2516,34696,2313,"Lanzarote (GCRR)"
@@ -4030,7 +4030,7 @@
 2018,"SEP","GCRR","Lanzarote","Spain",40,2388,33368,700,"Lanzarote (GCRR)"
 2018,"OCT","GCRR","Lanzarote","Spain",40,2467,34396,2285,"Lanzarote (GCRR)"
 2018,"NOV","GCRR","Lanzarote","Spain",40,2409,33184,2315,"Lanzarote (GCRR)"
-2018,"DEC","GCRR","Lanzarote","Spain",40,NA,NA,NA,"Lanzarote (GCRR)"
+2018,"DEC","GCRR","Lanzarote","Spain",40,2510,35417,859,"Lanzarote (GCRR)"
 2018,"JAN","GCTS","Tenerife Sur/Reina Sofia","Spain",40,2829,36436,3921,"Tenerife Sur/Reina Sofia (GCTS)"
 2018,"FEB","GCTS","Tenerife Sur/Reina Sofia","Spain",40,2583,32505,3780,"Tenerife Sur/Reina Sofia (GCTS)"
 2018,"MAR","GCTS","Tenerife Sur/Reina Sofia","Spain",40,2962,37349,3489,"Tenerife Sur/Reina Sofia (GCTS)"
@@ -4054,7 +4054,7 @@
 2018,"SEP","GCXO","Tenerife North","Spain",40,1427,16665,864,"Tenerife North (GCXO)"
 2018,"OCT","GCXO","Tenerife North","Spain",40,1368,16067,1586,"Tenerife North (GCXO)"
 2018,"NOV","GCXO","Tenerife North","Spain",40,1318,15228,1216,"Tenerife North (GCXO)"
-2018,"DEC","GCXO","Tenerife North","Spain",40,NA,NA,NA,"Tenerife North (GCXO)"
+2018,"DEC","GCXO","Tenerife North","Spain",40,1394,16942,1009,"Tenerife North (GCXO)"
 2018,"JAN","LBSF","Sofia","Bulgaria",40,2136,27422,1216,"Sofia (LBSF)"
 2018,"FEB","LBSF","Sofia","Bulgaria",40,1942,24244,2296,"Sofia (LBSF)"
 2018,"MAR","LBSF","Sofia","Bulgaria",40,2236,28178,952,"Sofia (LBSF)"
@@ -4066,7 +4066,7 @@
 2018,"SEP","LBSF","Sofia","Bulgaria",40,2573,32672,0,"Sofia (LBSF)"
 2018,"OCT","LBSF","Sofia","Bulgaria",40,2499,31538,67,"Sofia (LBSF)"
 2018,"NOV","LBSF","Sofia","Bulgaria",40,2072,25909,491,"Sofia (LBSF)"
-2018,"DEC","LBSF","Sofia","Bulgaria",40,NA,NA,NA,"Sofia (LBSF)"
+2018,"DEC","LBSF","Sofia","Bulgaria",40,2149,28179,1480,"Sofia (LBSF)"
 2018,"JAN","LCLK","Larnaca","Cyprus",40,NA,NA,NA,"Larnaca (LCLK)"
 2018,"FEB","LCLK","Larnaca","Cyprus",40,NA,NA,NA,"Larnaca (LCLK)"
 2018,"MAR","LCLK","Larnaca","Cyprus",40,NA,NA,NA,"Larnaca (LCLK)"
@@ -4090,7 +4090,7 @@
 2018,"SEP","LEAL","Alicante","Spain",40,4682,67071,3989,"Alicante (LEAL)"
 2018,"OCT","LEAL","Alicante","Spain",40,4489,62968,5297,"Alicante (LEAL)"
 2018,"NOV","LEAL","Alicante","Spain",40,3220,44076,4149,"Alicante (LEAL)"
-2018,"DEC","LEAL","Alicante","Spain",40,NA,NA,NA,"Alicante (LEAL)"
+2018,"DEC","LEAL","Alicante","Spain",40,3086,42223,1894,"Alicante (LEAL)"
 2018,"JAN","LEBB","Bilbao","Spain",40,1470,19382,1035,"Bilbao (LEBB)"
 2018,"FEB","LEBB","Bilbao","Spain",40,1482,19551,932,"Bilbao (LEBB)"
 2018,"MAR","LEBB","Bilbao","Spain",40,1795,23815,1443,"Bilbao (LEBB)"
@@ -4102,7 +4102,7 @@
 2018,"SEP","LEBB","Bilbao","Spain",40,2037,26938,0,"Bilbao (LEBB)"
 2018,"OCT","LEBB","Bilbao","Spain",40,2090,27987,175,"Bilbao (LEBB)"
 2018,"NOV","LEBB","Bilbao","Spain",40,1786,24360,891,"Bilbao (LEBB)"
-2018,"DEC","LEBB","Bilbao","Spain",40,NA,NA,NA,"Bilbao (LEBB)"
+2018,"DEC","LEBB","Bilbao","Spain",40,1513,20421,672,"Bilbao (LEBB)"
 2018,"JAN","LEBL","Barcelona","Spain",40,10938,143321,14326,"Barcelona (LEBL)"
 2018,"FEB","LEBL","Barcelona","Spain",40,10193,139944,17968,"Barcelona (LEBL)"
 2018,"MAR","LEBL","Barcelona","Spain",40,12548,161470,24565,"Barcelona (LEBL)"
@@ -4114,7 +4114,7 @@
 2018,"SEP","LEBL","Barcelona","Spain",40,15318,204568,42360,"Barcelona (LEBL)"
 2018,"OCT","LEBL","Barcelona","Spain",40,14768,197652,40941,"Barcelona (LEBL)"
 2018,"NOV","LEBL","Barcelona","Spain",40,11444,158444,31600,"Barcelona (LEBL)"
-2018,"DEC","LEBL","Barcelona","Spain",40,NA,NA,NA,"Barcelona (LEBL)"
+2018,"DEC","LEBL","Barcelona","Spain",40,12116,156680,24188,"Barcelona (LEBL)"
 2018,"JAN","LEIB","Ibiza","Spain",40,679,8499,606,"Ibiza (LEIB)"
 2018,"FEB","LEIB","Ibiza","Spain",40,650,8225,520,"Ibiza (LEIB)"
 2018,"MAR","LEIB","Ibiza","Spain",40,1067,13208,1277,"Ibiza (LEIB)"
@@ -4138,7 +4138,7 @@
 2018,"SEP","LEMD","Madrid/ Barajas","Spain",40,17656,235213,15943,"Madrid/ Barajas (LEMD)"
 2018,"OCT","LEMD","Madrid/ Barajas","Spain",40,17782,238672,20288,"Madrid/ Barajas (LEMD)"
 2018,"NOV","LEMD","Madrid/ Barajas","Spain",40,16072,217328,18860,"Madrid/ Barajas (LEMD)"
-2018,"DEC","LEMD","Madrid/ Barajas","Spain",40,NA,NA,NA,"Madrid/ Barajas (LEMD)"
+2018,"DEC","LEMD","Madrid/ Barajas","Spain",40,14913,196595,18666,"Madrid/ Barajas (LEMD)"
 2018,"JAN","LEMG","Málaga","Spain",40,3578,49034,3483,"Málaga (LEMG)"
 2018,"FEB","LEMG","Málaga","Spain",40,3490,48024,3264,"Málaga (LEMG)"
 2018,"MAR","LEMG","Málaga","Spain",40,4534,63496,9052,"Málaga (LEMG)"
@@ -4150,7 +4150,7 @@
 2018,"SEP","LEMG","Málaga","Spain",40,6341,81823,6063,"Málaga (LEMG)"
 2018,"OCT","LEMG","Málaga","Spain",40,6164,81937,8536,"Málaga (LEMG)"
 2018,"NOV","LEMG","Málaga","Spain",40,4299,58237,5028,"Málaga (LEMG)"
-2018,"DEC","LEMG","Málaga","Spain",40,NA,NA,NA,"Málaga (LEMG)"
+2018,"DEC","LEMG","Málaga","Spain",40,4032,54754,3076,"Málaga (LEMG)"
 2018,"JAN","LEPA","Palma de Mallorca","Spain",40,2833,37821,977,"Palma de Mallorca (LEPA)"
 2018,"FEB","LEPA","Palma de Mallorca","Spain",40,2920,38987,1193,"Palma de Mallorca (LEPA)"
 2018,"MAR","LEPA","Palma de Mallorca","Spain",40,4672,59248,3998,"Palma de Mallorca (LEPA)"
@@ -4162,7 +4162,7 @@
 2018,"SEP","LEPA","Palma de Mallorca","Spain",40,12146,163072,22209,"Palma de Mallorca (LEPA)"
 2018,"OCT","LEPA","Palma de Mallorca","Spain",40,10301,140474,17942,"Palma de Mallorca (LEPA)"
 2018,"NOV","LEPA","Palma de Mallorca","Spain",40,4086,54309,2101,"Palma de Mallorca (LEPA)"
-2018,"DEC","LEPA","Palma de Mallorca","Spain",40,NA,NA,NA,"Palma de Mallorca (LEPA)"
+2018,"DEC","LEPA","Palma de Mallorca","Spain",40,3829,49332,1442,"Palma de Mallorca (LEPA)"
 2018,"JAN","LEVC","Valencia","Spain",40,2204,28926,1092,"Valencia (LEVC)"
 2018,"FEB","LEVC","Valencia","Spain",40,2104,27645,1046,"Valencia (LEVC)"
 2018,"MAR","LEVC","Valencia","Spain",40,2499,32695,2279,"Valencia (LEVC)"
@@ -4174,7 +4174,7 @@
 2018,"SEP","LEVC","Valencia","Spain",40,2939,38612,1605,"Valencia (LEVC)"
 2018,"OCT","LEVC","Valencia","Spain",40,2962,38647,1987,"Valencia (LEVC)"
 2018,"NOV","LEVC","Valencia","Spain",40,2522,32758,1963,"Valencia (LEVC)"
-2018,"DEC","LEVC","Valencia","Spain",40,NA,NA,NA,"Valencia (LEVC)"
+2018,"DEC","LEVC","Valencia","Spain",40,2474,31936,813,"Valencia (LEVC)"
 2018,"JAN","LEZL","Sevilla","Spain",40,1663,20352,1139,"Sevilla (LEZL)"
 2018,"FEB","LEZL","Sevilla","Spain",40,1584,19468,827,"Sevilla (LEZL)"
 2018,"MAR","LEZL","Sevilla","Spain",40,1918,22698,2280,"Sevilla (LEZL)"
@@ -4186,7 +4186,7 @@
 2018,"SEP","LEZL","Sevilla","Spain",40,1984,24447,704,"Sevilla (LEZL)"
 2018,"OCT","LEZL","Sevilla","Spain",40,2124,26177,1330,"Sevilla (LEZL)"
 2018,"NOV","LEZL","Sevilla","Spain",40,1977,23939,1585,"Sevilla (LEZL)"
-2018,"DEC","LEZL","Sevilla","Spain",40,NA,NA,NA,"Sevilla (LEZL)"
+2018,"DEC","LEZL","Sevilla","Spain",40,1828,23040,1116,"Sevilla (LEZL)"
 2018,"JAN","LFLL","Lyon-Saint-Exupéry","France",40,3934,50560,2852,"Lyon-Saint-Exupéry (LFLL)"
 2018,"FEB","LFLL","Lyon-Saint-Exupéry","France",40,3947,51258,2741,"Lyon-Saint-Exupéry (LFLL)"
 2018,"MAR","LFLL","Lyon-Saint-Exupéry","France",40,4445,57240,3719,"Lyon-Saint-Exupéry (LFLL)"
@@ -4198,7 +4198,7 @@
 2018,"SEP","LFLL","Lyon-Saint-Exupéry","France",40,4921,62755,1425,"Lyon-Saint-Exupéry (LFLL)"
 2018,"OCT","LFLL","Lyon-Saint-Exupéry","France",40,4983,64183,3434,"Lyon-Saint-Exupéry (LFLL)"
 2018,"NOV","LFLL","Lyon-Saint-Exupéry","France",40,4422,56970,3487,"Lyon-Saint-Exupéry (LFLL)"
-2018,"DEC","LFLL","Lyon-Saint-Exupéry","France",40,NA,NA,NA,"Lyon-Saint-Exupéry (LFLL)"
+2018,"DEC","LFLL","Lyon-Saint-Exupéry","France",40,4356,56122,3043,"Lyon-Saint-Exupéry (LFLL)"
 2018,"JAN","LFMN","Nice-Côte d’Azur","France",40,3974,54483,8309,"Nice-Côte d’Azur (LFMN)"
 2018,"FEB","LFMN","Nice-Côte d’Azur","France",40,3762,51847,7266,"Nice-Côte d’Azur (LFMN)"
 2018,"MAR","LFMN","Nice-Côte d’Azur","France",40,4747,65871,12832,"Nice-Côte d’Azur (LFMN)"
@@ -4210,7 +4210,7 @@
 2018,"SEP","LFMN","Nice-Côte d’Azur","France",40,6966,97061,12977,"Nice-Côte d’Azur (LFMN)"
 2018,"OCT","LFMN","Nice-Côte d’Azur","France",40,5898,81996,10143,"Nice-Côte d’Azur (LFMN)"
 2018,"NOV","LFMN","Nice-Côte d’Azur","France",40,4273,58231,8183,"Nice-Côte d’Azur (LFMN)"
-2018,"DEC","LFMN","Nice-Côte d’Azur","France",40,NA,NA,NA,"Nice-Côte d’Azur (LFMN)"
+2018,"DEC","LFMN","Nice-Côte d’Azur","France",40,4201,57167,4759,"Nice-Côte d’Azur (LFMN)"
 2018,"JAN","LFPG","Paris-Charles-de-Gaulle","France",40,18208,261687,20098,"Paris-Charles-de-Gaulle (LFPG)"
 2018,"FEB","LFPG","Paris-Charles-de-Gaulle","France",40,16395,245002,17202,"Paris-Charles-de-Gaulle (LFPG)"
 2018,"MAR","LFPG","Paris-Charles-de-Gaulle","France",40,18865,276051,11995,"Paris-Charles-de-Gaulle (LFPG)"
@@ -4222,7 +4222,7 @@
 2018,"SEP","LFPG","Paris-Charles-de-Gaulle","France",40,20414,294675,20109,"Paris-Charles-de-Gaulle (LFPG)"
 2018,"OCT","LFPG","Paris-Charles-de-Gaulle","France",40,20661,306992,19829,"Paris-Charles-de-Gaulle (LFPG)"
 2018,"NOV","LFPG","Paris-Charles-de-Gaulle","France",40,18794,279544,20987,"Paris-Charles-de-Gaulle (LFPG)"
-2018,"DEC","LFPG","Paris-Charles-de-Gaulle","France",40,NA,NA,NA,"Paris-Charles-de-Gaulle (LFPG)"
+2018,"DEC","LFPG","Paris-Charles-de-Gaulle","France",40,19299,280708,22265,"Paris-Charles-de-Gaulle (LFPG)"
 2018,"JAN","LFPO","Paris-Orly","France",40,8628,123114,15904,"Paris-Orly (LFPO)"
 2018,"FEB","LFPO","Paris-Orly","France",40,7615,102331,11871,"Paris-Orly (LFPO)"
 2018,"MAR","LFPO","Paris-Orly","France",40,9083,126198,8868,"Paris-Orly (LFPO)"
@@ -4234,7 +4234,7 @@
 2018,"SEP","LFPO","Paris-Orly","France",40,10490,143556,9567,"Paris-Orly (LFPO)"
 2018,"OCT","LFPO","Paris-Orly","France",40,10520,142844,11109,"Paris-Orly (LFPO)"
 2018,"NOV","LFPO","Paris-Orly","France",40,8581,116142,10196,"Paris-Orly (LFPO)"
-2018,"DEC","LFPO","Paris-Orly","France",40,NA,NA,NA,"Paris-Orly (LFPO)"
+2018,"DEC","LFPO","Paris-Orly","France",40,8799,122754,12503,"Paris-Orly (LFPO)"
 2018,"JAN","LFSB","Bâle-Mulhouse","France",40,2284,30167,2220,"Bâle-Mulhouse (LFSB)"
 2018,"FEB","LFSB","Bâle-Mulhouse","France",40,2335,32103,1389,"Bâle-Mulhouse (LFSB)"
 2018,"MAR","LFSB","Bâle-Mulhouse","France",40,2787,36752,2375,"Bâle-Mulhouse (LFSB)"
@@ -4246,7 +4246,7 @@
 2018,"SEP","LFSB","Bâle-Mulhouse","France",40,3503,48261,1238,"Bâle-Mulhouse (LFSB)"
 2018,"OCT","LFSB","Bâle-Mulhouse","France",40,3464,47090,2172,"Bâle-Mulhouse (LFSB)"
 2018,"NOV","LFSB","Bâle-Mulhouse","France",40,2708,34872,2331,"Bâle-Mulhouse (LFSB)"
-2018,"DEC","LFSB","Bâle-Mulhouse","France",40,NA,NA,NA,"Bâle-Mulhouse (LFSB)"
+2018,"DEC","LFSB","Bâle-Mulhouse","France",40,2740,35526,2578,"Bâle-Mulhouse (LFSB)"
 2018,"JAN","LGAV","Athens","Greece",40,5810,76388,3982,"Athens (LGAV)"
 2018,"FEB","LGAV","Athens","Greece",40,5132,67140,2887,"Athens (LGAV)"
 2018,"MAR","LGAV","Athens","Greece",40,6263,81108,3936,"Athens (LGAV)"
@@ -4270,7 +4270,7 @@
 2018,"SEP","LHBP","Budapest/ Ferihegy","Hungary",40,5096,70117,2756,"Budapest/ Ferihegy (LHBP)"
 2018,"OCT","LHBP","Budapest/ Ferihegy","Hungary",40,4924,66974,3803,"Budapest/ Ferihegy (LHBP)"
 2018,"NOV","LHBP","Budapest/ Ferihegy","Hungary",40,4327,56202,3418,"Budapest/ Ferihegy (LHBP)"
-2018,"DEC","LHBP","Budapest/ Ferihegy","Hungary",40,NA,NA,NA,"Budapest/ Ferihegy (LHBP)"
+2018,"DEC","LHBP","Budapest/ Ferihegy","Hungary",40,4294,59759,4265,"Budapest/ Ferihegy (LHBP)"
 2018,"JAN","LICC","Catania","Italy",40,2193,27379,1848,"Catania (LICC)"
 2018,"FEB","LICC","Catania","Italy",40,1937,24222,1075,"Catania (LICC)"
 2018,"MAR","LICC","Catania","Italy",40,2381,29899,1600,"Catania (LICC)"
@@ -4282,7 +4282,7 @@
 2018,"SEP","LICC","Catania","Italy",40,3656,45363,4231,"Catania (LICC)"
 2018,"OCT","LICC","Catania","Italy",40,3189,39618,5087,"Catania (LICC)"
 2018,"NOV","LICC","Catania","Italy",40,2431,30284,2732,"Catania (LICC)"
-2018,"DEC","LICC","Catania","Italy",40,NA,NA,NA,"Catania (LICC)"
+2018,"DEC","LICC","Catania","Italy",40,2549,31918,2091,"Catania (LICC)"
 2018,"JAN","LIMC","Milan/ Malpensa","Italy",40,6538,80109,4325,"Milan/ Malpensa (LIMC)"
 2018,"FEB","LIMC","Milan/ Malpensa","Italy",40,6071,71568,6900,"Milan/ Malpensa (LIMC)"
 2018,"MAR","LIMC","Milan/ Malpensa","Italy",40,7128,83667,10740,"Milan/ Malpensa (LIMC)"
@@ -4294,7 +4294,7 @@
 2018,"SEP","LIMC","Milan/ Malpensa","Italy",40,8563,99373,9887,"Milan/ Malpensa (LIMC)"
 2018,"OCT","LIMC","Milan/ Malpensa","Italy",40,8379,97249,13487,"Milan/ Malpensa (LIMC)"
 2018,"NOV","LIMC","Milan/ Malpensa","Italy",40,7492,87212,12707,"Milan/ Malpensa (LIMC)"
-2018,"DEC","LIMC","Milan/ Malpensa","Italy",40,NA,NA,NA,"Milan/ Malpensa (LIMC)"
+2018,"DEC","LIMC","Milan/ Malpensa","Italy",40,7660,88584,15427,"Milan/ Malpensa (LIMC)"
 2018,"JAN","LIME","Bergamo","Italy",40,3324,47341,3572,"Bergamo (LIME)"
 2018,"FEB","LIME","Bergamo","Italy",40,2945,42366,2724,"Bergamo (LIME)"
 2018,"MAR","LIME","Bergamo","Italy",40,3350,48082,3239,"Bergamo (LIME)"
@@ -4306,7 +4306,7 @@
 2018,"SEP","LIME","Bergamo","Italy",40,3978,55759,3127,"Bergamo (LIME)"
 2018,"OCT","LIME","Bergamo","Italy",40,3773,53491,3332,"Bergamo (LIME)"
 2018,"NOV","LIME","Bergamo","Italy",40,3247,46269,1780,"Bergamo (LIME)"
-2018,"DEC","LIME","Bergamo","Italy",40,NA,NA,NA,"Bergamo (LIME)"
+2018,"DEC","LIME","Bergamo","Italy",40,3240,45853,2691,"Bergamo (LIME)"
 2018,"JAN","LIMF","Torino Caselle","Italy",40,1577,21486,594,"Torino Caselle (LIMF)"
 2018,"FEB","LIMF","Torino Caselle","Italy",40,1488,20482,1255,"Torino Caselle (LIMF)"
 2018,"MAR","LIMF","Torino Caselle","Italy",40,1651,22431,1329,"Torino Caselle (LIMF)"
@@ -4315,10 +4315,10 @@
 2018,"JUN","LIMF","Torino Caselle","Italy",40,NA,NA,NA,"Torino Caselle (LIMF)"
 2018,"JUL","LIMF","Torino Caselle","Italy",40,NA,NA,NA,"Torino Caselle (LIMF)"
 2018,"AUG","LIMF","Torino Caselle","Italy",40,NA,NA,NA,"Torino Caselle (LIMF)"
-2018,"SEP","LIMF","Torino Caselle","Italy",40,NA,NA,NA,"Torino Caselle (LIMF)"
-2018,"OCT","LIMF","Torino Caselle","Italy",40,NA,NA,NA,"Torino Caselle (LIMF)"
-2018,"NOV","LIMF","Torino Caselle","Italy",40,NA,NA,NA,"Torino Caselle (LIMF)"
-2018,"DEC","LIMF","Torino Caselle","Italy",40,NA,NA,NA,"Torino Caselle (LIMF)"
+2018,"SEP","LIMF","Torino Caselle","Italy",40,1614,20918,-142,"Torino Caselle (LIMF)"
+2018,"OCT","LIMF","Torino Caselle","Italy",40,1615,20959,-210,"Torino Caselle (LIMF)"
+2018,"NOV","LIMF","Torino Caselle","Italy",40,1427,18771,664,"Torino Caselle (LIMF)"
+2018,"DEC","LIMF","Torino Caselle","Italy",40,1541,20372,422,"Torino Caselle (LIMF)"
 2018,"JAN","LIML","Milan/ Linate","Italy",40,4173,47418,4656,"Milan/ Linate (LIML)"
 2018,"FEB","LIML","Milan/ Linate","Italy",40,3695,42221,2210,"Milan/ Linate (LIML)"
 2018,"MAR","LIML","Milan/ Linate","Italy",40,4254,48858,3445,"Milan/ Linate (LIML)"
@@ -4330,7 +4330,7 @@
 2018,"SEP","LIML","Milan/ Linate","Italy",40,4764,54263,1647,"Milan/ Linate (LIML)"
 2018,"OCT","LIML","Milan/ Linate","Italy",40,4575,52497,2770,"Milan/ Linate (LIML)"
 2018,"NOV","LIML","Milan/ Linate","Italy",40,4297,49241,2684,"Milan/ Linate (LIML)"
-2018,"DEC","LIML","Milan/ Linate","Italy",40,NA,NA,NA,"Milan/ Linate (LIML)"
+2018,"DEC","LIML","Milan/ Linate","Italy",40,4093,46544,5841,"Milan/ Linate (LIML)"
 2018,"JAN","LIPE","Bologna","Italy",40,2439,31642,3241,"Bologna (LIPE)"
 2018,"FEB","LIPE","Bologna","Italy",40,2201,29094,2326,"Bologna (LIPE)"
 2018,"MAR","LIPE","Bologna","Italy",40,2595,34069,2702,"Bologna (LIPE)"
@@ -4342,7 +4342,7 @@
 2018,"SEP","LIPE","Bologna","Italy",40,2694,35111,2433,"Bologna (LIPE)"
 2018,"OCT","LIPE","Bologna","Italy",40,2912,37878,3191,"Bologna (LIPE)"
 2018,"NOV","LIPE","Bologna","Italy",40,2642,34762,2741,"Bologna (LIPE)"
-2018,"DEC","LIPE","Bologna","Italy",40,NA,NA,NA,"Bologna (LIPE)"
+2018,"DEC","LIPE","Bologna","Italy",40,2571,34206,3557,"Bologna (LIPE)"
 2018,"JAN","LIPZ","Venice","Italy",40,2632,30086,1910,"Venice (LIPZ)"
 2018,"FEB","LIPZ","Venice","Italy",40,2635,30043,2672,"Venice (LIPZ)"
 2018,"MAR","LIPZ","Venice","Italy",40,3188,36704,4018,"Venice (LIPZ)"
@@ -4354,19 +4354,19 @@
 2018,"SEP","LIPZ","Venice","Italy",40,4928,55612,7173,"Venice (LIPZ)"
 2018,"OCT","LIPZ","Venice","Italy",40,4425,50314,5154,"Venice (LIPZ)"
 2018,"NOV","LIPZ","Venice","Italy",40,3169,35903,2994,"Venice (LIPZ)"
-2018,"DEC","LIPZ","Venice","Italy",40,NA,NA,NA,"Venice (LIPZ)"
-2018,"JAN","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"FEB","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"MAR","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"APR","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"MAY","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"JUN","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"JUL","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"AUG","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"SEP","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"OCT","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"NOV","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
-2018,"DEC","LIRA","Rome/Ciampino","Italy",40,NA,NA,NA,"Rome/Ciampino (LIRA)"
+2018,"DEC","LIPZ","Venice","Italy",40,3121,35205,3945,"Venice (LIPZ)"
+2018,"JAN","LIRA","Rome/Ciampino","Italy",40,1867,19671,1,"Rome/Ciampino (LIRA)"
+2018,"FEB","LIRA","Rome/Ciampino","Italy",40,1684,18469,659,"Rome/Ciampino (LIRA)"
+2018,"MAR","LIRA","Rome/Ciampino","Italy",40,1953,20662,1265,"Rome/Ciampino (LIRA)"
+2018,"APR","LIRA","Rome/Ciampino","Italy",40,1921,19949,227,"Rome/Ciampino (LIRA)"
+2018,"MAY","LIRA","Rome/Ciampino","Italy",40,2095,21320,196,"Rome/Ciampino (LIRA)"
+2018,"JUN","LIRA","Rome/Ciampino","Italy",40,2122,22923,123,"Rome/Ciampino (LIRA)"
+2018,"JUL","LIRA","Rome/Ciampino","Italy",40,2183,23799,-522,"Rome/Ciampino (LIRA)"
+2018,"AUG","LIRA","Rome/Ciampino","Italy",40,1988,21252,-250,"Rome/Ciampino (LIRA)"
+2018,"SEP","LIRA","Rome/Ciampino","Italy",40,2026,21314,-1129,"Rome/Ciampino (LIRA)"
+2018,"OCT","LIRA","Rome/Ciampino","Italy",40,2049,21220,362,"Rome/Ciampino (LIRA)"
+2018,"NOV","LIRA","Rome/Ciampino","Italy",40,1873,19595,580,"Rome/Ciampino (LIRA)"
+2018,"DEC","LIRA","Rome/Ciampino","Italy",40,1741,18602,7,"Rome/Ciampino (LIRA)"
 2018,"JAN","LIRF","Rome/Fiumicino","Italy",40,10687,131897,16824,"Rome/Fiumicino (LIRF)"
 2018,"FEB","LIRF","Rome/Fiumicino","Italy",40,9741,124791,20662,"Rome/Fiumicino (LIRF)"
 2018,"MAR","LIRF","Rome/Fiumicino","Italy",40,11528,143236,29649,"Rome/Fiumicino (LIRF)"
@@ -4375,10 +4375,10 @@
 2018,"JUN","LIRF","Rome/Fiumicino","Italy",40,13658,173717,35084,"Rome/Fiumicino (LIRF)"
 2018,"JUL","LIRF","Rome/Fiumicino","Italy",40,14767,183568,39800,"Rome/Fiumicino (LIRF)"
 2018,"AUG","LIRF","Rome/Fiumicino","Italy",40,14488,180436,35846,"Rome/Fiumicino (LIRF)"
-2018,"SEP","LIRF","Rome/Fiumicino","Italy",40,NA,NA,NA,"Rome/Fiumicino (LIRF)"
-2018,"OCT","LIRF","Rome/Fiumicino","Italy",40,NA,NA,NA,"Rome/Fiumicino (LIRF)"
-2018,"NOV","LIRF","Rome/Fiumicino","Italy",40,NA,NA,NA,"Rome/Fiumicino (LIRF)"
-2018,"DEC","LIRF","Rome/Fiumicino","Italy",40,NA,NA,NA,"Rome/Fiumicino (LIRF)"
+2018,"SEP","LIRF","Rome/Fiumicino","Italy",40,13989,171540,19892,"Rome/Fiumicino (LIRF)"
+2018,"OCT","LIRF","Rome/Fiumicino","Italy",40,13593,163743,29800,"Rome/Fiumicino (LIRF)"
+2018,"NOV","LIRF","Rome/Fiumicino","Italy",40,11485,140717,23510,"Rome/Fiumicino (LIRF)"
+2018,"DEC","LIRF","Rome/Fiumicino","Italy",40,11618,146243,17370,"Rome/Fiumicino (LIRF)"
 2018,"JAN","LIRN","Naples","Italy",40,2256,30957,476,"Naples (LIRN)"
 2018,"FEB","LIRN","Naples","Italy",40,2079,27164,1052,"Naples (LIRN)"
 2018,"MAR","LIRN","Naples","Italy",40,2647,36245,2417,"Naples (LIRN)"
@@ -4391,18 +4391,18 @@
 2018,"OCT","LIRN","Naples","Italy",40,NA,NA,NA,"Naples (LIRN)"
 2018,"NOV","LIRN","Naples","Italy",40,NA,NA,NA,"Naples (LIRN)"
 2018,"DEC","LIRN","Naples","Italy",40,NA,NA,NA,"Naples (LIRN)"
-2018,"JAN","LJLJ","Ljubljana","Slovenia",40,1071,13862,1466,"Ljubljana (LJLJ)"
-2018,"FEB","LJLJ","Ljubljana","Slovenia",40,986,12769,1755,"Ljubljana (LJLJ)"
-2018,"MAR","LJLJ","Ljubljana","Slovenia",40,1123,14540,1653,"Ljubljana (LJLJ)"
-2018,"APR","LJLJ","Ljubljana","Slovenia",40,1250,16087,1177,"Ljubljana (LJLJ)"
-2018,"MAY","LJLJ","Ljubljana","Slovenia",40,1331,17078,1604,"Ljubljana (LJLJ)"
-2018,"JUN","LJLJ","Ljubljana","Slovenia",40,1305,16627,1206,"Ljubljana (LJLJ)"
-2018,"JUL","LJLJ","Ljubljana","Slovenia",40,1366,17274,891,"Ljubljana (LJLJ)"
-2018,"AUG","LJLJ","Ljubljana","Slovenia",40,1381,17510,777,"Ljubljana (LJLJ)"
-2018,"SEP","LJLJ","Ljubljana","Slovenia",40,1285,16403,1120,"Ljubljana (LJLJ)"
-2018,"OCT","LJLJ","Ljubljana","Slovenia",40,NA,NA,NA,"Ljubljana (LJLJ)"
-2018,"NOV","LJLJ","Ljubljana","Slovenia",40,NA,NA,NA,"Ljubljana (LJLJ)"
-2018,"DEC","LJLJ","Ljubljana","Slovenia",40,NA,NA,NA,"Ljubljana (LJLJ)"
+2018,"JAN","LJLJ","Ljubljana","Slovenia",40,1071,14547,781,"Ljubljana (LJLJ)"
+2018,"FEB","LJLJ","Ljubljana","Slovenia",40,985,13387,1096,"Ljubljana (LJLJ)"
+2018,"MAR","LJLJ","Ljubljana","Slovenia",40,1118,15176,936,"Ljubljana (LJLJ)"
+2018,"APR","LJLJ","Ljubljana","Slovenia",40,1249,16850,394,"Ljubljana (LJLJ)"
+2018,"MAY","LJLJ","Ljubljana","Slovenia",40,1330,17901,767,"Ljubljana (LJLJ)"
+2018,"JUN","LJLJ","Ljubljana","Slovenia",40,1301,17365,389,"Ljubljana (LJLJ)"
+2018,"JUL","LJLJ","Ljubljana","Slovenia",40,1365,18087,59,"Ljubljana (LJLJ)"
+2018,"AUG","LJLJ","Ljubljana","Slovenia",40,1381,18358,-72,"Ljubljana (LJLJ)"
+2018,"SEP","LJLJ","Ljubljana","Slovenia",40,1285,17200,323,"Ljubljana (LJLJ)"
+2018,"OCT","LJLJ","Ljubljana","Slovenia",40,1286,17583,505,"Ljubljana (LJLJ)"
+2018,"NOV","LJLJ","Ljubljana","Slovenia",40,1060,14406,390,"Ljubljana (LJLJ)"
+2018,"DEC","LJLJ","Ljubljana","Slovenia",40,1063,14457,467,"Ljubljana (LJLJ)"
 2018,"JAN","LKPR","Prague","Czech Republic",40,4800,61252,5506,"Prague (LKPR)"
 2018,"FEB","LKPR","Prague","Czech Republic",40,4409,54974,4922,"Prague (LKPR)"
 2018,"MAR","LKPR","Prague","Czech Republic",40,5396,67841,6663,"Prague (LKPR)"
@@ -4414,7 +4414,7 @@
 2018,"SEP","LKPR","Prague","Czech Republic",40,7227,90864,12717,"Prague (LKPR)"
 2018,"OCT","LKPR","Prague","Czech Republic",40,6435,80939,9100,"Prague (LKPR)"
 2018,"NOV","LKPR","Prague","Czech Republic",40,5379,67707,7980,"Prague (LKPR)"
-2018,"DEC","LKPR","Prague","Czech Republic",40,NA,NA,NA,"Prague (LKPR)"
+2018,"DEC","LKPR","Prague","Czech Republic",40,5317,68034,8394,"Prague (LKPR)"
 2018,"JAN","LMML","Malta","Malta",40,1571,18661,1801,"Malta (LMML)"
 2018,"FEB","LMML","Malta","Malta",40,1427,16974,2075,"Malta (LMML)"
 2018,"MAR","LMML","Malta","Malta",40,1872,22260,2618,"Malta (LMML)"
@@ -4438,7 +4438,7 @@
 2018,"SEP","LOWW","Vienna","Austria",40,11697,145613,17874,"Vienna (LOWW)"
 2018,"OCT","LOWW","Vienna","Austria",40,11789,145615,22872,"Vienna (LOWW)"
 2018,"NOV","LOWW","Vienna","Austria",40,10513,129818,25560,"Vienna (LOWW)"
-2018,"DEC","LOWW","Vienna","Austria",40,NA,NA,NA,"Vienna (LOWW)"
+2018,"DEC","LOWW","Vienna","Austria",40,10200,127812,25085,"Vienna (LOWW)"
 2018,"JAN","LPPR","Porto","Portugal",40,NA,NA,NA,"Porto (LPPR)"
 2018,"FEB","LPPR","Porto","Portugal",40,NA,NA,NA,"Porto (LPPR)"
 2018,"MAR","LPPR","Porto","Portugal",40,NA,NA,NA,"Porto (LPPR)"
@@ -4462,7 +4462,7 @@
 2018,"SEP","LPPT","Lisbon","Portugal",40,9681,135079,29516,"Lisbon (LPPT)"
 2018,"OCT","LPPT","Lisbon","Portugal",40,9440,132377,32882,"Lisbon (LPPT)"
 2018,"NOV","LPPT","Lisbon","Portugal",40,8219,111800,23388,"Lisbon (LPPT)"
-2018,"DEC","LPPT","Lisbon","Portugal",40,NA,NA,NA,"Lisbon (LPPT)"
+2018,"DEC","LPPT","Lisbon","Portugal",40,8417,118115,27448,"Lisbon (LPPT)"
 2018,"JAN","LROP","Bucharest/ Otopeni","Romania",40,4257,53638,4391,"Bucharest/ Otopeni (LROP)"
 2018,"FEB","LROP","Bucharest/ Otopeni","Romania",40,3925,48054,5422,"Bucharest/ Otopeni (LROP)"
 2018,"MAR","LROP","Bucharest/ Otopeni","Romania",40,4545,56448,6701,"Bucharest/ Otopeni (LROP)"
@@ -4474,7 +4474,7 @@
 2018,"SEP","LROP","Bucharest/ Otopeni","Romania",40,5437,65770,3867,"Bucharest/ Otopeni (LROP)"
 2018,"OCT","LROP","Bucharest/ Otopeni","Romania",40,5250,64470,4023,"Bucharest/ Otopeni (LROP)"
 2018,"NOV","LROP","Bucharest/ Otopeni","Romania",40,4640,54974,4032,"Bucharest/ Otopeni (LROP)"
-2018,"DEC","LROP","Bucharest/ Otopeni","Romania",40,NA,NA,NA,"Bucharest/ Otopeni (LROP)"
+2018,"DEC","LROP","Bucharest/ Otopeni","Romania",40,4530,57153,4318,"Bucharest/ Otopeni (LROP)"
 2018,"JAN","LSGG","Geneva","Switzerland",40,7476,97818,21173,"Geneva (LSGG)"
 2018,"FEB","LSGG","Geneva","Switzerland",40,7033,98031,17083,"Geneva (LSGG)"
 2018,"MAR","LSGG","Geneva","Switzerland",40,7874,104586,23993,"Geneva (LSGG)"
@@ -4486,7 +4486,7 @@
 2018,"SEP","LSGG","Geneva","Switzerland",40,7450,103036,9712,"Geneva (LSGG)"
 2018,"OCT","LSGG","Geneva","Switzerland",40,7481,104978,9909,"Geneva (LSGG)"
 2018,"NOV","LSGG","Geneva","Switzerland",40,6303,84478,8361,"Geneva (LSGG)"
-2018,"DEC","LSGG","Geneva","Switzerland",40,NA,NA,NA,"Geneva (LSGG)"
+2018,"DEC","LSGG","Geneva","Switzerland",40,7044,95100,15428,"Geneva (LSGG)"
 2018,"JAN","LSZH","Zürich","Switzerland",40,9636,127853,27512,"Zürich (LSZH)"
 2018,"FEB","LSZH","Zürich","Switzerland",40,8766,114522,23187,"Zürich (LSZH)"
 2018,"MAR","LSZH","Zürich","Switzerland",40,10146,132774,22992,"Zürich (LSZH)"
@@ -4498,7 +4498,7 @@
 2018,"SEP","LSZH","Zürich","Switzerland",40,11398,150783,34783,"Zürich (LSZH)"
 2018,"OCT","LSZH","Zürich","Switzerland",40,11692,153577,31500,"Zürich (LSZH)"
 2018,"NOV","LSZH","Zürich","Switzerland",40,9908,128595,26639,"Zürich (LSZH)"
-2018,"DEC","LSZH","Zürich","Switzerland",40,NA,NA,NA,"Zürich (LSZH)"
+2018,"DEC","LSZH","Zürich","Switzerland",40,9960,130536,30851,"Zürich (LSZH)"
 2018,"JAN","LZIB","Bratislava","Slovakia",40,620,8112,239,"Bratislava (LZIB)"
 2018,"FEB","LZIB","Bratislava","Slovakia",40,584,7746,171,"Bratislava (LZIB)"
 2018,"MAR","LZIB","Bratislava","Slovakia",40,663,8617,178,"Bratislava (LZIB)"
@@ -4510,7 +4510,7 @@
 2018,"SEP","LZIB","Bratislava","Slovakia",40,1108,13562,196,"Bratislava (LZIB)"
 2018,"OCT","LZIB","Bratislava","Slovakia",40,803,10289,59,"Bratislava (LZIB)"
 2018,"NOV","LZIB","Bratislava","Slovakia",40,682,8801,108,"Bratislava (LZIB)"
-2018,"DEC","LZIB","Bratislava","Slovakia",40,NA,NA,NA,"Bratislava (LZIB)"
+2018,"DEC","LZIB","Bratislava","Slovakia",40,708,9252,195,"Bratislava (LZIB)"
 2014,"APR",NA,"Austria","Austria",40,10231,127159,19968,NA
 2014,"APR",NA,"Belgium","Belgium",40,9195,114446,6178,NA
 2014,"APR",NA,"Czech Republic","Czech Republic",40,4870,61397,6586,NA
@@ -5732,11 +5732,11 @@
 2018,"APR",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"APR",NA,"Finland","Finland",40,7160,86559,7118,NA
 2018,"APR",NA,"France","France",40,40814,577456,27989,NA
-2018,"APR",NA,"Germany","Germany",40,79050,1050188,101016,NA
+2018,"APR",NA,"Germany","Germany",40,79380,1047601,100289,NA
 2018,"APR",NA,"Greece","Greece",40,7283,95823,4709,NA
 2018,"APR",NA,"Hungary","Hungary",40,4442,59641,4293,NA
 2018,"APR",NA,"Ireland","Ireland",40,10188,134460,36718,NA
-2018,"APR",NA,"Italy","Italy",40,40000,493445,52713,NA
+2018,"APR",NA,"Italy","Italy",40,41921,513394,52940,NA
 2018,"APR",NA,"Latvia","Latvia",40,3296,42225,4463,NA
 2018,"APR",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"APR",NA,"Luxembourg","Luxembourg",40,2945,39687,1107,NA
@@ -5747,11 +5747,11 @@
 2018,"APR",NA,"Portugal","Portugal",40,8600,117050,24928,NA
 2018,"APR",NA,"Romania","Romania",40,4795,59247,5250,NA
 2018,"APR",NA,"Slovakia","Slovakia",40,714,9004,222,NA
-2018,"APR",NA,"Slovenia","Slovenia",40,1250,16087,1177,NA
+2018,"APR",NA,"Slovenia","Slovenia",40,1249,16850,394,NA
 2018,"APR",NA,"Spain","Spain",40,67395,904882,97997,NA
 2018,"APR",NA,"Sweden","Sweden",40,13080,170364,13672,NA
 2018,"APR",NA,"Switzerland","Switzerland",40,17721,236706,38621,NA
-2018,"APR",NA,"United Kingdom","United Kingdom",40,73784,1014226,244206,NA
+2018,"APR",NA,"United Kingdom","United Kingdom",40,73784,1015776,242664,NA
 2018,"AUG",NA,"Austria","Austria",40,11695,145744,12192,NA
 2018,"AUG",NA,"Belgium","Belgium",40,12678,156522,5063,NA
 2018,"AUG",NA,"Bulgaria","Bulgaria",40,2608,32115,0,NA
@@ -5761,55 +5761,55 @@
 2018,"AUG",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"AUG",NA,"Finland","Finland",40,7902,97462,6335,NA
 2018,"AUG",NA,"France","France",40,47491,666760,40099,NA
-2018,"AUG",NA,"Germany","Germany",40,73432,970054,71325,NA
+2018,"AUG",NA,"Germany","Germany",40,90947,1198671,87940,NA
 2018,"AUG",NA,"Greece","Greece",40,10764,137559,18270,NA
 2018,"AUG",NA,"Hungary","Hungary",40,5390,73280,1991,NA
 2018,"AUG",NA,"Ireland","Ireland",40,10742,132447,29460,NA
-2018,"AUG",NA,"Italy","Italy",40,47940,589087,71625,NA
+2018,"AUG",NA,"Italy","Italy",40,49928,610339,71375,NA
 2018,"AUG",NA,"Latvia","Latvia",40,3868,49645,2930,NA
 2018,"AUG",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"AUG",NA,"Luxembourg","Luxembourg",40,2898,39052,170,NA
 2018,"AUG",NA,"Malta","Malta",40,2734,33210,2864,NA
 2018,"AUG",NA,"Netherlands","Netherlands",40,22817,300973,24791,NA
 2018,"AUG",NA,"Norway","Norway",40,14087,182098,19071,NA
-2018,"AUG",NA,"Poland","Poland",40,0,0,0,NA
+2018,"AUG",NA,"Poland","Poland",40,8843,115479,6722,NA
 2018,"AUG",NA,"Portugal","Portugal",40,10148,144218,32916,NA
 2018,"AUG",NA,"Romania","Romania",40,5808,69096,4029,NA
 2018,"AUG",NA,"Slovakia","Slovakia",40,1299,15565,0,NA
-2018,"AUG",NA,"Slovenia","Slovenia",40,1381,17510,777,NA
+2018,"AUG",NA,"Slovenia","Slovenia",40,1381,18358,-72,NA
 2018,"AUG",NA,"Spain","Spain",40,83881,1110217,107803,NA
 2018,"AUG",NA,"Sweden","Sweden",40,13195,172415,7966,NA
 2018,"AUG",NA,"Switzerland","Switzerland",40,19122,256064,44932,NA
-2018,"AUG",NA,"United Kingdom","United Kingdom",40,82547,1117128,248617,NA
-2018,"DEC",NA,"Austria","Austria",40,0,0,0,NA
-2018,"DEC",NA,"Belgium","Belgium",40,0,0,0,NA
-2018,"DEC",NA,"Bulgaria","Bulgaria",40,0,0,0,NA
+2018,"AUG",NA,"United Kingdom","United Kingdom",40,82546,1119239,246532,NA
+2018,"DEC",NA,"Austria","Austria",40,10200,127812,25085,NA
+2018,"DEC",NA,"Belgium","Belgium",40,10005,123978,11505,NA
+2018,"DEC",NA,"Bulgaria","Bulgaria",40,2149,28179,1480,NA
 2018,"DEC",NA,"Cyprus","Cyprus",40,0,0,0,NA
-2018,"DEC",NA,"Czech Republic","Czech Republic",40,0,0,0,NA
-2018,"DEC",NA,"Denmark","Denmark",40,0,0,0,NA
+2018,"DEC",NA,"Czech Republic","Czech Republic",40,5317,68034,8394,NA
+2018,"DEC",NA,"Denmark","Denmark",40,8967,114144,9822,NA
 2018,"DEC",NA,"Estonia","Estonia",40,0,0,0,NA
-2018,"DEC",NA,"Finland","Finland",40,0,0,0,NA
-2018,"DEC",NA,"France","France",40,0,0,0,NA
-2018,"DEC",NA,"Germany","Germany",40,0,0,0,NA
+2018,"DEC",NA,"Finland","Finland",40,7216,86402,8976,NA
+2018,"DEC",NA,"France","France",40,39395,552277,45148,NA
+2018,"DEC",NA,"Germany","Germany",40,62210,821489,135672,NA
 2018,"DEC",NA,"Greece","Greece",40,0,0,0,NA
-2018,"DEC",NA,"Hungary","Hungary",40,0,0,0,NA
-2018,"DEC",NA,"Ireland","Ireland",40,0,0,0,NA
-2018,"DEC",NA,"Italy","Italy",40,0,0,0,NA
-2018,"DEC",NA,"Latvia","Latvia",40,0,0,0,NA
+2018,"DEC",NA,"Hungary","Hungary",40,4294,59759,4265,NA
+2018,"DEC",NA,"Ireland","Ireland",40,8439,105518,22737,NA
+2018,"DEC",NA,"Italy","Italy",40,38134,467527,51351,NA
+2018,"DEC",NA,"Latvia","Latvia",40,3097,39911,5283,NA
 2018,"DEC",NA,"Lithuania","Lithuania",40,0,0,0,NA
-2018,"DEC",NA,"Luxembourg","Luxembourg",40,0,0,0,NA
+2018,"DEC",NA,"Luxembourg","Luxembourg",40,2672,35904,2952,NA
 2018,"DEC",NA,"Malta","Malta",40,0,0,0,NA
 2018,"DEC",NA,"Netherlands","Netherlands",40,0,0,0,NA
-2018,"DEC",NA,"Norway","Norway",40,0,0,0,NA
-2018,"DEC",NA,"Poland","Poland",40,0,0,0,NA
-2018,"DEC",NA,"Portugal","Portugal",40,0,0,0,NA
-2018,"DEC",NA,"Romania","Romania",40,0,0,0,NA
-2018,"DEC",NA,"Slovakia","Slovakia",40,0,0,0,NA
-2018,"DEC",NA,"Slovenia","Slovenia",40,0,0,0,NA
-2018,"DEC",NA,"Spain","Spain",40,0,0,0,NA
-2018,"DEC",NA,"Sweden","Sweden",40,0,0,0,NA
-2018,"DEC",NA,"Switzerland","Switzerland",40,0,0,0,NA
-2018,"DEC",NA,"United Kingdom","United Kingdom",40,0,0,0,NA
+2018,"DEC",NA,"Norway","Norway",40,11363,144114,13436,NA
+2018,"DEC",NA,"Poland","Poland",40,7010,92244,11676,NA
+2018,"DEC",NA,"Portugal","Portugal",40,8417,118115,27448,NA
+2018,"DEC",NA,"Romania","Romania",40,4530,57153,4318,NA
+2018,"DEC",NA,"Slovakia","Slovakia",40,708,9252,195,NA
+2018,"DEC",NA,"Slovenia","Slovenia",40,1063,14457,467,NA
+2018,"DEC",NA,"Spain","Spain",40,54345,722200,61719,NA
+2018,"DEC",NA,"Sweden","Sweden",40,10995,142709,8907,NA
+2018,"DEC",NA,"Switzerland","Switzerland",40,17004,225636,46279,NA
+2018,"DEC",NA,"United Kingdom","United Kingdom",40,59911,818244,228792,NA
 2018,"FEB",NA,"Austria","Austria",40,7789,98856,12663,NA
 2018,"FEB",NA,"Belgium","Belgium",40,8956,114129,13147,NA
 2018,"FEB",NA,"Bulgaria","Bulgaria",40,1942,24244,2296,NA
@@ -5819,11 +5819,11 @@
 2018,"FEB",NA,"Estonia","Estonia",40,1111,13115,323,NA
 2018,"FEB",NA,"Finland","Finland",40,6499,76984,9802,NA
 2018,"FEB",NA,"France","France",40,34054,482541,40469,NA
-2018,"FEB",NA,"Germany","Germany",40,66871,896918,110353,NA
+2018,"FEB",NA,"Germany","Germany",40,66903,891567,109056,NA
 2018,"FEB",NA,"Greece","Greece",40,5132,67140,2887,NA
 2018,"FEB",NA,"Hungary","Hungary",40,3631,49935,2388,NA
 2018,"FEB",NA,"Ireland","Ireland",40,7811,99631,15016,NA
-2018,"FEB",NA,"Italy","Italy",40,32792,411951,40876,NA
+2018,"FEB",NA,"Italy","Italy",40,34476,430420,41535,NA
 2018,"FEB",NA,"Latvia","Latvia",40,2624,33574,3295,NA
 2018,"FEB",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"FEB",NA,"Luxembourg","Luxembourg",40,2400,32411,2146,NA
@@ -5834,11 +5834,11 @@
 2018,"FEB",NA,"Portugal","Portugal",40,7240,101360,15389,NA
 2018,"FEB",NA,"Romania","Romania",40,3925,48054,5422,NA
 2018,"FEB",NA,"Slovakia","Slovakia",40,584,7746,171,NA
-2018,"FEB",NA,"Slovenia","Slovenia",40,986,12769,1755,NA
+2018,"FEB",NA,"Slovenia","Slovenia",40,985,13387,1096,NA
 2018,"FEB",NA,"Spain","Spain",40,50813,684120,66798,NA
 2018,"FEB",NA,"Sweden","Sweden",40,10975,142713,16425,NA
 2018,"FEB",NA,"Switzerland","Switzerland",40,15799,212553,40270,NA
-2018,"FEB",NA,"United Kingdom","United Kingdom",40,61915,855174,230578,NA
+2018,"FEB",NA,"United Kingdom","United Kingdom",40,61914,856618,229136,NA
 2018,"JAN",NA,"Austria","Austria",40,8182,102123,11461,NA
 2018,"JAN",NA,"Belgium","Belgium",40,9785,120921,12505,NA
 2018,"JAN",NA,"Bulgaria","Bulgaria",40,2136,27422,1216,NA
@@ -5848,11 +5848,11 @@
 2018,"JAN",NA,"Estonia","Estonia",40,1182,14635,303,NA
 2018,"JAN",NA,"Finland","Finland",40,6917,83502,9815,NA
 2018,"JAN",NA,"France","France",40,37028,520011,49383,NA
-2018,"JAN",NA,"Germany","Germany",40,69269,920080,120632,NA
+2018,"JAN",NA,"Germany","Germany",40,69264,913351,119952,NA
 2018,"JAN",NA,"Greece","Greece",40,5810,76388,3982,NA
 2018,"JAN",NA,"Hungary","Hungary",40,3962,53305,3543,NA
 2018,"JAN",NA,"Ireland","Ireland",40,8694,109709,26359,NA
-2018,"JAN",NA,"Italy","Italy",40,35819,448315,37446,NA
+2018,"JAN",NA,"Italy","Italy",40,37686,467986,37447,NA
 2018,"JAN",NA,"Latvia","Latvia",40,2955,38333,3902,NA
 2018,"JAN",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"JAN",NA,"Luxembourg","Luxembourg",40,2611,34974,2633,NA
@@ -5863,11 +5863,11 @@
 2018,"JAN",NA,"Portugal","Portugal",40,7945,111746,16901,NA
 2018,"JAN",NA,"Romania","Romania",40,4257,53638,4391,NA
 2018,"JAN",NA,"Slovakia","Slovakia",40,620,8112,239,NA
-2018,"JAN",NA,"Slovenia","Slovenia",40,1071,13862,1466,NA
+2018,"JAN",NA,"Slovenia","Slovenia",40,1071,14547,781,NA
 2018,"JAN",NA,"Spain","Spain",40,54236,726756,61011,NA
 2018,"JAN",NA,"Sweden","Sweden",40,11351,148632,12972,NA
 2018,"JAN",NA,"Switzerland","Switzerland",40,17112,225671,48685,NA
-2018,"JAN",NA,"United Kingdom","United Kingdom",40,65555,892944,274481,NA
+2018,"JAN",NA,"United Kingdom","United Kingdom",40,65549,894376,272963,NA
 2018,"JUL",NA,"Austria","Austria",40,11573,145858,19335,NA
 2018,"JUL",NA,"Belgium","Belgium",40,12841,160653,4947,NA
 2018,"JUL",NA,"Bulgaria","Bulgaria",40,2652,34480,254,NA
@@ -5877,11 +5877,11 @@
 2018,"JUL",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"JUL",NA,"Finland","Finland",40,7560,89671,4810,NA
 2018,"JUL",NA,"France","France",40,48871,687985,41778,NA
-2018,"JUL",NA,"Germany","Germany",40,72474,968921,68016,NA
+2018,"JUL",NA,"Germany","Germany",40,90511,1204678,87225,NA
 2018,"JUL",NA,"Greece","Greece",40,10521,134611,14353,NA
 2018,"JUL",NA,"Hungary","Hungary",40,5386,75605,2007,NA
 2018,"JUL",NA,"Ireland","Ireland",40,12083,151346,27750,NA
-2018,"JUL",NA,"Italy","Italy",40,48452,596100,79832,NA
+2018,"JUL",NA,"Italy","Italy",40,50635,619899,79310,NA
 2018,"JUL",NA,"Latvia","Latvia",40,3790,47283,3421,NA
 2018,"JUL",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"JUL",NA,"Luxembourg","Luxembourg",40,3083,41697,451,NA
@@ -5892,11 +5892,11 @@
 2018,"JUL",NA,"Portugal","Portugal",40,10083,141942,30261,NA
 2018,"JUL",NA,"Romania","Romania",40,5793,73609,4378,NA
 2018,"JUL",NA,"Slovakia","Slovakia",40,1292,15397,339,NA
-2018,"JUL",NA,"Slovenia","Slovenia",40,1366,17274,891,NA
+2018,"JUL",NA,"Slovenia","Slovenia",40,1365,18087,59,NA
 2018,"JUL",NA,"Spain","Spain",40,84896,1119455,122450,NA
 2018,"JUL",NA,"Sweden","Sweden",40,11954,155216,6170,NA
 2018,"JUL",NA,"Switzerland","Switzerland",40,19564,264345,42879,NA
-2018,"JUL",NA,"United Kingdom","United Kingdom",40,85073,1164344,236034,NA
+2018,"JUL",NA,"United Kingdom","United Kingdom",40,85070,1166325,234016,NA
 2018,"JUN",NA,"Austria","Austria",40,11368,143205,22196,NA
 2018,"JUN",NA,"Belgium","Belgium",40,11940,150847,8407,NA
 2018,"JUN",NA,"Bulgaria","Bulgaria",40,2527,31376,764,NA
@@ -5906,11 +5906,11 @@
 2018,"JUN",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"JUN",NA,"Finland","Finland",40,7645,93318,7181,NA
 2018,"JUN",NA,"France","France",40,46032,652437,36734,NA
-2018,"JUN",NA,"Germany","Germany",40,70046,936127,76320,NA
+2018,"JUN",NA,"Germany","Germany",40,87732,1166744,94460,NA
 2018,"JUN",NA,"Greece","Greece",40,9257,120583,11987,NA
 2018,"JUN",NA,"Hungary","Hungary",40,4899,68162,4145,NA
 2018,"JUN",NA,"Ireland","Ireland",40,11713,151635,39207,NA
-2018,"JUN",NA,"Italy","Italy",40,44787,556386,70575,NA
+2018,"JUN",NA,"Italy","Italy",40,46909,579309,70698,NA
 2018,"JUN",NA,"Latvia","Latvia",40,3660,46302,3025,NA
 2018,"JUN",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"JUN",NA,"Luxembourg","Luxembourg",40,3159,42602,1144,NA
@@ -5921,11 +5921,11 @@
 2018,"JUN",NA,"Portugal","Portugal",40,9555,134491,29546,NA
 2018,"JUN",NA,"Romania","Romania",40,5327,65292,4725,NA
 2018,"JUN",NA,"Slovakia","Slovakia",40,1098,13369,259,NA
-2018,"JUN",NA,"Slovenia","Slovenia",40,1305,16627,1206,NA
+2018,"JUN",NA,"Slovenia","Slovenia",40,1301,17365,389,NA
 2018,"JUN",NA,"Spain","Spain",40,77913,1028436,117269,NA
 2018,"JUN",NA,"Sweden","Sweden",40,12916,167789,11697,NA
 2018,"JUN",NA,"Switzerland","Switzerland",40,18717,254187,44197,NA
-2018,"JUN",NA,"United Kingdom","United Kingdom",40,82177,1132211,242253,NA
+2018,"JUN",NA,"United Kingdom","United Kingdom",40,82170,1134153,240188,NA
 2018,"MAR",NA,"Austria","Austria",40,9330,115763,17419,NA
 2018,"MAR",NA,"Belgium","Belgium",40,10159,128355,11151,NA
 2018,"MAR",NA,"Bulgaria","Bulgaria",40,2236,28178,952,NA
@@ -5935,11 +5935,11 @@
 2018,"MAR",NA,"Estonia","Estonia",40,1358,16610,0,NA
 2018,"MAR",NA,"Finland","Finland",40,7380,89268,8670,NA
 2018,"MAR",NA,"France","France",40,39927,562112,39789,NA
-2018,"MAR",NA,"Germany","Germany",40,77737,1036215,116940,NA
+2018,"MAR",NA,"Germany","Germany",40,77745,1029198,115984,NA
 2018,"MAR",NA,"Greece","Greece",40,6263,81108,3936,NA
 2018,"MAR",NA,"Hungary","Hungary",40,4205,56169,3932,NA
 2018,"MAR",NA,"Ireland","Ireland",40,9023,117633,29153,NA
-2018,"MAR",NA,"Italy","Italy",40,38722,483191,59139,NA
+2018,"MAR",NA,"Italy","Italy",40,40675,503853,60404,NA
 2018,"MAR",NA,"Latvia","Latvia",40,3111,39807,4033,NA
 2018,"MAR",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"MAR",NA,"Luxembourg","Luxembourg",40,2805,37644,2273,NA
@@ -5950,11 +5950,11 @@
 2018,"MAR",NA,"Portugal","Portugal",40,8345,111996,24093,NA
 2018,"MAR",NA,"Romania","Romania",40,4545,56448,6701,NA
 2018,"MAR",NA,"Slovakia","Slovakia",40,663,8617,178,NA
-2018,"MAR",NA,"Slovenia","Slovenia",40,1123,14540,1653,NA
+2018,"MAR",NA,"Slovenia","Slovenia",40,1118,15176,936,NA
 2018,"MAR",NA,"Spain","Spain",40,61746,825482,91490,NA
 2018,"MAR",NA,"Sweden","Sweden",40,12961,168161,15882,NA
 2018,"MAR",NA,"Switzerland","Switzerland",40,18020,237360,46985,NA
-2018,"MAR",NA,"United Kingdom","United Kingdom",40,69867,964921,236859,NA
+2018,"MAR",NA,"United Kingdom","United Kingdom",40,69866,966411,235371,NA
 2018,"MAY",NA,"Austria","Austria",40,10996,136451,15561,NA
 2018,"MAY",NA,"Belgium","Belgium",40,11897,150260,5405,NA
 2018,"MAY",NA,"Bulgaria","Bulgaria",40,2528,31091,901,NA
@@ -5964,11 +5964,11 @@
 2018,"MAY",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"MAY",NA,"Finland","Finland",40,7870,94502,6013,NA
 2018,"MAY",NA,"France","France",40,45178,639761,32917,NA
-2018,"MAY",NA,"Germany","Germany",40,86083,1156439,111609,NA
+2018,"MAY",NA,"Germany","Germany",40,86124,1149757,110228,NA
 2018,"MAY",NA,"Greece","Greece",40,8365,109829,8903,NA
 2018,"MAY",NA,"Hungary","Hungary",40,4792,64393,3837,NA
 2018,"MAY",NA,"Ireland","Ireland",40,11355,145993,37603,NA
-2018,"MAY",NA,"Italy","Italy",40,43612,537826,69844,NA
+2018,"MAY",NA,"Italy","Italy",40,45707,559146,70040,NA
 2018,"MAY",NA,"Latvia","Latvia",40,3682,46419,3379,NA
 2018,"MAY",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"MAY",NA,"Luxembourg","Luxembourg",40,3139,42394,1835,NA
@@ -5979,11 +5979,11 @@
 2018,"MAY",NA,"Portugal","Portugal",40,9338,132410,28086,NA
 2018,"MAY",NA,"Romania","Romania",40,5142,61628,5432,NA
 2018,"MAY",NA,"Slovakia","Slovakia",40,787,9914,112,NA
-2018,"MAY",NA,"Slovenia","Slovenia",40,1331,17078,1604,NA
+2018,"MAY",NA,"Slovenia","Slovenia",40,1330,17901,767,NA
 2018,"MAY",NA,"Spain","Spain",40,74068,980270,106961,NA
 2018,"MAY",NA,"Sweden","Sweden",40,13793,180270,8665,NA
 2018,"MAY",NA,"Switzerland","Switzerland",40,18723,252720,39451,NA
-2018,"MAY",NA,"United Kingdom","United Kingdom",40,80785,1120127,242235,NA
+2018,"MAY",NA,"United Kingdom","United Kingdom",40,80781,1122029,240292,NA
 2018,"NOV",NA,"Austria","Austria",40,10513,129818,25560,NA
 2018,"NOV",NA,"Belgium","Belgium",40,9934,125552,9432,NA
 2018,"NOV",NA,"Bulgaria","Bulgaria",40,2072,25909,491,NA
@@ -5993,26 +5993,26 @@
 2018,"NOV",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"NOV",NA,"Finland","Finland",40,7439,89912,9140,NA
 2018,"NOV",NA,"France","France",40,38778,545759,45184,NA
-2018,"NOV",NA,"Germany","Germany",40,44961,607975,76057,NA
+2018,"NOV",NA,"Germany","Germany",40,73623,974526,121982,NA
 2018,"NOV",NA,"Greece","Greece",40,0,0,0,NA
 2018,"NOV",NA,"Hungary","Hungary",40,4327,56202,3418,NA
 2018,"NOV",NA,"Ireland","Ireland",40,8579,112577,24317,NA
-2018,"NOV",NA,"Italy","Italy",40,23278,283671,25638,NA
+2018,"NOV",NA,"Italy","Italy",40,38063,462754,50392,NA
 2018,"NOV",NA,"Latvia","Latvia",40,3100,39911,5505,NA
 2018,"NOV",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"NOV",NA,"Luxembourg","Luxembourg",40,2836,38120,2427,NA
 2018,"NOV",NA,"Malta","Malta",40,0,0,0,NA
 2018,"NOV",NA,"Netherlands","Netherlands",40,19074,253334,36646,NA
 2018,"NOV",NA,"Norway","Norway",40,13179,168028,17642,NA
-2018,"NOV",NA,"Poland","Poland",40,0,0,0,NA
+2018,"NOV",NA,"Poland","Poland",40,6991,92334,13692,NA
 2018,"NOV",NA,"Portugal","Portugal",40,8219,111800,23388,NA
 2018,"NOV",NA,"Romania","Romania",40,4640,54974,4032,NA
 2018,"NOV",NA,"Slovakia","Slovakia",40,682,8801,108,NA
-2018,"NOV",NA,"Slovenia","Slovenia",40,0,0,0,NA
+2018,"NOV",NA,"Slovenia","Slovenia",40,1060,14406,390,NA
 2018,"NOV",NA,"Spain","Spain",40,58321,789254,82734,NA
 2018,"NOV",NA,"Sweden","Sweden",40,12380,161021,12807,NA
 2018,"NOV",NA,"Switzerland","Switzerland",40,16211,213073,35000,NA
-2018,"NOV",NA,"United Kingdom","United Kingdom",40,54883,756829,229104,NA
+2018,"NOV",NA,"United Kingdom","United Kingdom",40,58667,811202,233022,NA
 2018,"OCT",NA,"Austria","Austria",40,11789,145615,22872,NA
 2018,"OCT",NA,"Belgium","Belgium",40,11701,145159,7578,NA
 2018,"OCT",NA,"Bulgaria","Bulgaria",40,2499,31538,67,NA
@@ -6022,26 +6022,26 @@
 2018,"OCT",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"OCT",NA,"Finland","Finland",40,7834,95054,8329,NA
 2018,"OCT",NA,"France","France",40,45526,643105,46687,NA
-2018,"OCT",NA,"Germany","Germany",40,75334,1008742,114685,NA
+2018,"OCT",NA,"Germany","Germany",40,93773,1249204,151881,NA
 2018,"OCT",NA,"Greece","Greece",40,8655,111786,10101,NA
 2018,"OCT",NA,"Hungary","Hungary",40,4924,66974,3803,NA
 2018,"OCT",NA,"Ireland","Ireland",40,10176,125331,27413,NA
-2018,"OCT",NA,"Italy","Italy",40,27253,331047,33021,NA
+2018,"OCT",NA,"Italy","Italy",40,44510,536969,62973,NA
 2018,"OCT",NA,"Latvia","Latvia",40,3653,47126,4746,NA
 2018,"OCT",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"OCT",NA,"Luxembourg","Luxembourg",40,3143,42321,1326,NA
 2018,"OCT",NA,"Malta","Malta",40,0,0,0,NA
 2018,"OCT",NA,"Netherlands","Netherlands",40,22553,298861,37761,NA
 2018,"OCT",NA,"Norway","Norway",40,14512,185391,18559,NA
-2018,"OCT",NA,"Poland","Poland",40,0,0,0,NA
+2018,"OCT",NA,"Poland","Poland",40,8117,106430,12784,NA
 2018,"OCT",NA,"Portugal","Portugal",40,9440,132377,32882,NA
 2018,"OCT",NA,"Romania","Romania",40,5250,64470,4023,NA
 2018,"OCT",NA,"Slovakia","Slovakia",40,803,10289,59,NA
-2018,"OCT",NA,"Slovenia","Slovenia",40,0,0,0,NA
+2018,"OCT",NA,"Slovenia","Slovenia",40,1286,17583,505,NA
 2018,"OCT",NA,"Spain","Spain",40,76159,1023447,113014,NA
 2018,"OCT",NA,"Sweden","Sweden",40,13718,178546,14605,NA
 2018,"OCT",NA,"Switzerland","Switzerland",40,19173,258555,41409,NA
-2018,"OCT",NA,"United Kingdom","United Kingdom",40,69323,952300,273557,NA
+2018,"OCT",NA,"United Kingdom","United Kingdom",40,74190,1019618,279083,NA
 2018,"SEP",NA,"Austria","Austria",40,11697,145613,17874,NA
 2018,"SEP",NA,"Belgium","Belgium",40,10977,135947,8547,NA
 2018,"SEP",NA,"Bulgaria","Bulgaria",40,2573,32672,0,NA
@@ -6051,26 +6051,26 @@
 2018,"SEP",NA,"Estonia","Estonia",40,0,0,0,NA
 2018,"SEP",NA,"Finland","Finland",40,7855,95943,7963,NA
 2018,"SEP",NA,"France","France",40,46294,646308,45316,NA
-2018,"SEP",NA,"Germany","Germany",40,73725,979496,91795,NA
+2018,"SEP",NA,"Germany","Germany",40,91968,1218297,119761,NA
 2018,"SEP",NA,"Greece","Greece",40,9454,122077,13693,NA
 2018,"SEP",NA,"Hungary","Hungary",40,5096,70117,2756,NA
 2018,"SEP",NA,"Ireland","Ireland",40,10388,126503,37963,NA
-2018,"SEP",NA,"Italy","Italy",40,32456,397586,32253,NA
+2018,"SEP",NA,"Italy","Italy",40,50085,611358,50874,NA
 2018,"SEP",NA,"Latvia","Latvia",40,3676,47136,4905,NA
 2018,"SEP",NA,"Lithuania","Lithuania",40,0,0,0,NA
 2018,"SEP",NA,"Luxembourg","Luxembourg",40,3117,41941,916,NA
 2018,"SEP",NA,"Malta","Malta",40,2546,30886,1598,NA
 2018,"SEP",NA,"Netherlands","Netherlands",40,21902,290779,38000,NA
 2018,"SEP",NA,"Norway","Norway",40,14088,182046,17820,NA
-2018,"SEP",NA,"Poland","Poland",40,0,0,0,NA
+2018,"SEP",NA,"Poland","Poland",40,8576,112408,7838,NA
 2018,"SEP",NA,"Portugal","Portugal",40,9681,135079,29516,NA
 2018,"SEP",NA,"Romania","Romania",40,5437,65770,3867,NA
 2018,"SEP",NA,"Slovakia","Slovakia",40,1108,13562,196,NA
-2018,"SEP",NA,"Slovenia","Slovenia",40,1285,16403,1120,NA
+2018,"SEP",NA,"Slovenia","Slovenia",40,1285,17200,323,NA
 2018,"SEP",NA,"Spain","Spain",40,79192,1061208,107131,NA
 2018,"SEP",NA,"Sweden","Sweden",40,13607,177271,15854,NA
 2018,"SEP",NA,"Switzerland","Switzerland",40,18848,253819,44495,NA
-2018,"SEP",NA,"United Kingdom","United Kingdom",40,75735,1036039,267171,NA
+2018,"SEP",NA,"United Kingdom","United Kingdom",40,75733,1038002,265204,NA
 2014,"APR",NA,"SES","SES",40,296576,3891051,528001,NA
 2014,"AUG",NA,"SES","SES",40,337595,4379715,592185,NA
 2014,"DEC",NA,"SES","SES",40,262590,3420602,613930,NA
@@ -6119,15 +6119,15 @@
 2017,"NOV",NA,"SES","SES",40,400163,5216510,696666,NA
 2017,"OCT",NA,"SES","SES",40,481343,6275698,917243,NA
 2017,"SEP",NA,"SES","SES",40,491488,6424552,935360,NA
-2018,"APR",NA,"SES","SES",40,441362,5846566,732730,NA
-2018,"AUG",NA,"SES","SES",40,486708,6398876,745325,NA
-2018,"DEC",NA,"SES","SES",40,0,0,0,NA
-2018,"FEB",NA,"SES","SES",40,364987,4859477,676314,NA
-2018,"JAN",NA,"SES","SES",40,388241,5136472,749799,NA
-2018,"JUL",NA,"SES","SES",40,498538,6585141,742857,NA
-2018,"JUN",NA,"SES","SES",40,475431,6307531,783207,NA
-2018,"MAR",NA,"SES","SES",40,424931,5624590,763509,NA
-2018,"MAY",NA,"SES","SES",40,481308,6390356,774201,NA
-2018,"NOV",NA,"SES","SES",40,336729,4475066,646779,NA
-2018,"OCT",NA,"SES","SES",40,434909,5777462,797684,NA
-2018,"SEP",NA,"SES","SES",40,453570,6000145,772652,NA
+2018,"APR",NA,"SES","SES",40,443612,5866241,729905,NA
+2018,"AUG",NA,"SES","SES",40,515053,6767183,765478,NA
+2018,"DEC",NA,"SES","SES",40,374344,4935147,730624,NA
+2018,"FEB",NA,"SES","SES",40,366701,4874657,673575,NA
+2018,"JAN",NA,"SES","SES",40,390097,5151531,746917,NA
+2018,"JUL",NA,"SES","SES",40,518754,6847491,758694,NA
+2018,"JUN",NA,"SES","SES",40,495228,6563751,798588,NA
+2018,"MAR",NA,"SES","SES",40,426886,5640361,761613,NA
+2018,"MAY",NA,"SES","SES",40,483439,6407719,770236,NA
+2018,"NOV",NA,"SES","SES",40,392011,5181813,735458,NA
+2018,"OCT",NA,"SES","SES",40,484875,6415177,883647,NA
+2018,"SEP",NA,"SES","SES",40,498016,6567886,824313,NA

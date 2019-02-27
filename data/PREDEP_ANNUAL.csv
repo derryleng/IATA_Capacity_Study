@@ -1,632 +1,4 @@
 "YEAR","ICAO","NAME","STATE","FLIGHTS_NM","FLIGHTS_APT","DELAY_APT","FLIGHTS_AL","DELAY_AL"
-2014,"EBAW","Antwerp","Belgium",6780,0,0,315,64
-2014,"EBBR","Brussels","Belgium",112668,115388,50215,87724,49816
-2014,"EBCI","Charleroi","Belgium",23577,0,0,20396,579
-2014,"EBLG","Liège","Belgium",15264,0,0,9844,3917
-2014,"EBOS","Ostend-Bruges","Belgium",2605,0,0,735,112
-2014,"EDDB","Berlin/ Schoenefeld","Germany",33461,0,0,21184,4692
-2014,"EDDC","Dresden","Germany",11718,0,0,8403,221
-2014,"EDDE","Erfurt","Germany",2525,0,0,1002,44
-2014,"EDDF","Frankfurt","Germany",234490,0,0,183041,219736
-2014,"EDDG","Muenster-Osnabrueck","Germany",8889,0,0,4093,214
-2014,"EDDH","Hamburg","Germany",73251,0,0,60510,13734
-2014,"EDDK","Cologne-Bonn","Germany",60091,0,0,37411,12516
-2014,"EDDL","Dusseldorf","Germany",105033,0,0,86478,44987
-2014,"EDDM","Munich","Germany",187125,0,0,153113,58691
-2014,"EDDN","Nuremberg","Germany",24884,25747,3061,18361,2717
-2014,"EDDP","Leipzig-Halle","Germany",30260,0,0,16332,2754
-2014,"EDDR","Saarbruecken","Germany",4348,0,0,2929,59
-2014,"EDDS","Stuttgart","Germany",57015,0,0,40389,5735
-2014,"EDDT","Berlin/ Tegel","Germany",90144,0,0,81836,45753
-2014,"EDDV","Hanover","Germany",31461,0,0,22625,2759
-2014,"EDDW","Bremen","Germany",18183,0,0,12697,906
-2014,"EETN","Tallinn","Estonia",17223,0,0,7444,250
-2014,"EETU","Tartu","Estonia",476,0,0,121,0
-2014,"EFHK","Helsinki/ Vantaa","Finland",83970,85244,12937,71894,12856
-2014,"EGAA","Belfast/Aldergrove","United Kingdom",19218,0,0,14757,2762
-2014,"EGAC","Belfast/City Airport","United Kingdom",18553,0,0,16717,1518
-2014,"EGAE","Londonderry/Eglinton","United Kingdom",1382,0,0,1274,56
-2014,"EGBB","Birmingham","United Kingdom",47680,40590,7859,39126,6680
-2014,"EGCC","Manchester","United Kingdom",85201,79465,44742,63834,35795
-2014,"EGGW","London/ Luton","United Kingdom",51738,0,0,31505,21908
-2014,"EGHI","Southampton","United Kingdom",19708,0,0,14157,3662
-2014,"EGKB","Biggin Hill","United Kingdom",6027,0,0,0,0
-2014,"EGKK","London/ Gatwick","United Kingdom",129960,0,0,116200,85340
-2014,"EGLC","London/ City","United Kingdom",37864,0,0,25761,15967
-2014,"EGLF","Farnborough","United Kingdom",11791,0,0,20,25
-2014,"EGLL","London/ Heathrow","United Kingdom",236369,0,0,185890,123162
-2014,"EGNX","East Midlands","United Kingdom",32899,0,0,17169,2766
-2014,"EGPD","Aberdeen","United Kingdom",36531,0,0,16702,1093
-2014,"EGPF","Glasgow","United Kingdom",39797,0,0,25861,4357
-2014,"EGPH","Edinburgh","United Kingdom",53909,0,0,41261,8069
-2014,"EGSS","London/ Stansted","United Kingdom",77965,77985,26108,65190,37991
-2014,"EHAM","Amsterdam/ Schiphol","Netherlands",224437,0,0,175678,253295
-2014,"EHBK","Maastricht-Aachen","Netherlands",4460,0,0,849,24
-2014,"EHGG","Groningen","Netherlands",6720,0,0,602,9
-2014,"EHRD","Rotterdam","Netherlands",12637,0,0,5431,3427
-2014,"EICK","Cork","Ireland",11646,0,0,8031,425
-2014,"EICM","Galway Carnmore","Ireland",8,0,0,0,0
-2014,"EIDL","Donegal","Ireland",1121,0,0,0,0
-2014,"EIDW","Dublin","Ireland",89575,0,0,73229,39650
-2014,"EIKN","Connaught","Ireland",3240,0,0,3062,318
-2014,"EIKY","Kerry/Farranfore","Ireland",2009,0,0,1240,14
-2014,"EINN","Shannon","Ireland",11673,0,0,6171,326
-2014,"EISG","Sligo","Ireland",31,0,0,0,0
-2014,"EIWF","Waterford","Ireland",550,0,0,289,60
-2014,"EIWT","Weston","Ireland",497,0,0,0,0
-2014,"EKCH","Copenhagen/ Kastrup","Denmark",125866,125982,3566,102652,5074
-2014,"ELLX","Luxembourg","Luxembourg",29513,29461,1350,19850,3125
-2014,"ENBR","Bergen","Norway",48778,48949,142,38903,192
-2014,"ENGM","Oslo/ Gardermoen","Norway",123839,123307,7944,118898,8168
-2014,"ENHD","Haugesund","Norway",4086,4110,0,3816,10
-2014,"ENVA","Trondheim","Norway",28606,28558,222,26805,269
-2014,"ENZV","Stavanger","Norway",40993,41249,194,29325,189
-2014,"EPBY","Bydgoszcz","Poland",1892,0,0,749,10
-2014,"EPGD","Gdansk","Poland",17989,0,0,11462,508
-2014,"EPKK","Krakow - Balice","Poland",19755,0,0,13137,3208
-2014,"EPKT","Katowice - Pyrzowice","Poland",12601,0,0,6676,1530
-2014,"EPLB","Lublin","Poland",1149,0,0,208,0
-2014,"EPLL","Lodz - Lublinek","Poland",2013,0,0,628,28
-2014,"EPMO","Warszawa/ Modlin","Poland",6033,0,0,5564,140
-2014,"EPPO","Poznan - Lawica","Poland",9102,0,0,5065,159
-2014,"EPRA","Radom","Poland",320,0,0,0,0
-2014,"EPRZ","Rzeszow - Jasionka","Poland",4354,0,0,2096,15
-2014,"EPSC","Szczecin - Goleniów","Poland",1977,0,0,907,40
-2014,"EPWA","Warszawa/ Chopina","Poland",69353,0,0,47396,10863
-2014,"EPWR","Wroclaw/ Strachowice","Poland",11826,0,0,6967,185
-2014,"EPZG","Zielona Gora - Babimost","Poland",428,0,0,1,0
-2014,"ESSA","Stockholm/ Arlanda","Sweden",114131,113369,6520,87542,5961
-2014,"ESSB","Stockholm/ Bromma","Sweden",25291,0,0,11227,420
-2014,"EVLA","Liepaja","Latvia",11,0,0,0,0
-2014,"EVRA","Riga","Latvia",32689,32924,30,27462,748
-2014,"EVVA","Ventspils","Latvia",10,0,0,0,0
-2014,"EYKA","Kaunas","Lithuania",3319,0,0,2257,26
-2014,"EYPA","Palanga","Lithuania",1225,0,0,976,0
-2014,"EYSA","Šiauliai","Lithuania",1241,0,0,1,0
-2014,"EYVI","Vilnius","Lithuania",18221,0,0,10638,335
-2014,"GCFV","Fuerteventura","Spain",19567,0,0,13885,1059
-2014,"GCGM","La Gomera","Spain",714,0,0,692,0
-2014,"GCHI","Hierro","Spain",1680,0,0,1596,53
-2014,"GCLA","La Palma","Spain",7171,0,0,5267,36
-2014,"GCLP","Gran Canaria","Spain",49996,49351,16984,36392,15030
-2014,"GCRR","Lanzarote","Spain",24202,0,0,18405,2637
-2014,"GCTS","Tenerife Sur/Reina Sofia","Spain",29303,29368,3894,21434,3723
-2014,"GCXO","Tenerife North","Spain",24591,23903,2061,19845,2121
-2014,"GEML","Melilla","Spain",4264,0,0,3370,0
-2014,"LATI","Tirana","Albania",9029,0,0,5089,676
-2014,"LBSF","Sofia","Bulgaria",20586,0,0,10768,2161
-2014,"LCLK","Larnaca","Cyprus",21755,0,0,11128,3728
-2014,"LCPH","Paphos","Cyprus",6823,0,0,4881,1186
-2014,"LDZA","Zagreb","Croatia",18037,0,0,5069,693
-2014,"LDZL","Lucko","Croatia",209,0,0,0,0
-2014,"LEAB","Albacete","Spain",461,0,0,0,0
-2014,"LEAL","Alicante","Spain",35610,35638,7526,28541,9161
-2014,"LEAM","Almeria","Spain",4315,0,0,3624,1067
-2014,"LEAS","Asturias","Spain",5527,0,0,4981,521
-2014,"LEBA","Cordoba","Spain",112,0,0,0,0
-2014,"LEBB","Bilbao","Spain",19591,19572,2497,17876,3390
-2014,"LEBG","Burgos","Spain",487,0,0,216,0
-2014,"LEBL","Barcelona","Spain",141892,141635,45414,116010,50825
-2014,"LEBZ","Badajoz","Spain",865,0,0,644,10
-2014,"LECO","La Coruna","Spain",5410,0,0,4626,682
-2014,"LECU","Madrid/Cuatro Viento","Spain",1047,0,0,0,0
-2014,"LEDA","Lleida/Alguaire","Spain",267,0,0,211,9
-2014,"LEGE","Gerona","Spain",8665,0,0,7048,165
-2014,"LEGR","Granada","Spain",3954,0,0,3213,211
-2014,"LEGT","Madrid/Getafe","Spain",1527,0,0,0,0
-2014,"LEIB","Ibiza","Spain",28709,28393,1041,19826,3118
-2014,"LEIZ","Abad","Spain",142,0,0,0,0
-2014,"LEJR","Jerez De La Frontera","Spain",6052,0,0,2629,262
-2014,"LELC","Murcia San Javier","Spain",4229,0,0,2955,437
-2014,"LELL","Sabadell","Spain",1071,0,0,0,0
-2014,"LELN","Leon","Spain",432,0,0,273,0
-2014,"LEMD","Madrid/ Barajas","Spain",171310,170297,115319,133395,107840
-2014,"LEMG","Málaga","Spain",52827,52605,15556,41187,16515
-2014,"LEMH","Mahon","Spain",12166,0,0,9076,517
-2014,"LEMO","Seville/Moron","Spain",2536,0,0,2,0
-2014,"LEPA","Palma de Mallorca","Spain",86220,85846,31268,68745,30929
-2014,"LEPP","Noain Pamplona","Spain",1708,0,0,1307,21
-2014,"LERE","Valencia/Requena","Spain",282,0,0,0,0
-2014,"LERJ","Logrono","Spain",339,0,0,282,0
-2014,"LERS","Reus","Spain",4048,0,0,2341,312
-2014,"LERT","Rota","Spain",2547,0,0,0,0
-2014,"LESA","Salamanca Matalan","Spain",2184,0,0,206,28
-2014,"LESB","Son Bonet","Spain",248,0,0,0,0
-2014,"LESJ","Palma/Son San Juan","Spain",175,0,0,0,0
-2014,"LESO","San Sebastian","Spain",2357,0,0,1958,147
-2014,"LEST","Santiago","Spain",8955,0,0,6954,840
-2014,"LETO","Madrid/Torrejon","Spain",858,0,0,0,0
-2014,"LEVC","Valencia","Spain",24059,24010,693,19494,1898
-2014,"LEVD","Valladolid","Spain",1644,0,0,920,60
-2014,"LEVT","Vitoria","Spain",2883,0,0,2550,210
-2014,"LEVX","Vigo","Spain",3887,0,0,2375,172
-2014,"LEXJ","Santander","Spain",4125,0,0,3606,135
-2014,"LEZG","Zaragoza","Spain",3588,0,0,1943,94
-2014,"LEZL","Sevilla","Spain",17496,17380,702,13696,1839
-2014,"LFAQ","Albert-Bray","France",629,0,0,0,0
-2014,"LFBA","Agen-La Garenne","France",2355,0,0,476,0
-2014,"LFBD","Bordeaux-Mérignac","France",28841,0,0,21286,1923
-2014,"LFBE","Bergerac-Roumanière","France",2470,0,0,1061,34
-2014,"LFBH","La Rochelle-Ile de Ré","France",2917,0,0,1318,11
-2014,"LFBI","Poitiers-Biard","France",2788,0,0,978,37
-2014,"LFBL","Limoges-Bellegarde","France",3501,0,0,957,141
-2014,"LFBO","Toulouse-Blagnac","France",44481,0,0,33793,7696
-2014,"LFBP","Pau-Pyrénées","France",5477,0,0,3546,22
-2014,"LFBT","Tarbes-Lourdes Pyrénées","France",3648,0,0,1517,28
-2014,"LFBZ","Biarritz-Bayonne-Anglet","France",6309,0,0,4472,936
-2014,"LFCR","Rodez-Marcillac","France",1954,0,0,808,13
-2014,"LFGJ","Dôle-Tavaux","France",1712,0,0,347,33
-2014,"LFJL","Metz-Nancy-Lorraine","France",2968,0,0,1110,25
-2014,"LFJR","Angers-Marcé","France",841,0,0,38,3
-2014,"LFKB","Bastia-Poretta","France",7460,0,0,2879,293
-2014,"LFKC","Calvi-Sainte-Catherine","France",3243,0,0,904,1528
-2014,"LFKF","Figari-Sud Corse","France",4813,0,0,773,367
-2014,"LFKJ","Ajaccio-Napoléon-Bonaparte","France",8332,0,0,3022,164
-2014,"LFLB","Chambéry-Aix-les-Bains","France",3319,0,0,492,1465
-2014,"LFLC","Clermont-Ferrand-Auvergne","France",6641,0,0,3371,100
-2014,"LFLI","Annemasse","France",1011,0,0,0,0
-2014,"LFLL","Lyon-Saint-Exupéry","France",54044,54127,5132,42816,6596
-2014,"LFLP","Annecy-Meythet","France",1432,0,0,1,0
-2014,"LFLS","Grenoble-Isère","France",3115,0,0,880,101
-2014,"LFLX","Châteauroux-Déols","France",1362,0,0,27,45
-2014,"LFLY","Lyon-Bron","France",4481,0,0,2,0
-2014,"LFMD","Cannes-Mandelieu","France",6543,0,0,8,5
-2014,"LFMH","Saint-Etienne-Bouthéon","France",1390,0,0,277,89
-2014,"LFMI","Istres-Le Tubé","France",1503,0,0,0,0
-2014,"LFMK","Carcassonne-Salvaza","France",2567,0,0,1366,178
-2014,"LFML","Marseille-Provence","France",48673,0,0,29898,5088
-2014,"LFMN","Nice-Côte d’Azur","France",68320,0,0,43548,21684
-2014,"LFMP","Perpignan-Rivesaltes","France",3859,0,0,1919,75
-2014,"LFMT","Montpellier-Méditerranée","France",13006,0,0,6801,932
-2014,"LFMU","Béziers-Vias","France",2536,0,0,842,53
-2014,"LFMV","Avignon-Caumont","France",2570,0,0,48,0
-2014,"LFOB","Beauvais-Tillé","France",13574,0,0,12302,1156
-2014,"LFOH","Le Havre-Octeville","France",731,0,0,22,0
-2014,"LFOK","Châlons-Vatry","France",1489,0,0,370,109
-2014,"LFOT","Tours-Val de Loire","France",1569,0,0,603,49
-2014,"LFPB","Paris-Le Bourget","France",27193,0,0,61,5
-2014,"LFPG","Paris-Charles-de-Gaulle","France",235747,235806,115346,183258,101333
-2014,"LFPN","Toussus-le-Noble","France",5125,0,0,0,0
-2014,"LFPO","Paris-Orly","France",115520,0,0,83753,31403
-2014,"LFQQ","Lille-Lesquin","France",11052,0,0,7023,322
-2014,"LFRB","Brest-Bretagne","France",7429,0,0,5494,512
-2014,"LFRD","Dinard-Pleurtuit-Saint-Malo","France",1655,0,0,370,8
-2014,"LFRG","Deauville-Normandie","France",1696,0,0,262,28
-2014,"LFRH","Lorient-Lann Bihoué","France",3291,0,0,983,71
-2014,"LFRK","Caen-Carpiquet","France",2586,0,0,964,7
-2014,"LFRM","Le Mans","France",686,0,0,4,0
-2014,"LFRN","Rennes-Saint-Jacques","France",7944,0,0,4612,304
-2014,"LFRO","Lannion","France",703,0,0,370,0
-2014,"LFRQ","Quimper-Pluguffan","France",1388,0,0,1013,83
-2014,"LFRS","Nantes-Atlantique","France",25587,0,0,19951,4637
-2014,"LFRZ","Saint-Nazaire-Montoir","France",1381,0,0,248,0
-2014,"LFSB","Bâle-Mulhouse","France",37950,37996,2103,28286,3691
-2014,"LFSL","Brive-Souillac","France",1651,0,0,594,8
-2014,"LFST","Strasbourg-Entzheim","France",11330,0,0,8790,142
-2014,"LFTH","Hyères-Le Palyvestre","France",5269,0,0,2313,383
-2014,"LFTW","Nîmes-Garons","France",1881,0,0,668,20
-2014,"LGAV","Athens","Greece",74401,74391,24744,56868,18567
-2014,"LGIR","Heraklion","Greece",23387,0,0,12127,3512
-2014,"LGKF","Kefallinia","Greece",2347,0,0,1526,204
-2014,"LGKO","Kos","Greece",8932,0,0,5413,2011
-2014,"LGKR","Corfu","Greece",10262,0,0,6442,4669
-2014,"LGMK","Mikonos","Greece",5460,0,0,2767,760
-2014,"LGPZ","Aktion","Greece",1929,0,0,773,106
-2014,"LGRP","Rodos","Greece",18287,0,0,10689,2417
-2014,"LGSA","Khania/Souda","Greece",12185,0,0,6806,1318
-2014,"LGSK","Skiathos","Greece",1575,0,0,1073,58
-2014,"LGSR","Santorini","Greece",5616,0,0,3646,635
-2014,"LGTS","Thessaloniki","Greece",24567,0,0,16888,4389
-2014,"LGZA","Zakinthos","Greece",4658,0,0,2708,1309
-2014,"LHBP","Budapest/ Ferihegy","Hungary",43194,43379,6235,32346,5336
-2014,"LIBR","Brindisi","Italy",8699,0,0,7690,1373
-2014,"LICC","Catania","Italy",30385,30082,86800,26571,24679
-2014,"LIMC","Milan/ Malpensa","Italy",83325,80791,46367,60293,33468
-2014,"LIME","Bergamo","Italy",33713,33315,24251,27140,20052
-2014,"LIML","Milan/ Linate","Italy",55808,45210,18235,44568,19457
-2014,"LIPH","Treviso","Italy",8302,0,0,6842,7302
-2014,"LIPZ","Venice","Italy",38872,38931,64065,29564,19583
-2014,"LIRA","Rome/Ciampino","Italy",26182,0,0,16415,15082
-2014,"LIRF","Rome/Fiumicino","Italy",156074,156105,323263,129376,281329
-2014,"LIRP","Pisa San Giusto","Italy",20773,0,0,15783,24684
-2014,"LJLJ","Ljubljana","Slovenia",13053,0,0,2134,160
-2014,"LJMB","Maribor","Slovenia",674,0,0,47,8
-2014,"LJPZ","Portorož","Slovenia",609,0,0,0,0
-2014,"LKKV","Karlovy Vary","Czech Republic",1026,0,0,262,5
-2014,"LKMT","Ostrava","Czech Republic",3090,0,0,1422,7
-2014,"LKPR","Prague","Czech Republic",60582,60301,15514,45136,25482
-2014,"LKTB","Brno-Turany","Czech Republic",3562,0,0,1511,29
-2014,"LMML","Malta","Malta",19275,19513,1579,15131,2096
-2014,"LOWG","Graz","Austria",9136,0,0,5928,99
-2014,"LOWI","Innsbruck","Austria",8960,0,0,5198,1107
-2014,"LOWK","Klagenfurt","Austria",3815,0,0,1916,0
-2014,"LOWL","Linz","Austria",8137,0,0,4705,231
-2014,"LOWS","Salzburg","Austria",14692,0,0,8359,2754
-2014,"LOWW","Vienna","Austria",123591,0,0,102042,46507
-2014,"LPAZ","Santa Maria","Portugal",1290,0,0,2,0
-2014,"LPCS","Cascais","Portugal",1262,0,0,0,0
-2014,"LPFL","Flores","Portugal",591,0,0,0,0
-2014,"LPFR","Faro","Portugal",21982,0,0,17139,3066
-2014,"LPHR","Horta","Portugal",2015,0,0,288,86
-2014,"LPMA","Madeira","Portugal",10806,0,0,7367,3713
-2014,"LPPD","Ponta Delgada","Portugal",6025,0,0,340,47
-2014,"LPPR","Porto","Portugal",31699,0,0,27672,13114
-2014,"LPPS","Porto Santo","Portugal",1593,0,0,240,33
-2014,"LPPT","Lisbon","Portugal",78280,0,0,68967,63509
-2014,"LQSA","Sarajevo","Bosnia & Herzegovina",5664,0,0,2349,96
-2014,"LRBS","Bucharest/ Baneasa","Romania",1934,0,0,11,0
-2014,"LROP","Bucharest/ Otopeni","Romania",45620,0,0,35219,6698
-2014,"LSGG","Geneva","Switzerland",90563,90251,21725,61576,18591
-2014,"LSGS","Sion","Switzerland",2740,0,0,0,0
-2014,"LSZH","Zürich","Switzerland",128685,128659,242097,99312,221339
-2014,"LTAC","Ankara/ Esenboga","Turkey",44708,0,0,29385,5628
-2014,"LTAI","Antalya","Turkey",86288,0,0,24310,25964
-2014,"LTBA","Istanbul/ Atatürk","Turkey",214633,0,0,152698,513789
-2014,"LTBJ","Izmir/ Adnan Menderes","Turkey",37504,0,0,11718,6367
-2014,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey",89852,0,0,22726,37865
-2014,"LUKK","Chi<U+0219>inau","Moldova",9639,0,0,2720,366
-2014,"LWSK","Skopje","FYR Macedonia",6440,0,0,3538,139
-2014,"LYBE","Belgrade/ Nikola Tesla","Serbia",31079,0,0,17572,2406
-2014,"LYPG","Podgorica","Montenegro",5049,0,0,1446,379
-2014,"LZIB","Bratislava","Slovakia",8935,0,0,4564,579
-2014,"UDYZ","Zvartnots","Armenia",10458,0,0,941,176
-2014,"UGTB","Tbilisi","Georgia",10053,0,0,2960,2448
-2014,"UKBB","Kiev/Boryspil","Ukraine",36302,0,0,6856,953
-2014,NA,"Albania","Albania",9029,0,0,5089,676
-2014,NA,"Armenia","Armenia",10458,0,0,941,176
-2014,NA,"Austria","Austria",168331,0,0,128148,50698
-2014,NA,"Belgium","Belgium",160894,115388,50215,119014,54488
-2014,NA,"Bosnia & Herzegovina","Bosnia & Herzegovina",5664,0,0,2349,96
-2014,NA,"Bulgaria","Bulgaria",20586,0,0,10768,2161
-2014,NA,"Croatia","Croatia",18246,0,0,5069,693
-2014,NA,"Cyprus","Cyprus",28578,0,0,16009,4914
-2014,NA,"Czech Republic","Czech Republic",68260,60301,15514,48331,25523
-2014,NA,"Denmark","Denmark",125866,125982,3566,102652,5074
-2014,NA,"Estonia","Estonia",17699,0,0,7565,250
-2014,NA,"Finland","Finland",83970,85244,12937,71894,12856
-2014,NA,"France","France",885538,327929,122581,573895,193936
-2014,NA,"FYR Macedonia","FYR Macedonia",6440,0,0,3538,139
-2014,NA,"Georgia","Georgia",10053,0,0,2960,2448
-2014,NA,"Germany","Germany",972878,25747,3061,750404,415518
-2014,NA,"Greece","Greece",193606,74391,24744,127726,39955
-2014,NA,"Hungary","Hungary",43194,43379,6235,32346,5336
-2014,NA,"Ireland","Ireland",120350,0,0,92022,40793
-2014,NA,"Italy","Italy",462133,384434,562981,364242,447009
-2014,NA,"Latvia","Latvia",32710,32924,30,27462,748
-2014,NA,"Lithuania","Lithuania",24006,0,0,13872,361
-2014,NA,"Luxembourg","Luxembourg",29513,29461,1350,19850,3125
-2014,NA,"Malta","Malta",19275,19513,1579,15131,2096
-2014,NA,"Moldova","Moldova",9639,0,0,2720,366
-2014,NA,"Montenegro","Montenegro",5049,0,0,1446,379
-2014,NA,"Netherlands","Netherlands",248254,0,0,182560,256755
-2014,NA,"Norway","Norway",246302,246173,8502,217747,8828
-2014,NA,"Poland","Poland",158792,0,0,100856,16686
-2014,NA,"Portugal","Portugal",155543,0,0,122015,83568
-2014,NA,"Romania","Romania",47554,0,0,35230,6698
-2014,NA,"Serbia","Serbia",31079,0,0,17572,2406
-2014,NA,"SES","SES",6180682,2746259,1405271,4560208,2274849
-2014,NA,"Slovakia","Slovakia",8935,0,0,4564,579
-2014,NA,"Slovenia","Slovenia",14336,0,0,2181,168
-2014,NA,"Spain","Spain",838295,677998,242955,643596,256074
-2014,NA,"Sweden","Sweden",139422,113369,6520,98769,6381
-2014,NA,"Switzerland","Switzerland",221988,218910,263822,160888,239930
-2014,NA,"Turkey","Turkey",472985,0,0,240837,589613
-2014,NA,"Ukraine","Ukraine",36302,0,0,6856,953
-2014,NA,"United Kingdom","United Kingdom",906592,198040,78709,675424,351151
-2015,"EBAW","Antwerp","Belgium",8434,0,0,689,36
-2015,"EBBR","Brussels","Belgium",116654,119059,78175,91443,66521
-2015,"EBCI","Charleroi","Belgium",24074,23838,1712,21454,2718
-2015,"EBLG","Liège","Belgium",16345,0,0,2412,2058
-2015,"EBOS","Ostend-Bruges","Belgium",2717,0,0,925,64
-2015,"EDDB","Berlin/ Schoenefeld","Germany",37129,0,0,24540,9005
-2015,"EDDC","Dresden","Germany",11397,0,0,8640,106
-2015,"EDDE","Erfurt","Germany",2508,0,0,733,19
-2015,"EDDF","Frankfurt","Germany",234012,0,0,181700,215667
-2015,"EDDG","Muenster-Osnabrueck","Germany",8771,0,0,3874,163
-2015,"EDDH","Hamburg","Germany",75164,0,0,60864,16456
-2015,"EDDK","Cologne-Bonn","Germany",62726,0,0,39158,13588
-2015,"EDDL","Dusseldorf","Germany",104775,0,0,84373,46470
-2015,"EDDM","Munich","Germany",188598,28486,3966,151205,32428
-2015,"EDDN","Nuremberg","Germany",24277,24969,2502,17173,2262
-2015,"EDDP","Leipzig-Halle","Germany",31226,31588,6269,16440,3984
-2015,"EDDR","Saarbruecken","Germany",4984,0,0,3169,160
-2015,"EDDS","Stuttgart","Germany",59599,0,0,43422,8287
-2015,"EDDT","Berlin/ Tegel","Germany",91161,0,0,82392,48501
-2015,"EDDV","Hanover","Germany",31228,32214,2967,21998,3023
-2015,"EDDW","Bremen","Germany",16986,17692,379,11857,885
-2015,"EETN","Tallinn","Estonia",18584,14556,90,8342,331
-2015,"EETU","Tartu","Estonia",642,0,0,321,2
-2015,"EFHK","Helsinki/ Vantaa","Finland",84598,85850,12910,74583,11861
-2015,"EGAA","Belfast/Aldergrove","United Kingdom",20079,0,0,14440,3016
-2015,"EGAC","Belfast/City Airport","United Kingdom",20903,0,0,19242,1888
-2015,"EGAE","Londonderry/Eglinton","United Kingdom",1093,0,0,959,176
-2015,"EGBB","Birmingham","United Kingdom",48603,47161,9065,35280,8742
-2015,"EGCC","Manchester","United Kingdom",86507,86540,59852,58432,39392
-2015,"EGGW","London/ Luton","United Kingdom",57976,0,0,36682,26427
-2015,"EGHI","Southampton","United Kingdom",19052,0,0,13888,2493
-2015,"EGKB","Biggin Hill","United Kingdom",6377,0,0,0,0
-2015,"EGKK","London/ Gatwick","United Kingdom",133863,133918,98667,113232,103285
-2015,"EGLC","London/ City","United Kingdom",42272,0,0,28440,19344
-2015,"EGLF","Farnborough","United Kingdom",11805,0,0,3,0
-2015,"EGLL","London/ Heathrow","United Kingdom",237030,0,0,182186,116255
-2015,"EGNX","East Midlands","United Kingdom",32736,0,0,14996,2005
-2015,"EGPD","Aberdeen","United Kingdom",33756,0,0,15664,1016
-2015,"EGPF","Glasgow","United Kingdom",43185,0,0,26458,6370
-2015,"EGPH","Edinburgh","United Kingdom",56756,54455,10636,43593,11426
-2015,"EGSS","London/ Stansted","United Kingdom",83785,84070,46868,70025,54107
-2015,"EHAM","Amsterdam/ Schiphol","Netherlands",230919,0,0,174600,291106
-2015,"EHBK","Maastricht-Aachen","Netherlands",4708,0,0,620,49
-2015,"EHGG","Groningen","Netherlands",4597,0,0,193,22
-2015,"EHRD","Rotterdam","Netherlands",12755,0,0,2189,900
-2015,"EICK","Cork","Ireland",11060,0,0,6271,395
-2015,"EICM","Galway Carnmore","Ireland",55,0,0,0,0
-2015,"EIDL","Donegal","Ireland",951,0,0,81,0
-2015,"EIDW","Dublin","Ireland",98318,98957,52880,76481,50643
-2015,"EIKN","Connaught","Ireland",2720,0,0,2560,270
-2015,"EIKY","Kerry/Farranfore","Ireland",1977,0,0,912,87
-2015,"EINN","Shannon","Ireland",10267,0,0,5596,826
-2015,"EISG","Sligo","Ireland",19,0,0,0,0
-2015,"EIWF","Waterford","Ireland",805,0,0,106,20
-2015,"EIWT","Weston","Ireland",440,0,0,0,0
-2015,"EKCH","Copenhagen/ Kastrup","Denmark",127381,127525,3616,106767,5848
-2015,"ELLX","Luxembourg","Luxembourg",30416,30337,502,20393,2293
-2015,"ENBR","Bergen","Norway",46018,46156,296,37596,211
-2015,"ENGM","Oslo/ Gardermoen","Norway",120771,120432,7765,115838,8592
-2015,"ENHD","Haugesund","Norway",3839,0,0,3548,3
-2015,"ENVA","Trondheim","Norway",28284,28273,30,26374,20
-2015,"ENZV","Stavanger","Norway",38210,38435,469,27891,494
-2015,"EPBY","Bydgoszcz","Poland",1791,0,0,878,12
-2015,"EPGD","Gdansk","Poland",18314,0,0,15277,1172
-2015,"EPKK","Krakow - Balice","Poland",19688,0,0,16029,5032
-2015,"EPKT","Katowice - Pyrzowice","Poland",13559,0,0,7699,1313
-2015,"EPLB","Lublin","Poland",1337,0,0,425,4
-2015,"EPLL","Lodz - Lublinek","Poland",2535,0,0,694,93
-2015,"EPMO","Warszawa/ Modlin","Poland",8833,0,0,8137,991
-2015,"EPPO","Poznan - Lawica","Poland",8900,0,0,5649,259
-2015,"EPRA","Radom","Poland",425,0,0,55,0
-2015,"EPRZ","Rzeszow - Jasionka","Poland",4205,0,0,3014,129
-2015,"EPSC","Szczecin - Goleniów","Poland",2337,0,0,1658,9
-2015,"EPWA","Warszawa/ Chopina","Poland",70206,65830,17310,54608,18374
-2015,"EPWR","Wroclaw/ Strachowice","Poland",11603,0,0,8906,623
-2015,"EPZG","Zielona Gora - Babimost","Poland",505,0,0,1,0
-2015,"ESSA","Stockholm/ Arlanda","Sweden",113045,111112,4527,91076,5771
-2015,"ESSB","Stockholm/ Bromma","Sweden",26139,0,0,11798,566
-2015,"EVLA","Liepaja","Latvia",1,0,0,0,0
-2015,"EVRA","Riga","Latvia",33861,0,0,28427,500
-2015,"EVVA","Ventspils","Latvia",9,0,0,0,0
-2015,"EYKA","Kaunas","Lithuania",3417,0,0,2267,44
-2015,"EYPA","Palanga","Lithuania",1361,0,0,1156,0
-2015,"EYSA","Šiauliai","Lithuania",1255,0,0,0,0
-2015,"EYVI","Vilnius","Lithuania",19280,0,0,12750,646
-2015,"GCFV","Fuerteventura","Spain",19221,19100,193,13359,1849
-2015,"GCGM","La Gomera","Spain",730,0,0,688,0
-2015,"GCHI","Hierro","Spain",1654,0,0,1518,13
-2015,"GCLA","La Palma","Spain",7572,0,0,5058,34
-2015,"GCLP","Gran Canaria","Spain",48771,47905,15868,34416,14936
-2015,"GCRR","Lanzarote","Spain",24654,20706,1005,16979,1929
-2015,"GCTS","Tenerife Sur/Reina Sofia","Spain",28263,28191,5155,18865,4052
-2015,"GCXO","Tenerife North","Spain",24767,23954,1760,19182,2989
-2015,"GEML","Melilla","Spain",4071,0,0,3659,21
-2015,"LATI","Tirana","Albania",10453,0,0,5079,733
-2015,"LBSF","Sofia","Bulgaria",21725,21317,921,10894,1947
-2015,"LCLK","Larnaca","Cyprus",21631,0,0,9683,3596
-2015,"LCPH","Paphos","Cyprus",7451,0,0,5252,1811
-2015,"LDZA","Zagreb","Croatia",19077,0,0,6062,1192
-2015,"LDZL","Lucko","Croatia",132,0,0,0,0
-2015,"LEAB","Albacete","Spain",465,0,0,4,0
-2015,"LEAL","Alicante","Spain",36952,36812,8762,29269,11539
-2015,"LEAM","Almeria","Spain",4218,0,0,3492,188
-2015,"LEAS","Asturias","Spain",4994,0,0,4572,650
-2015,"LEBA","Cordoba","Spain",100,0,0,0,0
-2015,"LEBB","Bilbao","Spain",20376,20308,2181,19257,4663
-2015,"LEBG","Burgos","Spain",252,0,0,80,0
-2015,"LEBL","Barcelona","Spain",144402,143991,72315,122026,94484
-2015,"LEBZ","Badajoz","Spain",541,0,0,377,17
-2015,"LECO","La Coruna","Spain",5261,0,0,4616,1225
-2015,"LECU","Madrid/Cuatro Viento","Spain",1419,0,0,0,0
-2015,"LEDA","Lleida/Alguaire","Spain",258,0,0,188,0
-2015,"LEGE","Gerona","Spain",7049,0,0,5081,301
-2015,"LEGR","Granada","Spain",4385,0,0,3620,254
-2015,"LEGT","Madrid/Getafe","Spain",1401,0,0,0,0
-2015,"LEIB","Ibiza","Spain",30740,30431,499,21665,2283
-2015,"LEIZ","Abad","Spain",116,0,0,0,0
-2015,"LEJR","Jerez De La Frontera","Spain",6889,0,0,3037,441
-2015,"LELC","Murcia San Javier","Spain",4043,0,0,2846,749
-2015,"LELL","Sabadell","Spain",848,0,0,0,0
-2015,"LELN","Leon","Spain",523,0,0,357,12
-2015,"LEMD","Madrid/ Barajas","Spain",183331,181683,111269,143026,142737
-2015,"LEMG","Málaga","Spain",53711,53402,17174,41317,21496
-2015,"LEMH","Mahon","Spain",14190,0,0,10849,747
-2015,"LEMO","Seville/Moron","Spain",2747,0,0,0,0
-2015,"LEPA","Palma de Mallorca","Spain",89081,87950,19745,70175,31521
-2015,"LEPP","Noain Pamplona","Spain",1782,0,0,1300,1
-2015,"LERE","Valencia/Requena","Spain",1025,0,0,0,0
-2015,"LERJ","Logrono","Spain",351,0,0,260,0
-2015,"LERS","Reus","Spain",3127,0,0,1465,315
-2015,"LERT","Rota","Spain",3084,0,0,0,0
-2015,"LESA","Salamanca Matalan","Spain",1295,0,0,139,3
-2015,"LESB","Son Bonet","Spain",233,0,0,0,0
-2015,"LESJ","Palma/Son San Juan","Spain",181,0,0,0,0
-2015,"LESO","San Sebastian","Spain",2542,0,0,2130,191
-2015,"LEST","Santiago","Spain",9526,0,0,7553,1138
-2015,"LETO","Madrid/Torrejon","Spain",1014,0,0,1,0
-2015,"LEVC","Valencia","Spain",25462,25359,570,20315,2186
-2015,"LEVD","Valladolid","Spain",1629,0,0,870,130
-2015,"LEVT","Vitoria","Spain",3287,0,0,2472,374
-2015,"LEVX","Vigo","Spain",3896,0,0,2329,232
-2015,"LEXJ","Santander","Spain",4402,0,0,3959,219
-2015,"LEZG","Zaragoza","Spain",3679,0,0,1548,248
-2015,"LEZL","Sevilla","Spain",18894,0,0,14484,3305
-2015,"LFAQ","Albert-Bray","France",508,0,0,0,0
-2015,"LFBA","Agen-La Garenne","France",2332,0,0,687,31
-2015,"LFBD","Bordeaux-Mérignac","France",30380,0,0,23094,1483
-2015,"LFBE","Bergerac-Roumanière","France",1931,0,0,945,763
-2015,"LFBH","La Rochelle-Ile de Ré","France",2468,0,0,1263,232
-2015,"LFBI","Poitiers-Biard","France",2589,0,0,1059,171
-2015,"LFBL","Limoges-Bellegarde","France",3433,0,0,891,312
-2015,"LFBO","Toulouse-Blagnac","France",44212,0,0,33682,6422
-2015,"LFBP","Pau-Pyrénées","France",5605,0,0,3602,20
-2015,"LFBT","Tarbes-Lourdes Pyrénées","France",3515,0,0,1421,37
-2015,"LFBZ","Biarritz-Bayonne-Anglet","France",6305,0,0,4509,648
-2015,"LFCR","Rodez-Marcillac","France",1849,0,0,1034,29
-2015,"LFGJ","Dôle-Tavaux","France",1734,0,0,396,166
-2015,"LFJL","Metz-Nancy-Lorraine","France",3191,0,0,1359,25
-2015,"LFJR","Angers-Marcé","France",948,0,0,40,32
-2015,"LFKB","Bastia-Poretta","France",7427,0,0,2907,158
-2015,"LFKC","Calvi-Sainte-Catherine","France",3030,0,0,768,586
-2015,"LFKF","Figari-Sud Corse","France",5092,0,0,1076,642
-2015,"LFKJ","Ajaccio-Napoléon-Bonaparte","France",8083,0,0,2814,69
-2015,"LFLB","Chambéry-Aix-les-Bains","France",3319,0,0,360,796
-2015,"LFLC","Clermont-Ferrand-Auvergne","France",6541,0,0,3065,103
-2015,"LFLI","Annemasse","France",1011,0,0,0,0
-2015,"LFLL","Lyon-Saint-Exupéry","France",54240,54341,6326,42486,6707
-2015,"LFLP","Annecy-Meythet","France",1570,0,0,0,0
-2015,"LFLS","Grenoble-Isère","France",3006,0,0,582,329
-2015,"LFLX","Châteauroux-Déols","France",1313,0,0,57,35
-2015,"LFLY","Lyon-Bron","France",4618,0,0,0,0
-2015,"LFMD","Cannes-Mandelieu","France",6622,0,0,2,10
-2015,"LFMH","Saint-Etienne-Bouthéon","France",1400,0,0,315,31
-2015,"LFMI","Istres-Le Tubé","France",1621,0,0,1,0
-2015,"LFMK","Carcassonne-Salvaza","France",2635,0,0,1189,229
-2015,"LFML","Marseille-Provence","France",47835,0,0,29262,8511
-2015,"LFMN","Nice-Côte d’Azur","France",67976,0,0,42874,17172
-2015,"LFMP","Perpignan-Rivesaltes","France",4159,0,0,2170,75
-2015,"LFMT","Montpellier-Méditerranée","France",13459,0,0,6940,798
-2015,"LFMU","Béziers-Vias","France",2727,0,0,771,151
-2015,"LFMV","Avignon-Caumont","France",2645,0,0,56,8
-2015,"LFOB","Beauvais-Tillé","France",14082,0,0,13151,2879
-2015,"LFOH","Le Havre-Octeville","France",449,0,0,5,0
-2015,"LFOK","Châlons-Vatry","France",1600,0,0,285,251
-2015,"LFOT","Tours-Val de Loire","France",1542,0,0,587,644
-2015,"LFPB","Paris-Le Bourget","France",26670,0,0,20,25
-2015,"LFPG","Paris-Charles-de-Gaulle","France",237947,237839,94443,183680,83568
-2015,"LFPN","Toussus-le-Noble","France",4961,0,0,0,0
-2015,"LFPO","Paris-Orly","France",117101,0,0,77077,26535
-2015,"LFQQ","Lille-Lesquin","France",10301,0,0,7011,430
-2015,"LFRB","Brest-Bretagne","France",7590,0,0,5230,139
-2015,"LFRD","Dinard-Pleurtuit-Saint-Malo","France",1764,0,0,407,21
-2015,"LFRG","Deauville-Normandie","France",1876,0,0,494,84
-2015,"LFRH","Lorient-Lann Bihoué","France",3631,0,0,1111,13
-2015,"LFRK","Caen-Carpiquet","France",2496,0,0,987,17
-2015,"LFRM","Le Mans","France",692,0,0,2,0
-2015,"LFRN","Rennes-Saint-Jacques","France",7459,0,0,3915,64
-2015,"LFRO","Lannion","France",726,0,0,528,20
-2015,"LFRQ","Quimper-Pluguffan","France",1342,0,0,900,20
-2015,"LFRS","Nantes-Atlantique","France",25989,0,0,20052,3655
-2015,"LFRZ","Saint-Nazaire-Montoir","France",1405,0,0,312,17
-2015,"LFSB","Bâle-Mulhouse","France",38572,0,0,28263,3827
-2015,"LFSL","Brive-Souillac","France",1521,0,0,647,102
-2015,"LFST","Strasbourg-Entzheim","France",11619,0,0,9107,111
-2015,"LFTH","Hyères-Le Palyvestre","France",5715,0,0,2206,123
-2015,"LFTW","Nîmes-Garons","France",1841,0,0,634,115
-2015,"LGAV","Athens","Greece",84568,84976,45924,51345,21664
-2015,"LGIR","Heraklion","Greece",23338,0,0,11612,2473
-2015,"LGKF","Kefallinia","Greece",2415,0,0,993,181
-2015,"LGKO","Kos","Greece",8675,0,0,3752,1708
-2015,"LGKR","Corfu","Greece",10033,0,0,5443,3663
-2015,"LGMK","Mikonos","Greece",5969,0,0,2540,1150
-2015,"LGPZ","Aktion","Greece",2024,0,0,641,23
-2015,"LGRP","Rodos","Greece",17919,0,0,9383,4485
-2015,"LGSA","Khania/Souda","Greece",12135,0,0,7438,1577
-2015,"LGSK","Skiathos","Greece",1823,0,0,758,78
-2015,"LGSR","Santorini","Greece",6640,0,0,4348,506
-2015,"LGTS","Thessaloniki","Greece",25531,0,0,17578,3876
-2015,"LGZA","Zakinthos","Greece",4902,0,0,1645,946
-2015,"LHBP","Budapest/ Ferihegy","Hungary",45958,41987,5382,34517,6096
-2015,"LIBR","Brindisi","Italy",8762,0,0,7811,1701
-2015,"LICC","Catania","Italy",27840,27454,68915,24200,24633
-2015,"LIMC","Milan/ Malpensa","Italy",80272,0,0,56986,24022
-2015,"LIME","Bergamo","Italy",37838,37956,27545,31113,24124
-2015,"LIML","Milan/ Linate","Italy",58451,0,0,46921,25675
-2015,"LIPH","Treviso","Italy",8343,0,0,7166,6567
-2015,"LIPZ","Venice","Italy",40812,40973,64423,29637,22688
-2015,"LIRA","Rome/Ciampino","Italy",27400,0,0,18047,22784
-2015,"LIRF","Rome/Fiumicino","Italy",157600,157646,477769,135405,414299
-2015,"LIRP","Pisa San Giusto","Italy",20458,0,0,16109,29571
-2015,"LJLJ","Ljubljana","Slovenia",13753,12016,405,2758,273
-2015,"LJMB","Maribor","Slovenia",945,0,0,47,0
-2015,"LJPZ","Portorož","Slovenia",770,0,0,0,0
-2015,"LKKV","Karlovy Vary","Czech Republic",1104,0,0,344,0
-2015,"LKMT","Ostrava","Czech Republic",3470,0,0,890,0
-2015,"LKPR","Prague","Czech Republic",61812,61546,22131,40868,17969
-2015,"LKTB","Brno-Turany","Czech Republic",4226,0,0,623,3
-2015,"LMML","Malta","Malta",20949,21419,1665,15931,2554
-2015,"LOWG","Graz","Austria",9621,0,0,6464,130
-2015,"LOWI","Innsbruck","Austria",9204,0,0,4724,1184
-2015,"LOWK","Klagenfurt","Austria",3914,0,0,1868,25
-2015,"LOWL","Linz","Austria",6819,0,0,3881,457
-2015,"LOWS","Salzburg","Austria",14574,0,0,8420,2809
-2015,"LOWW","Vienna","Austria",121230,119838,119707,99102,54009
-2015,"LPAZ","Santa Maria","Portugal",1386,0,0,6,0
-2015,"LPCS","Cascais","Portugal",1211,0,0,1,0
-2015,"LPFL","Flores","Portugal",626,0,0,0,0
-2015,"LPFR","Faro","Portugal",22288,0,0,15743,3943
-2015,"LPHR","Horta","Portugal",2025,0,0,40,2
-2015,"LPMA","Madeira","Portugal",10906,0,0,7046,2669
-2015,"LPPD","Ponta Delgada","Portugal",6858,0,0,1394,231
-2015,"LPPR","Porto","Portugal",35219,0,0,29641,17650
-2015,"LPPS","Porto Santo","Portugal",1559,0,0,242,18
-2015,"LPPT","Lisbon","Portugal",82973,0,0,73124,62398
-2015,"LQSA","Sarajevo","Bosnia & Herzegovina",5189,0,0,2632,227
-2015,"LRBS","Bucharest/ Baneasa","Romania",1825,0,0,6,0
-2015,"LROP","Bucharest/ Otopeni","Romania",48246,0,0,37376,8358
-2015,"LSGG","Geneva","Switzerland",90767,90517,22613,63578,19804
-2015,"LSGS","Sion","Switzerland",2940,0,0,0,0
-2015,"LSZH","Zürich","Switzerland",129016,129000,248323,102526,232048
-2015,"LTAC","Ankara/ Esenboga","Turkey",47115,0,0,33770,11657
-2015,"LTAI","Antalya","Turkey",84933,0,0,24497,23312
-2015,"LTBA","Istanbul/ Atatürk","Turkey",226764,0,0,181646,732220
-2015,"LTBJ","Izmir/ Adnan Menderes","Turkey",40764,0,0,14668,9462
-2015,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey",106432,0,0,35454,135529
-2015,"LUKK","Chi<U+0219>inau","Moldova",11242,0,0,2682,464
-2015,"LWSK","Skopje","FYR Macedonia",7055,0,0,4875,341
-2015,"LYBE","Belgrade/ Nikola Tesla","Serbia",31285,0,0,23077,3533
-2015,"LYPG","Podgorica","Montenegro",5356,0,0,2095,217
-2015,"LZIB","Bratislava","Slovakia",9891,0,0,4022,1263
-2015,"UDYZ","Zvartnots","Armenia",9046,0,0,610,83
-2015,"UGTB","Tbilisi","Georgia",10999,0,0,2929,2450
-2015,"UKBB","Kiev/Boryspil","Ukraine",34483,0,0,6294,797
-2015,NA,"Albania","Albania",10453,0,0,5079,733
-2015,NA,"Armenia","Armenia",9046,0,0,610,83
-2015,NA,"Austria","Austria",165362,119838,119707,124459,58614
-2015,NA,"Belgium","Belgium",168224,142897,79887,116923,71397
-2015,NA,"Bosnia & Herzegovina","Bosnia & Herzegovina",5189,0,0,2632,227
-2015,NA,"Bulgaria","Bulgaria",21725,21317,921,10894,1947
-2015,NA,"Croatia","Croatia",19209,0,0,6062,1192
-2015,NA,"Cyprus","Cyprus",29082,0,0,14935,5407
-2015,NA,"Czech Republic","Czech Republic",70612,61546,22131,42725,17972
-2015,NA,"Denmark","Denmark",127381,127525,3616,106767,5848
-2015,NA,"Estonia","Estonia",19226,14556,90,8663,333
-2015,NA,"Finland","Finland",84598,85850,12910,74583,11861
-2015,NA,"France","France",890220,292180,100769,568288,169441
-2015,NA,"FYR Macedonia","FYR Macedonia",7055,0,0,4875,341
-2015,NA,"Georgia","Georgia",10999,0,0,2929,2450
-2015,NA,"Germany","Germany",984541,134949,16083,751538,401004
-2015,NA,"Greece","Greece",205972,84976,45924,117476,42330
-2015,NA,"Hungary","Hungary",45958,41987,5382,34517,6096
-2015,NA,"Ireland","Ireland",126612,98957,52880,92007,52241
-2015,NA,"Italy","Italy",467776,264029,638652,373395,596064
-2015,NA,"Latvia","Latvia",33871,0,0,28427,500
-2015,NA,"Lithuania","Lithuania",25313,0,0,16173,690
-2015,NA,"Luxembourg","Luxembourg",30416,30337,502,20393,2293
-2015,NA,"Malta","Malta",20949,21419,1665,15931,2554
-2015,NA,"Moldova","Moldova",11242,0,0,2682,464
-2015,NA,"Montenegro","Montenegro",5356,0,0,2095,217
-2015,NA,"Netherlands","Netherlands",252979,0,0,177602,292077
-2015,NA,"Norway","Norway",237122,233296,8560,211247,9320
-2015,NA,"Poland","Poland",164238,65830,17310,123030,28011
-2015,NA,"Portugal","Portugal",165051,0,0,127237,86911
-2015,NA,"Romania","Romania",50071,0,0,37382,8358
-2015,NA,"Serbia","Serbia",31285,0,0,23077,3533
-2015,NA,"SES","SES",6306106,3310070,1884441,4602353,2583023
-2015,NA,"Slovakia","Slovakia",9891,0,0,4022,1263
-2015,NA,"Slovenia","Slovenia",15468,12016,405,2805,273
-2015,NA,"Spain","Spain",863404,719792,256496,658403,347472
-2015,NA,"Sweden","Sweden",139184,111112,4527,102874,6337
-2015,NA,"Switzerland","Switzerland",222723,219517,270936,166104,251852
-2015,NA,"Turkey","Turkey",506008,0,0,290035,912180
-2015,NA,"Ukraine","Ukraine",34483,0,0,6294,797
-2015,NA,"United Kingdom","United Kingdom",935778,406144,225088,673520,395942
 2016,"EBAW","Antwerp","Belgium",7910,0,0,1125,404
 2016,"EBBR","Brussels","Belgium",109057,110246,47249,88435,47386
 2016,"EBCI","Charleroi","Belgium",24880,24475,4020,22373,4624
@@ -762,7 +134,7 @@
 2016,"LERT","Rota","Spain",2666,0,0,0,0
 2016,"LESA","Salamanca Matalan","Spain",1367,0,0,57,2
 2016,"LESB","Son Bonet","Spain",230,0,0,0,0
-2016,"LESJ","Palma/Son San Juan","Spain",149,0,0,0,0
+2016,"LESJ","Palma de Mallorca","Spain",149,0,0,0,0
 2016,"LESO","San Sebastian","Spain",2640,0,0,2176,215
 2016,"LEST","Santiago","Spain",9960,0,0,7904,2165
 2016,"LETO","Madrid/Torrejon","Spain",885,0,0,0,0
@@ -898,7 +270,7 @@
 2016,"LTBJ","Izmir/ Adnan Menderes","Turkey",39975,0,0,15064,5197
 2016,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey",112708,0,0,43704,183839
 2016,"LUKK","Chi<U+0219>inau","Moldova",11128,0,0,3286,668
-2016,"LWSK","Skopje","FYR Macedonia",7609,0,0,5661,290
+2016,"LWSK","Skopje","North Macedonia",7609,0,0,5661,290
 2016,"LYBE","Belgrade/ Nikola Tesla","Serbia",31715,0,0,23652,3272
 2016,"LYPG","Podgorica","Montenegro",5708,0,0,2487,204
 2016,"LZIB","Bratislava","Slovakia",10455,0,0,5349,1562
@@ -918,7 +290,6 @@
 2016,NA,"Estonia","Estonia",19307,20346,780,11433,834
 2016,NA,"Finland","Finland",84285,85297,15532,65163,11858
 2016,NA,"France","France",904860,358191,165064,564497,214652
-2016,NA,"FYR Macedonia","FYR Macedonia",7609,0,0,5661,290
 2016,NA,"Georgia","Georgia",11943,0,0,3020,3405
 2016,NA,"Germany","Germany",1007533,608396,162410,751316,311496
 2016,NA,"Greece","Greece",220303,91248,68502,128496,70954
@@ -932,6 +303,7 @@
 2016,NA,"Moldova","Moldova",11128,0,0,3286,668
 2016,NA,"Montenegro","Montenegro",5708,0,0,2487,204
 2016,NA,"Netherlands","Netherlands",266778,0,0,190784,364546
+2016,NA,"North Macedonia","North Macedonia",7609,0,0,5661,290
 2016,NA,"Norway","Norway",232153,231844,10895,201114,10766
 2016,NA,"Poland","Poland",177172,77898,35244,139156,50799
 2016,NA,"Portugal","Portugal",185434,0,0,140180,124706
@@ -1129,7 +501,7 @@
 2017,"LERT","Rota","Spain",2909,0,0,0,0
 2017,"LESA","Salamanca Matalan","Spain",1712,0,0,18,0
 2017,"LESB","Son Bonet","Spain",221,0,0,0,0
-2017,"LESJ","Palma/Son San Juan","Spain",149,0,0,0,0
+2017,"LESJ","Palma de Mallorca","Spain",149,0,0,0,0
 2017,"LESO","San Sebastian","Spain",2844,0,0,2064,188
 2017,"LEST","Santiago","Spain",10112,0,0,7416,1512
 2017,"LETO","Madrid/Torrejon","Spain",880,0,0,0,0
@@ -1266,7 +638,7 @@
 2017,"LTBJ","Izmir/ Adnan Menderes","Turkey",41422,0,0,12625,11271
 2017,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey",107036,0,0,33023,61631
 2017,"LUKK","Chi<U+0219>inau","Moldova",13565,0,0,3478,1172
-2017,"LWSK","Skopje","FYR Macedonia",8194,0,0,5460,342
+2017,"LWSK","Skopje","North Macedonia",8194,0,0,5460,342
 2017,"LYBE","Belgrade/ Nikola Tesla","Serbia",32042,0,0,10335,2565
 2017,"LYPG","Podgorica","Montenegro",6460,0,0,2128,481
 2017,"LZIB","Bratislava","Slovakia",11084,0,0,5905,1231
@@ -1286,7 +658,6 @@
 2017,NA,"Estonia","Estonia",21688,21668,488,10858,486
 2017,NA,"Finland","Finland",88305,90832,30836,78034,33155
 2017,NA,"France","France",918431,213057,111683,573708,245005
-2017,NA,"FYR Macedonia","FYR Macedonia",8194,0,0,5460,342
 2017,NA,"Georgia","Georgia",16110,0,0,3505,4015
 2017,NA,"Germany","Germany",1023340,641935,215482,730578,426545
 2017,NA,"Greece","Greece",230253,94784,63890,129937,91336
@@ -1302,6 +673,7 @@
 2017,NA,"Montenegro","Montenegro",6460,0,0,2128,481
 2017,NA,"Morocco","Morocco",84228,0,0,23548,18872
 2017,NA,"Netherlands","Netherlands",274602,0,0,195367,473334
+2017,NA,"North Macedonia","North Macedonia",8194,0,0,5460,342
 2017,NA,"Norway","Norway",371933,321336,24568,322872,24716
 2017,NA,"Poland","Poland",193048,85554,40121,99440,24934
 2017,NA,"Portugal","Portugal",205488,145164,290495,154619,249702
@@ -1316,372 +688,372 @@
 2017,NA,"Turkey","Turkey",507317,0,0,264744,667658
 2017,NA,"Ukraine","Ukraine",43784,0,0,7280,1031
 2017,NA,"United Kingdom","United Kingdom",1064457,464419,328150,767734,510378
-2018,"EBAW","Antwerp","Belgium",7569,0,0,1012,241
-2018,"EBBR","Brussels","Belgium",114961,116123,94971,85966,68118
-2018,"EBCI","Charleroi","Belgium",26738,26631,4474,21964,2974
-2018,"EBLG","Liège","Belgium",17280,0,0,1668,219
-2018,"EBOS","Ostend-Bruges","Belgium",3313,0,0,1538,148
-2018,"EDDB","Berlin/ Schoenefeld","Germany",50393,0,0,34266,8787
-2018,"EDDC","Dresden","Germany",11061,0,0,8519,784
+2018,"EBAW","Antwerp","Belgium",7569,0,0,1013,241
+2018,"EBBR","Brussels","Belgium",114961,116123,94971,87755,69609
+2018,"EBCI","Charleroi","Belgium",26738,26631,4474,23298,4088
+2018,"EBLG","Liège","Belgium",17280,0,0,1671,219
+2018,"EBOS","Ostend-Bruges","Belgium",3313,0,0,1541,148
+2018,"EDDB","Berlin/ Schoenefeld","Germany",50393,0,0,36800,9467
+2018,"EDDC","Dresden","Germany",11061,0,0,8791,784
 2018,"EDDE","Erfurt","Germany",2804,2865,0,965,481
-2018,"EDDF","Frankfurt","Germany",256008,236875,136438,194334,169675
-2018,"EDDG","Muenster-Osnabrueck","Germany",9655,5620,839,4239,469
-2018,"EDDH","Hamburg","Germany",74601,74379,20694,59770,20801
-2018,"EDDK","Cologne-Bonn","Germany",70721,0,0,41194,8965
-2018,"EDDL","Dusseldorf","Germany",109163,0,0,85326,55173
-2018,"EDDM","Munich","Germany",205274,205176,15895,157635,29531
-2018,"EDDN","Nuremberg","Germany",27006,17571,1308,18007,2863
-2018,"EDDP","Leipzig-Halle","Germany",37330,29055,2849,8301,710
-2018,"EDDR","Saarbruecken","Germany",4541,4334,0,2898,165
-2018,"EDDS","Stuttgart","Germany",64127,60230,12025,45921,13249
-2018,"EDDT","Berlin/ Tegel","Germany",92600,0,0,77250,46046
-2018,"EDDV","Hanover","Germany",32914,28617,9589,22630,5652
-2018,"EDDW","Bremen","Germany",15471,15826,2202,10858,2954
-2018,"EETN","Tallinn","Estonia",22553,23537,469,14566,867
+2018,"EDDF","Frankfurt","Germany",256008,255984,149311,208270,181299
+2018,"EDDG","Muenster-Osnabrueck","Germany",9655,5620,839,4457,469
+2018,"EDDH","Hamburg","Germany",74601,74379,20694,61975,21385
+2018,"EDDK","Cologne-Bonn","Germany",70721,0,0,42377,9160
+2018,"EDDL","Dusseldorf","Germany",109163,0,0,87626,55919
+2018,"EDDM","Munich","Germany",205274,205176,15895,168235,32642
+2018,"EDDN","Nuremberg","Germany",27006,17571,1308,18553,2984
+2018,"EDDP","Leipzig-Halle","Germany",37330,31988,3000,8721,810
+2018,"EDDR","Saarbruecken","Germany",4541,4603,0,3053,201
+2018,"EDDS","Stuttgart","Germany",64127,64726,13831,46989,14097
+2018,"EDDT","Berlin/ Tegel","Germany",92600,0,0,81600,49755
+2018,"EDDV","Hanover","Germany",32914,30840,10489,23280,6196
+2018,"EDDW","Bremen","Germany",15471,16915,2467,11280,3101
+2018,"EETN","Tallinn","Estonia",22553,23537,469,14817,906
 2018,"EETU","Tartu","Estonia",713,0,0,315,0
-2018,"EFHK","Helsinki/ Vantaa","Finland",96245,98670,37092,84230,36490
-2018,"EGAA","Belfast/Aldergrove","United Kingdom",25448,0,0,18081,4888
-2018,"EGAC","Belfast/City Airport","United Kingdom",18072,0,0,16093,1299
-2018,"EGAE","Londonderry/Eglinton","United Kingdom",1363,0,0,1065,0
-2018,"EGBB","Birmingham","United Kingdom",55093,54672,13558,39502,14243
-2018,"EGCC","Manchester","United Kingdom",100634,48549,37189,73438,51313
-2018,"EGGD","Bristol","United Kingdom",34969,23005,3868,28436,7321
-2018,"EGGW","London/ Luton","United Kingdom",67866,52656,19418,47872,34017
-2018,"EGHI","Southampton","United Kingdom",19315,0,0,12128,1901
-2018,"EGKB","Biggin Hill","United Kingdom",8703,0,0,9,0
-2018,"EGKK","London/ Gatwick","United Kingdom",141952,122034,113013,119681,121883
-2018,"EGLC","London/ City","United Kingdom",40356,0,0,30193,23765
-2018,"EGLF","Farnborough","United Kingdom",14788,0,0,34,0
-2018,"EGLL","London/ Heathrow","United Kingdom",238881,0,0,180354,117816
-2018,"EGNT","Newcastle","United Kingdom",22678,0,0,14611,1345
-2018,"EGNX","East Midlands","United Kingdom",34521,0,0,13743,1835
-2018,"EGPD","Aberdeen","United Kingdom",28221,26136,569,13501,418
-2018,"EGPF","Glasgow","United Kingdom",45348,42603,5465,27234,5055
-2018,"EGPH","Edinburgh","United Kingdom",64778,55162,18581,44941,19048
-2018,"EGSS","London/ Stansted","United Kingdom",100058,100027,133001,72943,102452
-2018,"EHAM","Amsterdam/ Schiphol","Netherlands",255694,0,0,193985,429126
-2018,"EHBK","Maastricht-Aachen","Netherlands",4712,0,0,306,10
-2018,"EHGG","Groningen","Netherlands",5620,0,0,804,36
-2018,"EHRD","Rotterdam","Netherlands",12436,0,0,1792,1653
-2018,"EICK","Cork","Ireland",12345,0,0,6831,1113
+2018,"EFHK","Helsinki/ Vantaa","Finland",96245,98670,37092,85614,37185
+2018,"EGAA","Belfast/Aldergrove","United Kingdom",25448,0,0,19695,5396
+2018,"EGAC","Belfast/City Airport","United Kingdom",18072,0,0,17297,1388
+2018,"EGAE","Londonderry/Eglinton","United Kingdom",1363,0,0,1103,0
+2018,"EGBB","Birmingham","United Kingdom",55093,54672,13558,41700,15392
+2018,"EGCC","Manchester","United Kingdom",100634,55594,43605,77757,54462
+2018,"EGGD","Bristol","United Kingdom",34969,23005,3868,30076,7960
+2018,"EGGW","London/ Luton","United Kingdom",67866,58068,21253,50176,36467
+2018,"EGHI","Southampton","United Kingdom",19315,0,0,13049,1964
+2018,"EGKB","Biggin Hill","United Kingdom",8703,0,0,21,0
+2018,"EGKK","London/ Gatwick","United Kingdom",141952,132227,124455,127361,130708
+2018,"EGLC","London/ City","United Kingdom",40356,0,0,32355,25474
+2018,"EGLF","Farnborough","United Kingdom",14788,0,0,56,0
+2018,"EGLL","London/ Heathrow","United Kingdom",238881,0,0,191282,122464
+2018,"EGNT","Newcastle","United Kingdom",22678,0,0,15230,1398
+2018,"EGNX","East Midlands","United Kingdom",34521,0,0,14519,1921
+2018,"EGPD","Aberdeen","United Kingdom",28221,28024,574,14050,429
+2018,"EGPF","Glasgow","United Kingdom",45348,45565,5781,28995,5345
+2018,"EGPH","Edinburgh","United Kingdom",64778,55162,18581,48267,20344
+2018,"EGSS","London/ Stansted","United Kingdom",100058,100027,133001,78593,110469
+2018,"EHAM","Amsterdam/ Schiphol","Netherlands",255694,0,0,197671,436269
+2018,"EHBK","Maastricht-Aachen","Netherlands",4712,0,0,319,10
+2018,"EHGG","Groningen","Netherlands",5620,0,0,808,43
+2018,"EHRD","Rotterdam","Netherlands",12436,0,0,1928,1720
+2018,"EICK","Cork","Ireland",12345,0,0,7050,1134
 2018,"EIDL","Donegal","Ireland",937,0,0,0,0
-2018,"EIDW","Dublin","Ireland",116180,107477,73649,85968,65339
-2018,"EIKN","Connaught","Ireland",3294,0,0,2893,44
-2018,"EIKY","Kerry/Farranfore","Ireland",2251,0,0,887,162
-2018,"EINN","Shannon","Ireland",11166,0,0,5059,636
+2018,"EIDW","Dublin","Ireland",116180,116178,81450,89976,69685
+2018,"EIKN","Connaught","Ireland",3294,0,0,3080,52
+2018,"EIKY","Kerry/Farranfore","Ireland",2251,0,0,955,162
+2018,"EINN","Shannon","Ireland",11166,0,0,5293,674
 2018,"EISG","Sligo","Ireland",36,0,0,0,0
 2018,"EIWF","Waterford","Ireland",194,0,0,0,0
 2018,"EIWT","Weston","Ireland",580,0,0,0,0
-2018,"EKCH","Copenhagen/ Kastrup","Denmark",133047,123524,16850,105003,15919
-2018,"ELLX","Luxembourg","Luxembourg",37406,34464,3159,25328,4626
-2018,"ENAL","Alesund","Norway",7270,5722,40,5987,49
-2018,"ENAN","Andenes","Norway",2176,1549,0,1546,0
-2018,"ENAT","Alta","Norway",4275,2855,15,2885,0
-2018,"ENBL","Forde Bringeland","Norway",1994,1774,0,1771,0
-2018,"ENBN","Bronnoysund Bronnoy","Norway",3576,1807,0,1809,0
-2018,"ENBO","Bodø","Norway",19675,15689,849,16406,942
-2018,"ENBR","Bergen","Norway",42684,31951,330,32976,350
-2018,"ENBS","Batsfjord","Norway",1122,873,8,873,8
-2018,"ENBV","Berlevåg","Norway",806,643,0,643,0
-2018,"ENCN","Kristiansand Kjevik","Norway",7937,6613,79,6817,74
-2018,"ENDU","Bardufoss","Norway",1835,943,0,972,0
-2018,"ENEV","Harstad/Narvik Evenes","Norway",5000,4030,0,4094,0
+2018,"EKCH","Copenhagen/ Kastrup","Denmark",133047,133026,18376,108306,16560
+2018,"ELLX","Luxembourg","Luxembourg",37406,37302,3245,27025,4754
+2018,"ENAL","Alesund","Norway",7270,6150,40,6087,49
+2018,"ENAN","Andenes","Norway",2176,1674,0,1547,0
+2018,"ENAT","Alta","Norway",4275,3070,15,2910,0
+2018,"ENBL","Forde Bringeland","Norway",1994,1921,0,1771,0
+2018,"ENBN","Bronnoysund Bronnoy","Norway",3576,1954,4,1809,0
+2018,"ENBO","Bodø","Norway",19675,16938,908,16523,942
+2018,"ENBR","Bergen","Norway",42684,34481,330,33587,350
+2018,"ENBS","Batsfjord","Norway",1122,949,8,873,8
+2018,"ENBV","Berlevåg","Norway",806,701,0,643,0
+2018,"ENCN","Kristiansand Kjevik","Norway",7937,7174,86,6895,74
+2018,"ENDU","Bardufoss","Norway",1835,1016,0,1045,0
+2018,"ENEV","Harstad/Narvik Evenes","Norway",5000,4365,0,4207,0
 2018,"ENFG","Fagernes Leirin","Norway",11,0,0,7,0
-2018,"ENFL","Florø","Norway",3966,2469,0,2470,0
-2018,"ENGM","Oslo/ Gardermoen","Norway",128771,118722,20256,118413,22005
-2018,"ENHD","Haugesund","Norway",3062,2607,0,2686,14
-2018,"ENHF","Hammerfest","Norway",5591,3457,18,3453,18
-2018,"ENHK","Hasvik","Norway",877,656,0,655,0
-2018,"ENHV","Honningsvåg Valan","Norway",998,781,2,779,2
-2018,"ENKB","Kristiansund Kvernberget","Norway",4963,2493,44,2600,44
-2018,"ENKR","Kirkenes Høybuktmoen","Norway",3775,2657,7,2705,7
-2018,"ENLK","Leknes","Norway",3162,2510,0,2503,0
-2018,"ENMH","Mehamn","Norway",1213,828,0,825,0
-2018,"ENML","Molde Årø","Norway",3201,2699,0,2766,0
-2018,"ENMS","Mosjøen Kjærstad","Norway",1915,1509,5,1508,5
-2018,"ENNA","Lakselv Banak","Norway",1211,946,0,945,0
-2018,"ENNM","Namsos Høknesøra","Norway",1347,1202,0,1200,0
-2018,"ENOV","Orsta¿Volda Hovden","Norway",2445,2072,14,2071,9
-2018,"ENRA","Mo i Rana Røssvoll","Norway",2740,2109,0,2107,0
-2018,"ENRM","Rorvik Ryum","Norway",1168,1039,0,1039,0
-2018,"ENRO","Roros","Norway",612,472,2,522,2
-2018,"ENRS","Rost","Norway",620,530,0,530,0
-2018,"ENSB","Svalbard Longyear","Norway",1075,641,11,661,11
-2018,"ENSD","Sandane  Anda","Norway",1138,1010,0,1009,0
-2018,"ENSG","Sogndal Haukåsen","Norway",2537,2064,7,2260,7
-2018,"ENSH","Svolvær Helle","Norway",2412,2211,0,2207,0
-2018,"ENSK","Stokmarknes Skagen","Norway",3108,2445,0,2443,0
-2018,"ENSR","Sorkjosen","Norway",871,645,0,703,0
-2018,"ENSS","Vardø Svartnes","Norway",1110,888,0,888,0
-2018,"ENST","Sandnessjøen Stokka","Norway",1932,1493,0,1490,0
-2018,"ENTC","Tromsø","Norway",21127,16307,535,16675,600
-2018,"ENVA","Trondheim","Norway",27325,23397,70,24242,57
-2018,"ENVD","Vadsø","Norway",3255,2381,0,2591,0
+2018,"ENFL","Florø","Norway",3966,2679,0,2470,0
+2018,"ENGM","Oslo/ Gardermoen","Norway",128771,127978,22723,122371,23454
+2018,"ENHD","Haugesund","Norway",3062,2806,0,2761,14
+2018,"ENHF","Hammerfest","Norway",5591,3750,18,3453,18
+2018,"ENHK","Hasvik","Norway",877,710,0,655,0
+2018,"ENHV","Honningsvåg Valan","Norway",998,850,2,779,2
+2018,"ENKB","Kristiansund Kvernberget","Norway",4963,2682,44,2600,44
+2018,"ENKR","Kirkenes Høybuktmoen","Norway",3775,2876,7,2730,7
+2018,"ENLK","Leknes","Norway",3162,2697,0,2503,0
+2018,"ENMH","Mehamn","Norway",1213,901,0,825,0
+2018,"ENML","Molde Årø","Norway",3201,2912,0,2832,0
+2018,"ENMS","Mosjøen Kjærstad","Norway",1915,1630,5,1508,5
+2018,"ENNA","Lakselv Banak","Norway",1211,1016,0,946,0
+2018,"ENNM","Namsos Høknesøra","Norway",1347,1298,0,1200,0
+2018,"ENOV","Orsta¿Volda Hovden","Norway",2445,2247,14,2071,9
+2018,"ENRA","Mo i Rana Røssvoll","Norway",2740,2279,0,2107,0
+2018,"ENRM","Rorvik Ryum","Norway",1168,1124,0,1039,0
+2018,"ENRO","Roros","Norway",612,522,2,522,2
+2018,"ENRS","Rost","Norway",620,577,0,530,0
+2018,"ENSB","Svalbard Longyear","Norway",1075,670,15,670,15
+2018,"ENSD","Sandane  Anda","Norway",1138,1097,0,1009,0
+2018,"ENSG","Sogndal Haukåsen","Norway",2537,2244,7,2260,7
+2018,"ENSH","Svolvær Helle","Norway",2412,2357,0,2207,0
+2018,"ENSK","Stokmarknes Skagen","Norway",3108,2638,0,2443,0
+2018,"ENSR","Sorkjosen","Norway",871,704,0,703,0
+2018,"ENSS","Vardø Svartnes","Norway",1110,963,0,888,0
+2018,"ENST","Sandnessjøen Stokka","Norway",1932,1615,0,1490,0
+2018,"ENTC","Tromsø","Norway",21127,17649,807,16872,600
+2018,"ENVA","Trondheim","Norway",27325,25223,70,24685,57
+2018,"ENVD","Vadsø","Norway",3255,2605,0,2591,0
 2018,"ENVR","Værøy","Norway",607,0,0,1,0
-2018,"ENZV","Stavanger","Norway",31707,20477,133,21430,136
-2018,"EPBY","Bydgoszcz","Poland",2082,0,0,989,10
-2018,"EPGD","Gdansk","Poland",21548,0,0,17245,851
-2018,"EPKK","Krakow - Balice","Poland",27458,0,0,21145,9691
-2018,"EPKT","Katowice - Pyrzowice","Poland",18749,0,0,10224,1545
-2018,"EPLB","Lublin","Poland",2139,0,0,512,0
-2018,"EPLL","Lodz - Lublinek","Poland",1872,0,0,672,20
-2018,"EPMO","Warszawa/ Modlin","Poland",9840,0,0,8404,1859
-2018,"EPPO","Poznan - Lawica","Poland",12192,0,0,7250,996
+2018,"ENZV","Stavanger","Norway",31707,22065,133,21844,136
+2018,"EPBY","Bydgoszcz","Poland",2082,0,0,1102,10
+2018,"EPGD","Gdansk","Poland",21548,0,0,17855,897
+2018,"EPKK","Krakow - Balice","Poland",27458,0,0,22627,10515
+2018,"EPKT","Katowice - Pyrzowice","Poland",18749,0,0,11218,1767
+2018,"EPLB","Lublin","Poland",2139,0,0,532,0
+2018,"EPLL","Lodz - Lublinek","Poland",1872,0,0,738,29
+2018,"EPMO","Warszawa/ Modlin","Poland",9840,0,0,9135,2063
+2018,"EPPO","Poznan - Lawica","Poland",12192,0,0,7808,1104
 2018,"EPRA","Radom","Poland",309,0,0,0,0
-2018,"EPRZ","Rzeszow - Jasionka","Poland",4636,0,0,2843,83
-2018,"EPSC","Szczecin - Goleniów","Poland",3096,0,0,2089,5
-2018,"EPSY","Olsztyn-Mazury","Poland",725,0,0,397,0
-2018,"EPWA","Warszawa/ Chopina","Poland",93677,86570,28742,61516,26380
-2018,"EPWR","Wroclaw/ Strachowice","Poland",15471,0,0,11173,1373
+2018,"EPRZ","Rzeszow - Jasionka","Poland",4636,0,0,3009,83
+2018,"EPSC","Szczecin - Goleniów","Poland",3096,0,0,2179,5
+2018,"EPSY","Olsztyn-Mazury","Poland",725,0,0,411,0
+2018,"EPWA","Warszawa/ Chopina","Poland",93677,93764,32457,63052,27131
+2018,"EPWR","Wroclaw/ Strachowice","Poland",15471,0,0,11862,1484
 2018,"EPZG","Zielona Gora - Babimost","Poland",441,0,0,198,6
-2018,"ESGG","Göteborg","Sweden",36239,33028,2102,27355,2359
-2018,"ESSA","Stockholm/ Arlanda","Sweden",121875,112373,7666,99500,7849
-2018,"ESSB","Stockholm/ Bromma","Sweden",27268,0,0,10920,677
+2018,"ESGG","Göteborg","Sweden",36239,35650,2287,28175,2450
+2018,"ESSA","Stockholm/ Arlanda","Sweden",121875,120944,8332,102289,7977
+2018,"ESSB","Stockholm/ Bromma","Sweden",27268,0,0,10924,677
 2018,"EVLA","Liepaja","Latvia",181,0,0,154,0
-2018,"EVRA","Riga","Latvia",41536,41555,1881,34062,1778
+2018,"EVRA","Riga","Latvia",41536,41555,1881,34464,1817
 2018,"EVVA","Ventspils","Latvia",8,0,0,0,0
-2018,"EYKA","Kaunas","Lithuania",4408,0,0,2976,73
-2018,"EYPA","Palanga","Lithuania",2083,0,0,1814,79
+2018,"EYKA","Kaunas","Lithuania",4408,0,0,3149,112
+2018,"EYPA","Palanga","Lithuania",2083,0,0,1832,79
 2018,"EYSA","Šiauliai","Lithuania",1144,0,0,2,0
-2018,"EYVI","Vilnius","Lithuania",23237,0,0,15728,622
-2018,"GCFV","Fuerteventura","Spain",25296,18761,592,16911,2726
-2018,"GCGM","La Gomera","Spain",837,0,0,710,15
-2018,"GCHI","Hierro","Spain",2308,0,0,1749,178
-2018,"GCLA","La Palma","Spain",10615,0,0,7616,287
-2018,"GCLP","Gran Canaria","Spain",63985,57286,19033,44821,15825
-2018,"GCRR","Lanzarote","Spain",29761,24757,2593,20716,4525
-2018,"GCTS","Tenerife Sur/Reina Sofia","Spain",34010,30336,14230,23764,13276
-2018,"GCXO","Tenerife North","Spain",35042,24070,6501,25722,8337
-2018,"GEML","Melilla","Spain",3734,0,0,979,24
-2018,"GMAD","Al Massira","Morocco",8310,0,0,2872,376
-2018,"GMFF","Saïss","Morocco",5361,0,0,2424,2335
-2018,"GMME","Rabat-Salé","Morocco",6142,0,0,2143,1337
-2018,"GMMN","Mohammed V International","Morocco",44432,0,0,4532,5223
-2018,"GMMX","Menara","Morocco",20573,0,0,11076,13591
-2018,"GMTT","Ibn Batouta","Morocco",5816,0,0,1712,1546
-2018,"LATI","Tirana","Albania",12758,0,0,3944,1436
-2018,"LBSF","Sofia","Bulgaria",29809,27195,3384,18010,4223
-2018,"LCLK","Larnaca","Cyprus",31997,13748,4051,14845,4828
-2018,"LCPH","Paphos","Cyprus",9339,0,0,6227,2014
-2018,"LDZA","Zagreb","Croatia",21562,19906,1833,6538,1475
+2018,"EYVI","Vilnius","Lithuania",23237,0,0,16211,696
+2018,"GCFV","Fuerteventura","Spain",25296,18761,592,18334,3096
+2018,"GCGM","La Gomera","Spain",837,0,0,770,15
+2018,"GCHI","Hierro","Spain",2308,0,0,1943,206
+2018,"GCLA","La Palma","Spain",10615,0,0,8345,298
+2018,"GCLP","Gran Canaria","Spain",63985,63096,21349,48237,17141
+2018,"GCRR","Lanzarote","Spain",29761,27305,2763,22481,4882
+2018,"GCTS","Tenerife Sur/Reina Sofia","Spain",34010,33737,15442,25724,14119
+2018,"GCXO","Tenerife North","Spain",35042,27030,7198,27633,8836
+2018,"GEML","Melilla","Spain",3734,0,0,1079,39
+2018,"GMAD","Al Massira","Morocco",8310,0,0,3104,592
+2018,"GMFF","Saïss","Morocco",5361,0,0,2670,2518
+2018,"GMME","Rabat-Salé","Morocco",6142,0,0,2249,1404
+2018,"GMMN","Mohammed V International","Morocco",44432,0,0,4642,5295
+2018,"GMMX","Menara","Morocco",20573,0,0,12111,15036
+2018,"GMTT","Ibn Batouta","Morocco",5816,0,0,1801,1588
+2018,"LATI","Tirana","Albania",12758,0,0,4346,1579
+2018,"LBSF","Sofia","Bulgaria",29809,29431,4461,18815,4813
+2018,"LCLK","Larnaca","Cyprus",31997,13748,4051,15275,5130
+2018,"LCPH","Paphos","Cyprus",9339,0,0,6576,2069
+2018,"LDZA","Zagreb","Croatia",21562,21423,2005,6795,1544
 2018,"LDZL","Lucko","Croatia",206,0,0,0,0
 2018,"LEAB","Albacete","Spain",327,0,0,1,0
-2018,"LEAL","Alicante","Spain",48287,44892,15950,34684,15444
-2018,"LEAM","Almeria","Spain",4911,0,0,1612,319
-2018,"LEAS","Asturias","Spain",5812,0,0,4611,958
+2018,"LEAL","Alicante","Spain",48287,48032,17117,36295,16069
+2018,"LEAM","Almeria","Spain",4911,0,0,1734,529
+2018,"LEAS","Asturias","Spain",5812,0,0,4716,965
 2018,"LEBA","Cordoba","Spain",107,0,0,0,0
-2018,"LEBB","Bilbao","Spain",23576,21691,1218,20208,2844
+2018,"LEBB","Bilbao","Spain",23576,23322,1284,20685,2889
 2018,"LEBG","Burgos","Spain",148,0,0,0,0
-2018,"LEBL","Barcelona","Spain",167833,119924,185160,137503,241936
+2018,"LEBL","Barcelona","Spain",167833,132323,199133,141909,245477
 2018,"LEBZ","Badajoz","Spain",800,0,0,13,0
-2018,"LECO","La Coruna","Spain",5747,0,0,4612,1631
+2018,"LECO","La Coruna","Spain",5747,0,0,4714,1639
 2018,"LECU","Madrid/Cuatro Viento","Spain",1157,0,0,0,0
-2018,"LEDA","Lleida/Alguaire","Spain",562,0,0,32,20
-2018,"LEGE","Gerona","Spain",7852,0,0,4624,352
-2018,"LEGR","Granada","Spain",5367,0,0,3127,543
+2018,"LEDA","Lleida/Alguaire","Spain",562,0,0,33,20
+2018,"LEGE","Gerona","Spain",7852,0,0,4794,475
+2018,"LEGR","Granada","Spain",5367,0,0,3183,543
 2018,"LEGT","Madrid/Getafe","Spain",756,0,0,0,0
-2018,"LEIB","Ibiza","Spain",37506,18059,1068,22505,4299
+2018,"LEIB","Ibiza","Spain",37506,18059,1068,22816,4487
 2018,"LEIZ","Abad","Spain",147,0,0,0,0
-2018,"LEJR","Jerez De La Frontera","Spain",7534,0,0,3457,297
-2018,"LELC","Murcia San Javier","Spain",4466,0,0,3301,611
+2018,"LEJR","Jerez De La Frontera","Spain",7534,0,0,3583,322
+2018,"LELC","Murcia San Javier","Spain",4466,0,0,3488,766
 2018,"LELL","Sabadell","Spain",841,0,0,0,0
 2018,"LELN","Leon","Spain",583,0,0,10,0
-2018,"LEMD","Madrid/ Barajas","Spain",204937,186375,135069,127080,99409
-2018,"LEMG","Málaga","Spain",68794,63709,31959,49332,30437
-2018,"LEMH","Mahon","Spain",15525,0,0,9054,791
+2018,"LEMD","Madrid/ Barajas","Spain",204937,201990,146396,134111,105362
+2018,"LEMG","Málaga","Spain",68794,67953,33857,51890,31998
+2018,"LEMH","Mahon","Spain",15525,0,0,9186,840
 2018,"LEMO","Seville/Moron","Spain",1984,0,0,0,0
-2018,"LEPA","Palma de Mallorca","Spain",110098,97755,45797,79254,55252
-2018,"LEPP","Noain Pamplona","Spain",1938,0,0,197,0
+2018,"LEPA","Palma de Mallorca","Spain",110098,102302,47139,81285,57163
+2018,"LEPP","Noain Pamplona","Spain",1938,0,0,213,0
 2018,"LERE","Valencia/Requena","Spain",6,0,0,0,0
 2018,"LERJ","Logrono","Spain",348,0,0,4,0
-2018,"LERS","Reus","Spain",4161,0,0,2078,624
+2018,"LERS","Reus","Spain",4161,0,0,2094,625
 2018,"LERT","Rota","Spain",2112,0,0,0,0
 2018,"LESA","Salamanca Matalan","Spain",1672,0,0,19,0
 2018,"LESB","Son Bonet","Spain",236,0,0,0,0
-2018,"LESJ","Palma/Son San Juan","Spain",172,0,0,0,0
-2018,"LESO","San Sebastian","Spain",2699,0,0,521,142
-2018,"LEST","Santiago","Spain",10375,0,0,6624,1471
+2018,"LESJ","Palma de Mallorca","Spain",172,0,0,0,0
+2018,"LESO","San Sebastian","Spain",2699,0,0,522,142
+2018,"LEST","Santiago","Spain",10375,0,0,6933,1503
 2018,"LETO","Madrid/Torrejon","Spain",897,0,0,0,0
-2018,"LEVC","Valencia","Spain",34451,26850,438,21060,4671
-2018,"LEVD","Valladolid","Spain",1519,0,0,666,81
-2018,"LEVT","Vitoria","Spain",4333,0,0,360,4
-2018,"LEVX","Vigo","Spain",5296,0,0,4124,375
-2018,"LEXJ","Santander","Spain",4631,0,0,3233,280
-2018,"LEZG","Zaragoza","Spain",4663,0,0,1990,266
-2018,"LEZL","Sevilla","Spain",25247,4247,363,16647,5375
+2018,"LEVC","Valencia","Spain",34451,29435,506,22266,5485
+2018,"LEVD","Valladolid","Spain",1519,0,0,700,81
+2018,"LEVT","Vitoria","Spain",4333,0,0,391,4
+2018,"LEVX","Vigo","Spain",5296,0,0,4280,389
+2018,"LEXJ","Santander","Spain",4631,0,0,3466,280
+2018,"LEZG","Zaragoza","Spain",4663,0,0,2038,271
+2018,"LEZL","Sevilla","Spain",25247,4247,363,17662,5556
 2018,"LFAQ","Albert-Bray","France",511,0,0,0,0
 2018,"LFBA","Agen-La Garenne","France",2154,0,0,471,0
-2018,"LFBD","Bordeaux-Mérignac","France",34776,0,0,24998,3491
-2018,"LFBE","Bergerac-Roumanière","France",2063,0,0,993,109
-2018,"LFBH","La Rochelle-Ile de Ré","France",2511,0,0,1399,154
-2018,"LFBI","Poitiers-Biard","France",2451,0,0,1189,137
-2018,"LFBL","Limoges-Bellegarde","France",3118,0,0,850,413
-2018,"LFBO","Toulouse-Blagnac","France",48798,0,0,34861,13045
-2018,"LFBP","Pau-Pyrénées","France",5923,0,0,3090,0
-2018,"LFBT","Tarbes-Lourdes Pyrénées","France",3572,0,0,545,31
-2018,"LFBZ","Biarritz-Bayonne-Anglet","France",6915,0,0,5037,1775
+2018,"LFBD","Bordeaux-Mérignac","France",34776,0,0,25827,4063
+2018,"LFBE","Bergerac-Roumanière","France",2063,0,0,1032,109
+2018,"LFBH","La Rochelle-Ile de Ré","France",2511,0,0,1412,154
+2018,"LFBI","Poitiers-Biard","France",2451,0,0,1199,137
+2018,"LFBL","Limoges-Bellegarde","France",3118,0,0,903,428
+2018,"LFBO","Toulouse-Blagnac","France",48798,0,0,36227,13835
+2018,"LFBP","Pau-Pyrénées","France",5923,0,0,3092,0
+2018,"LFBT","Tarbes-Lourdes Pyrénées","France",3572,0,0,555,31
+2018,"LFBZ","Biarritz-Bayonne-Anglet","France",6915,0,0,5104,1808
 2018,"LFCR","Rodez-Marcillac","France",1848,0,0,89,0
-2018,"LFGJ","Dôle-Tavaux","France",1328,0,0,288,131
-2018,"LFJL","Metz-Nancy-Lorraine","France",3282,0,0,1253,24
+2018,"LFGJ","Dôle-Tavaux","France",1328,0,0,309,141
+2018,"LFJL","Metz-Nancy-Lorraine","France",3282,0,0,1284,26
 2018,"LFJR","Angers-Marcé","France",837,0,0,0,0
-2018,"LFKB","Bastia-Poretta","France",8510,0,0,3062,277
+2018,"LFKB","Bastia-Poretta","France",8510,0,0,3075,277
 2018,"LFKC","Calvi-Sainte-Catherine","France",3085,0,0,842,773
-2018,"LFKF","Figari-Sud Corse","France",5386,0,0,1840,484
-2018,"LFKJ","Ajaccio-Napoléon-Bonaparte","France",9008,0,0,3133,596
-2018,"LFLB","Chambéry-Aix-les-Bains","France",3452,0,0,399,549
-2018,"LFLC","Clermont-Ferrand-Auvergne","France",6027,0,0,2874,731
+2018,"LFKF","Figari-Sud Corse","France",5386,0,0,1843,484
+2018,"LFKJ","Ajaccio-Napoléon-Bonaparte","France",9008,0,0,3177,596
+2018,"LFLB","Chambéry-Aix-les-Bains","France",3452,0,0,454,619
+2018,"LFLC","Clermont-Ferrand-Auvergne","France",6027,0,0,2887,731
 2018,"LFLI","Annemasse","France",824,0,0,0,0
-2018,"LFLL","Lyon-Saint-Exupéry","France",56748,0,0,39153,16139
+2018,"LFLL","Lyon-Saint-Exupéry","France",56748,0,0,40735,16832
 2018,"LFLP","Annecy-Meythet","France",1486,0,0,0,0
-2018,"LFLS","Grenoble-Isère","France",3654,0,0,682,232
-2018,"LFLX","Châteauroux-Déols","France",1325,0,0,38,0
-2018,"LFLY","Lyon-Bron","France",4997,0,0,2,35
-2018,"LFMD","Cannes-Mandelieu","France",6903,0,0,3,0
+2018,"LFLS","Grenoble-Isère","France",3654,0,0,764,325
+2018,"LFLX","Châteauroux-Déols","France",1325,0,0,40,0
+2018,"LFLY","Lyon-Bron","France",4997,0,0,3,35
+2018,"LFMD","Cannes-Mandelieu","France",6903,0,0,17,0
 2018,"LFMH","Saint-Etienne-Bouthéon","France",893,0,0,2,0
 2018,"LFMI","Istres-Le Tubé","France",1097,0,0,0,0
-2018,"LFMK","Carcassonne-Salvaza","France",2759,0,0,1105,10
-2018,"LFML","Marseille-Provence","France",48909,0,0,29252,9622
-2018,"LFMN","Nice-Côte d’Azur","France",71822,67466,23151,43201,21617
-2018,"LFMP","Perpignan-Rivesaltes","France",5113,0,0,2025,44
-2018,"LFMT","Montpellier-Méditerranée","France",14711,0,0,6911,982
-2018,"LFMU","Béziers-Vias","France",3238,0,0,705,125
-2018,"LFMV","Avignon-Caumont","France",3011,0,0,48,0
-2018,"LFOB","Beauvais-Tillé","France",11883,0,0,10088,4058
+2018,"LFMK","Carcassonne-Salvaza","France",2759,0,0,1163,10
+2018,"LFML","Marseille-Provence","France",48909,0,0,30298,9795
+2018,"LFMN","Nice-Côte d’Azur","France",71822,71858,24249,44842,21981
+2018,"LFMP","Perpignan-Rivesaltes","France",5113,0,0,2049,48
+2018,"LFMT","Montpellier-Méditerranée","France",14711,0,0,6979,992
+2018,"LFMU","Béziers-Vias","France",3238,0,0,726,125
+2018,"LFMV","Avignon-Caumont","France",3011,0,0,49,0
+2018,"LFOB","Beauvais-Tillé","France",11883,0,0,10771,4375
 2018,"LFOH","Le Havre-Octeville","France",401,0,0,18,0
-2018,"LFOK","Châlons-Vatry","France",1684,0,0,182,99
-2018,"LFOT","Tours-Val de Loire","France",1498,0,0,485,62
-2018,"LFPB","Paris-Le Bourget","France",28335,0,0,32,0
-2018,"LFPG","Paris-Charles-de-Gaulle","France",244144,0,0,183268,111851
+2018,"LFOK","Châlons-Vatry","France",1684,0,0,205,135
+2018,"LFOT","Tours-Val de Loire","France",1498,0,0,520,62
+2018,"LFPB","Paris-Le Bourget","France",28335,0,0,56,0
+2018,"LFPG","Paris-Charles-de-Gaulle","France",244144,0,0,187068,115211
 2018,"LFPN","Toussus-le-Noble","France",4984,0,0,0,0
-2018,"LFPO","Paris-Orly","France",116114,70733,36887,70300,42543
-2018,"LFQQ","Lille-Lesquin","France",12522,0,0,8904,800
-2018,"LFRB","Brest-Bretagne","France",8146,0,0,5251,594
-2018,"LFRD","Dinard-Pleurtuit-Saint-Malo","France",1482,0,0,315,71
-2018,"LFRG","Deauville-Normandie","France",1791,0,0,447,35
-2018,"LFRH","Lorient-Lann Bihoué","France",3021,0,0,755,54
+2018,"LFPO","Paris-Orly","France",116114,79682,41971,71780,43676
+2018,"LFQQ","Lille-Lesquin","France",12522,0,0,9293,836
+2018,"LFRB","Brest-Bretagne","France",8146,0,0,5357,602
+2018,"LFRD","Dinard-Pleurtuit-Saint-Malo","France",1482,0,0,328,71
+2018,"LFRG","Deauville-Normandie","France",1791,0,0,529,75
+2018,"LFRH","Lorient-Lann Bihoué","France",3021,0,0,763,54
 2018,"LFRK","Caen-Carpiquet","France",3533,0,0,1675,19
-2018,"LFRM","Le Mans","France",706,0,0,0,0
-2018,"LFRN","Rennes-Saint-Jacques","France",9162,0,0,4907,317
+2018,"LFRM","Le Mans","France",706,0,0,2,0
+2018,"LFRN","Rennes-Saint-Jacques","France",9162,0,0,4968,395
 2018,"LFRO","Lannion","France",320,0,0,0,0
 2018,"LFRQ","Quimper-Pluguffan","France",1292,0,0,847,213
-2018,"LFRS","Nantes-Atlantique","France",30489,0,0,22575,8534
+2018,"LFRS","Nantes-Atlantique","France",30489,0,0,23360,9150
 2018,"LFRZ","Saint-Nazaire-Montoir","France",1319,0,0,355,0
-2018,"LFSB","Bâle-Mulhouse","France",40940,35571,2955,29041,4663
-2018,"LFSL","Brive-Souillac","France",1512,0,0,69,0
-2018,"LFST","Strasbourg-Entzheim","France",11027,0,0,7236,454
-2018,"LFTH","Hyères-Le Palyvestre","France",6039,0,0,2836,849
-2018,"LFTW","Nîmes-Garons","France",2279,0,0,674,5
-2018,"LGAV","Athens","Greece",105621,62586,78443,61563,64934
-2018,"LGIR","Heraklion","Greece",29768,0,0,15329,6811
-2018,"LGKF","Kefallinia","Greece",3533,0,0,1709,2179
-2018,"LGKO","Kos","Greece",10262,0,0,5526,3211
-2018,"LGKR","Corfu","Greece",13068,0,0,8117,7882
-2018,"LGMK","Mikonos","Greece",8256,0,0,4083,1800
-2018,"LGPZ","Aktion","Greece",2744,0,0,1108,150
-2018,"LGRP","Rodos","Greece",19616,0,0,11627,4190
-2018,"LGSA","Khania/Souda","Greece",12627,0,0,7335,6187
-2018,"LGSK","Skiathos","Greece",2068,0,0,1056,188
-2018,"LGSR","Santorini","Greece",10085,0,0,5971,648
-2018,"LGTS","Thessaloniki","Greece",27909,0,0,16724,8966
-2018,"LGZA","Zakinthos","Greece",6572,0,0,2964,1116
-2018,"LHBP","Budapest/ Ferihegy","Hungary",57264,52763,10798,43702,9704
-2018,"LIBR","Brindisi","Italy",9294,0,0,7612,1029
-2018,"LICC","Catania","Italy",37020,36549,83550,29353,33654
-2018,"LIMC","Milan/ Malpensa","Italy",97231,89099,55495,65990,43870
-2018,"LIME","Bergamo","Italy",44691,44710,39899,32760,20547
-2018,"LIMF","Torino Caselle","Italy",21217,19031,12218,12195,4451
-2018,"LIML","Milan/ Linate","Italy",56894,33227,5682,42012,9334
-2018,"LIPE","Bologna","Italy",35713,31113,17538,23506,12276
-2018,"LIPH","Treviso","Italy",10758,0,0,8813,4287
-2018,"LIPZ","Venice","Italy",47618,44475,52128,35215,29859
-2018,"LIRA","Rome/Ciampino","Italy",25843,17697,20199,15529,17346
-2018,"LIRF","Rome/Fiumicino","Italy",153824,153810,240900,121137,155817
-2018,"LIRN","Naples","Italy",39648,38889,30931,29628,28370
-2018,"LIRP","Pisa San Giusto","Italy",22203,0,0,15393,24857
-2018,"LJLJ","Ljubljana","Slovenia",15808,16847,454,2463,1178
+2018,"LFSB","Bâle-Mulhouse","France",40940,38445,3492,30919,5010
+2018,"LFSL","Brive-Souillac","France",1512,0,0,72,0
+2018,"LFST","Strasbourg-Entzheim","France",11027,0,0,7294,490
+2018,"LFTH","Hyères-Le Palyvestre","France",6039,0,0,2839,849
+2018,"LFTW","Nîmes-Garons","France",2279,0,0,719,20
+2018,"LGAV","Athens","Greece",105621,62586,78443,62930,65859
+2018,"LGIR","Heraklion","Greece",29768,0,0,16439,8126
+2018,"LGKF","Kefallinia","Greece",3533,0,0,1792,2312
+2018,"LGKO","Kos","Greece",10262,0,0,5883,3469
+2018,"LGKR","Corfu","Greece",13068,0,0,8724,8382
+2018,"LGMK","Mikonos","Greece",8256,0,0,4094,1800
+2018,"LGPZ","Aktion","Greece",2744,0,0,1206,157
+2018,"LGRP","Rodos","Greece",19616,0,0,12643,4903
+2018,"LGSA","Khania/Souda","Greece",12627,0,0,7647,6380
+2018,"LGSK","Skiathos","Greece",2068,0,0,1081,188
+2018,"LGSR","Santorini","Greece",10085,0,0,6071,648
+2018,"LGTS","Thessaloniki","Greece",27909,0,0,17463,9588
+2018,"LGZA","Zakinthos","Greece",6572,0,0,3463,1364
+2018,"LHBP","Budapest/ Ferihegy","Hungary",57264,57197,11644,46030,10250
+2018,"LIBR","Brindisi","Italy",9294,0,0,8145,1084
+2018,"LICC","Catania","Italy",37020,36549,83550,31207,37333
+2018,"LIMC","Milan/ Malpensa","Italy",97231,96951,63078,69589,47155
+2018,"LIME","Bergamo","Italy",44691,44710,39899,35081,22770
+2018,"LIMF","Torino Caselle","Italy",21217,19031,12218,12944,4878
+2018,"LIML","Milan/ Linate","Italy",56894,37614,6189,45349,9714
+2018,"LIPE","Bologna","Italy",35713,33781,19122,25022,13181
+2018,"LIPH","Treviso","Italy",10758,0,0,9519,4434
+2018,"LIPZ","Venice","Italy",47618,47678,63155,36935,32734
+2018,"LIRA","Rome/Ciampino","Italy",25843,17697,20199,16752,19129
+2018,"LIRF","Rome/Fiumicino","Italy",153824,153810,240900,128769,162086
+2018,"LIRN","Naples","Italy",39648,38889,30931,31371,30068
+2018,"LIRP","Pisa San Giusto","Italy",22203,0,0,16317,26457
+2018,"LJLJ","Ljubljana","Slovenia",15808,16847,454,2576,1343
 2018,"LJMB","Maribor","Slovenia",1102,0,0,4,0
 2018,"LJPZ","Portorož","Slovenia",795,0,0,0,0
-2018,"LKKV","Karlovy Vary","Czech Republic",775,0,0,100,0
-2018,"LKMT","Ostrava","Czech Republic",3619,0,0,918,88
-2018,"LKPR","Prague","Czech Republic",75489,75016,36216,47946,26145
-2018,"LKTB","Brno-Turany","Czech Republic",5063,0,0,971,41
-2018,"LLBG","Ben Gurion International","Israel",78146,0,0,38090,35840
-2018,"LMML","Malta","Malta",28420,28763,8180,18291,5909
-2018,"LOWG","Graz","Austria",9551,0,0,6010,270
-2018,"LOWI","Innsbruck","Austria",9648,0,0,4309,1476
-2018,"LOWK","Klagenfurt","Austria",3561,0,0,1602,10
-2018,"LOWL","Linz","Austria",6114,0,0,2319,49
-2018,"LOWS","Salzburg","Austria",14532,0,0,7458,3163
-2018,"LOWW","Vienna","Austria",128210,117742,186640,96187,68083
+2018,"LKKV","Karlovy Vary","Czech Republic",775,0,0,108,0
+2018,"LKMT","Ostrava","Czech Republic",3619,0,0,1755,785
+2018,"LKPR","Prague","Czech Republic",75489,75016,36216,57212,43058
+2018,"LKTB","Brno-Turany","Czech Republic",5063,0,0,2045,378
+2018,"LLBG","Ben Gurion International","Israel",78146,0,0,40791,41315
+2018,"LMML","Malta","Malta",28420,31042,8760,19104,6154
+2018,"LOWG","Graz","Austria",9551,0,0,6431,271
+2018,"LOWI","Innsbruck","Austria",9648,0,0,4747,1578
+2018,"LOWK","Klagenfurt","Austria",3561,0,0,1704,10
+2018,"LOWL","Linz","Austria",6114,0,0,2453,49
+2018,"LOWS","Salzburg","Austria",14532,0,0,7857,3420
+2018,"LOWW","Vienna","Austria",128210,128150,208105,101899,70640
 2018,"LPAZ","Santa Maria","Portugal",1414,0,0,2,0
-2018,"LPCS","Cascais","Portugal",2481,0,0,3,95
+2018,"LPCS","Cascais","Portugal",2481,0,0,10,95
 2018,"LPFL","Flores","Portugal",846,0,0,0,0
-2018,"LPFR","Faro","Portugal",29588,0,0,21004,5708
+2018,"LPFR","Faro","Portugal",29588,0,0,21916,5892
 2018,"LPHR","Horta","Portugal",2282,0,0,0,0
-2018,"LPMA","Madeira","Portugal",12179,0,0,8095,2300
-2018,"LPPD","Ponta Delgada","Portugal",9937,0,0,2220,289
-2018,"LPPR","Porto","Portugal",46844,43136,25921,35633,23800
-2018,"LPPS","Porto Santo","Portugal",1475,0,0,693,164
-2018,"LPPT","Lisbon","Portugal",108756,100298,427445,88094,376673
-2018,"LQSA","Sarajevo","Bosnia & Herzegovina",6149,0,0,2488,455
-2018,"LRBS","Bucharest/ Baneasa","Romania",2418,0,0,1,0
-2018,"LROP","Bucharest/ Otopeni","Romania",61330,56743,18664,43944,11716
-2018,"LSGG","Geneva","Switzerland",90125,90061,36342,61470,28981
-2018,"LSGS","Sion","Switzerland",3260,0,0,14,12
-2018,"LSZH","Zürich","Switzerland",135809,125191,135080,108138,132161
-2018,"LTAC","Ankara/ Esenboga","Turkey",57194,0,0,38443,50597
-2018,"LTAI","Antalya","Turkey",93058,0,0,20871,25424
-2018,"LTBA","Istanbul/ Atatürk","Turkey",228087,0,0,159924,531388
-2018,"LTBJ","Izmir/ Adnan Menderes","Turkey",42038,0,0,14684,17396
-2018,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey",112902,0,0,44849,92736
-2018,"LUKK","Chi<U+0219>inau","Moldova",14005,0,0,4068,1949
-2018,"LWSK","Skopje","FYR Macedonia",8929,0,0,5999,300
-2018,"LYBE","Belgrade/ Nikola Tesla","Serbia",33219,0,0,7821,1269
-2018,"LYPG","Podgorica","Montenegro",7061,0,0,2208,306
-2018,"LZIB","Bratislava","Slovakia",11941,4144,292,4805,973
-2018,"UDYZ","Zvartnots","Armenia",11511,0,0,932,855
-2018,"UGTB","Tbilisi","Georgia",18959,0,0,3980,4972
-2018,"UKBB","Kiev/Boryspil","Ukraine",48626,0,0,8419,997
-2018,NA,"Albania","Albania",12758,0,0,3944,1436
-2018,NA,"Armenia","Armenia",11511,0,0,932,855
-2018,NA,"Austria","Austria",171616,117742,186640,117885,73051
-2018,NA,"Belgium","Belgium",169861,142754,99445,112148,71700
-2018,NA,"Bosnia & Herzegovina","Bosnia & Herzegovina",6149,0,0,2488,455
-2018,NA,"Bulgaria","Bulgaria",29809,27195,3384,18010,4223
-2018,NA,"Croatia","Croatia",21768,19906,1833,6538,1475
-2018,NA,"Cyprus","Cyprus",41336,13748,4051,21072,6842
-2018,NA,"Czech Republic","Czech Republic",84946,75016,36216,49935,26274
-2018,NA,"Denmark","Denmark",133047,123524,16850,105003,15919
-2018,NA,"Estonia","Estonia",23266,23537,469,14881,867
-2018,NA,"Finland","Finland",96245,98670,37092,84230,36490
-2018,NA,"France","France",927668,173770,62993,560600,246747
-2018,NA,"FYR Macedonia","FYR Macedonia",8929,0,0,5999,300
-2018,NA,"Georgia","Georgia",18959,0,0,3980,4972
-2018,NA,"Germany","Germany",1063669,680548,201839,772113,366305
-2018,NA,"Greece","Greece",252129,62586,78443,143112,108262
-2018,NA,"Hungary","Hungary",57264,52763,10798,43702,9704
-2018,NA,"Ireland","Ireland",146983,107477,73649,101638,67294
-2018,NA,"Israel","Israel",78146,0,0,38090,35840
-2018,NA,"Italy","Italy",601954,508600,558540,439143,385697
-2018,NA,"Latvia","Latvia",41725,41555,1881,34216,1778
-2018,NA,"Lithuania","Lithuania",30872,0,0,20520,774
-2018,NA,"Luxembourg","Luxembourg",37406,34464,3159,25328,4626
-2018,NA,"Malta","Malta",28420,28763,8180,18291,5909
-2018,NA,"Moldova","Moldova",14005,0,0,4068,1949
-2018,NA,"Montenegro","Montenegro",7061,0,0,2208,306
-2018,NA,"Morocco","Morocco",90634,0,0,24759,24408
-2018,NA,"Netherlands","Netherlands",278462,0,0,196887,430825
-2018,NA,"Norway","Norway",368202,298166,22425,303163,24340
-2018,NA,"Poland","Poland",214235,86570,28742,144657,42819
-2018,NA,"Portugal","Portugal",215802,143434,453366,155744,409029
-2018,NA,"Romania","Romania",63748,56743,18664,43945,11716
-2018,NA,"Serbia","Serbia",33219,0,0,7821,1269
-2018,NA,"SES","SES",7323513,4521176,2893347,5075717,3116477
-2018,NA,"Slovakia","Slovakia",11941,4144,292,4805,973
-2018,NA,"Slovenia","Slovenia",17705,16847,454,2467,1178
-2018,NA,"Spain","Spain",1036001,738712,459971,705531,513625
-2018,NA,"Sweden","Sweden",185382,145401,9768,137775,10885
-2018,NA,"Switzerland","Switzerland",229194,215252,171422,169622,161154
-2018,NA,"Turkey","Turkey",533279,0,0,278771,717541
-2018,NA,"Ukraine","Ukraine",48626,0,0,8419,997
-2018,NA,"United Kingdom","United Kingdom",1063044,524844,344662,753859,508599
+2018,"LPMA","Madeira","Portugal",12179,0,0,8850,2688
+2018,"LPPD","Ponta Delgada","Portugal",9937,0,0,2412,402
+2018,"LPPR","Porto","Portugal",46844,46883,28403,38533,25875
+2018,"LPPS","Porto Santo","Portugal",1475,0,0,760,164
+2018,"LPPT","Lisbon","Portugal",108756,108855,470601,94765,410498
+2018,"LQSA","Sarajevo","Bosnia & Herzegovina",6149,0,0,2614,472
+2018,"LRBS","Bucharest/ Baneasa","Romania",2418,0,0,2,0
+2018,"LROP","Bucharest/ Otopeni","Romania",61330,61388,21847,44893,12593
+2018,"LSGG","Geneva","Switzerland",90125,90061,36342,65068,30386
+2018,"LSGS","Sion","Switzerland",3260,0,0,17,12
+2018,"LSZH","Zürich","Switzerland",135809,135718,148325,109578,133627
+2018,"LTAC","Ankara/ Esenboga","Turkey",57194,0,0,41232,54900
+2018,"LTAI","Antalya","Turkey",93058,0,0,23038,26984
+2018,"LTBA","Istanbul/ Atatürk","Turkey",228087,0,0,173155,574337
+2018,"LTBJ","Izmir/ Adnan Menderes","Turkey",42038,0,0,15822,18388
+2018,"LTFJ","Istanbul/ Sabiha Gökçen","Turkey",112902,0,0,47522,97228
+2018,"LUKK","Chi<U+0219>inau","Moldova",14005,0,0,4177,2044
+2018,"LWSK","Skopje","North Macedonia",8929,0,0,6102,309
+2018,"LYBE","Belgrade/ Nikola Tesla","Serbia",33219,0,0,8190,1345
+2018,"LYPG","Podgorica","Montenegro",7061,0,0,2385,351
+2018,"LZIB","Bratislava","Slovakia",11941,4935,532,6604,1405
+2018,"UDYZ","Zvartnots","Armenia",11511,0,0,951,901
+2018,"UGTB","Tbilisi","Georgia",18959,0,0,4214,5325
+2018,"UKBB","Kiev/Boryspil","Ukraine",48626,0,0,8940,1237
+2018,NA,"Albania","Albania",12758,0,0,4346,1579
+2018,NA,"Armenia","Armenia",11511,0,0,951,901
+2018,NA,"Austria","Austria",171616,128150,208105,125091,75968
+2018,NA,"Belgium","Belgium",169861,142754,99445,115278,74305
+2018,NA,"Bosnia & Herzegovina","Bosnia & Herzegovina",6149,0,0,2614,472
+2018,NA,"Bulgaria","Bulgaria",29809,29431,4461,18815,4813
+2018,NA,"Croatia","Croatia",21768,21423,2005,6795,1544
+2018,NA,"Cyprus","Cyprus",41336,13748,4051,21851,7199
+2018,NA,"Czech Republic","Czech Republic",84946,75016,36216,61120,44221
+2018,NA,"Denmark","Denmark",133047,133026,18376,108306,16560
+2018,NA,"Estonia","Estonia",23266,23537,469,15132,906
+2018,NA,"Finland","Finland",96245,98670,37092,85614,37185
+2018,NA,"France","France",927668,189985,69712,577187,255598
+2018,NA,"Georgia","Georgia",18959,0,0,4214,5325
+2018,NA,"Germany","Germany",1063669,710667,217834,812972,388750
+2018,NA,"Greece","Greece",252129,62586,78443,149436,113176
+2018,NA,"Hungary","Hungary",57264,57197,11644,46030,10250
+2018,NA,"Ireland","Ireland",146983,116178,81450,106354,71707
+2018,NA,"Israel","Israel",78146,0,0,40791,41315
+2018,NA,"Italy","Italy",601954,526710,579241,467000,411023
+2018,NA,"Latvia","Latvia",41725,41555,1881,34618,1817
+2018,NA,"Lithuania","Lithuania",30872,0,0,21194,887
+2018,NA,"Luxembourg","Luxembourg",37406,37302,3245,27025,4754
+2018,NA,"Malta","Malta",28420,31042,8760,19104,6154
+2018,NA,"Moldova","Moldova",14005,0,0,4177,2044
+2018,NA,"Montenegro","Montenegro",7061,0,0,2385,351
+2018,NA,"Morocco","Morocco",90634,0,0,26577,26433
+2018,NA,"Netherlands","Netherlands",278462,0,0,200726,438042
+2018,NA,"North Macedonia","North Macedonia",8929,0,0,6102,309
+2018,NA,"Norway","Norway",368202,321757,25238,309469,25793
+2018,NA,"Poland","Poland",214235,93764,32457,151726,45094
+2018,NA,"Portugal","Portugal",215802,155738,499004,167248,445614
+2018,NA,"Romania","Romania",63748,61388,21847,44895,12593
+2018,NA,"Serbia","Serbia",33219,0,0,8190,1345
+2018,NA,"SES","SES",7323513,4784160,3094250,5324039,3306064
+2018,NA,"Slovakia","Slovakia",11941,4935,532,6604,1405
+2018,NA,"Slovenia","Slovenia",17705,16847,454,2580,1343
+2018,NA,"Spain","Spain",1036001,797592,494207,739580,532512
+2018,NA,"Sweden","Sweden",185382,156594,10619,141388,11104
+2018,NA,"Switzerland","Switzerland",229194,225779,184667,174663,164025
+2018,NA,"Turkey","Turkey",533279,0,0,300769,771837
+2018,NA,"Ukraine","Ukraine",48626,0,0,8940,1237
+2018,NA,"United Kingdom","United Kingdom",1063044,552344,364676,801582,541581
