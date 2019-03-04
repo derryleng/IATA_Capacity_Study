@@ -57,7 +57,7 @@ server <- function(input, output) {
       } else if (input$metric %in% metrics_list[ranking == T]$metric & !grepl("Top 20 Airport Delay Ranking", input$metric)) {
         pickerInput("state", "Select State", choices = c("All Countries", choices_PREDEP_STATE), selected="All Countries", width = "200px")
       }
-    } else if (input$kpi %in% c("ASMA/Taxi-Out/Pre-Dep Delay", "Airport Delays")) {
+    } else if (input$kpi %in% c("5 in 1 Delay", "Airport Delays")) {
       choices_ASMATAXIPREDEP_STATE <- union_all(dat$ASMA$STATE, dat$TAXI$STATE) %>% union_all(., dat$PREDEP$STATE) %>% unique() %>% sort()
       pickerInput("state", "Select State", choices = choices_ASMATAXIPREDEP_STATE, selected="United Kingdom", width = "200px")
       
@@ -118,7 +118,7 @@ server <- function(input, output) {
         choices_PREDEP_AIRPORT <- sort(unique(dat$PREDEP[STATE %in% input$state]$NAME))
         pickerInput("entity", "Select Airport", choices = choices_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
       }
-    } else if (input$kpi %in% c("ASMA/Taxi-Out/Pre-Dep Delay", "Airport Delays")) {
+    } else if (input$kpi %in% c("5 in 1 Delay", "Airport Delays")) {
       choices_ASMA_TAXI_PREDEP_AIRPORT <- union_all(dat$ASMA[STATE %in% input$state]$NAME, dat$TAXI[STATE %in% input$state]$NAME) %>% 
         union_all(., dat$PREDEP[STATE %in% input$state]$NAME) %>% unique() %>% sort()
       pickerInput("entity", "Select Airport", choices = choices_ASMA_TAXI_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
@@ -221,7 +221,7 @@ server <- function(input, output) {
   
   # Option for changing barmode
   output$option_barmode <- renderUI({
-    if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+    if (input$kpi == "5 in 1 Delay") {
       if (input$annual) {
         div(style="padding-top:15px; text-align:center;", radioButtons("barmode", "Barmode", choices=c("Separate","Stacked","Grouped"), inline=T))
       } else {
@@ -232,7 +232,7 @@ server <- function(input, output) {
   
   # Option for switching between AL and APT PREDEP Delays (ASMA/TAXI-OUT/PREDEP metric only)
   output$option_togglepredep <- renderUI({
-    if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+    if (input$kpi == "5 in 1 Delay") {
       div(style="text-align:center;", radioButtons("predep", "Pre-Dep. Data", choices=c("Airlines","Airports"), inline=T))
     }
   })
@@ -306,7 +306,7 @@ server <- function(input, output) {
         month = input$month,
         top = input$top
       )
-    } else if (input$kpi == "ASMA/Taxi-Out/Pre-Dep Delay") {
+    } else if (input$kpi == "5 in 1 Delay") {
       plot_ASMA_TAXI_PREDEP(
         metric = input$metric,
         type = input$state,
