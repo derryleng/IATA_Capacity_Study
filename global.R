@@ -82,9 +82,23 @@ SES_States <- c(
   EU28_States, "Norway", "Switzerland"
 )
 
-Top20_Airports <- c(
+Top20_Airports_ATFM_APT <- c(
   "Vienna", "Brussels", "Copenhagen/ Kastrup", "Paris-Charles-de-Gaulle", "Paris-Orly",
   "Frankfurt", "Munich", "Athens", "Dublin", "Rome/Fiumicino",
   "Amsterdam/ Schiphol", "Oslo/ Gardermoen", "Lisbon", "Barcelona", "Madrid/Barajas",
   "Palma de Mallorca", "Stockholm/ Arlanda", dat$ATFM_APT$NAME[grep("^Z.*rich$", dat$ATFM_APT$NAME)[1]], "London/ Gatwick", "London/ Heathrow"
+)
+
+Top20_Airports_ASMA_TAXI <- c(
+  "Vienna", "Brussels", "Copenhagen/ Kastrup", "Paris-Charles-de-Gaulle", "Paris-Orly",
+  "Frankfurt", "Munich", "Athens", "Dublin", "Rome/Fiumicino",
+  "Amsterdam/ Schiphol", "Oslo/ Gardermoen", "Lisbon", "Barcelona", "Madrid/ Barajas",
+  "Palma de Mallorca", "Stockholm/ Arlanda", dat$ATFM_APT$NAME[grep("^Z.*rich$", dat$ATFM_APT$NAME)[1]], "London/ Gatwick", "London/ Heathrow"
+)
+
+Top19_Airports_PREDEP <- c( # Get Palma de Mallorca by ICAO LEPA instead
+  "Vienna", "Brussels", "Copenhagen/ Kastrup", "Paris-Charles-de-Gaulle", "Paris-Orly",
+  "Frankfurt", "Munich", "Athens", "Dublin", "Rome/Fiumicino",
+  "Amsterdam/ Schiphol", "Oslo/ Gardermoen", "Lisbon", "Barcelona", "Madrid/Barajas", "Madrid/ Barajas",
+  "Stockholm/ Arlanda", dat$ATFM_APT$NAME[grep("^Z.*rich$", dat$ATFM_APT$NAME)[1]], "London/ Gatwick", "London/ Heathrow"
 )

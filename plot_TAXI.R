@@ -115,7 +115,6 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
   } else if (metric == "Airport Delay Ranking (Month)") {
-    
     title <- paste(month, "Average Taxi-Out Additional Time Ranking", ifelse(type=="All Countries", "", paste("for", type)))
     ytitle <- "Average Delay (min.)"
     xtitle <- ""
@@ -128,6 +127,38 @@ plot_TAXI <- function(metric, type, entity, breakdown=T, annual=F, top=10, fonts
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~TIME_ADD/FLIGHTS_UNIMPEDED,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "Top 20 Airport Delay Ranking (Yearly)") {
+    title <- paste("Average Taxi-Out Additional Time Ranking")
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+    
+    temp <- subset(dat$TAXI_ANNUAL, NAME %in% Top20_Airports_ASMA_TAXI & YEAR %in% years) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
+    
+    g <- plot_ly(
+      data=temp,
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~TIME_ADD/FLIGHTS_UNIMPEDED,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "Top 20 Airport Delay Ranking (Month)") {
+    title <- paste(month, "Average Taxi-Out Additional Time Ranking", ifelse(type=="All Countries", "", paste("for", type)))
+    ytitle <- "Average Delay (min.)"
+    xtitle <- ""
+
+    temp <- subset(dat$TAXI, NAME %in% Top20_Airports_ASMA_TAXI & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, TIME_ADD/FLIGHTS_UNIMPEDED))]
+    
+    g <- plot_ly(
+      data=temp,
       x=~factor(NAME, levels=unique(temp$NAME)),
       y=~TIME_ADD/FLIGHTS_UNIMPEDED,
       color=~factor(YEAR, levels=years_range),

@@ -15,7 +15,7 @@ SES_States <- c(
 )
 
 # Import ------------------------------------------------------------------
-project_path <- "C:\\Dropbox (Think Research)\\Projects\\IATA Capacity Study\\0. Resources\\"
+project_path <- "C:\\Users\\Derry\\Dropbox (Think Research)\\Projects\\IATA Capacity Study\\0. Resources\\"
 
 # ATFM Delay Enroute
 ATFM_AUA <- fread(paste0(project_path, "ATFM Delay Enroute\\En-Route_ATFM_Delay_AUA.csv"), encoding = "UTF-8")
@@ -49,7 +49,7 @@ for (file in names(dat)) {
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "Serbia and Montenegro"), j=col, value="Serbia & Montenegro")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "SES Area (RP1)"), j=col, value="SES Area")
     set(dat[[file]], i=which(dat[[file]][[col]] %in% "SES Area (RP2)"), j=col, value="SES Area (FIR)")
-    set(dat[[file]], i=which(dat[[file]][[col]] %in% "Palma/Son San Juan"), j=col, value="Palma de Mallorca")
+    set(dat[[file]], i=which(dat[[file]][[col]] %in% "Palma/Son San Juan"), j=col, value="Palma de Mallorca/Son San Juan")
     # Remove commas from data values (needed for next step)
     dat[[file]][[col]] <- gsub(",","",dat[[file]][[col]])
     # Detect numeric columns and coerce to proper type

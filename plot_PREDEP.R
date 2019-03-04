@@ -217,6 +217,40 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
       type="bar"
     ) %>% layout(barmode="group", xaxis=list(tickangle=45))
     
+  } else if (metric == "AL Top 20 Airport Delay Ranking (Yearly)") {
+    
+    title <- paste("ATC Pre-Departure Average Delay (Reported by CODA/Airlines) Ranking")
+    ytitle <- paste("Delay per IFR Departure (min.)")
+    xtitle <- ""
+    
+    temp <- subset(dat$PREDEP_ANNUAL, (NAME %in% Top19_Airports_PREDEP | ICAO %in% "LEPA") & YEAR %in% years) %>% .[rev(order(YEAR, DELAY_AL/FLIGHTS_AL))]
+    
+    g <- plot_ly(
+      data=temp,
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~DELAY_AL/FLIGHTS_AL,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "AL Top 20 Airport Delay Ranking (Month)") {
+    
+    title <- paste(month,"ATC Pre-Departure Average Delay (Reported by CODA/Airlines) Ranking")
+    ytitle <- paste("Delay per IFR Departure (min.)")
+    xtitle <- ""
+
+    temp <- subset(dat$PREDEP, (NAME %in% Top19_Airports_PREDEP | ICAO %in% "LEPA") & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, DELAY_AL/FLIGHTS_AL))]
+    
+    g <- plot_ly(
+      data=temp,
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~DELAY_AL/FLIGHTS_AL,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
   } else if (metric == "APT Airport Delay Ranking (Yearly)") {
     
     title <- paste("ATC Pre-Departure Average Delay (Reported by Airport Operators) Ranking", ifelse(type=="All Countries", "", paste("for", type)))
@@ -252,6 +286,40 @@ plot_PREDEP <- function(metric, type, entity, breakdown=T, annual=F, top=10, fon
     
     g <- plot_ly(
       data=subset(temp, NAME %in% head(unique(temp$NAME), top)),
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~DELAY_APT/FLIGHTS_APT,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "APT Top 20 Airport Delay Ranking (Yearly)") {
+    
+    title <- paste("ATC Pre-Departure Average Delay (Reported by Airport Operators) Ranking")
+    ytitle <- paste("Delay per IFR Departure (min.)")
+    xtitle <- ""
+
+    temp <- subset(dat$PREDEP_ANNUAL, (NAME %in% Top19_Airports_PREDEP | ICAO %in% "LEPA") & YEAR %in% years) %>% .[rev(order(YEAR, DELAY_APT/FLIGHTS_APT))]
+    
+    g <- plot_ly(
+      data=temp,
+      x=~factor(NAME, levels=unique(temp$NAME)),
+      y=~DELAY_APT/FLIGHTS_APT,
+      color=~factor(YEAR, levels=years_range),
+      colors="Spectral",
+      type="bar"
+    ) %>% layout(barmode="group", xaxis=list(tickangle=45))
+    
+  } else if (metric == "APT Top 20 Airport Delay Ranking (Month)") {
+    
+    title <- paste(month,"ATC Pre-Departure Average Delay (Reported by Airport Operators) Ranking")
+    ytitle <- paste("Delay per IFR Departure (min.)")
+    xtitle <- ""
+
+    temp <- subset(dat$PREDEP, (NAME %in% Top19_Airports_PREDEP | ICAO %in% "LEPA") & YEAR %in% years & MONTH %in% months[which(monthsfull == month)]) %>% .[rev(order(YEAR, DELAY_APT/FLIGHTS_APT))]
+    
+    g <- plot_ly(
+      data=temp,
       x=~factor(NAME, levels=unique(temp$NAME)),
       y=~DELAY_APT/FLIGHTS_APT,
       color=~factor(YEAR, levels=years_range),

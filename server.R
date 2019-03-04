@@ -40,21 +40,21 @@ server <- function(input, output) {
       choices_ASMA_STATE <- sort(unique(dat$ASMA$STATE))
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
         pickerInput("state", "Select State", choices = choices_ASMA_STATE, selected="United Kingdom", width = "200px")
-      } else {
+      } else if (input$metric %in% metrics_list[ranking == T]$metric & !grepl("Top 20 Airport Delay Ranking", input$metric)) {
         pickerInput("state", "Select State", choices = c("All Countries", choices_ASMA_STATE), selected="All Countries", width = "200px")
       }
     } else if (input$kpi == "Taxi-Out Additional Time") {
       choices_TAXI_STATE <- sort(unique(dat$TAXI$STATE))
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
         pickerInput("state", "Select State", choices = choices_TAXI_STATE, selected="United Kingdom", width = "200px")
-      } else {
+      } else if (input$metric %in% metrics_list[ranking == T]$metric & !grepl("Top 20 Airport Delay Ranking", input$metric)) {
         pickerInput("state", "Select State", choices = c("All Countries", choices_TAXI_STATE), selected="All Countries", width = "200px")
       }
     } else if (input$kpi == "ATC Pre-Departure Delay") {
       choices_PREDEP_STATE <- sort(unique(dat$PREDEP$STATE))
       if (input$metric %!in% metrics_list[ranking == T]$metric) {
         pickerInput("state", "Select State", choices = choices_PREDEP_STATE, selected="United Kingdom", width = "200px")
-      } else {
+      } else if (input$metric %in% metrics_list[ranking == T]$metric & !grepl("Top 20 Airport Delay Ranking", input$metric)) {
         pickerInput("state", "Select State", choices = c("All Countries", choices_PREDEP_STATE), selected="All Countries", width = "200px")
       }
     } else if (input$kpi %in% c("ASMA/Taxi-Out/Pre-Dep Delay", "Airport Delays")) {
@@ -172,7 +172,7 @@ server <- function(input, output) {
   
   # Option for top X entities to display in ranking metrics
   output$option_ranking <- renderUI({
-    if (input$metric %in% metrics_list[ranking == T]$metric & !grepl("^Top 20 Airport Delay Ranking", input$metric)) {
+    if (input$metric %in% metrics_list[ranking == T]$metric & !grepl("Top 20 Airport Delay Ranking", input$metric)) {
       div(style="display: table; margin: 0 auto;", numericInput("top", "Display Top", value=10, min=3, max=100, step=1, width="100%"))
     }
   })
