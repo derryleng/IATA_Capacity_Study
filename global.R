@@ -72,6 +72,15 @@ ATFM_DELAY_CATEGORIES <- c(
   "NA - Not Specified"
 )
 
+# 5 in 1 Delay Categories
+DELAY_SOURCES <- c(
+  "En-Route ATFM Delay",
+  "Airport Arrival ATFM Delay",
+  "ASMA Additional Time",
+  "Taxi-Out Additional Time",
+  "Pre-Departure Delay"
+)
+
 EU28_States <- c(
   "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France",
   "Germany", "Greece", "Hungary", "Italy", "Ireland", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "The Netherlands",

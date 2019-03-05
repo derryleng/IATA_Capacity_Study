@@ -59,7 +59,7 @@ server <- function(input, output) {
       }
     } else if (input$kpi %in% c("5 in 1 Delay", "Airport Delays")) {
       choices_ASMATAXIPREDEP_STATE <- union_all(dat$ASMA$STATE, dat$TAXI$STATE) %>% union_all(., dat$PREDEP$STATE) %>% unique() %>% sort()
-      pickerInput("state", "Select State", choices = choices_ASMATAXIPREDEP_STATE, selected="United Kingdom", width = "200px")
+      pickerInput("state", "Select State", choices = choices_ASMATAXIPREDEP_STATE, selected="SES", width = "200px")
       
     } else if (input$kpi == "En-Route vs Airport ATFM") {
       choices_BOTH_STATE <- list(
@@ -121,7 +121,7 @@ server <- function(input, output) {
     } else if (input$kpi %in% c("5 in 1 Delay", "Airport Delays")) {
       choices_ASMA_TAXI_PREDEP_AIRPORT <- union_all(dat$ASMA[STATE %in% input$state]$NAME, dat$TAXI[STATE %in% input$state]$NAME) %>% 
         union_all(., dat$PREDEP[STATE %in% input$state]$NAME) %>% unique() %>% sort()
-      pickerInput("entity", "Select Airport", choices = choices_ASMA_TAXI_PREDEP_AIRPORT, selected = "London/ Gatwick", width = "200px")
+      pickerInput("entity", "Select Airport", choices = choices_ASMA_TAXI_PREDEP_AIRPORT, width = "200px")
     }
   })
   
@@ -166,6 +166,9 @@ server <- function(input, output) {
     if (input$metric %in% c("Delays per Flight", "Delays per Flight (Month)") & input$breakdown == T) {
       pickerInput("category", "Select Categories", 
                   choices = ATFM_DELAY_CATEGORIES, selected = ATFM_DELAY_CATEGORIES, 
+                  multiple = T, options = list(`actions-box` = TRUE), width = "200px")
+    } else if (input$kpi %in% c("5 in 1 Delay") & input$barmode == "Separate") {
+      pickerInput("category", "Select Sources", choices=DELAY_SOURCES, selected=DELAY_SOURCES,
                   multiple = T, options = list(`actions-box` = TRUE), width = "200px")
     }
   })
@@ -315,7 +318,8 @@ server <- function(input, output) {
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1),
         barmode = input$barmode,
-        predep_source = input$predep
+        predep_source = input$predep,
+        category = input$category
       )
     } else if (input$kpi == "Airport Delays") {
       subplot(
