@@ -1,3 +1,4 @@
+/* Disable highlighting */
 html {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -6,86 +7,111 @@ html {
     -ms-user-select: none;
     user-select: none;
 }
-html, body {
-    margin: 0;
-    height: 100%;
-    min-width: 645px;
-    background-color: #222d32;
-    overflow: hidden;
-}
-.wrapper {
-    overflow-y: auto;
-}
+
+
+/* Hide Shiny errors */
 .shiny-output-error {
   	visibility: hidden;
 }
 .shiny-output-error:before {
   	visibility: hidden;
 }
-.topbar-wrapper {
-    position: absolute;
-    visibility: hidden;
-    left: 45px;
-    right: 0;
-    top: 50px;
-    height: 50px;
-    z-index: 10000;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.content-wrapper {
-    background-color: rgb(255,255,255);
-}
-.main-header {
-    position: relative;
-    z-index: 1;
+
+
+/* Hide logo bar on mobile */
+.main-header .logo {
+    height: 0;
 }
 
-/* Sidebar */
-#sidebarCollapsed {
-    position: absolute;
-    padding-top: 100px;
+
+/* Sidebar top margin fix on mobile */
+.sidebar {
+    margin-top: -50px;
+}
+
+
+/* Set no content background */
+.content-wrapper, .right-side {
+    background-color: inherit;
+}
+
+
+/* Fix page overflow */
+.skin-black {
     overflow: visible;
 }
-.sidebar-wrapper {
-    position: absolute;
-    top: 100px;
-    left: 0;
-    height: auto;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgb(34,45,50);
-    /*background-image: url('Think_FullLogoStrapline_Pink.svg');
-    background-size: 113.4px 56.6px;
-    background-position: center bottom;
-    background-repeat: no-repeat;*/
+
+
+/* Fix sidebar height/overflow */
+.main-sidebar {
+    overflow: visible;
 }
-.sidebar-wrapper > * > * > .dropdown {
-    background-color: rgb(34,45,50);
+.skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper {
+    overflow: visible;
 }
+
+/* Adjust content layout */
+.content {
+    padding: 0;
+    height: calc(100vh - 50px);
+}
+
+
+/* Set plotly height to auto-adjust */
+#plot {
+    position: relative;
+    height: calc(100vh);
+}
+
+
+/* Fix sidebar dropdown grey text */
+.skin-black .sidebar a {
+    color: #444;
+}
+
+
+/* Fix selection box white edge corner issue */
+.form-group .bootstrap-select, .form-horizontal .bootstrap-select, .form-inline .bootstrap-select {
+    background: none;
+}
+
+
+/* Workaround white background at bottom when scrollbar enabled */
+body {
+    background-color: #222d32;
+}
+
+
+/* Fix z-index so dropdown shows over header */
 .skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper {
     background: none;
 }
-.skin-black .sidebar a {
-    color: #444;
-    background: none;
+.main-header {
+    z-index: 2;
 }
+.main-sidebar {
+    z-index: 3;
+}
+
+
+/* Reduce bottom margin between input elements */
 .form-group {
     margin-bottom: -8px;
 }
 
-/* Full screen desktop */
+
+/* Desktop styles */
 @media only screen and (min-width: 768px) {
-  .topbar-wrapper {
-      visibility: visible;
-      left: 279px;
-      top: 0;
+  
+  /* Show logo bar on desktop */
+  .main-header .logo {
+      height: 50px;
   }
-  #sidebarCollapsed {
-      padding-top: 50px;
+  
+  /* Revert sidebar top margin fix on mobile */
+  .sidebar {
+      margin-top: 0;
   }
-  .sidebar-wrapper {
-      top: 50px;
-  }
+
 }
 

@@ -25,7 +25,7 @@ $(window).resize(function() {
 
 function resizeend() {
   if (new Date() - rtime < delta) {
-    setTimeout(resizeend, delta)
+    setTimeout(resizeend, delta);
   } else {
     timeout = false;
     dimension[0] = $(".content-wrapper").width();
