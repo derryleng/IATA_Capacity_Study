@@ -384,8 +384,8 @@ server <- function(input, output) {
 
     # Adjust plot dimension on window resize
     plt <- plt %>% layout(
-      width = as.numeric(input$dimension[1])-28,
-      height = as.numeric(input$dimension[2])-28
+      #width = as.numeric(input$dimension[1]),
+      height = as.numeric(input$dimension[2])
     )
     
     if (input$legend) {
