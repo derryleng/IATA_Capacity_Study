@@ -380,6 +380,11 @@ server <- function(input, output) {
         fontsize = input$fontsize,
         years = seq(input$year[1], input$year[2], 1)
       )
+    } else if (input$kpi == "Cost of Delay") {
+      plot_COST(
+        fontsize = input$fontsize,
+        years = seq(input$year[1], input$year[2], 1)
+      )
     }
 
     # Adjust plot dimension on window resize
@@ -397,7 +402,8 @@ server <- function(input, output) {
     # Fix display cutoff issues
     if (input$title) {
       plt <- plt %>% layout(
-        margin=list(l=80, t=input$fontsize*3),
+        margin=list(t=50),
+        #margin=list(l=60, t=input$fontsize*3),
         legend=list(x=1.07,y=0.5)
       )
     } else {
@@ -415,27 +421,27 @@ server <- function(input, output) {
     output$plot <- renderPlotly(draw_plot())
   })
   
-  output$download <- downloadHandler(
-    filename = function() {
-      filenom <- metrics_list[kpi == input$kpi & metric == input$metric]$shortname
-      if (metrics_list[kpi == input$kpi & metric == input$metric]$ranking == F) {
-        filenom <- paste0(filenom,"_",ifelse(input$kpi == "Traffic Forecast",input$state,input$entity))
-      } else {
-        filenom <- paste0(filenom,"_",ifelse(input$kpi == "En-Route ATFM Delay",input$type,input$state))
-      }
-      if (metrics_list[kpi == input$kpi & metric == input$metric]$monthly == T) filenom <- gsub("MON",months[which(monthsfull==input$month)],filenom)
-      if (input$metric == "Delays per Flight" & input$annual == F) filenom <- paste0(filenom,"_Monthly")
-      filenom <- gsub("STATEAPT", input$type, filenom)
-      if (input$year[1] != input$year[2]) {
-        filenom <- paste0(filenom,"_",paste(input$year,collapse="-"))
-      } else {
-        filenom <- paste0(filenom,"_",input$year[1])
-      }
-      return(paste0(filenom,".png"))
-    },
-    content = function(file) {
-      plotly_IMAGE(draw_plot(), width=input$exportx, height=input$exporty, format="png", out_file=file)
-    }
-  )
+  # output$download <- downloadHandler(
+  #   filename = function() {
+  #     filenom <- metrics_list[kpi == input$kpi & metric == input$metric]$shortname
+  #     if (metrics_list[kpi == input$kpi & metric == input$metric]$ranking == F) {
+  #       filenom <- paste0(filenom,"_",ifelse(input$kpi == "Traffic Forecast",input$state,input$entity))
+  #     } else {
+  #       filenom <- paste0(filenom,"_",ifelse(input$kpi == "En-Route ATFM Delay",input$type,input$state))
+  #     }
+  #     if (metrics_list[kpi == input$kpi & metric == input$metric]$monthly == T) filenom <- gsub("MON",months[which(monthsfull==input$month)],filenom)
+  #     if (input$metric == "Delays per Flight" & input$annual == F) filenom <- paste0(filenom,"_Monthly")
+  #     filenom <- gsub("STATEAPT", input$type, filenom)
+  #     if (input$year[1] != input$year[2]) {
+  #       filenom <- paste0(filenom,"_",paste(input$year,collapse="-"))
+  #     } else {
+  #       filenom <- paste0(filenom,"_",input$year[1])
+  #     }
+  #     return(paste0(filenom,".png"))
+  #   },
+  #   content = function(file) {
+  #     plotly_IMAGE(draw_plot(), width=input$exportx, height=input$exporty, format="png", out_file=file)
+  #   }
+  # )
   
 }

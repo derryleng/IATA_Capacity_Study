@@ -1,4 +1,4 @@
-﻿kpi,metric,plot_type,ranking,date_grouping,yearly,monthly,breakdown,legend,shortname
+kpi,metric,plot_type,ranking,date_grouping,yearly,monthly,breakdown,legend,shortname
 En-Route ATFM Delay,Delays per Flight,bar,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,ER_ATFM
 En-Route ATFM Delay,Delays per Flight (Yearly),line,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,ER_ATFM_TRENDS
 En-Route ATFM Delay,Delays per Flight (Month),bar,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,ER_ATFM_MON
@@ -66,3 +66,4 @@ En-Route vs Airport ATFM,Average Monthly Delays (Month),bar,FALSE,FALSE,FALSE,TR
 En-Route vs Airport ATFM,Total Monthly Delays (Yearly),bar,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,ER_APT_ATFM_TOT_TRENDS
 En-Route vs Airport ATFM,Total Monthly Delays (Month),bar,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,ER_APT_ATFM_TOT_MON
 Traffic Forecast,IFR Movements per State,line,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,IFR_FORECAST
+Cost of Delay,Total Cost of Delay RP2,bar,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,COST_DELAY_RP2

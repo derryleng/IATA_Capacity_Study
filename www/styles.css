@@ -17,6 +17,26 @@ html {
   	visibility: hidden;
 }
 
+/* Think Theme */
+.skin-black .main-header .logo {
+    background-color: #D51067;
+    color: #FFF;
+    border: none;
+}
+.skin-black .main-header .logo:hover {
+    background-color: #802245;
+}
+.skin-black .main-header .navbar {
+    background-color: #D51067;
+}
+.skin-black .main-header .navbar > .sidebar-toggle {
+    color: #FFF;
+    border: none;
+}
+.skin-black .main-header .navbar .sidebar-toggle:hover {
+    background-color: #802245;
+}
+
 
 /* Hide logo bar on mobile */
 .main-header .logo {
@@ -30,9 +50,13 @@ html {
 }
 
 
-/* Set no content background */
+/* Set no content background & Think logo */
 .content-wrapper, .right-side {
     background-color: inherit;
+    background-image: url("Think_FullLogoStrapline_Pink.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+    background-size: calc(289.46667px / 2) calc(120.44px / 2);
 }
 
 
@@ -49,6 +73,7 @@ html {
 .skin-black .left-side, .skin-black .main-sidebar, .skin-black .wrapper {
     overflow: visible;
 }
+
 
 /* Adjust content layout */
 .content {

@@ -1,18 +1,17 @@
-lib_req <- c("data.table", "magrittr", "plyr", "rstudioapi")
-
 library(data.table)
 library(magrittr)
 library(plyr)
 
 EU28_States <- c(
   "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France",
-  "Germany", "Greece", "Hungary", "Italy", "Ireland", "Lativa", "Lithuania", "Luxembourg", "Malta", "The Netherlands",
+  "Germany", "Greece", "Hungary", "Italy", "Ireland", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "The Netherlands",
   "Poland", "Portugal", "Romania", "Spain", "Slovakia", "Slovenia", "Sweden", "United Kingdom"
 )
 
 SES_States <- c(
   EU28_States, "Norway", "Switzerland"
 )
+RP2 <- c(2015,2016,2017,2018)
 
 # Import ------------------------------------------------------------------
 project_path <- "C:\\Users\\Derry\\Dropbox (Think Research)\\Projects\\IATA Capacity Study\\0. Resources\\"
@@ -289,3 +288,32 @@ for (x in names(dat)) {
   write.csv(dat[[x]], file=con, row.names=F)
 }
 closeAllConnections()
+
+# Costs of Delay SES ------------------------------------------------------
+
+SES_Annual_Total_Delays <- data.table(Year = RP2)
+SES_Annual_Total_Delays$ATFM_DELAY <- aggregate(data=subset(dat$ATFM_ANNUAL, NAME %in% SES_States & YEAR %in% RP2), DELAY~YEAR, "sum")$DELAY
+SES_Annual_Total_Delays$ATFM_APT_DELAY <- aggregate(data=subset(dat$ATFM_APT_ANNUAL, STATE %in% SES_States & YEAR %in% RP2), DELAY~YEAR, "sum")$DELAY
+SES_Annual_Total_Delays$ASMA_DELAY <- aggregate(data=subset(dat$ASMA_ANNUAL, NAME %in% SES_States & YEAR %in% RP2), TIME_ADD~YEAR, "sum")$TIME_ADD
+SES_Annual_Total_Delays$TAXI_DELAY <- aggregate(data=subset(dat$TAXI_ANNUAL, NAME %in% SES_States & YEAR %in% RP2), TIME_ADD~YEAR, "sum")$TIME_ADD
+SES_Annual_Total_Delays$PREDEP_DELAY <- aggregate(data=subset(dat$PREDEP_ANNUAL, NAME %in% SES_States & YEAR %in% RP2), DELAY_AL~YEAR, "sum")$DELAY_AL
+SES_Annual_Total_Delays$ATFM_DELAY_COST_PER_MIN <- 100
+SES_Annual_Total_Delays$ATFM_APT_DELAY_COST_PER_MIN <- 100
+SES_Annual_Total_Delays$ASMA_DELAY_COST_PER_MIN <- 71
+SES_Annual_Total_Delays$TAXI_DELAY_COST_PER_MIN <- 52
+SES_Annual_Total_Delays$PREDEP_DELAY_COST_PER_MIN <- 38
+SES_Annual_Total_Delays$ATFM_DELAY_COST <- SES_Annual_Total_Delays$ATFM_DELAY * SES_Annual_Total_Delays$ATFM_DELAY_COST_PER_MIN
+SES_Annual_Total_Delays$ATFM_APT_DELAY_COST <-SES_Annual_Total_Delays$ATFM_APT_DELAY * SES_Annual_Total_Delays$ATFM_APT_DELAY_COST_PER_MIN
+SES_Annual_Total_Delays$ASMA_DELAY_COST <- SES_Annual_Total_Delays$ASMA_DELAY * SES_Annual_Total_Delays$ASMA_DELAY_COST_PER_MIN
+SES_Annual_Total_Delays$TAXI_DELAY_COST <- SES_Annual_Total_Delays$TAXI_DELAY * SES_Annual_Total_Delays$TAXI_DELAY_COST_PER_MIN
+SES_Annual_Total_Delays$PREDEP_DELAY_COST <- SES_Annual_Total_Delays$PREDEP_DELAY * SES_Annual_Total_Delays$PREDEP_DELAY_COST_PER_MIN
+
+fwrite(SES_Annual_Total_Delays, file=file.path(getwd(),"data","SES_DELAY_COSTS.csv"))
+
+# SES_Annual_Total_Delays_Missing_States <- data.table(Year = RP2)
+# SES_Annual_Total_Delays_Missing_States$ATFM_DELAY <- unlist(lapply(RP2, function(x) {paste(setdiff(SES_States, subset(dat$ATFM_ANNUAL, NAME %in% SES_States & YEAR %in% x)$NAME), collapse=", ")}))
+# SES_Annual_Total_Delays_Missing_States$ATFM_APT_DELAY <- unlist(lapply(RP2, function(x) {paste(setdiff(SES_States, subset(dat$ATFM_APT_ANNUAL, STATE %in% SES_States & YEAR %in% x)$STATE), collapse=", ")}))
+# SES_Annual_Total_Delays_Missing_States$ASMA_DELAY <- unlist(lapply(RP2, function(x) {paste(setdiff(SES_States, subset(dat$ASMA_ANNUAL, STATE %in% SES_States & YEAR %in% RP2)$STATE), collapse=", ")}))
+# SES_Annual_Total_Delays_Missing_States$TAXI_DELAY <- unlist(lapply(RP2, function(x) {paste(setdiff(SES_States, subset(dat$TAXI_ANNUAL, STATE %in% SES_States & YEAR %in% RP2)$STATE), collapse=", ")}))
+# SES_Annual_Total_Delays_Missing_States$PREDEP_DELAY <- unlist(lapply(RP2, function(x) {paste(setdiff(SES_States, subset(dat$PREDEP_ANNUAL, STATE %in% SES_States & YEAR %in% RP2)$STATE), collapse=", ")}))
+# fwrite(SES_Annual_Total_Delays_Missing_States, file=file.path(getwd(),"data","SES_DELAY_COSTS_Missing_States.csv"))
