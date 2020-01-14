@@ -26,48 +26,49 @@ sidebar <- dashboardSidebar(
 body <- dashboardBody(
   
   tags$head(
-    tags$link(rel = "stylesheet", type = "text/css", href = "styles.css"),
+    tags$link(rel = "stylesheet", type = "text/css", href = "theme.css"),
+    tags$link(rel = "stylesheet", type = "text/css", href = "tweaks.css"),
     tags$script(src = "script.js")
   ),
   
-  plotlyOutput("plot", width="100%")
+  plotlyOutput("plot"),
   
-  # div(
-  #   class = "topbar-wrapper",
-  #   div(
-  #     style = "float:right; padding:10px 5px;",
-  #     title = "Daily limit: 100",
-  #     downloadButton("download", "Download")
-  #   ),
-  #   div(
-  #     style = "float:right; padding:10px 5px;",
-  #     title = "Specify height of downloaded plot (Recommended: 768)",
-  #     numericInput("exporty", NULL, value=768, min=100, max=2160, step=1, width="75px")
-  #   ),
-  #   div(
-  #     style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;",
-  #     "Height (px)"
-  #   ),
-  #   div(
-  #     style = "float:right; padding:10px 5px;",
-  #     title = "Specify width of downloaded plot (Recommended: 1280)",
-  #     numericInput("exportx", NULL, value=1280, min=100, max=4096, step=1, width="75px")
-  #   ),
-  #   div(
-  #     style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;",
-  #     "Width (px)"
-  #   ),
-  #   div(
-  #     style = "float:right; padding:10px 5px;",
-  #     title = "Font size 20 is recommended for 1280x768 images",
-  #     numericInput("fontsize", NULL, value=15, min=5, max=36, step=1, width="75px")
-  #   ),
-  #   div(
-  #     style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;",
-  #     "Font size"
-  #   )
-  # )
+  div(
+    style = "position: absolute; right: 0; top: -3px; z-index: 10000",
+    div(
+      style = "float:right; padding:10px 5px;",
+      title = "Daily limit: 100",
+      downloadButton("download", "Download")
+    ),
+    div(
+      style = "float:right; padding:10px 5px;",
+      title = "Specify height of downloaded plot (Recommended: 768)",
+      numericInput("exporty", NULL, value=768, min=100, max=2160, step=1, width="75px")
+    ),
+    div(
+      style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;",
+      "Height (px)"
+    ),
+    div(
+      style = "float:right; padding:10px 5px;",
+      title = "Specify width of downloaded plot (Recommended: 1280)",
+      numericInput("exportx", NULL, value=1280, min=100, max=4096, step=1, width="75px")
+    ),
+    div(
+      style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;",
+      "Width (px)"
+    ),
+    div(
+      style = "float:right; padding:10px 5px;",
+      title = "Font size 20 is recommended for 1280x768 images",
+      numericInput("fontsize", NULL, value=15, min=5, max=36, step=1, width="75px")
+    ),
+    div(
+      style = "float:right; padding:15px 5px; font-weight:bold; text-align:center;",
+      "Font size"
+    )
+  )
   
 )
 
-ui <- dashboardPage(skin = "black", title = page_title, header, sidebar, body)
+ui <- dashboardPage(skin = "red", title = page_title, header, sidebar, body)

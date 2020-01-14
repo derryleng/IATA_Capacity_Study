@@ -2,6 +2,8 @@ library(data.table)
 library(magrittr)
 library(plyr)
 
+setwd(paste(dirname(rstudioapi::getSourceEditorContext()$path)))
+
 EU28_States <- c(
   "Austria", "Belgium", "Bulgaria", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Finland", "France",
   "Germany", "Greece", "Hungary", "Italy", "Ireland", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "The Netherlands",
@@ -14,7 +16,7 @@ SES_States <- c(
 RP2 <- c(2015,2016,2017,2018)
 
 # Import ------------------------------------------------------------------
-project_path <- "C:\\Users\\Derry\\Dropbox (Think Research)\\Projects\\IATA Capacity Study\\0. Resources\\"
+project_path <- file.path(getwd(), "0. Resources")
 
 # ATFM Delay Enroute
 ATFM_AUA <- fread(paste0(project_path, "ATFM Delay Enroute\\En-Route_ATFM_Delay_AUA.csv"), encoding = "UTF-8")
@@ -282,7 +284,6 @@ for (file in names(dat)) {
 }
 
 # Save to CSV -------------------------------------------------------------
-setwd(paste(dirname(rstudioapi::getSourceEditorContext()$path)))
 for (x in names(dat)) {
   con <- file(paste0(getwd(),"/data/",x,".csv"), encoding="UTF-8")
   write.csv(dat[[x]], file=con, row.names=F)

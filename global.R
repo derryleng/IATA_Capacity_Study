@@ -8,6 +8,7 @@ library(plotly)
 library(RColorBrewer)
 library(here)
 
+source("secret.R", local=T)
 source("plot_ATFM.R", local=T)
 source("plot_ATFM_APT.R", local=T)
 source("plot_ASMA.R", local=T)
@@ -17,11 +18,6 @@ source("plot_5_in_1.R", local=T)
 source("plot_ATFM_BOTH.R", local=T)
 source("plot_TRAFFIC_FORECAST.R", local=T)
 source("plot_COST.R", local=T)
-
-# Sys.setenv("plotly_username"="rob.sawyer")
-# Sys.setenv("plotly_api_key"="HSQo0QjxFICKCIsnCPqW")
-# Sys.setenv("plotly_username"="derry.leng")
-# Sys.setenv("plotly_api_key"="dxWgmpWjP3vkfcTQDZje")
 
 '%!in%' <- function(x,y){!('%in%'(x,y))}
 

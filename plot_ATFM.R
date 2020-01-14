@@ -385,7 +385,7 @@ plot_ATFM <- function(metric, type, entity, breakdown=T, category, annual=F, ann
       font=list(size=fontsize),
       xaxis=list(title=xtitle, linewidth=1, showgrid=F, autotick=F),
       yaxis=list(title=ytitle, linewidth=1, showgrid=F)
-    ) %>% config(collaborate=F, showLink=F)
+    )
   
   return(g)
 }

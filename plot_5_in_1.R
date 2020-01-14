@@ -463,7 +463,7 @@ plot_ASMA_TAXI_PREDEP <- function(
       font=list(size=fontsize),
       xaxis=list(linewidth=1, showgrid=F, autotick=F),
       yaxis=list(title=ytitle, linewidth=1, showgrid=F)
-    ) %>% config(collaborate=F, showLink=F)
+    )
   
   return(g)
 }

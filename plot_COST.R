@@ -20,7 +20,7 @@ plot_COST <- function(fontsize=12, years) {
       font=list(size=fontsize),
       xaxis=list(title=xtitle, linewidth=1, showgrid=F, autotick=F),
       yaxis=list(title=ytitle, linewidth=1, showgrid=F)
-    ) %>% config(collaborate=F, showLink=F)
+    )
   
   return(g)
 }

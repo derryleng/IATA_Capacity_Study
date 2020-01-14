@@ -1,0 +1,106 @@
+/* Disable highlighting */
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide Shiny errors */
+.shiny-output-error {
+  	visibility: hidden;
+}
+.shiny-output-error:before {
+  	visibility: hidden;
+}
+
+/* Adjust content layout */
+.content {
+    padding: 0;
+    height: calc(100vh - 50px);
+}
+
+/* Set no content background & Think logo */
+.content-wrapper, .right-side {
+    background-color: inherit;
+    background-image: url("Think_FullLogoStrapline_Pink.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+    background-size: calc(289.46667px / 2) calc(120.44px / 2);
+}
+
+/* Fix selection box white edge corner issue */
+.form-group .bootstrap-select, .form-horizontal .bootstrap-select, .form-inline .bootstrap-select {
+    background: none;
+}
+
+/* Fix sidebar dropdown grey text */
+.skin-red .sidebar a {
+    color: #444;
+}
+
+/* Fix page overflow */
+.skin-red {
+    overflow: visible;
+}
+
+/* Fix sidebar height/overflow */
+.main-sidebar {
+    overflow: visible;
+}
+.skin-red .left-side, .skin-red .main-sidebar, .skin-red .wrapper {
+    overflow: visible;
+}
+
+/* Workaround white background at bottom when scrollbar enabled */
+body {
+    background-color: #222d32;
+}
+
+/* Reduce bottom margin between input elements */
+.form-group {
+    margin-bottom: -8px;
+}
+
+/* Fix z-index so dropdown shows over header */
+.skin-red .left-side, .skin-red .main-sidebar, .skin-red .wrapper {
+    background: none;
+}
+.main-header {
+    z-index: 2;
+}
+.main-sidebar {
+    z-index: 3;
+}
+
+
+
+/* Mobile */
+
+
+
+/* Hide logo bar on mobile */
+.main-header .logo {
+    height: 0;
+}
+
+/* Sidebar top margin fix on mobile */
+.sidebar {
+    margin-top: -50px;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  /* Show logo bar on desktop */
+  .main-header .logo {
+      height: 50px;
+  }
+  
+  /* Revert sidebar top margin fix on mobile */
+  .sidebar {
+      margin-top: 0;
+  }
+
+}

@@ -76,7 +76,7 @@ plot_TRAFFIC_FORECAST <- function(entity, fontsize=12, years) {
       font=list(size=fontsize),
       xaxis=list(title="Year", linewidth=1, showgrid=F, autotick=F),
       yaxis=list(title="IFR Movements (1000s)", linewidth=1, showgrid=F)
-    ) %>% config(collaborate=F, showLink=F)
+    )
   
   return(g)
 }
